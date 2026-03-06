@@ -416,7 +416,7 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
     const appInsertPolicy = script.meta.app_insert_policy || "optional";
     const plugFrequency = 0.35;
     const plugRng = createRng(`${baseSeed}-texmi`);
-    const shouldInsertPlug =
+    let shouldInsertPlug =
       isTexmiFormat &&
       (appInsertPolicy === "required" ||
         (appInsertPolicy !== "off" && plugRng() < plugFrequency));
@@ -459,25 +459,36 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
           ? (pairLayout.messageToShotIndex[texmiSuggestedMessageIndex] ?? -1)
           : -1;
       if (suggestedShotIndex <= afterShotIndex) {
-        // No valid boy message after the plug point — fall back to stinger instead of crashing.
-        firstPauseAfterShotIndex = pushbackShotIndex;
-        texmiPreviewEndMessageIndex = undefined;
-        texmiSuggestedMessageIndex = undefined;
-        pauseSpecs.push({
-          afterShotIndex: pushbackShotIndex,
-          durationInFrames: Math.round(STINGER_ONE_DURATION_S * fps),
-          src: stingerOneSrc,
-          fit: stingerOneFit,
-          kind: "stinger",
-          overlayText: pickMandatoryOverlayForShot({
-            script,
-            rng: pauseRng,
-            afterShotIndex: pushbackShotIndex,
-            messageToShotIndex: pairLayout.messageToShotIndex,
-            shotCount
-          })
-        });
-      } else {
+        // Try earlier shot positions until sequencing is valid.
+        let found = false;
+        for (let tryIdx = afterShotIndex - 1; tryIdx >= pushbackShotIndex + 1; tryIdx--) {
+          let tryEnd = pushbackIndex >= 0 ? pushbackIndex : 0;
+          for (let i = 0; i < pairLayout.messageToShotIndex.length; i++) {
+            if (pairLayout.messageToShotIndex[i] === tryIdx) tryEnd = i;
+          }
+          let trySuggested: number | undefined;
+          for (let i = tryEnd + 1; i < script.messages.length; i++) {
+            if (script.messages[i].from === "boy") { trySuggested = i; break; }
+          }
+          const trySuggestedShot =
+            trySuggested != null ? (pairLayout.messageToShotIndex[trySuggested] ?? -1) : -1;
+          if (trySuggestedShot > tryIdx) {
+            afterShotIndex = tryIdx;
+            firstPauseAfterShotIndex = tryIdx;
+            texmiPreviewEndMessageIndex = tryEnd;
+            texmiSuggestedMessageIndex = trySuggested;
+            found = true;
+            break;
+          }
+        }
+        if (!found) {
+          shouldInsertPlug = false;
+          firstPauseAfterShotIndex = pushbackShotIndex;
+          texmiPreviewEndMessageIndex = undefined;
+          texmiSuggestedMessageIndex = undefined;
+        }
+      }
+      if (shouldInsertPlug) {
         pauseSpecs.push({
           afterShotIndex,
           durationInFrames: Math.round(TEXMI_PLUG_DURATION_S * fps),
@@ -486,7 +497,8 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
           kind: "texmi-plug"
         });
       }
-    } else {
+    }
+    if (!shouldInsertPlug) {
       pauseSpecs.push({
         afterShotIndex: pushbackShotIndex,
         durationInFrames: Math.round(STINGER_ONE_DURATION_S * fps),
