@@ -1,0 +1,104 @@
+{
+  "video_id": "br-006",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 27.8,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "rejection",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/stephen_curry_basketball_quote_card_klay_thompson_finding_his_rhythm_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_outdoor_plant_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_scene_optical_equipment_sunglasses_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_that_will_easy_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_red_tone_short_motion_meme_clip.mp4",
+      "In between messages/stephen_curry_basketball_quote_card_crowd_basketball_arena_dark_tone_short_motion_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant nba GIF.mp4",
+    "headline": "you're kinda cute ngl",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Steve Harvey Wow GIF by NBC.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 8
+  },
+  "story": {
+    "username": "destiny",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/bcf4cbcd60764e060d67d479b60fe327.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "you're kinda cute ngl"
+  },
+  "persona": {
+    "boy": {
+      "name": "Dre",
+      "age": 20
+    },
+    "girl": {
+      "name": "Destiny",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "kinda? \ud83d\udc80 you fumbled the opener",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "ok you're aggressively beautiful",
+      "type_at": 6.4
+    },
+    {
+      "from": "girl",
+      "text": "better but still no",
+      "type_at": 8.7
+    },
+    {
+      "from": "boy",
+      "text": "I didn't ask a question yet",
+      "type_at": 10.9
+    },
+    {
+      "from": "girl",
+      "text": "the answer is still no",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "what if I said I make really good pasta",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "I'm gluten free",
+      "type_at": 19.4
+    },
+    {
+      "from": "boy",
+      "text": "I'm also gluten free we're soulmates",
+      "type_at": 22.2
+    },
+    {
+      "from": "girl",
+      "text": "goodbye \ud83d\udc80 that was painful \ud83d\ude2d",
+      "type_at": 24.8
+    }
+  ]
+}

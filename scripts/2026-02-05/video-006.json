@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-05-006",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.5,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/de839f985ba05b710d8d0ce5ab01a424.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like a girl who gets what she wants"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold talk for a stranger",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "I like a challenge, don’t you?",
+      "type_at": 5.9
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 😭😭",
+      "type_at": 7.5
+    },
+    {
+      "from": "boy",
+      "text": "i look at you and already know the answer",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "Confident or just delusional",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "try me",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "That was not a question",
+      "type_at": 13.9
+    },
+    {
+      "from": "boy",
+      "text": "thursday night. i'll pick you up",
+      "type_at": 15.5
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 336 1377",
+      "type_at": 17.1
+    },
+    {
+      "from": "girl",
+      "text": "You're lucky you're cute",
+      "type_at": 18.7
+    }
+  ]
+}

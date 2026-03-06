@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-31-009",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.8,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "How to make her chase",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/62b53c45edc7e17bc33f210678e33437.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just clocked in as the main event of the restaurant or what"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "i dont chase, i attract",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound real obsessed already 😭",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "Keep playing like you ain’t front row",
+      "type_at": 3
+    },
+    {
+      "from": "girl",
+      "text": "?? 😂",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "say that over drinks this friday 9 at luna",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "Friday works, text me 555 748 4477 before 8",
+      "type_at": 8.1
+    }
+  ]
+}

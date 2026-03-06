@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-015",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/liar dancing GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/fab8a5caa66d4217dd31ddb9321d72fd.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to see your permit for carrying that much distraction in public"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound dangerously unserious rn",
+      "type_at": 1.9
+    },
+    {
+      "from": "boy",
+      "text": "Yeah and youre playing passenger princess perfectly",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.6
+    },
+    {
+      "from": "boy",
+      "text": "bold talk from someone posting late night drive thirst traps",
+      "type_at": 9.6
+    },
+    {
+      "from": "girl",
+      "text": "Please, I was bored, that’s it",
+      "type_at": 11.2
+    },
+    {
+      "from": "boy",
+      "text": "boredom does not hit post with that much confidence",
+      "type_at": 12.8
+    },
+    {
+      "from": "girl",
+      "text": "You really selling this line hard",
+      "type_at": 14.5
+    },
+    {
+      "from": "boy",
+      "text": "if i’m that distracting come prove it over drinks this week",
+      "type_at": 16.1
+    },
+    {
+      "from": "girl",
+      "text": "Monday 9. text me 555 636 6349",
+      "type_at": 17.7
+    }
+  ]
+}

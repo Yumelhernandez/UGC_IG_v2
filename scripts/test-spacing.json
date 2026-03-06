@@ -1,0 +1,60 @@
+{
+  "video_id": "test-spacing",
+  "meta": {
+    "theme": "test",
+    "duration_s": 12,
+    "spice_tier": "medium"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "test story",
+    "asset": "assets/stories/curated/story-12.svg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "hey"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "oo shytt congratss",
+      "type_at": 3
+    },
+    {
+      "from": "girl",
+      "text": "thats right around the corner",
+      "type_at": 4.5
+    },
+    {
+      "from": "girl",
+      "text": "are you going to be taking in person classes",
+      "type_at": 6
+    },
+    {
+      "from": "boy",
+      "text": "Well so far my 2 summer classes have been moved online",
+      "type_at": 8
+    },
+    {
+      "from": "boy",
+      "text": "So we'll have to see bout the fal",
+      "type_at": 9.5
+    },
+    {
+      "from": "boy",
+      "text": "But I'm only talking 3 classes then abs I'm done",
+      "type_at": 11
+    }
+  ]
+}

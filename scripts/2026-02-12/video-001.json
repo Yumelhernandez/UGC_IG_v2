@@ -1,0 +1,206 @@
+{
+  "video_id": "2026-02-12-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 74.8,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "Bold claim you would not survive one chaotic dinner with me",
+      "first_reaction": "no chance",
+      "hook": "Bold claim you would not survive one chaotic dinner with me",
+      "test": "no chance",
+      "escalation_turn": "bold talk for you too yet here were",
+      "escalation": "bold talk for you too yet here were",
+      "shift": "zero chance",
+      "close": "ur logic is crazy",
+      "shareable_moment": "bold talk for you too yet here were",
+      "pre_close_tension": "your story did you dont post midnight snack if booked",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Bold claim you would not survive one chaotic dinner with me",
+    "first_reaction": "no chance",
+    "hook": "Bold claim you would not survive one chaotic dinner with me",
+    "test": "no chance",
+    "escalation_turn": "bold talk for you too yet here were",
+    "escalation": "bold talk for you too yet here were",
+    "shift": "zero chance",
+    "close": "ur logic is crazy",
+    "shareable_moment": "bold talk for you too yet here were",
+    "pre_close_tension": "your story did you dont post midnight snack if booked",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 12,
+    "shareable_index": 3,
+    "reveal_line": "Bold talk for you too yet here were"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/ed406621a33e89a483e3afedd4d7ee7e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Bold claim you would not survive one chaotic dinner with me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "no chance",
+      "type_at": 8.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile you dramatic midnight snacker",
+      "type_at": 14,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "nope",
+      "type_at": 16.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "bold talk for you too yet here were",
+      "type_at": 19.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "zero chance",
+      "type_at": 21.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "my ego has seen things your air fryer could never handle",
+      "type_at": 25.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "relax gordon ramsay 😂",
+      "type_at": 32.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre talking big for someone flexing midnight snack stories",
+      "type_at": 39.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "cuz i actually eat mine",
+      "type_at": 45.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it",
+      "type_at": 51.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "who said i’m free",
+      "type_at": 58.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "your story did you dont post midnight snack if booked",
+      "type_at": 64.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ur logic is crazy",
+      "type_at": 71.5,
+      "response_type": "close"
+    }
+  ]
+}

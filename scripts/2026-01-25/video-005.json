@@ -1,0 +1,91 @@
+{
+  "video_id": "2026-01-25-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.6,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/dbd2d4040cb7d34aabb65dac20f452a2.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ok but who approved this amount of distraction on a random day"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "what do you mean?",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "I’m just saying this is wild behavior for a random Tuesday",
+      "type_at": 6.6
+    },
+    {
+      "from": "girl",
+      "text": "you’ll live, drama king",
+      "type_at": 7.3
+    },
+    {
+      "from": "boy",
+      "text": "definitely alive, just highly distracted and low productivity now",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "sounds like a you problem",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "wow zero remorse is crazy, you out here causing chaos for sport",
+      "type_at": 12.6
+    },
+    {
+      "from": "girl",
+      "text": "obviously, keep up or log off",
+      "type_at": 14.3
+    },
+    {
+      "from": "boy",
+      "text": "I’ll keep up in person, drinks this week and you can distract properly",
+      "type_at": 16.1
+    },
+    {
+      "from": "girl",
+      "text": "Friday, 8, drinks, text me then we see 😈",
+      "type_at": 17.8
+    }
+  ],
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 8,
+    "reveal_line": "I’m just saying this is wild behavior for a random Tuesday"
+  }
+}

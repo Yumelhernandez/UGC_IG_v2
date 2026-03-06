@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-006",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/gif.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "",
+    "asset": "baddies/c48e6bb9708cd03d793e9a31041f06e5.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So we agreeing those slippers just got upgraded to first class too"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "First class is a reach",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "Wild cause they cleared security no questions asked",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "TSA got low standards then",
+      "type_at": 4.2
+    },
+    {
+      "from": "boy",
+      "text": "Or they just know premium when they see it",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "Relax, Talking about shoes",
+      "type_at": 5.5
+    },
+    {
+      "from": "boy",
+      "text": "You sure this story was about shoes?",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "Your ego reading way too hard",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "My ego just booking the flight you started",
+      "type_at": 7.8
+    },
+    {
+      "from": "girl",
+      "text": "Flight is delayed, Calm down",
+      "type_at": 8.5
+    },
+    {
+      "from": "boy",
+      "text": "Cool I am good at layovers",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "Corny, You rehearse these lines?",
+      "type_at": 9.8
+    },
+    {
+      "from": "boy",
+      "text": "Nah you just got me in my improv bag",
+      "type_at": 10.3
+    },
+    {
+      "from": "girl",
+      "text": "Try again, This one mid",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "Let me run it back in person then",
+      "type_at": 11.6
+    },
+    {
+      "from": "girl",
+      "text": "Bold, You always this confident?",
+      "type_at": 12.6
+    },
+    {
+      "from": "boy",
+      "text": "Only when the pilot looks like you",
+      "type_at": 13.1
+    },
+    {
+      "from": "girl",
+      "text": "Cute, Maya, Drinks this week work",
+      "type_at": 14
+    }
+  ]
+}

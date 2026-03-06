@@ -1,0 +1,67 @@
+{
+  "video_id": "2026-01-29-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.3,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "gym mirror",
+    "asset": "baddies/bcf4cbcd60764e060d67d479b60fe327.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So this is why nobody else at that gym can focus today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "What do you mean?",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "so you just green lit this?",
+      "type_at": 3
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 👀",
+      "type_at": 4.2
+    },
+    {
+      "from": "boy",
+      "text": "ill prove my skills over drinks this week what night are you free",
+      "type_at": 5
+    },
+    {
+      "from": "girl",
+      "text": "Ok, wednesday 7:30. text me 555 229 9000",
+      "type_at": 6.4
+    }
+  ]
+}

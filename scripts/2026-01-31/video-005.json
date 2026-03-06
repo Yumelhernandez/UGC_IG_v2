@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-01-31-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/fcea1405c3d457d2a19b57c1edb0c1ce.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest you dressed for the workout or for the mirror audience"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you assuming youre the audience",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "I mean you posted it like a trailer not a workout log",
+      "type_at": 2.4
+    },
+    {
+      "from": "girl",
+      "text": "Trailer implies youre buying tickets, relax",
+      "type_at": 2.9
+    },
+    {
+      "from": "boy",
+      "text": "im just saying the fit got more reps than the gym",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "Your lines getting more reps than your curls",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "My curls stay winning, your mirror just signed a modeling deal",
+      "type_at": 4.5
+    },
+    {
+      "from": "girl",
+      "text": "Mirror works harder than most men I know 😂",
+      "type_at": 5
+    },
+    {
+      "from": "boy",
+      "text": "so we good or what?",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "You are trying, still not landing",
+      "type_at": 6
+    },
+    {
+      "from": "boy",
+      "text": "I invest in premium visuals with sarcastic commentary",
+      "type_at": 7
+    },
+    {
+      "from": "girl",
+      "text": "Prop or not, it lifts more than you",
+      "type_at": 8
+    },
+    {
+      "from": "boy",
+      "text": "I can lift your mood, that count as PR",
+      "type_at": 8.6
+    },
+    {
+      "from": "girl",
+      "text": "Youre at like warmup weight right now 😂",
+      "type_at": 9.5
+    },
+    {
+      "from": "boy",
+      "text": "i already know the answer",
+      "type_at": 10.9
+    },
+    {
+      "from": "girl",
+      "text": "Back it up or fall back",
+      "type_at": 11.8
+    },
+    {
+      "from": "boy",
+      "text": "drinks this week? text me 555 795 4047",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "Sure, this week works. text me 555 795 4047",
+      "type_at": 13.8
+    }
+  ]
+}

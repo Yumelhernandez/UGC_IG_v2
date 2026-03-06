@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-02-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.6,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "If you're seeing this, it's a sign from the  the universe to DM girls",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "coffee run",
+    "asset": "baddies/6e858ecd1d0c93db42583787ff4eb021.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist is going to bill you directly for this story"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You blaming me for your issues now",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "So you're a professional problem maker, huh?",
+      "type_at": 5
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 6.6
+    },
+    {
+      "from": "boy",
+      "text": "perfect my insurance covers chaos and questionable decisions",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "You definitely qualify for questionable",
+      "type_at": 9.8
+    },
+    {
+      "from": "boy",
+      "text": "i can handle a little chaos",
+      "type_at": 11.4
+    },
+    {
+      "from": "girl",
+      "text": "I have heard worse 👀",
+      "type_at": 13
+    },
+    {
+      "from": "boy",
+      "text": "drinks sunday. i'm choosing the place",
+      "type_at": 14.6
+    },
+    {
+      "from": "girl",
+      "text": "Here. 555 983 6568",
+      "type_at": 16.2
+    },
+    {
+      "from": "girl",
+      "text": "You're lucky you're cute",
+      "type_at": 17.8
+    }
+  ]
+}

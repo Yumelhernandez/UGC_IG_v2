@@ -1,0 +1,212 @@
+{
+  "video_id": "2026-02-12-prod6-013",
+  "meta": {
+    "theme": "default",
+    "duration_s": 69.8,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "I already planned our first argument",
+      "first_reaction": "talk is free, skills cost",
+      "hook": "I already planned our first argument",
+      "test": "talk is free, skills cost",
+      "escalation_turn": "you wanted me to make the move",
+      "escalation": "you wanted me to make the move",
+      "shift": "pass",
+      "close": "deal. but you're paying",
+      "shareable_moment": "you wanted me to make the move",
+      "pre_close_tension": "555 947 6148",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "I already planned our first argument",
+    "first_reaction": "talk is free, skills cost",
+    "hook": "I already planned our first argument",
+    "test": "talk is free, skills cost",
+    "escalation_turn": "you wanted me to make the move",
+    "escalation": "you wanted me to make the move",
+    "shift": "pass",
+    "close": "deal. but you're paying",
+    "shareable_moment": "you wanted me to make the move",
+    "pre_close_tension": "555 947 6148",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 13,
+    "shareable_index": 3,
+    "reveal_line": "you wanted me to make the move"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Turn DMs into dates",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "weekend escape",
+    "asset": "baddies/f0efb284660c9933ac90798535512fd8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already planned our first argument"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "talk is free, skills cost",
+      "type_at": 5.9,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it weekend",
+      "type_at": 10.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "nice try",
+      "type_at": 12.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you wanted me to make the move",
+      "type_at": 15.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 18,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i make it real fast",
+      "type_at": 21.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok",
+      "type_at": 27.1,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "dont tempt me",
+      "type_at": 32.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "try harder",
+      "type_at": 38.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i already know the answer",
+      "type_at": 44.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "prove it",
+      "type_at": 49.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "friday at 8:30. don't eat beforehand",
+      "type_at": 55.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "555 947 6148",
+      "type_at": 61.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "deal. but you're paying",
+      "type_at": 66.6,
+      "response_type": "close"
+    }
+  ]
+}

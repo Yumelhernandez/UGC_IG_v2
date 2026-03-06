@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-26-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.9,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "studio warmup",
+    "asset": "baddies/614d3973f855a901dd783d6f2238be92.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Bold of you to post this and think id stay calm"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Why are you asking?",
+      "type_at": 1.9
+    },
+    {
+      "from": "boy",
+      "text": "say less, its me",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 6.1
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it",
+      "type_at": 7.9
+    },
+    {
+      "from": "girl",
+      "text": "Sounds like a you problem",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "im not just talking",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "Corny line, Do better",
+      "type_at": 13.3
+    },
+    {
+      "from": "boy",
+      "text": "Let me try in person then, drinks this week",
+      "type_at": 15.1
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me",
+      "type_at": 17
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-30-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/b8eb177cb4bfea24880e400797964c55.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just decided to steal my dream afternoon and not invite me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "noted, ill remember that",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You cant be fr",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, dont lie",
+      "type_at": 2.8
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 😂",
+      "type_at": 3.6
+    },
+    {
+      "from": "boy",
+      "text": "friday night then, midnight snack part two and your number",
+      "type_at": 4.6
+    },
+    {
+      "from": "girl",
+      "text": "Fine, monday 7. text me 555 917 1801",
+      "type_at": 5.6
+    }
+  ]
+}

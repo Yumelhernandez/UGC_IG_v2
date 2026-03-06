@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-011",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.4,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Im Ready Lets Go GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "airport view",
+    "asset": "baddies/4965ae1d208cca7c1e0752ede3990aee.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Quick one what do I gotta do to deserve that view in person"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "plug_line": "you sound curious",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax 😭 you’re not that special",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "Guess I’ll just have to prove you wrong",
+      "type_at": 2.7
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 😭😭",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "cool then drinks this friday evening you can roast me properly",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "Ok, when and where? text me 555 965 5103",
+      "type_at": 6.9
+    }
+  ]
+}

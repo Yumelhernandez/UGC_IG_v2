@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-055",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.1,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "If you're seeing this, it's a sign from the  the universe to DM girls",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "gym mirror",
+    "asset": "baddies/9805f3b012777c70f8221c3befb04cc9.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my future self this is where our trust issues started"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Trust issues, sounds like you cry?",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "Gym mirror saw you fold first",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.6
+    },
+    {
+      "from": "boy",
+      "text": "if i said it in person you would fold even faster",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "Please, you would melt first",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "you talk like that cause you want me to test it",
+      "type_at": 12.4
+    },
+    {
+      "from": "girl",
+      "text": "Keep dreaming, gym boy",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "cool then bring that energy to drinks this week",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "Fine, wednesday 9. text me 555 482 9221",
+      "type_at": 17.3
+    }
+  ]
+}

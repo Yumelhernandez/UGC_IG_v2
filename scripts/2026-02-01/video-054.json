@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-054",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "studio warmup",
+    "asset": "baddies/ff1fdf1e4d9af84094098eb764f38a15.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Relax i already told TSA youre traveling with a menace"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "TSA would flag you for that weak joke actually",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "Relax i already told TSA youre traveling with a menace",
+      "type_at": 2.3
+    },
+    {
+      "from": "girl",
+      "text": "Please, TSA flirting harder than you right now",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "They flirting cause they jealous of my early access",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "Early access to what, delusion plus ego combo",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "To priority seating next to the airport menace",
+      "type_at": 4.3
+    },
+    {
+      "from": "girl",
+      "text": "You would cry five minutes into this flight",
+      "type_at": 4.9
+    },
+    {
+      "from": "boy",
+      "text": "so youre choosing me?",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "Cute words, where is the proof",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "My carry on is confidence and chaos approved",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "Confidence does not fix that mid level rizz",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "That tracksuit alone gave me automatic upgrade",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "Upgrade where, to clown class with the other fans 😭😭",
+      "type_at": 10.4
+    },
+    {
+      "from": "boy",
+      "text": "i dont chase, i attract",
+      "type_at": 11
+    },
+    {
+      "from": "girl",
+      "text": "Front row tickets cost more than your suitcase babe",
+      "type_at": 12.1
+    },
+    {
+      "from": "boy",
+      "text": "text me your number",
+      "type_at": 13.3
+    },
+    {
+      "from": "girl",
+      "text": "Cool, text me 555 789 3367. friday works",
+      "type_at": 14.8
+    }
+  ]
+}

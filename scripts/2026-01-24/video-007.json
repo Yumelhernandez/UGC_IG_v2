@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "How to text mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Im Ready Lets Go GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "",
+    "asset": "baddies/a96a4b75461b7396547e467fac27bfc2.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "If this is the cool down I am scared to see what the workout looks like"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Scared already, Tragic start?",
+      "type_at": 3.2
+    },
+    {
+      "from": "boy",
+      "text": "I am just being honest, this looks intense",
+      "type_at": 3.7
+    },
+    {
+      "from": "girl",
+      "text": "That your cardio flex?",
+      "type_at": 4.6
+    },
+    {
+      "from": "boy",
+      "text": "I would say my cardio does not disappoint",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "Everyone says that, Few prove it",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "I do not do auditions, I do live shows",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for sidelines",
+      "type_at": 7.2
+    },
+    {
+      "from": "boy",
+      "text": "I do not like the sidelines, I like front row",
+      "type_at": 7.8
+    },
+    {
+      "from": "girl",
+      "text": "Front row costs effort, sir",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "I am already investing, look at this elite commentary",
+      "type_at": 8.8
+    },
+    {
+      "from": "girl",
+      "text": "Commentary free, Access is not",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "So what is the access fee then",
+      "type_at": 10.2
+    },
+    {
+      "from": "girl",
+      "text": "Depends how fun you are",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "Fun is the one thing you do not have to worry about",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "Hm, Mild confidence, Not bad",
+      "type_at": 12.3
+    },
+    {
+      "from": "boy",
+      "text": "Mild is just the warm up, I am pacing myself",
+      "type_at": 13.3
+    },
+    {
+      "from": "girl",
+      "text": "Cute, Coffee warm up then, Chloe sends her number",
+      "type_at": 13.8
+    }
+  ]
+}

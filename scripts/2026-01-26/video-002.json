@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-26-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "studio warmup",
+    "asset": "baddies/e64b5548485aa37ef7cc5c36557a9961.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just casually decided to be the main character today huh"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "?",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, loud",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "And?",
+      "type_at": 6.1
+    },
+    {
+      "from": "boy",
+      "text": "bet, let me prove it",
+      "type_at": 7.2
+    },
+    {
+      "from": "girl",
+      "text": "Cute line, Still mid",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "dont tempt me",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "Relax, fan club",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "Let me apply in person, drinks this weekend",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Friday 7:30. text me",
+      "type_at": 13
+    }
+  ]
+}

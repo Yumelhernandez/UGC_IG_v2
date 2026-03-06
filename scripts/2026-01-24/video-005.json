@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/ccf5fa9572ec63ff11855b6340cc501d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So this is why you walk around like you fear nothing makes sense now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You just noticed now",
+      "type_at": 3.2
+    },
+    {
+      "from": "boy",
+      "text": "I mean it hit different on this story",
+      "type_at": 4
+    },
+    {
+      "from": "girl",
+      "text": "Your brain lagged before",
+      "type_at": 4.6
+    },
+    {
+      "from": "boy",
+      "text": "My brain was just collecting evidence",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "And the verdict is what",
+      "type_at": 5.6
+    },
+    {
+      "from": "boy",
+      "text": "That you walk like you already won the game",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "Maybe I did",
+      "type_at": 6.9
+    },
+    {
+      "from": "boy",
+      "text": "Then I clearly joined late",
+      "type_at": 7.5
+    },
+    {
+      "from": "girl",
+      "text": "Skill issue maybe",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "Or maybe I like the hard levels",
+      "type_at": 8.9
+    },
+    {
+      "from": "girl",
+      "text": "You would",
+      "type_at": 9.8
+    },
+    {
+      "from": "boy",
+      "text": "You saying I cannot clear this one",
+      "type_at": 10.3
+    },
+    {
+      "from": "girl",
+      "text": "I am not easy content",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "I would get the premium version then",
+      "type_at": 11.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a stranger",
+      "type_at": 12.2
+    },
+    {
+      "from": "boy",
+      "text": "Stranger can become first drink on a Friday",
+      "type_at": 12.6
+    },
+    {
+      "from": "girl",
+      "text": "Friday works you can try impress me then",
+      "type_at": 13.4
+    }
+  ]
+}

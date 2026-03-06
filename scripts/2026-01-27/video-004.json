@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-27-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "studio warmup",
+    "asset": "baddies/405783be883a5cc0146f36f4ebc7a41b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest you took this and thought yeah he about to lose his mind"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You good or delusional?",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "so we outside?",
+      "type_at": 6.6
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 7.5
+    },
+    {
+      "from": "boy",
+      "text": "say the word",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "You really think you him",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "im not just talking",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "Cute theory, still bored",
+      "type_at": 14.2
+    },
+    {
+      "from": "boy",
+      "text": "Cool then let me unboring you, drinks this week",
+      "type_at": 15.8
+    },
+    {
+      "from": "girl",
+      "text": "Friday 9 rooftop bar, text me then behave",
+      "type_at": 17.5
+    }
+  ]
+}

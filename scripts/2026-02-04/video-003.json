@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-04-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Rizzing ig baddies",
+    "subtitle": "(wedding method)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "mirror check",
+    "asset": "baddies/186c98e1b84fc7775ff0e281c6388685.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like you start problems then take mirror pics while we argue"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You talk a lot for free",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "You right, I charge interest in attention",
+      "type_at": 6.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 7.8
+    },
+    {
+      "from": "boy",
+      "text": "say that while we sit across from each other",
+      "type_at": 9.4
+    },
+    {
+      "from": "girl",
+      "text": "Who said i’m sitting 😳",
+      "type_at": 11
+    },
+    {
+      "from": "boy",
+      "text": "you stand on business i see",
+      "type_at": 12.6
+    },
+    {
+      "from": "girl",
+      "text": "You’re kind of annoying 😂",
+      "type_at": 14.2
+    },
+    {
+      "from": "boy",
+      "text": "this weekend. i'll plan everything",
+      "type_at": 15.8
+    },
+    {
+      "from": "girl",
+      "text": "555 909 7092",
+      "type_at": 17.4
+    },
+    {
+      "from": "girl",
+      "text": "You're on",
+      "type_at": 19
+    }
+  ]
+}

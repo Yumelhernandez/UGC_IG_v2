@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-05-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "sunset skyline",
+    "asset": "baddies/3de22f188164d04ee46bee690b7a0cbd.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Do you like water? because you're about to drown in charm"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "Bold of you to think you can swim",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 7.1
+    },
+    {
+      "from": "boy",
+      "text": "say that to my face",
+      "type_at": 8.7
+    },
+    {
+      "from": "girl",
+      "text": "Premium, feels very clearance?",
+      "type_at": 10.3
+    },
+    {
+      "from": "boy",
+      "text": "clearance still gets sold out first remember that",
+      "type_at": 11.9
+    },
+    {
+      "from": "girl",
+      "text": "Confident for no reason huh",
+      "type_at": 13.5
+    },
+    {
+      "from": "boy",
+      "text": "this weekend. i'll plan everything",
+      "type_at": 15.1
+    },
+    {
+      "from": "girl",
+      "text": "You're annoying. 555 458 5177",
+      "type_at": 16.7
+    },
+    {
+      "from": "girl",
+      "text": "You're on",
+      "type_at": 18.3
+    }
+  ]
+}

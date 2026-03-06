@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-029",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.3,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "How to rizz up baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/5d6ae4ac4de0d0b2278126d250e65fe8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Now ive to explain to my therapist that a water bottle humbled me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Scared I might humble you too",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "Challenge accepted, let's see what you got",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "therapist already called you a red flag anyway",
+      "type_at": 8.6
+    },
+    {
+      "from": "girl",
+      "text": "She sounds smart, listen to her 😂",
+      "type_at": 10.2
+    },
+    {
+      "from": "boy",
+      "text": "relax i got this",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Tragic, you flirt worse than you cope 😳",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "cool so lets test both thursday drinks 8",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok, sunday 9. text me 555 978 5579",
+      "type_at": 16.8
+    }
+  ]
+}

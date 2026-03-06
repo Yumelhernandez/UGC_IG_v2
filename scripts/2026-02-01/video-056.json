@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-056",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.5,
+    "spice_tier": "high",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "Made a girl qualify to daddy",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "studio warmup",
+    "asset": "baddies/3141937c0a2f76302917a871be258f3a.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You give off I get what I want energy and sadly I believe it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Tragic you believe it yet still here talking",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "im here doing my civic duty and supporting local chaos",
+      "type_at": 2.3
+    },
+    {
+      "from": "girl",
+      "text": "That sounded like a very long way to say obsessed",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "That sounded like a very long way to say you clocked me",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "Relax superhero this is just a mirror fit",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "Mirror fit got me reconsidering life choices and savings",
+      "type_at": 4.4
+    },
+    {
+      "from": "girl",
+      "text": "Savings is crazy you cant afford this vibe",
+      "type_at": 4.9
+    },
+    {
+      "from": "boy",
+      "text": "so its official?",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "That line needs a follow up",
+      "type_at": 6
+    },
+    {
+      "from": "boy",
+      "text": "ill just write it off as character development",
+      "type_at": 6.9
+    },
+    {
+      "from": "girl",
+      "text": "Bold talking for someone already folded in my DMs",
+      "type_at": 8.2
+    },
+    {
+      "from": "boy",
+      "text": "Folded but still talking back sounds like im winning a little",
+      "type_at": 9.6
+    },
+    {
+      "from": "girl",
+      "text": "Youre at like three percent progress relax",
+      "type_at": 11.2
+    },
+    {
+      "from": "boy",
+      "text": "So what gets me to at least ten percent",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "Bare minimum is drinks and actual effort first",
+      "type_at": 14
+    },
+    {
+      "from": "boy",
+      "text": "Drinks sound fair when are you free this week",
+      "type_at": 14.8
+    },
+    {
+      "from": "girl",
+      "text": "Fine, monday 9. text me 555 434 6089",
+      "type_at": 16.7
+    }
+  ]
+}

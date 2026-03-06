@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-23-comedy-final-001",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 19.8,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "callback",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Ok so when did we agree you would be the hot one in this relationship",
+      "first_reaction": "",
+      "hook": "Ok so when did we agree you would be the hot one in this relationship",
+      "test": "",
+      "escalation_turn": "so we skipping the small talk?",
+      "escalation": "so we skipping the small talk?",
+      "shift": "okay, now show me",
+      "close": "",
+      "shareable_moment": "id absolutely tip the bathroom hot girl",
+      "pre_close_tension": "you're not off the hook",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Ok so when did we agree you would be the hot one in this relationship",
+    "first_reaction": "",
+    "hook": "Ok so when did we agree you would be the hot one in this relationship",
+    "test": "",
+    "escalation_turn": "so we skipping the small talk?",
+    "escalation": "so we skipping the small talk?",
+    "shift": "okay, now show me",
+    "close": "",
+    "shareable_moment": "id absolutely tip the bathroom hot girl",
+    "pre_close_tension": "you're not off the hook",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so we skipping the small talk?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "mirror check",
+    "asset": "baddies/729590781990a56485651e26bf5b613f.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ok so when did we agree you would be the hot one in this relationship"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "elaborate",
+      "type_at": 1.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "honestly the bag carrying the whole relationship",
+      "type_at": 2.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "no",
+      "type_at": 2.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "emotional labor is you in a bathroom photoshoot",
+      "type_at": 3.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "yeah i clock in at the paper towel station",
+      "type_at": 3.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "id absolutely tip the bathroom hot girl",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "tips accepted in compliments and quiet obedience 😭😭",
+      "type_at": 4.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so we skipping the small talk?",
+      "type_at": 5.6,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "okay, now show me",
+      "type_at": 6.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i signed when i saw the side profile actually",
+      "type_at": 7.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "fine print said no refunds, only delusion",
+      "type_at": 8.7,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "delusion is thinking im the pretty one here",
+      "type_at": 10.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you can be the supportive background character",
+      "type_at": 12.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "im just the npc holding your bag in public",
+      "type_at": 14.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "nah you the npc asking for mirror selfies",
+      "type_at": 15.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "wednesday at 9. don't eat beforehand",
+      "type_at": 16.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you're not off the hook",
+      "type_at": 18.4,
+      "response_type": "condition"
+    }
+  ]
+}

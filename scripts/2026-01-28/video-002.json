@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-28-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.3,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "gym mirror",
+    "asset": "baddies/e40f57d6a834c5f7f3834d37a060e710.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Bold move painting in that shirt you knew it would drive people insane"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "What do you mean?",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "so you picked me?",
+      "type_at": 6.6
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 8.2
+    },
+    {
+      "from": "boy",
+      "text": "watch me back it up",
+      "type_at": 9.8
+    },
+    {
+      "from": "girl",
+      "text": "You seem very sure huh",
+      "type_at": 11.4
+    },
+    {
+      "from": "boy",
+      "text": "cool, test me in person",
+      "type_at": 13
+    },
+    {
+      "from": "girl",
+      "text": "Relax I just like attention",
+      "type_at": 14.6
+    },
+    {
+      "from": "boy",
+      "text": "Perfect we can terrorize a bar together drinks this weekend",
+      "type_at": 16.2
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me",
+      "type_at": 17.9
+    }
+  ]
+}

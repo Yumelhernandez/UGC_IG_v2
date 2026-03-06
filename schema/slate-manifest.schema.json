@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Daily Slate Manifest",
+  "type": "object",
+  "required": ["date", "run_seed", "daily_count", "slots", "fatigue_caps", "fatigue_counters"],
+  "properties": {
+    "date": { "type": "string" },
+    "run_seed": { "type": "number" },
+    "daily_count": { "type": "number", "minimum": 1 },
+    "slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slot_index",
+          "arc_type",
+          "format",
+          "format_variant",
+          "hook_type",
+          "payoff_type",
+          "template_id",
+          "mechanic_ids",
+          "run_seed"
+        ],
+        "properties": {
+          "slot_index": { "type": "number", "minimum": 1 },
+          "arc_type": { "type": "string" },
+          "format": { "type": "string", "enum": ["B", "D"] },
+          "format_variant": { "type": "string" },
+          "hook_type": { "type": "string" },
+          "payoff_type": { "type": "string" },
+          "template_id": { "type": "string" },
+          "mechanic_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "run_seed": { "type": "number" }
+        }
+      }
+    },
+    "fatigue_caps": {
+      "type": "object",
+      "required": ["daily_count", "hook_type", "payoff_type", "template_id", "mechanic_combo", "format_wrapper"],
+      "properties": {
+        "daily_count": { "type": "number", "minimum": 1 },
+        "hook_type": { "type": "number", "minimum": 1 },
+        "payoff_type": { "type": "number", "minimum": 1 },
+        "template_id": { "type": "number", "minimum": 1 },
+        "mechanic_combo": { "type": "number", "minimum": 1 },
+        "format_wrapper": { "type": "number", "minimum": 1 }
+      }
+    },
+    "fatigue_counters": {
+      "type": "object",
+      "required": ["hook_type", "payoff_type", "template_id", "mechanic_combo", "format_wrapper"],
+      "properties": {
+        "hook_type": { "type": "object", "additionalProperties": { "type": "number" } },
+        "payoff_type": { "type": "object", "additionalProperties": { "type": "number" } },
+        "template_id": { "type": "object", "additionalProperties": { "type": "number" } },
+        "mechanic_combo": { "type": "object", "additionalProperties": { "type": "number" } },
+        "format_wrapper": { "type": "object", "additionalProperties": { "type": "number" } }
+      }
+    }
+  }
+}

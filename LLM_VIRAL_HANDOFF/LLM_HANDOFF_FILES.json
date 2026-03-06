@@ -1,0 +1,28 @@
+{
+  "root": "/Users/yumelhernandez/Documents/New project",
+  "strategy": [
+    "/Users/yumelhernandez/Documents/New project/Viral_Video_Analysis_Pipeline_PRD_v1.1.md",
+    "/Users/yumelhernandez/Documents/New project/viral_breakdown_prompt.md"
+  ],
+  "pipeline_scripts": [
+    "/Users/yumelhernandez/Documents/New project/tools/video_breakdown.py",
+    "/Users/yumelhernandez/Documents/New project/tools/append_viral_28_55.py",
+    "/Users/yumelhernandez/Documents/New project/tools/batch_append_breakdowns.py",
+    "/Users/yumelhernandez/Documents/New project/tools/precompute_30_55.sh"
+  ],
+  "outputs": [
+    "/Users/yumelhernandez/Documents/New project/breakdowns/index.json",
+    "/Users/yumelhernandez/Documents/New project/docs/viral_video_breakdowns.md"
+  ],
+  "output_patterns": [
+    "/Users/yumelhernandez/Documents/New project/breakdowns/Viral_video_*/breakdown.md",
+    "/Users/yumelhernandez/Documents/New project/breakdowns/Viral_video_*/segments.json",
+    "/Users/yumelhernandez/Documents/New project/.tmp_viral_batch_28_55/Viral_video_*/section.md",
+    "/Users/yumelhernandez/Documents/New project/.tmp_viral/Viral_video_*.section.md"
+  ],
+  "notable_intermediate": [
+    "/Users/yumelhernandez/Documents/New project/.tmp_viral26/section26_redo.md",
+    "/Users/yumelhernandez/Documents/New project/tmp_vv32_facts.md",
+    "/Users/yumelhernandez/Documents/New project/tmp_vv32_fact_writer.py"
+  ]
+}

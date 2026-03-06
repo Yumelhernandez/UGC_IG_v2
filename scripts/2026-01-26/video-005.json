@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-26-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "rainy walk",
+    "asset": "baddies/6e858ecd1d0c93db42583787ff4eb021.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Oh so we just posting stay in bed with me energy like it is nothing"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Huh?",
+      "type_at": 2.4
+    },
+    {
+      "from": "boy",
+      "text": "so youre not denying it?",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 5.8
+    },
+    {
+      "from": "boy",
+      "text": "cool, test me in person",
+      "type_at": 7.6
+    },
+    {
+      "from": "girl",
+      "text": "Youre very confident huh",
+      "type_at": 9.4
+    },
+    {
+      "from": "boy",
+      "text": "keep that energy for me",
+      "type_at": 11.2
+    },
+    {
+      "from": "girl",
+      "text": "Relax pastor youre not special",
+      "type_at": 13
+    },
+    {
+      "from": "boy",
+      "text": "cool then let me be not special over drinks this friday",
+      "type_at": 14.8
+    },
+    {
+      "from": "girl",
+      "text": "Text me at 7",
+      "type_at": 16.6
+    }
+  ]
+}

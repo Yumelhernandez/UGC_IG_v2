@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-022",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.3,
+    "spice_tier": "high",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/The Kid Mero Flirt GIF by Desus & Mero.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rooftop lights",
+    "asset": "baddies/2764bcb421eb3b8a8564eb6a3d3bec17.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "How flexible is your schedule for letting me distract you like this"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "plug_line": "say that to my face",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound real sure, relax",
+      "type_at": 1.3
+    },
+    {
+      "from": "boy",
+      "text": "Cool, I’ll prove you right later",
+      "type_at": 2.7
+    },
+    {
+      "from": "girl",
+      "text": "So what 👀",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "cool so bring it to drinks instead friday night 8",
+      "type_at": 5.7
+    },
+    {
+      "from": "girl",
+      "text": "Fine, monday 7:30. text me 555 465 3440",
+      "type_at": 7.3
+    }
+  ]
+}

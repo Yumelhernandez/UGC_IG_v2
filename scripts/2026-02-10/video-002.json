@@ -1,0 +1,173 @@
+{
+  "video_id": "2026-02-10-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "arc_type": "rejection",
+    "conversation_mode": "cumulative",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "If your favorite chapter is not the one where we meet im suing",
+      "first_reaction": "Sue me then, lawyer",
+      "escalation_turn": "Bold of you assuming I lose",
+      "shareable_moment": "jury already decided in my dms",
+      "pre_close_tension": "Here.",
+      "resolution_type": "rejection"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "If your favorite chapter is not the one where we meet im suing",
+    "first_reaction": "Sue me then, lawyer",
+    "escalation_turn": "Bold of you assuming I lose",
+    "shareable_moment": "jury already decided in my dms",
+    "pre_close_tension": "Here.",
+    "resolution_type": "rejection"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 11,
+    "shareable_index": 5,
+    "reveal_line": "Bold of you assuming I lose"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rainy walk",
+    "asset": "baddies/edde4e6c39af89d433c78ade3a3329d9.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "If your favorite chapter is not the one where we meet im suing"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Sue me then, lawyer",
+      "type_at": 2.1,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "Bold of you assuming I lose",
+      "type_at": 5.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 6.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "rain or not im still winning my case",
+      "type_at": 8.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "You sound very sure",
+      "type_at": 9.9,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "jury already decided in my dms",
+      "type_at": 11.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Mhm, delusion is cute 😂",
+      "type_at": 13.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you cant scare me off that easy",
+      "type_at": 14.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Sweet, but no, nice try",
+      "type_at": 16.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "thursday at 7:30. wear something cute",
+      "type_at": 17.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Here.",
+      "type_at": 19.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "nice try, not happening",
+      "type_at": 21.1,
+      "response_type": "dismissal"
+    }
+  ]
+}

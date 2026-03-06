@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-05-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.7,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "rainy walk",
+    "asset": "baddies/30c650d1799afc2e95225f7fe38d6297.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of jeans to trouble what exactly are you today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume i’m interested",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "Relax it was interest in your chaos",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "So what 😂",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "delusional is thinking you’re anything under pure trouble today",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "You couldn’t handle mild trouble",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "keep that energy for me",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "That’s your survival plan, tragic?",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "drinks wednesday. you're gonna love this place",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "Here. 555 109 9702",
+      "type_at": 17.3
+    },
+    {
+      "from": "girl",
+      "text": "You have 24 hours",
+      "type_at": 18.9
+    }
+  ]
+}

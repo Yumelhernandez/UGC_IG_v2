@@ -1,0 +1,205 @@
+{
+  "video_id": "2026-02-27-001",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 61.4,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "challenge",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "confusion",
+    "first_reaction_words": 4,
+    "beat_plan": {
+      "inciting_incident": "I already planned our first argument",
+      "first_reaction": "our first what now",
+      "hook": "I already planned our first argument",
+      "test": "our first what now",
+      "escalation_turn": "i already know you’ll fold in a trivia showdown",
+      "escalation": "i already know you’ll fold in a trivia showdown",
+      "shift": "and what about it 👀",
+      "close": "congrats youre in now impress me",
+      "shareable_moment": "i already know you’ll fold in a trivia showdown",
+      "pre_close_tension": "text me 555 726 4169",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "early_pacing_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I already planned our first argument",
+    "first_reaction": "our first what now",
+    "hook": "I already planned our first argument",
+    "test": "our first what now",
+    "escalation_turn": "i already know you’ll fold in a trivia showdown",
+    "escalation": "i already know you’ll fold in a trivia showdown",
+    "shift": "and what about it 👀",
+    "close": "congrats youre in now impress me",
+    "shareable_moment": "i already know you’ll fold in a trivia showdown",
+    "pre_close_tension": "text me 555 726 4169",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "I already know you’ll fold in a trivia showdown"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant nba GIF.mp4",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "soft day",
+    "asset": "baddies/664f7c63b90619b2442889ca0e767614.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already planned our first argument"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "our first what now",
+      "type_at": 6.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that soft, saw those lace pj’s and thought yeah we arguing",
+      "type_at": 9.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "over pajamas is wild",
+      "type_at": 13.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i already know you’ll fold in a trivia showdown",
+      "type_at": 17.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "and what about it 👀",
+      "type_at": 20.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i already planned our first argument",
+      "type_at": 24.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "yeah thats not happening",
+      "type_at": 29.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "crazy talk for someone in bedtime lingerie on main",
+      "type_at": 35,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "relax its just pajamas",
+      "type_at": 40.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 46.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 726 4169",
+      "type_at": 51.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "congrats youre in now impress me",
+      "type_at": 57.3,
+      "response_type": "close"
+    }
+  ]
+}

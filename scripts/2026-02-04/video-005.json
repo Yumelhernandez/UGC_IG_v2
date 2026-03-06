@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-04-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "Rizzing up a 20/10",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/27286beafb6549ca23546333e9de302d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "If I asked how flexible that fit is would you block me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Wow youre bold and annoying",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Bold enough to still make you smile",
+      "type_at": 4.3
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "cant, that story woke my ego up",
+      "type_at": 7.5
+    },
+    {
+      "from": "girl",
+      "text": "Youre not special btw",
+      "type_at": 9.1
+    },
+    {
+      "from": "boy",
+      "text": "i already know the answer im just seeing if you do",
+      "type_at": 10.7
+    },
+    {
+      "from": "girl",
+      "text": "Keep dreaming superstar",
+      "type_at": 12.3
+    },
+    {
+      "from": "boy",
+      "text": "monday night. i'll pick you up",
+      "type_at": 13.9
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 970 8083 😂",
+      "type_at": 15.5
+    },
+    {
+      "from": "girl",
+      "text": "You better be fun",
+      "type_at": 17.1
+    }
+  ]
+}

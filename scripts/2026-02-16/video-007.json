@@ -1,0 +1,200 @@
+{
+  "video_id": "2026-02-16-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 61,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "Remind me again why youre not legally required to date me",
+      "first_reaction": "nice try again",
+      "hook": "Remind me again why youre not legally required to date me",
+      "test": "nice try again",
+      "escalation_turn": "careful, i might just prove you wrong",
+      "escalation": "careful, i might just prove you wrong",
+      "shift": "not happening",
+      "close": "deal. but you're paying",
+      "shareable_moment": "careful, i might just prove you wrong",
+      "pre_close_tension": "Alright you're funny. 555 216 9063",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Remind me again why youre not legally required to date me",
+    "first_reaction": "nice try again",
+    "hook": "Remind me again why youre not legally required to date me",
+    "test": "nice try again",
+    "escalation_turn": "careful, i might just prove you wrong",
+    "escalation": "careful, i might just prove you wrong",
+    "shift": "not happening",
+    "close": "deal. but you're paying",
+    "shareable_moment": "careful, i might just prove you wrong",
+    "pre_close_tension": "Alright you're funny. 555 216 9063",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "Careful, I might just prove you wrong"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Dance GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "late night drive",
+    "asset": "baddies/de839f985ba05b710d8d0ce5ab01a424.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Remind me again why youre not legally required to date me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nice try again",
+      "type_at": 3.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile you menace late",
+      "type_at": 9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 11.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "careful, i might just prove you wrong",
+      "type_at": 14.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "not happening",
+      "type_at": 16.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "your type is literally late night drive chaos you good",
+      "type_at": 20.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u dont have that energy",
+      "type_at": 26.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "let me prove it",
+      "type_at": 32.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "cute. prove it",
+      "type_at": 39.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "wednesday. i'll send you the address",
+      "type_at": 45.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 216 9063",
+      "type_at": 51.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "deal. but you're paying",
+      "type_at": 57.2,
+      "response_type": "close"
+    }
+  ]
+}

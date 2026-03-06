@@ -1,0 +1,188 @@
+{
+  "video_id": "2026-02-12-prod7-013",
+  "meta": {
+    "theme": "default",
+    "duration_s": 62,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "rejection",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "I already planned our first argument",
+      "first_reaction": "huh",
+      "hook": "I already planned our first argument",
+      "test": "huh",
+      "escalation_turn": "you wanted to push me",
+      "escalation": "you wanted to push me",
+      "shift": "wdym",
+      "close": "nice try, still no",
+      "shareable_moment": "you wanted to push me",
+      "pre_close_tension": "you're annoying",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "rejection"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "I already planned our first argument",
+    "first_reaction": "huh",
+    "hook": "I already planned our first argument",
+    "test": "huh",
+    "escalation_turn": "you wanted to push me",
+    "escalation": "you wanted to push me",
+    "shift": "wdym",
+    "close": "nice try, still no",
+    "shareable_moment": "you wanted to push me",
+    "pre_close_tension": "you're annoying",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "rejection"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 9,
+    "shareable_index": 3,
+    "reveal_line": "you wanted to push me"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "gym mirror",
+    "asset": "baddies/9805f3b012777c70f8221c3befb04cc9.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already planned our first argument"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "huh",
+      "type_at": 7,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "mirror vibes you folded already",
+      "type_at": 13.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "cap",
+      "type_at": 17.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you wanted to push me",
+      "type_at": 21.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "wdym",
+      "type_at": 24.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "thats not a no",
+      "type_at": 30.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "keep going",
+      "type_at": 37.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "friday. 8. i know a spot",
+      "type_at": 44.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you're annoying",
+      "type_at": 51.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "nice try, still no",
+      "type_at": 58.7,
+      "response_type": "dismissal"
+    }
+  ]
+}

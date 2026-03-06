@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-044",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.3,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/So Excited Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/10748f85454b576260244bfc6c5782fc.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing you for emotional damage and sudden focus issues"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Emotional damage, you sound soft?",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "Trust me I only fold for you",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "So what 😂",
+      "type_at": 6.4
+    },
+    {
+      "from": "boy",
+      "text": "you folded already",
+      "type_at": 8
+    },
+    {
+      "from": "girl",
+      "text": "Delusional and confident huh",
+      "type_at": 9.6
+    },
+    {
+      "from": "boy",
+      "text": "its called multitasking and taste",
+      "type_at": 11.2
+    },
+    {
+      "from": "girl",
+      "text": "Talk is cheap, lawyer boy",
+      "type_at": 12.8
+    },
+    {
+      "from": "boy",
+      "text": "cool then argue it over drinks this week",
+      "type_at": 14.4
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 366 5693. friday 7:30 works",
+      "type_at": 16
+    }
+  ]
+}

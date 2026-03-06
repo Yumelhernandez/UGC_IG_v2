@@ -1,0 +1,231 @@
+{
+  "video_id": "2026-02-23-comedy-debug3-001",
+  "meta": {
+    "theme": "beach",
+    "duration_s": 18.3,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "I need to know do the shades come with that attitude or separate",
+      "first_reaction": "",
+      "hook": "I need to know do the shades come with that attitude or separate",
+      "test": "",
+      "escalation_turn": "so we skipping the small talk?",
+      "escalation": "so we skipping the small talk?",
+      "shift": "you love the sound of you",
+      "close": "",
+      "shareable_moment": "wild, i didn’t even click accept yet",
+      "pre_close_tension": "ok that was actually funny",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "I need to know do the shades come with that attitude or separate",
+    "first_reaction": "",
+    "hook": "I need to know do the shades come with that attitude or separate",
+    "test": "",
+    "escalation_turn": "so we skipping the small talk?",
+    "escalation": "so we skipping the small talk?",
+    "shift": "you love the sound of you",
+    "close": "",
+    "shareable_moment": "wild, i didn’t even click accept yet",
+    "pre_close_tension": "ok that was actually funny",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so we skipping the small talk?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Sport GIF by NBA.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "sun glow",
+    "asset": "baddies/91e3f376fce234db925154d77178b503.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to know do the shades come with that attitude or separate"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "the shades got attitude, i just rent it",
+      "type_at": 1.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you telling me that attitude on subscription",
+      "type_at": 1.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "yearly plan, no refunds, pray for yourself",
+      "type_at": 2.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "do i at least get a free trial tho",
+      "type_at": 3.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u already on day 1, no cancel button 😂",
+      "type_at": 4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "wild, i didn’t even click accept yet",
+      "type_at": 4.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you viewed the story, that was consent",
+      "type_at": 5.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so we skipping the small talk?",
+      "type_at": 5.6,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you love the sound of you",
+      "type_at": 6.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "ruin lives or just egos and bank accounts",
+      "type_at": 7.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "same thing when the sunglasses say designer",
+      "type_at": 8.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so attitude included, peace of mind sold separate",
+      "type_at": 9.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "peace of mind been out of stock since june",
+      "type_at": 11.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "figures, sun out, logic gone, chaos tanning",
+      "type_at": 12.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "chaos got spf 50 and a lounge chair",
+      "type_at": 14,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "monday at 7:30. wear something cute",
+      "type_at": 15.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok that was actually funny",
+      "type_at": 17.2,
+      "response_type": "condition"
+    }
+  ]
+}

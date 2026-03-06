@@ -1,0 +1,94 @@
+{
+  "video_id": "gen-065",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 21.5,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "plot_twist",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_crowd_figurine_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_crowd_outdoor_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_3.mp4",
+      "After 1 message/Lets Go Undress GIF by Paxeros.mp4",
+      "After 1 message/Im Ready Lets Go GIF.mp4",
+      "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_81__clip_019.mp4",
+    "headline": "I need to know something",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 6
+  },
+  "story": {
+    "username": "aaliyah",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/eff25f2752a8998142a33d846da6db43.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to know something"
+  },
+  "persona": {
+    "boy": {
+      "name": "Dre",
+      "age": 20
+    },
+    "girl": {
+      "name": "Aaliyah",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "maybe",
+      "type_at": 4.0
+    },
+    {
+      "from": "boy",
+      "text": "see I knew you'd reply",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "sure",
+      "type_at": 9.0
+    },
+    {
+      "from": "boy",
+      "text": "hold on",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "ok fine you're growing on me \ud83d\ude2d",
+      "type_at": 14.0
+    },
+    {
+      "from": "boy",
+      "text": "so when am I taking you out",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "don't make me regret this",
+      "type_at": 18.5
+    }
+  ]
+}

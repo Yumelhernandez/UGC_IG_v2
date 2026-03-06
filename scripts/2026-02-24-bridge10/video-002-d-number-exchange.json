@@ -1,0 +1,244 @@
+{
+  "video_id": "2026-02-24-bridge10-002",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 21.9,
+    "spice_tier": "low",
+    "controversy_tier": "edge",
+    "format": "D",
+    "arc_type": "number_exchange",
+    "punchline_style": "deflection",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "curiosity",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "On a scale of one to youre trouble how scared should I be",
+      "first_reaction": "how trouble?",
+      "hook": "On a scale of one to youre trouble how scared should I be",
+      "test": "how trouble?",
+      "escalation_turn": "stranger with taste, i clocked the black top instantly",
+      "escalation": "stranger with taste, i clocked the black top instantly",
+      "shift": "congratulations, you have eyes",
+      "close": "if you're boring i'm blocking you",
+      "shareable_moment": "you should be terrified then",
+      "pre_close_tension": "Ugh fine. 555 408 4906",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "On a scale of one to youre trouble how scared should I be",
+    "first_reaction": "how trouble?",
+    "hook": "On a scale of one to youre trouble how scared should I be",
+    "test": "how trouble?",
+    "escalation_turn": "stranger with taste, i clocked the black top instantly",
+    "escalation": "stranger with taste, i clocked the black top instantly",
+    "shift": "congratulations, you have eyes",
+    "close": "if you're boring i'm blocking you",
+    "shareable_moment": "you should be terrified then",
+    "pre_close_tension": "Ugh fine. 555 408 4906",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 9,
+    "win_index": 17,
+    "shareable_index": 6,
+    "reveal_line": "stranger with taste, i clocked the black top instantly"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "fit check",
+    "asset": "baddies/3af84c1794e3df459ca1b8e3fe54fb7d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of one to youre trouble how scared should I be"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "how trouble?",
+      "type_at": 1.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that check, you really chose the bathroom as your runway huh",
+      "type_at": 2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and you chose my dms as yours 👀",
+      "type_at": 2.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah cause that mirror screamed “warning dont approach”",
+      "type_at": 3.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "sounds like u ignored it",
+      "type_at": 4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i read it as “enter at your own risk” tbh",
+      "type_at": 4.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you should be terrified then",
+      "type_at": 5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so youre choosing me?",
+      "type_at": 5.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "that line needs a follow up",
+      "type_at": 6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "stranger with taste, i clocked the black top instantly",
+      "type_at": 6.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "congratulations, you have eyes",
+      "type_at": 7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "sharp tongue, low lighting, dangerous combo",
+      "type_at": 8.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you still talking for someone so scared",
+      "type_at": 10.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "fear and curiosity are beefing, curiosity winning",
+      "type_at": 12.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "mhm, what do you even want",
+      "type_at": 14.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "let me get your number",
+      "type_at": 16.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Ugh fine. 555 408 4906",
+      "type_at": 19,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "if you're boring i'm blocking you",
+      "type_at": 21,
+      "response_type": "close"
+    }
+  ]
+}

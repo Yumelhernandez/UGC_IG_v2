@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-23-comedy-debug2-001",
+  "meta": {
+    "theme": "nightlife",
+    "duration_s": 18.4,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "I dare you to admit that table got way more fun when you sat down",
+      "first_reaction": "",
+      "hook": "I dare you to admit that table got way more fun when you sat down",
+      "test": "",
+      "escalation_turn": "so you want me?",
+      "escalation": "so you want me?",
+      "shift": "okay, now show me",
+      "close": "",
+      "shareable_moment": "not yet, but they raised my standards instantly",
+      "pre_close_tension": "i have more questions",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I dare you to admit that table got way more fun when you sat down",
+    "first_reaction": "",
+    "hook": "I dare you to admit that table got way more fun when you sat down",
+    "test": "",
+    "escalation_turn": "so you want me?",
+    "escalation": "so you want me?",
+    "shift": "okay, now show me",
+    "close": "",
+    "shareable_moment": "not yet, but they raised my standards instantly",
+    "pre_close_tension": "i have more questions",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so you want me?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "after hours",
+    "asset": "baddies/2d7584b41c7cd8059cb19dacc0df64fb.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I dare you to admit that table got way more fun when you sat down"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 1.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "the margarita nodded, said i was right",
+      "type_at": 2.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "it only salutes women in blue and chaos earrings",
+      "type_at": 3.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "chaos earrings is wild, they pay your bills too",
+      "type_at": 4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "not yet, but they raised my standards instantly",
+      "type_at": 4.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "crazy, one drink and u grew preferences",
+      "type_at": 5.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you want me?",
+      "type_at": 5.6,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "okay, now show me",
+      "type_at": 6.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "step one, girl who makes furniture feel basic",
+      "type_at": 7.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur game looking very preseason tho",
+      "type_at": 9.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "fair, still stretching, crowd already booing me",
+      "type_at": 10.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "crowd just wants you to pass the drink",
+      "type_at": 11.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you got a whole origin story in one glass",
+      "type_at": 13.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "fine, director, enjoy the trailer from instagram",
+      "type_at": 14.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "drinks wednesday. you're gonna love this place",
+      "type_at": 15.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "i have more questions",
+      "type_at": 17.4,
+      "response_type": "condition"
+    }
+  ]
+}

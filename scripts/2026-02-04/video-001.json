@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-04-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.4,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "If you're seeing this, it's a sign from the  the universe to DM girls",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "airport view",
+    "asset": "baddies/405783be883a5cc0146f36f4ebc7a41b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of church girl to menace where do you rank yourself here"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Boy ill ruin your life",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "Challenge accepted, let’s see what you got",
+      "type_at": 6.7
+    },
+    {
+      "from": "girl",
+      "text": "And? 😭😭",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "you give off quiet menace energy, church girl disguise",
+      "type_at": 9.9
+    },
+    {
+      "from": "girl",
+      "text": "You couldn’t handle church girl",
+      "type_at": 11.5
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 13.1
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a stranger",
+      "type_at": 14.7
+    },
+    {
+      "from": "boy",
+      "text": "sunday. 9. i know a spot",
+      "type_at": 16.3
+    },
+    {
+      "from": "girl",
+      "text": "You're annoying. 555 716 1077",
+      "type_at": 17.9
+    },
+    {
+      "from": "girl",
+      "text": "This better be worth it",
+      "type_at": 19.5
+    }
+  ]
+}

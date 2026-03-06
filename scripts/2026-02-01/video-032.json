@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-032",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.1,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/f5dc63c6ad3fd7fc8f07b547f20527ff.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of genius to villain origin story what are you plotting"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold to turn you dangerous",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Cute, but you look worth the risk",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "So what 😂",
+      "type_at": 7.6
+    },
+    {
+      "from": "boy",
+      "text": "late night drive looks like plotting chaos not playlists",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "Maybe I just like the view",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "sounds like genius with trust issues and great lighting",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "You talk a lot for prey 👀",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "then feed me drinks instead friday night, you free",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 521 3667 at 8:30",
+      "type_at": 17.3
+    }
+  ]
+}

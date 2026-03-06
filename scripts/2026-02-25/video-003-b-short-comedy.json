@@ -1,0 +1,179 @@
+{
+  "video_id": "2026-02-25-003",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 19.3,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "Serious question why has no one proposed to you in that aisle yet",
+      "first_reaction": "",
+      "hook": "Serious question why has no one proposed to you in that aisle yet",
+      "test": "",
+      "escalation_turn": "what's your number",
+      "escalation": "what's your number",
+      "shift": "and why would i do that",
+      "close": "ok fine, don't waste it",
+      "shareable_moment": "thats the best take 😂",
+      "pre_close_tension": "you already know why",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Serious question why has no one proposed to you in that aisle yet",
+    "first_reaction": "",
+    "hook": "Serious question why has no one proposed to you in that aisle yet",
+    "test": "",
+    "escalation_turn": "what's your number",
+    "escalation": "what's your number",
+    "shift": "and why would i do that",
+    "close": "ok fine, don't waste it",
+    "shareable_moment": "thats the best take 😂",
+    "pre_close_tension": "you already know why",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 3,
+    "win_index": 6,
+    "shareable_index": 2,
+    "reveal_line": "what's your number"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/75d81d2913960b7a1db56550f07c5308.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Serious question why has no one proposed to you in that aisle yet"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "needs work",
+      "type_at": 2.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "about that mirror, yeah one knee, one swipe, ring and bag same",
+      "type_at": 4.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "thats the best take 😂",
+      "type_at": 7.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 10.2,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "and why would i do that",
+      "type_at": 12.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you already know why",
+      "type_at": 14.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok fine, don't waste it",
+      "type_at": 17.4,
+      "response_type": "punchline"
+    }
+  ]
+}

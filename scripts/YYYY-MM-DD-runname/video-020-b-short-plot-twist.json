@@ -1,0 +1,179 @@
+{
+  "video_id": "YYYY-MM-DD-runname-020",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 20.4,
+    "spice_tier": "low",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "plot_twist",
+    "punchline_style": "challenge",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "curiosity",
+    "first_reaction_words": 4,
+    "beat_plan": {
+      "inciting_incident": "I hope you know im absolutely blaming you when I stop behaving right",
+      "first_reaction": "huh, behaving how exactly?",
+      "hook": "I hope you know im absolutely blaming you when I stop behaving right",
+      "test": "huh, behaving how exactly?",
+      "escalation_turn": "interesting of you to ask while grinning",
+      "escalation": "interesting of you to ask while grinning",
+      "shift": "i already knew your name before you replied",
+      "close": "anyway now you know",
+      "shareable_moment": "u seem weirdly invested",
+      "pre_close_tension": "quick question, you walk fast or slow",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "win_line_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I hope you know im absolutely blaming you when I stop behaving right",
+    "first_reaction": "huh, behaving how exactly?",
+    "hook": "I hope you know im absolutely blaming you when I stop behaving right",
+    "test": "huh, behaving how exactly?",
+    "escalation_turn": "interesting of you to ask while grinning",
+    "escalation": "interesting of you to ask while grinning",
+    "shift": "i already knew your name before you replied",
+    "close": "anyway now you know",
+    "shareable_moment": "u seem weirdly invested",
+    "pre_close_tension": "quick question, you walk fast or slow",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 6,
+    "shareable_index": 2,
+    "reveal_line": "interesting of you to ask while grinning"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Lets Go Undress GIF by Paxeros.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "home mood",
+    "asset": "baddies/2112c501f0d8984c78e800e43a3de004.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I hope you know im absolutely blaming you when I stop behaving right"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "huh, behaving how exactly?",
+      "type_at": 3.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that home, like someone who doesnt stare at a knitted dress",
+      "type_at": 6.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u seem weirdly invested",
+      "type_at": 8.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "interesting of you to ask while grinning",
+      "type_at": 10.7,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "i already knew your name before you replied",
+      "type_at": 12.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "quick question, you walk fast or slow",
+      "type_at": 14.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "anyway now you know",
+      "type_at": 18.8,
+      "response_type": "close"
+    }
+  ]
+}

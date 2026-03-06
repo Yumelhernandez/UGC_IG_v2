@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 10.2,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "If you're seeing this, it's a sign from the  the universe to DM girls",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "sunset skyline",
+    "asset": "baddies/ed3175a41f375d2993b3756f56337859.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So youre smart and trouble fantastic my therapist will love this"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "i already know the answer",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "My therapist hates men like you",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "you wanted the reaction and the tension",
+      "type_at": 2.8
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 😳",
+      "type_at": 3.6
+    },
+    {
+      "from": "boy",
+      "text": "come test the theory drinks this friday night",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 813 8474. saturday 9 works",
+      "type_at": 8.7
+    }
+  ]
+}

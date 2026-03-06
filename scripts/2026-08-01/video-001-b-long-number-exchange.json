@@ -1,0 +1,221 @@
+{
+  "video_id": "2026-08-01-001",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 58.1,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "persistence_flip",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "curiosity",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "How flexible is your grocery budget and does it include me",
+      "first_reaction": "why tho",
+      "hook": "How flexible is your grocery budget and does it include me",
+      "test": "why tho",
+      "escalation_turn": "dont play dumb, you feel this",
+      "escalation": "dont play dumb, you feel this",
+      "shift": "so what",
+      "close": "dont bore me please 😭",
+      "shareable_moment": "dont play dumb, you feel this",
+      "pre_close_tension": "text me 555 970 9142",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4.5
+    },
+    "hook_type": "compliment_opener",
+    "payoff_type": "twist_reveal",
+    "template_id": "T-02",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-compliment_opener",
+      "M-PAYOFF-twist_reveal"
+    ],
+    "slot_index": 1,
+    "run_seed": 344209367,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "How flexible is your grocery budget and does it include me",
+    "first_reaction": "why tho",
+    "hook": "How flexible is your grocery budget and does it include me",
+    "test": "why tho",
+    "escalation_turn": "dont play dumb, you feel this",
+    "escalation": "dont play dumb, you feel this",
+    "shift": "so what",
+    "close": "dont bore me please 😭",
+    "shareable_moment": "dont play dumb, you feel this",
+    "pre_close_tension": "text me 555 970 9142",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "Dont play dumb, you feel this"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "casual day",
+    "asset": "baddies/b49378f5a0c887bfc101600cca1fd44d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "How flexible is your grocery budget and does it include me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "why tho",
+      "type_at": 3.1,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "no is a great start. tell me more",
+      "type_at": 7.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "tf do u mean 😭",
+      "type_at": 11.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "dont play dumb, you feel this",
+      "type_at": 14.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "so what",
+      "type_at": 17,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "if my budget scares you now wait till you see my cooking",
+      "type_at": 20.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur not special😭",
+      "type_at": 26.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "if you weren't curious you'd have left already",
+      "type_at": 32.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "i'm literally just bored",
+      "type_at": 37.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "let me get your number",
+      "type_at": 42.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 970 9142",
+      "type_at": 48.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "dont bore me please 😭",
+      "type_at": 54,
+      "response_type": "close"
+    }
+  ]
+}

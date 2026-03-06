@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-050",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.1,
+    "spice_tier": "low",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "rooftop lights",
+    "asset": "baddies/1f5b9356cd0233177e0603c7dc73cdb9.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the type to ruin my sleep schedule and I respect it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You already look sleep deprived, calm down",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "Yeah but this feels like premium insomnia material",
+      "type_at": 2
+    },
+    {
+      "from": "girl",
+      "text": "Respect is cute, self control is cuter",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "Self control left the chat after that story",
+      "type_at": 3
+    },
+    {
+      "from": "girl",
+      "text": "Tragic, you folded off one little post",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "One little post and a glass of red chaos",
+      "type_at": 4
+    },
+    {
+      "from": "girl",
+      "text": "So you get weak from outfits and wine",
+      "type_at": 4.7
+    },
+    {
+      "from": "boy",
+      "text": "so we locked in?",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "Big claim, now prove it",
+      "type_at": 5.7
+    },
+    {
+      "from": "boy",
+      "text": "I like to apply pressure, not just watch stories",
+      "type_at": 6.9
+    },
+    {
+      "from": "girl",
+      "text": "Pressure where, exactly, besides your screen",
+      "type_at": 8
+    },
+    {
+      "from": "boy",
+      "text": "In person, across a table, same vibe as that spot",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "You assume I let strangers share my table",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 11.9
+    },
+    {
+      "from": "girl",
+      "text": "You really betting on Friday already",
+      "type_at": 13.4
+    },
+    {
+      "from": "boy",
+      "text": "im, so drinks this Friday, you in or scared",
+      "type_at": 14.5
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 513 1155. friday 7:30 works",
+      "type_at": 16.5
+    }
+  ]
+}

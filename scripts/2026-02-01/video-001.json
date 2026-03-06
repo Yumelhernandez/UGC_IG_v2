@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.7,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/5d6ae4ac4de0d0b2278126d250e65fe8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the type who could out lift me and still talk trash"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You want pain or attention first",
+      "type_at": 2.7
+    },
+    {
+      "from": "boy",
+      "text": "Give me attention while you ruin me",
+      "type_at": 4.7
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 6.7
+    },
+    {
+      "from": "boy",
+      "text": "look if you can out lift me i get bragging rights forever",
+      "type_at": 8.3
+    },
+    {
+      "from": "girl",
+      "text": "You’d cry mid warmup babe",
+      "type_at": 9.9
+    },
+    {
+      "from": "boy",
+      "text": "then come prove it and bring that midnight snack attitude",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "You can’t handle in person",
+      "type_at": 13.1
+    },
+    {
+      "from": "boy",
+      "text": "be honest can i get your number?",
+      "type_at": 14.8
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 393 6216 at 9",
+      "type_at": 16.4
+    }
+  ]
+}

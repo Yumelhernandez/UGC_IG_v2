@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-05-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.7,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/3e4b99ba5edc489a02fa74efa31ee990.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing for whiplash my neck snapped doing a double take"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume I’m impressed",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "Your playlist says otherwise dont lie",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 6.4
+    },
+    {
+      "from": "boy",
+      "text": "stranger, i just survived your late night drive era?",
+      "type_at": 8
+    },
+    {
+      "from": "girl",
+      "text": "You’re dramatic and annoying",
+      "type_at": 9.6
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 11.2
+    },
+    {
+      "from": "girl",
+      "text": "Your ego’s kinda loud 👀",
+      "type_at": 12.8
+    },
+    {
+      "from": "boy",
+      "text": "tuesday at 9. i'll handle the rest",
+      "type_at": 14.4
+    },
+    {
+      "from": "girl",
+      "text": "555 115 5755",
+      "type_at": 16
+    },
+    {
+      "from": "girl",
+      "text": "Don't disappoint me",
+      "type_at": 17.6
+    }
+  ]
+}

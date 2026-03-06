@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-28-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.8,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "airport view",
+    "asset": "baddies/3bdc110efcccef2dc429f46c7c31f7ec.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just woke up and chose all black menace energy today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Menace is crazy talk?",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "so im your problem now?",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 6.5
+    },
+    {
+      "from": "boy",
+      "text": "cool, test me in person",
+      "type_at": 8.1
+    },
+    {
+      "from": "girl",
+      "text": "Maybe I meant it",
+      "type_at": 9.8
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Talk is cheap menace boy",
+      "type_at": 13.4
+    },
+    {
+      "from": "boy",
+      "text": "Then let me test the difficulty over drinks this week",
+      "type_at": 15
+    },
+    {
+      "from": "girl",
+      "text": "Fine, friday 9. text me 555 620 5428",
+      "type_at": 16.6
+    }
+  ]
+}

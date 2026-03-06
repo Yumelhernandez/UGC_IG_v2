@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-018",
+  "meta": {
+    "theme": "default",
+    "duration_s": 10.1,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "This IG DM either gets a date… or blocked",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Shoot Your Shot Flirt GIF by Milk-Bone.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "sunset skyline",
+    "asset": "baddies/cf309336661301abe0cccf596fd575bb.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "How much trouble do you usually cause in home decor aisles"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "plug_line": "try me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound like aisle security 💀",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Yeah and you still stealing my attention",
+      "type_at": 2.7
+    },
+    {
+      "from": "girl",
+      "text": "?? 😳",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "lets debate it over drinks instead this week",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "Fine, wednesday 7:30. text me 555 425 8011",
+      "type_at": 9.1
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/0f1beca80dc456dec9b6b10a3f46e970.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my friends my gym partner is set so dont ghost"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Gym partner, you delusional babe 😭?",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "you love the attention",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "And?",
+      "type_at": 7.9
+    },
+    {
+      "from": "boy",
+      "text": "you talk spicy for someone skipping leg day",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for a mirror fan",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "mirror at least shows up you might ghost",
+      "type_at": 12.7
+    },
+    {
+      "from": "girl",
+      "text": "I dont ghost, i get bored",
+      "type_at": 14.3
+    },
+    {
+      "from": "boy",
+      "text": "then lets test that friday drinks my side of town",
+      "type_at": 15.9
+    },
+    {
+      "from": "girl",
+      "text": "Fine, thursday 8:30. text me 555 670 1908",
+      "type_at": 17.5
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "video_id": "2026-03-02-001",
+  "meta": {
+    "theme": "nightlife",
+    "duration_s": 17,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "brainrot",
+    "brainrot_variant": "random",
+    "brainrot_typo_line": null,
+    "brainrot_typo_word": null,
+    "brainrot_score": 10,
+    "brainrot_recontext_score": 1.5,
+    "brainrot_warnings": [],
+    "conversation_mode": "cumulative",
+    "app_insert_policy": "required",
+    "girl_archetype": "warm",
+    "beat_plan": {
+      "inciting_incident": "legal acted on my bread freshness dispute as scarcity violation",
+      "first_reaction": "i addressed your sourdough bundles legally in october",
+      "escalation_turn": "the restiction protocls triggered regular freshness studies",
+      "disruption": "cap",
+      "chaos_drop": "orlando compiles freshness thresholds further",
+      "shareable_moment": "orlando delivered mine last friday",
+      "resolution_type": "recontextualization",
+      "required_markers": [
+        "disruption_cue",
+        "chaos_element",
+        "reveal"
+      ]
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    },
+    "hook_type": "challenge_opener",
+    "payoff_type": "twist_reveal",
+    "template_id": "T-10",
+    "mechanic_ids": [
+      "M-ARC-brainrot",
+      "M-HOOK-challenge_opener",
+      "M-PAYOFF-twist_reveal"
+    ],
+    "slot_index": 1,
+    "run_seed": 1360360663,
+    "payoff_punch_score": null,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "legal acted on my bread freshness dispute as scarcity violation",
+    "first_reaction": "i addressed your sourdough bundles legally in october",
+    "escalation_turn": "the restiction protocls triggered regular freshness studies",
+    "disruption": "cap",
+    "chaos_drop": "orlando compiles freshness thresholds further",
+    "shareable_moment": "orlando delivered mine last friday",
+    "resolution_type": "recontextualization",
+    "required_markers": [
+      "disruption_cue",
+      "chaos_element",
+      "reveal"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "after hours",
+    "asset": "baddies/2b444f82ddf350017aa7cbbc28c3c8f2.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "legal acted on my bread freshness dispute as scarcity violation"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "i addressed your sourdough bundles legally in october",
+      "type_at": 1.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "the restiction protocls triggered regular freshness studies",
+      "type_at": 3.7,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "cap",
+      "type_at": 5.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "boy",
+      "text": "orlando compiles freshness thresholds further",
+      "type_at": 8.2,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "orlando delivered mine last friday",
+      "type_at": 10.4,
+      "response_type": "close"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "video_id": "2026-02-12-prod3-014",
+  "meta": {
+    "theme": "default",
+    "duration_s": 23.2,
+    "spice_tier": "low",
+    "controversy_tier": "safe",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "Is this your secret spot or do I need to pretend I just found it",
+      "first_reaction": "keep it coming",
+      "hook": "Is this your secret spot or do I need to pretend I just found it",
+      "test": "keep it coming",
+      "escalation_turn": "challenge accepted, let’s see your moves",
+      "escalation": "challenge accepted, let’s see your moves",
+      "shift": "says who?",
+      "close": "bored in the car, relax",
+      "shareable_moment": "not moved",
+      "pre_close_tension": "youre still replying on this corny app",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Is this your secret spot or do I need to pretend I just found it",
+    "first_reaction": "keep it coming",
+    "hook": "Is this your secret spot or do I need to pretend I just found it",
+    "test": "keep it coming",
+    "escalation_turn": "challenge accepted, let’s see your moves",
+    "escalation": "challenge accepted, let’s see your moves",
+    "shift": "says who?",
+    "close": "bored in the car, relax",
+    "shareable_moment": "not moved",
+    "pre_close_tension": "youre still replying on this corny app",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 6,
+    "shareable_index": 2,
+    "reveal_line": "Challenge accepted, let’s see your moves"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/gif.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/3f19cd6326b93930a4c265b3c584e504.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Is this your secret spot or do I need to pretend I just found it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "keep it coming",
+      "type_at": 6.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you folded already",
+      "type_at": 11.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not moved",
+      "type_at": 12.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "challenge accepted, let’s see your moves",
+      "type_at": 14.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "says who?",
+      "type_at": 16.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "youre still replying on this corny app",
+      "type_at": 18.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "bored in the car, relax",
+      "type_at": 21.6,
+      "response_type": "close"
+    }
+  ]
+}

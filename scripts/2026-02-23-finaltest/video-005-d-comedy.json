@@ -1,0 +1,246 @@
+{
+  "video_id": "2026-02-23-finaltest-005",
+  "meta": {
+    "theme": "food",
+    "duration_s": 20.3,
+    "spice_tier": "low",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "callback",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "I need to speak to management that cheese pull is criminal activity",
+      "first_reaction": "no",
+      "hook": "I need to speak to management that cheese pull is criminal activity",
+      "test": "no",
+      "escalation_turn": "so you basically picked me?",
+      "escalation": "so you basically picked me?",
+      "shift": "you are confident, not convincing",
+      "close": "",
+      "shareable_moment": "somebody has to, that stretch crossed state lines",
+      "pre_close_tension": "don't go anywhere",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I need to speak to management that cheese pull is criminal activity",
+    "first_reaction": "no",
+    "hook": "I need to speak to management that cheese pull is criminal activity",
+    "test": "no",
+    "escalation_turn": "so you basically picked me?",
+    "escalation": "so you basically picked me?",
+    "shift": "you are confident, not convincing",
+    "close": "",
+    "shareable_moment": "somebody has to, that stretch crossed state lines",
+    "pre_close_tension": "don't go anywhere",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 19,
+    "shareable_index": 5,
+    "reveal_line": "so you basically picked me?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Made a girl qualify to daddy",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "late plate",
+    "asset": "baddies/e78a08bdf392794cc4add56f7d9684f6.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to speak to management that cheese pull is criminal activity"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "no",
+      "type_at": 1.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "for letting you commit a cheese kidnapping in public",
+      "type_at": 2.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "explain",
+      "type_at": 2.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "im, and that cheese is resisting arrest on your fork",
+      "type_at": 3.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "relax, you snitching on mozzarella now",
+      "type_at": 3.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "somebody has to, that stretch crossed state lines",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you sound jealous your snacks dont bend",
+      "type_at": 4.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you basically picked me?",
+      "type_at": 5.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are confident, not convincing",
+      "type_at": 5.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "facts, it got more pull than my last situationship",
+      "type_at": 6.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "crazy you admitted pizza outperforms your love life",
+      "type_at": 7.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "at least the pizza shows up and doesnt ghost the plate",
+      "type_at": 9.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you giving therapy session over one cheese selfie",
+      "type_at": 11.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "self care is wild, you waterboarded that martini too",
+      "type_at": 12.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "the martini knew the risks when it met me",
+      "type_at": 13.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "relax i got this",
+      "type_at": 15.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you're something",
+      "type_at": 16.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you already know why",
+      "type_at": 17.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "don't go anywhere",
+      "type_at": 19.1,
+      "response_type": "condition"
+    }
+  ]
+}

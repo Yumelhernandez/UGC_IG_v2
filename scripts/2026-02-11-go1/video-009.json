@@ -1,0 +1,161 @@
+{
+  "video_id": "2026-02-11-go1-009",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "high",
+    "controversy_tier": "safe",
+    "format": "B",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "pair_isolated",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "be honest, how many people panicked after this post",
+      "first_reaction": "Earned it in record time",
+      "escalation_turn": "youre acting calm but you love this",
+      "shareable_moment": "is that right",
+      "pre_close_tension": "Fine.",
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "be honest, how many people panicked after this post",
+    "first_reaction": "Earned it in record time",
+    "escalation_turn": "youre acting calm but you love this",
+    "shareable_moment": "is that right",
+    "pre_close_tension": "Fine.",
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 9,
+    "shareable_index": 4,
+    "reveal_line": "youre acting calm but you love this"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/El Conejo Malo Popcorn GIF by Bad Bunny.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/852a7a5dd440419ed1e9a13c5aa1c4be.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "be honest, how many people panicked after this post"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Earned it in record time?",
+      "type_at": 2.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "youre acting calm but you love this",
+      "type_at": 5.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 👀",
+      "type_at": 7.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "is that right",
+      "type_at": 10.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "im not just talking",
+      "type_at": 12.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "unexpectedly picky",
+      "type_at": 13.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "tuesday night. i'll pick you up",
+      "type_at": 15.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Fine.",
+      "type_at": 17,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you'll see",
+      "type_at": 18.6,
+      "response_type": "test"
+    }
+  ]
+}

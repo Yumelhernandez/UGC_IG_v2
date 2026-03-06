@@ -1,0 +1,221 @@
+{
+  "video_id": "2026-02-22-006",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 79.4,
+    "spice_tier": "medium",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "deflection",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Since when does my girl have access to alien level beauty equipment",
+      "first_reaction": "not happening today",
+      "hook": "Since when does my girl have access to alien level beauty equipment",
+      "test": "not happening today",
+      "escalation_turn": "yeah, you’re my favorite problem",
+      "escalation": "yeah, you’re my favorite problem",
+      "shift": "bold claim",
+      "close": "i'm gonna regret this",
+      "shareable_moment": "yeah, you’re my favorite problem",
+      "pre_close_tension": "Ugh fine. 555 918 7656",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4.8
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Since when does my girl have access to alien level beauty equipment",
+    "first_reaction": "not happening today",
+    "hook": "Since when does my girl have access to alien level beauty equipment",
+    "test": "not happening today",
+    "escalation_turn": "yeah, you’re my favorite problem",
+    "escalation": "yeah, you’re my favorite problem",
+    "shift": "bold claim",
+    "close": "i'm gonna regret this",
+    "shareable_moment": "yeah, you’re my favorite problem",
+    "pre_close_tension": "Ugh fine. 555 918 7656",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 13,
+    "shareable_index": 3,
+    "reveal_line": "Yeah, you’re my favorite problem"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "low key",
+    "asset": "baddies/2d2ddaaa421905aaae96d0fdce6a4d6e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Since when does my girl have access to alien level beauty equipment"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "not happening today",
+      "type_at": 5.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "crazy cause that dryer treating you better than you treat me",
+      "type_at": 10.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "prove it",
+      "type_at": 13.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah, you’re my favorite problem",
+      "type_at": 16.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "bold claim",
+      "type_at": 18.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "anyway how many pillows you sleep with",
+      "type_at": 24.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why are you so random 😭",
+      "type_at": 30.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it",
+      "type_at": 37.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bold for someone salon stalking",
+      "type_at": 43.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre trouble and i like it",
+      "type_at": 50.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "give me your number",
+      "type_at": 57,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "try harder",
+      "type_at": 63.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Ugh fine. 555 918 7656",
+      "type_at": 70.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "i'm gonna regret this",
+      "type_at": 76.4,
+      "response_type": "close"
+    }
+  ]
+}

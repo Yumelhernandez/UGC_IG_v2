@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-02-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.5,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "This IG DM either gets a date… or blocked",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "coffee run",
+    "asset": "baddies/422987c3bb48fea7641168ab3dcf5116.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told the waiter my girl is not paying tonight"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Who said i’m your girl",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "Funny cause you been acting like her",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "cool, test me in person",
+      "type_at": 10
+    },
+    {
+      "from": "girl",
+      "text": "My wallet is fine actually 👀",
+      "type_at": 11.6
+    },
+    {
+      "from": "boy",
+      "text": "keep that energy for me",
+      "type_at": 13.2
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for a stranger",
+      "type_at": 14.8
+    },
+    {
+      "from": "boy",
+      "text": "tuesday. i'll send you the address",
+      "type_at": 16.4
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 986 4410",
+      "type_at": 18
+    },
+    {
+      "from": "girl",
+      "text": "Don't let it go to your head",
+      "type_at": 19.6
+    }
+  ]
+}

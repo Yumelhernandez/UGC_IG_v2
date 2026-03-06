@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-010",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/mine the revenant GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "",
+    "asset": "baddies/73a617d84f2bb84f45fdeba2dd22b1ca.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you are the reason the elevator cameras stay recording overtime"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Wow, Someone is nosy",
+      "type_at": 3.4
+    },
+    {
+      "from": "boy",
+      "text": "Just giving the security guys a storyline to follow",
+      "type_at": 4.2
+    },
+    {
+      "from": "girl",
+      "text": "Relax, You are not the plot",
+      "type_at": 4.9
+    },
+    {
+      "from": "boy",
+      "text": "Yet you still opened the book",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "I was bored for 2 seconds",
+      "type_at": 6.4
+    },
+    {
+      "from": "boy",
+      "text": "Strong words for the opening chapter",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "You think you are chapter one?",
+      "type_at": 7.4
+    },
+    {
+      "from": "boy",
+      "text": "I am at least the prologue with a twist",
+      "type_at": 7.8
+    },
+    {
+      "from": "girl",
+      "text": "More like tiny footnote",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "Footnote still on the page though",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "Page is about to turn",
+      "type_at": 10
+    },
+    {
+      "from": "boy",
+      "text": "Then I should probably secure my sequel soon",
+      "type_at": 10.6
+    },
+    {
+      "from": "girl",
+      "text": "Bold, Zero evidence though",
+      "type_at": 11.5
+    },
+    {
+      "from": "boy",
+      "text": "Evidence arrives in person, not in DMs",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "Talk is cheap, storyteller",
+      "type_at": 12.7
+    },
+    {
+      "from": "boy",
+      "text": "Then let me pitch it over drinks this week",
+      "type_at": 13.1
+    },
+    {
+      "from": "girl",
+      "text": "Fine, Friday night, I will text you",
+      "type_at": 13.9
+    }
+  ]
+}

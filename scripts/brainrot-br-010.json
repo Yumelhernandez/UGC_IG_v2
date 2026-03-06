@@ -1,0 +1,104 @@
+{
+  "video_id": "br-010",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 27.5,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "brainrot",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/person_quote_reaction_illustrated_background_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_and_thats_how_you_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_and_the_rest_history_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_quote_card_your_home_for_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_start_off_strong_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_scene_optical_equipment_sunglasses_mixed_tone_short_motion_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_21__clip_006.mp4",
+    "headline": "I just fought a seagull",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 8
+  },
+  "story": {
+    "username": "sienna",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/story-001.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I just fought a seagull"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jay",
+      "age": 20
+    },
+    "girl": {
+      "name": "Sienna",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you WHAT \ud83d\udc80\ud83d\udc80",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "it stole my sandwich and I took it personally",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "bro it's a BIRD",
+      "type_at": 9.3
+    },
+    {
+      "from": "boy",
+      "text": "a bird with no respect for personal property",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "you fought a bird over a sandwich \ud83d\ude2d\ud83d\ude2d",
+      "type_at": 14.2
+    },
+    {
+      "from": "boy",
+      "text": "I fight for what I love",
+      "type_at": 17.0
+    },
+    {
+      "from": "girl",
+      "text": "it was a SANDWICH",
+      "type_at": 19.6
+    },
+    {
+      "from": "boy",
+      "text": "next I'm fighting for your number",
+      "type_at": 22.0
+    },
+    {
+      "from": "girl",
+      "text": "the transition was insane but ok \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+      "type_at": 24.5
+    }
+  ]
+}

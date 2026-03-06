@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-30-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "city glow",
+    "asset": "baddies/06d282912cd069c4a27c87469c147bb7.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just casually shut down the whole street like it is your runway"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "plug_line": "i can back it up in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Why?",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "so we outside?",
+      "type_at": 2.5
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 😂",
+      "type_at": 3.7
+    },
+    {
+      "from": "boy",
+      "text": "keep walking that dramatic to drinks with me friday night",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "Friday 7. text me 555 777 4244",
+      "type_at": 5.8
+    }
+  ]
+}

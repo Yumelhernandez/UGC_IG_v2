@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.1,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "gym mirror",
+    "asset": "baddies/dffa52956ea3329a51102e71090e43d3.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to speak to management of this balcony and this view"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Management says you’re annoying",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "youre playing innocent",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.9
+    },
+    {
+      "from": "boy",
+      "text": "bold is seeing that gym mirror and still thinking i’ll behave",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "You really think you’re him 😭😭",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "i know i’m him i’m just checking if you’re her",
+      "type_at": 12.7
+    },
+    {
+      "from": "girl",
+      "text": "Cute, what’s the test",
+      "type_at": 14.3
+    },
+    {
+      "from": "boy",
+      "text": "drinks sunday. you're gonna love this place",
+      "type_at": 15.9
+    },
+    {
+      "from": "girl",
+      "text": "You're annoying. 555 806 9533",
+      "type_at": 17.5
+    },
+    {
+      "from": "girl",
+      "text": "You better plan something good",
+      "type_at": 19.1
+    }
+  ]
+}

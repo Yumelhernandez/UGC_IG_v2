@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-30-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 9.7,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "city glow",
+    "asset": "baddies/c296b8e099389f149a50f4df3edf1d91.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You really walked out the house like this and did not warn the city"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "plug_line": "i can back it up in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "?",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "ok so we on?",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "And? 👀",
+      "type_at": 4.1
+    },
+    {
+      "from": "boy",
+      "text": "relax with me instead friday drinks you free or just loud",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "Friday 7. text me 555 190 6041",
+      "type_at": 8.7
+    }
+  ]
+}

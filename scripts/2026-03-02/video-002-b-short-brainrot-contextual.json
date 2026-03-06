@@ -1,0 +1,154 @@
+{
+  "video_id": "2026-03-02-002",
+  "meta": {
+    "theme": "beach",
+    "duration_s": 17,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "brainrot",
+    "brainrot_variant": "contextual",
+    "brainrot_typo_line": null,
+    "brainrot_typo_word": null,
+    "brainrot_score": 10,
+    "brainrot_recontext_score": 1.5,
+    "brainrot_warnings": [],
+    "conversation_mode": "cumulative",
+    "app_insert_policy": "required",
+    "girl_archetype": "blunt",
+    "beat_plan": {
+      "inciting_incident": "sent 23 pages of boat comfort regulations to 9 guests on board",
+      "first_reaction": "i notarized your flotation clause in april",
+      "escalation_turn": "county mark patrol advised srcree patches usage in sunlight",
+      "disruption": "what??",
+      "chaos_drop": "luna in administration dispensed protective passes monthly",
+      "shareable_moment": "i picked up luna's passes input since last month",
+      "resolution_type": "recontextualization",
+      "required_markers": [
+        "disruption_cue",
+        "chaos_element",
+        "reveal"
+      ]
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "hook_type": "other",
+    "payoff_type": "soft_rejection_pivot",
+    "template_id": "T-04",
+    "mechanic_ids": [
+      "M-ARC-brainrot",
+      "M-HOOK-callback_opener",
+      "M-PAYOFF-soft_rejection_pivot"
+    ],
+    "slot_index": 2,
+    "run_seed": 151068742,
+    "payoff_punch_score": null,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "sent 23 pages of boat comfort regulations to 9 guests on board",
+    "first_reaction": "i notarized your flotation clause in april",
+    "escalation_turn": "county mark patrol advised srcree patches usage in sunlight",
+    "disruption": "what??",
+    "chaos_drop": "luna in administration dispensed protective passes monthly",
+    "shareable_moment": "i picked up luna's passes input since last month",
+    "resolution_type": "recontextualization",
+    "required_markers": [
+      "disruption_cue",
+      "chaos_element",
+      "reveal"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/North Carolina Dancing GIF by UNC Tar Heels.mp4",
+    "headline": "DM'ing a baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "beach day",
+    "asset": "baddies/50d34988004df2bcc0da9204a030c624.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "sent 23 pages of boat comfort regulations to 9 guests on board"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "i notarized your flotation clause in april",
+      "type_at": 1.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "county mark patrol advised srcree patches usage in sunlight",
+      "type_at": 4.2,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "what??",
+      "type_at": 6.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "boy",
+      "text": "luna in administration dispensed protective passes monthly",
+      "type_at": 9.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "i picked up luna's passes input since last month",
+      "type_at": 11.9,
+      "response_type": "close"
+    }
+  ]
+}

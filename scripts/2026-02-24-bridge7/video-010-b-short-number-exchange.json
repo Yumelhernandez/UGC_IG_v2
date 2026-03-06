@@ -1,0 +1,172 @@
+{
+  "video_id": "2026-02-24-bridge7-010",
+  "meta": {
+    "theme": "food",
+    "duration_s": 19.5,
+    "spice_tier": "high",
+    "controversy_tier": "safe",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "punchline_style": "deflection",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "You know this is exactly why i keep calling you my wife",
+      "first_reaction": "you proposing or just hungry",
+      "hook": "You know this is exactly why i keep calling you my wife",
+      "test": "you proposing or just hungry",
+      "escalation_turn": "give me your number",
+      "escalation": "give me your number",
+      "shift": "text me 555 142 6733",
+      "close": "ive said yes dont ruin the vibe",
+      "shareable_moment": "u sound stressed actually",
+      "pre_close_tension": "text me 555 142 6733",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "You know this is exactly why i keep calling you my wife",
+    "first_reaction": "you proposing or just hungry",
+    "hook": "You know this is exactly why i keep calling you my wife",
+    "test": "you proposing or just hungry",
+    "escalation_turn": "give me your number",
+    "escalation": "give me your number",
+    "shift": "text me 555 142 6733",
+    "close": "ive said yes dont ruin the vibe",
+    "shareable_moment": "u sound stressed actually",
+    "pre_close_tension": "text me 555 142 6733",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 5,
+    "shareable_index": 2,
+    "reveal_line": "give me your number"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant nba GIF.mp4",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/e609427cf224881b11e5a25b12d3c919.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You know this is exactly why i keep calling you my wife"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you proposing or just hungry",
+      "type_at": 2.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "crazy is that wine glass bigger than your future husband",
+      "type_at": 4.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u sound stressed actually",
+      "type_at": 7.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "give me your number",
+      "type_at": 10.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 142 6733",
+      "type_at": 12.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ive said yes dont ruin the vibe",
+      "type_at": 18,
+      "response_type": "close"
+    }
+  ]
+}

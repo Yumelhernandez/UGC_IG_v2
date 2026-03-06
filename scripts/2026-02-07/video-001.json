@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.8,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "sunset skyline",
+    "asset": "baddies/ac8d9657d5ba1027ea5b35769b178791.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You're out here making the sun compete huh"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Oh so you flirting today",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "youre too loud to play shy",
+      "type_at": 6.2
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 7.8
+    },
+    {
+      "from": "boy",
+      "text": "i just call what i see",
+      "type_at": 9.4
+    },
+    {
+      "from": "girl",
+      "text": "You barely saw anything",
+      "type_at": 11
+    },
+    {
+      "from": "boy",
+      "text": "that one story was enough proof",
+      "type_at": 12.6
+    },
+    {
+      "from": "girl",
+      "text": "Your standards sound suspiciously low",
+      "type_at": 14.2
+    },
+    {
+      "from": "boy",
+      "text": "this weekend. i'll plan everything",
+      "type_at": 15.8
+    },
+    {
+      "from": "girl",
+      "text": "Here. 555 548 6414",
+      "type_at": 17.4
+    },
+    {
+      "from": "girl",
+      "text": "Don't blow it",
+      "type_at": 19
+    }
+  ]
+}

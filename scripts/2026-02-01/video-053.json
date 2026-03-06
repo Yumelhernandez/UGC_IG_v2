@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-053",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.8,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Rizzing ig baddies",
+    "subtitle": "(wedding method)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "weekend escape",
+    "asset": "baddies/2d7584b41c7cd8059cb19dacc0df64fb.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Our table looks fire already you just forgot to seat your boyfriend"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Boyfriend where 😭 you delusional",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "You're acting like you didn't want this",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "And?",
+      "type_at": 6.9
+    },
+    {
+      "from": "boy",
+      "text": "cold but kinda fair i look better across the table anyway",
+      "type_at": 8.8
+    },
+    {
+      "from": "girl",
+      "text": "Bold for someone uninvited",
+      "type_at": 10.4
+    },
+    {
+      "from": "boy",
+      "text": "i dont need an invite i just need you on the other chair",
+      "type_at": 12
+    },
+    {
+      "from": "girl",
+      "text": "You talk like you book me",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "prove me wrong then drinks this weekend you free or scared",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 747 4449. wednesday 8:30 works",
+      "type_at": 16.9
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-01-31-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "rainy walk",
+    "asset": "baddies/ac6da027aa8473862a8589dabaf3ebbe.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest did you fall asleep mid gossip or mid snack"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "That honest line needs a refund",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Wow so you gatekeep chips and drama now",
+      "type_at": 2.1
+    },
+    {
+      "from": "girl",
+      "text": "Obviously, you have not earned front row gossip seats",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "im at least balcony level entertainment though",
+      "type_at": 3.1
+    },
+    {
+      "from": "girl",
+      "text": "Balcony level boys stay on read, sorry",
+      "type_at": 3.6
+    },
+    {
+      "from": "boy",
+      "text": "Crazy because you posted this just for balcony boy",
+      "type_at": 4.1
+    },
+    {
+      "from": "girl",
+      "text": "Please, this was for my own cuteness agenda",
+      "type_at": 4.6
+    },
+    {
+      "from": "boy",
+      "text": "so its me or its me?",
+      "type_at": 5.1
+    },
+    {
+      "from": "girl",
+      "text": "You talk big, can you back it",
+      "type_at": 5.6
+    },
+    {
+      "from": "boy",
+      "text": "I was checking if you needed snack security detail",
+      "type_at": 6.6
+    },
+    {
+      "from": "girl",
+      "text": "You as security is actually terrifying 😭",
+      "type_at": 7.1
+    },
+    {
+      "from": "boy",
+      "text": "I protect snacks and roast egos, full package",
+      "type_at": 8.4
+    },
+    {
+      "from": "girl",
+      "text": "Hm, ego protection sounds kinda useful sometimes 😂",
+      "type_at": 9
+    },
+    {
+      "from": "boy",
+      "text": "Let me prove it with a drink and live gossip recap",
+      "type_at": 10
+    },
+    {
+      "from": "girl",
+      "text": "You think you can handle my live gossip chaos?",
+      "type_at": 11
+    },
+    {
+      "from": "boy",
+      "text": "let me take you to drinks. text me 555 155 8081",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "Sunday 8:30. text me 555 155 8081",
+      "type_at": 13.2
+    }
+  ]
+}

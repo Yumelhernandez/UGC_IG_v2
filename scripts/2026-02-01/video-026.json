@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-026",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "airport view",
+    "asset": "baddies/9826cfb627f74cde8a42cda6576480c0.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my friends my girlfriend lives at the bookstore now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Girlfriend, You sound delusional already?",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Call it delusion I call it your arrival time",
+      "type_at": 5.1
+    },
+    {
+      "from": "girl",
+      "text": "And? 😂",
+      "type_at": 7.2
+    },
+    {
+      "from": "boy",
+      "text": "keep that energy for me",
+      "type_at": 8.8
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a guy in DMs 😂",
+      "type_at": 10.4
+    },
+    {
+      "from": "boy",
+      "text": "bold is telling people my girlfriend haunts the romance aisle",
+      "type_at": 12
+    },
+    {
+      "from": "girl",
+      "text": "Relax, I barely tolerate you",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "when are we doing drinks? text me 555 888 7419",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok, tuesday 8. text me 555 888 7419",
+      "type_at": 16.8
+    }
+  ]
+}

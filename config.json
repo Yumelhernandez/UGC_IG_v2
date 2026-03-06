@@ -1,0 +1,403 @@
+{
+  "experiments": {
+    "edgyBoyV2": {
+      "enabled": false,
+      "mode": "two_beat",
+      "scope": "full_dialogue",
+      "onFail": "fallback_to_baseline",
+      "numCandidates": 3,
+      "maxRetries": 2,
+      "avgBoyWordsTarget": 7,
+      "minPassRate": 0.85
+    },
+    "brainrotStyle": {
+      "enabled": true
+    }
+  },
+  "daily_count": 10,
+  "duration_s": {
+    "min": 20,
+    "max": 28
+  },
+  "duration_s_long": {
+    "min": 30,
+    "max": 45
+  },
+  "duration_s_C": {
+    "min": 7,
+    "max": 12
+  },
+  "duration_s_D": {
+    "min": 17,
+    "max": 24
+  },
+  "timing_windows": {
+    "A": {
+      "reveal": [
+        4,
+        7
+      ],
+      "win": [
+        12,
+        21
+      ]
+    },
+    "B": {
+      "reveal": [
+        4,
+        7
+      ],
+      "win": [
+        12,
+        21
+      ]
+    },
+    "C": {
+      "reveal": [
+        2,
+        4.5
+      ],
+      "win": [
+        5,
+        11
+      ]
+    },
+    "D": {
+      "reveal": [
+        4,
+        12
+      ],
+      "win": [
+        10,
+        22
+      ]
+    }
+  },
+  "fresh_seed_on_generate": true,
+  "format_distribution": {
+    "B": 0.9,
+    "D": 0.1
+  },
+  "story_card_s": {
+    "min": 0.8,
+    "max": 1.2
+  },
+  "spice_distribution": {
+    "low": 0.00,
+    "medium": 0.00,
+    "high": 1.00
+  },
+  "controversy_tier_distribution": {
+    "safe": 0.0,
+    "spicy": 0.35,
+    "edge": 0.65
+  },
+  "arc_distribution": {
+    "number_exchange": 0.30,
+    "rejection": 0.10,
+    "plot_twist": 0.15,
+    "cliffhanger": 0.10,
+    "comedy": 0.20,
+    "brainrot": 0.15
+  },
+  "brainrot": {
+    "variant_distribution": {
+      "random": 0.50,
+      "contextual": 0.50
+    },
+    "num_messages": 5,
+    "num_messages_min": 6,
+    "num_messages_max": 8,
+    "temperature": 1.2,
+    "max_output_tokens": 2000,
+    "num_candidates": 5,
+    "max_retries": 3,
+    "retry_temperature_bump": 0.05
+  },
+  "brainrot_banned_phrases": [
+    "okay i know this sounds crazy",
+    "i know this is weird",
+    "i realize this is unusual",
+    "spreadsheet",
+    "excuse me",
+    "EXCUSE ME",
+    "i know how this looks",
+    "sounds crazy but"
+  ],
+  "line_max_chars": 70,
+  "message_max_chars": 70,
+  "banned_phrases": [
+    "send nudes",
+    "nudes",
+    "onlyfans",
+    "explicit",
+    "hookup",
+    "sex",
+    "naked",
+    "nsfw"
+  ],
+  "story_assets": {
+    "curated_dir": "baddies",
+    "source_asset_reuse_days": 7
+  },
+  "audio_tracks": [
+    "Cali man.mp3",
+    "Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "HEATHER MR TAKE THAT RISK.mp3",
+    "old_school.mp3",
+    "ovo.mp3",
+    "what the helly.mp3"
+  ],
+  "audio_track_energy": {
+    "high": ["HEATHER MR TAKE THAT RISK.mp3", "what the helly.mp3", "ovo.mp3"],
+    "medium": ["Cali man.mp3", "Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3"],
+    "chill": ["old_school.mp3"]
+  },
+  "audio_arc_mapping": {
+    "brainrot": "high",
+    "comedy": "high",
+    "number_exchange": "medium",
+    "plot_twist": "high",
+    "rejection": "chill",
+    "cliffhanger": "medium"
+  },
+  "banter": {
+    "num_messages": 7,
+    "num_messages_min": 5,
+    "num_messages_max": 8,
+    "num_messages_long": 11,
+    "num_messages_min_long": 8,
+    "num_messages_max_long": 14,
+    "num_messages_C": 5,
+    "num_messages_D": 17
+  },
+  "format_b_duration_mix": {
+    "short": {
+      "weight": 0.90,
+      "duration_s": {
+        "min": 20,
+        "max": 28
+      },
+      "num_messages": {
+        "min": 5,
+        "max": 8
+      }
+    },
+    "long": {
+      "weight": 0.10,
+      "duration_s": {
+        "min": 30,
+        "max": 45
+      },
+      "num_messages": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  "render_timing": {
+    "message_shot_min_s": 1.8,
+    "message_shot_max_s": 6,
+    "regular_message_gap_short": {
+      "min": 1.8,
+      "max": 3.2
+    },
+    "regular_message_gap_long": {
+      "min": 3.5,
+      "max": 6
+    },
+    "first_response_target_short": {
+      "min": 2,
+      "max": 5
+    },
+    "first_response_target_long": {
+      "min": 4,
+      "max": 8
+    },
+    "first_gap_target_short": {
+      "min": 1.5,
+      "max": 4
+    },
+    "first_gap_target_long": {
+      "min": 2.5,
+      "max": 6
+    }
+  },
+  "rizzai": {
+    "model": "gpt-5.1",
+    "temperature": 1.1,
+    "max_output_tokens": 200,
+    "avoid_recent_replies": 8,
+    "max_attempts": 4,
+    "num_options": 8,
+    "variation_tags": [
+      "fake legal complaint",
+      "fake lawsuit",
+      "fake report",
+      "double meaning setup",
+      "innocent innuendo",
+      "spicy subtext",
+      "presumptive boyfriend",
+      "already dating energy",
+      "skip the talking stage",
+      "absurd random question",
+      "non sequitur chaos",
+      "weird hypothetical",
+      "cocky dare",
+      "bold claim",
+      "bet you wont",
+      "playful roast",
+      "backhanded compliment",
+      "negging with charm",
+      "therapist mention",
+      "emotional damage",
+      "trust issues joke",
+      "unhinged confession",
+      "chaotic proposal",
+      "jealousy bait",
+      "food choice question",
+      "this or that dilemma",
+      "would you rather",
+      "water percentage trick",
+      "body percentage math",
+      "numeric reveal joke",
+      "rate me challenge",
+      "rate her appearance",
+      "score out of ten",
+      "roses are red poem",
+      "name pun pickup",
+      "classic pickup remix",
+      "compliment bomb",
+      "beauty observation",
+      "photo reaction",
+      "numbered list reveal",
+      "three things list",
+      "countdown reveal",
+      "math love equation",
+      "statistics flirt",
+      "probability pickup",
+      "direct question about status",
+      "why are you single",
+      "honest confession opener",
+      "reverse psychology",
+      "pretend breakup",
+      "fake apology",
+      "conspiracy theory flirt",
+      "time traveler opener",
+      "alien observation",
+      "movie reference rizz",
+      "sports analogy",
+      "cooking metaphor",
+      "animal comparison",
+      "weather pickup",
+      "horoscope opener",
+      "dream mention",
+      "accidental text energy"
+    ],
+    "banned_phrases": [
+      "what's the story",
+      "what is the story",
+      "whats the story",
+      "what's the story behind it",
+      "what is the story behind it",
+      "what's the story here",
+      "what is the story here",
+      "backstory",
+      "what's the vibe",
+      "what is the vibe",
+      "whats the vibe",
+      "what's your vibe",
+      "what is your vibe"
+    ]
+  },
+  "script_quality": {
+    "max_attempts": 3,
+    "slot_attempt_timeout_ms": 45000,
+    "first_gap_max": 4.8,
+    "first_gap_soft_penalty": 3.5,
+    "first_gap_absolute_hard_fail": 5.5,
+    "first_gap_tighten_after_n_posts": 20,
+    "arc_integrity_required": true,
+    "require_shareable_moment": true,
+    "hook_quality_min_score": 0.72,
+    "first_three_turns_required": true,
+    "turn3_escalation_required": true,
+    "novelty_similarity_jaccard": 0.84,
+    "novelty_similarity_overlap": 0.9
+  },
+  "render": {
+    "conversation_mode": "cumulative",
+    "app_insert_policy": "required",
+    "texmi_plug": {
+      "min_after_s": 10,
+      "frequency": 0.35
+    }
+  },
+  "hooks": {
+    "disallow_meta_title_families": true
+  },
+  "clips": {
+    "use_beat_conditioned_overlays": true
+  },
+  "prompting": {
+    "example_bank": {
+      "enabled": true,
+      "max_examples_per_call": 4
+    },
+    "self_critique": {
+      "enabled": true
+    },
+    "repair_pass": {
+      "enabled": true,
+      "max_rounds": 2
+    },
+    "targeted_examples": {
+      "required": true,
+      "min_per_call": 2,
+      "max_per_call": 4
+    }
+  },
+  "novelty": {
+    "memory_window_days": 15,
+    "max_reuse_rate_daily": 0.1,
+    "policy_mode": "phased",
+    "phase1_mix": {
+      "remixed_external": 0.7,
+      "adjacent_variants": 0.2,
+      "experiments": 0.1
+    },
+    "phase3_mix": {
+      "internal_winners": 0.5,
+      "remixes": 0.3,
+      "experiments": 0.2
+    },
+    "internal_winner": {
+      "min_posts": 3,
+      "min_lift_pct": 0.25,
+      "min_distinct_patterns_to_scale": 3
+    },
+    "fatigue": {
+      "window_posts": 5,
+      "drop_pct": 0.2,
+      "cooldown_days": 7
+    },
+    "max_same_concept_per_day": 2,
+    "max_same_concept_per_week": 8,
+    "no_back_to_back_same_formula_arc": true,
+    "source_asset_reuse_days": 14
+  },
+  "learning_loop": {
+    "enabled": true,
+    "reweight_interval_hours": 48,
+    "controlled_axis_limit": 1,
+    "north_star_metric": "overall_views_per_post_72h",
+    "min_samples_before_reweight": 20,
+    "normalize_by_time_slot": true
+  },
+  "assets": {
+    "quality_gate": {
+      "enabled": true,
+      "min_score": 0.7
+    }
+  }
+}

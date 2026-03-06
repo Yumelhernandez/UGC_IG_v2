@@ -1,0 +1,252 @@
+{
+  "video_id": "2026-02-23-comedy-sysfix4-001",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 22.4,
+    "spice_tier": "high",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Wild question how much trouble usually starts when you dress like this",
+      "first_reaction": "not happening",
+      "hook": "Wild question how much trouble usually starts when you dress like this",
+      "test": "not happening",
+      "escalation_turn": "say less, its me",
+      "escalation": "say less, its me",
+      "shift": "you are confident, not convincing",
+      "close": "ok fine, don't waste it",
+      "shareable_moment": "attorney present like \"she was just washing her hands\"",
+      "pre_close_tension": "text me 555 523 9171",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Wild question how much trouble usually starts when you dress like this",
+    "first_reaction": "not happening",
+    "hook": "Wild question how much trouble usually starts when you dress like this",
+    "test": "not happening",
+    "escalation_turn": "say less, its me",
+    "escalation": "say less, its me",
+    "shift": "you are confident, not convincing",
+    "close": "ok fine, don't waste it",
+    "shareable_moment": "attorney present like \"she was just washing her hands\"",
+    "pre_close_tension": "text me 555 523 9171",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 19,
+    "shareable_index": 5,
+    "reveal_line": "say less, its me"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant nba GIF.mp4",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "clean fit",
+    "asset": "baddies/405783be883a5cc0146f36f4ebc7a41b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Wild question how much trouble usually starts when you dress like this"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "not happening",
+      "type_at": 1.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "that handbag looks like it steals boyfriends on weekends",
+      "type_at": 2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 2.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "in that bathroom it definitely holds alibis too",
+      "type_at": 3.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bathroom this cute comes with legal representation",
+      "type_at": 3.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "attorney present like \"she was just washing her hands\"",
+      "type_at": 4.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "exactly, i scrub sins not evidence babes",
+      "type_at": 4.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "say less, its me",
+      "type_at": 5.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are confident, not convincing",
+      "type_at": 5.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "id fail the appeal, accept my fate proudly",
+      "type_at": 6.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bold when you havent met my cross examination",
+      "type_at": 8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "first question would fold me i fear",
+      "type_at": 9.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "first question is why you watching my purse so hard 👀",
+      "type_at": 11.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "cause it screams run while you still can",
+      "type_at": 12.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you say that while still standing here though",
+      "type_at": 13.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i dont chase, i attract",
+      "type_at": 15.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "i have questions",
+      "type_at": 17.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you already know why",
+      "type_at": 18.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 523 9171",
+      "type_at": 20.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok fine, don't waste it",
+      "type_at": 21.4,
+      "response_type": "punchline"
+    }
+  ]
+}

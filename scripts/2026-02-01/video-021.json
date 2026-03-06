@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-021",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.2,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Steal Yo Girl Hello GIF by Kevin Hart What Now.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "studio warmup",
+    "asset": "baddies/63254228309b6357cb5f4681432bdfe7.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of beach bum to CEO what are you right now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "you said it not me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Depends how hard you can handle me",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "Then call me your overqualified problem",
+      "type_at": 2.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😳",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "then answer this instead come grab drinks friday and argue in person",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "Friday 8. text me 555 127 2210",
+      "type_at": 6.1
+    }
+  ]
+}

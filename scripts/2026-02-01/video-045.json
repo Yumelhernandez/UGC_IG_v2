@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-045",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Steal Yo Girl Hello GIF by Kevin Hart What Now.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "rainy walk",
+    "asset": "baddies/7e0820db0705e03162bc219a369df253.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I bet you order one more drink and start trouble on purpose"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You say that like you could handle the trouble",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Handle it and order dessert while im at it",
+      "type_at": 2.4
+    },
+    {
+      "from": "girl",
+      "text": "Please, you would be crying before the check comes",
+      "type_at": 2.9
+    },
+    {
+      "from": "boy",
+      "text": "id just blame the bill and order another round",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for someone not even at this table",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "im just letting you warm up the seat for me",
+      "type_at": 4.4
+    },
+    {
+      "from": "girl",
+      "text": "This seat has standards, relax restaurant critic",
+      "type_at": 4.9
+    },
+    {
+      "from": "boy",
+      "text": "thats the green light",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "You are loud, make it count",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "Clearance still gets the job done and leaves happy",
+      "type_at": 6.6
+    },
+    {
+      "from": "girl",
+      "text": "You really selling yourself like a discount menu",
+      "type_at": 7.9
+    },
+    {
+      "from": "boy",
+      "text": "im the secret item they dont print",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "Secret items usually give people regrets by midnight",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "noted, ill remember that",
+      "type_at": 11.6
+    },
+    {
+      "from": "girl",
+      "text": "You already planning damage control, that is wild",
+      "type_at": 13.3
+    },
+    {
+      "from": "boy",
+      "text": "when are we doing drinks? text me 555 245 2505",
+      "type_at": 14.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok, when and where? text me 555 245 2505",
+      "type_at": 15.8
+    }
+  ]
+}

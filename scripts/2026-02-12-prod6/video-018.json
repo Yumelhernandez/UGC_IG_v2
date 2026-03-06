@@ -1,0 +1,206 @@
+{
+  "video_id": "2026-02-12-prod6-018",
+  "meta": {
+    "theme": "default",
+    "duration_s": 60,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "rejection",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "Ive a theory about you and i need proof",
+      "first_reaction": "respect does not fold towels",
+      "hook": "Ive a theory about you and i need proof",
+      "test": "respect does not fold towels",
+      "escalation_turn": "youre pushing buttons",
+      "escalation": "youre pushing buttons",
+      "shift": "not happening",
+      "close": "not gonna happen",
+      "shareable_moment": "youre pushing buttons",
+      "pre_close_tension": "thats not a no",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "rejection"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Ive a theory about you and i need proof",
+    "first_reaction": "respect does not fold towels",
+    "hook": "Ive a theory about you and i need proof",
+    "test": "respect does not fold towels",
+    "escalation_turn": "youre pushing buttons",
+    "escalation": "youre pushing buttons",
+    "shift": "not happening",
+    "close": "not gonna happen",
+    "shareable_moment": "youre pushing buttons",
+    "pre_close_tension": "thats not a no",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "rejection"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 12,
+    "shareable_index": 3,
+    "reveal_line": "youre pushing buttons"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Kobe Bryant Basketball GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "rainy walk",
+    "asset": "baddies/92beb529d779ef489fd3465cf71d82bf.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ive a theory about you and i need proof"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "respect does not fold towels",
+      "type_at": 5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "rainy vibes i dont chase, i attract",
+      "type_at": 8.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why tho",
+      "type_at": 11.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre pushing buttons",
+      "type_at": 14,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "not happening",
+      "type_at": 16.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "noted, ill remember that",
+      "type_at": 19.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "earned it in record time",
+      "type_at": 24.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre trouble and i like it",
+      "type_at": 30.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bold",
+      "type_at": 35.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "watch me back it up",
+      "type_at": 40.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "cute",
+      "type_at": 46.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "thats not a no",
+      "type_at": 51.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "not gonna happen",
+      "type_at": 55.7,
+      "response_type": "dismissal"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "video_id": "2026-06-01-002",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 19.8,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "punchline_style": "list_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "curiosity",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "My therapist is gonna ask why one lazy day pic stressed me out",
+      "first_reaction": "why u stressed over that",
+      "hook": "My therapist is gonna ask why one lazy day pic stressed me out",
+      "test": "why u stressed over that",
+      "escalation_turn": "what's your number",
+      "escalation": "what's your number",
+      "shift": "text me 555 100 2918",
+      "close": "you better text with vibes 😭 😭",
+      "shareable_moment": "lmao ok that was smooth😭",
+      "pre_close_tension": "text me 555 100 2918",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4.3
+    },
+    "hook_type": "callback_opener",
+    "payoff_type": "twist_reveal",
+    "template_id": "T-03",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-callback_opener",
+      "M-PAYOFF-hard_rejection"
+    ],
+    "slot_index": 2,
+    "run_seed": 3913601601,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "My therapist is gonna ask why one lazy day pic stressed me out",
+    "first_reaction": "why u stressed over that",
+    "hook": "My therapist is gonna ask why one lazy day pic stressed me out",
+    "test": "why u stressed over that",
+    "escalation_turn": "what's your number",
+    "escalation": "what's your number",
+    "shift": "text me 555 100 2918",
+    "close": "you better text with vibes 😭 😭",
+    "shareable_moment": "lmao ok that was smooth😭",
+    "pre_close_tension": "text me 555 100 2918",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 5,
+    "shareable_index": 2,
+    "reveal_line": "what's your number"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "quiet day",
+    "asset": "baddies/507e83a230f6f0e723f568c305237f16.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist is gonna ask why one lazy day pic stressed me out"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "why u stressed over that",
+      "type_at": 2.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "i got 3 things for you — 1. my time, 2. my energy, 3. ur number",
+      "type_at": 7.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "lmao ok that was smooth😭",
+      "type_at": 10,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 12.7,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 100 2918",
+      "type_at": 14.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you better text with vibes 😭 😭",
+      "type_at": 18.2,
+      "response_type": "close"
+    }
+  ]
+}

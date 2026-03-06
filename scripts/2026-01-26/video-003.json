@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-26-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.8,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "mirror check",
+    "asset": "baddies/155d71d06047b8f4e9089f0ee19b2ebc.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You wanted a reaction, right"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Why?",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "so you basically picked me?",
+      "type_at": 5.8
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 6.7
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "Bold for someone this mid",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "watch me back it up",
+      "type_at": 11.1
+    },
+    {
+      "from": "girl",
+      "text": "Talk is cheap, try again",
+      "type_at": 12.6
+    },
+    {
+      "from": "boy",
+      "text": "Cool then show me, drinks this Friday",
+      "type_at": 14.1
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me",
+      "type_at": 15.6
+    }
+  ]
+}

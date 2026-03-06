@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "DM'ing a baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/70077d7f0a9d9102ad00a5c917c97e63.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of chill to menace what is this routine"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Depends, you scare easy?",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "Depends, do you show what’s under that chill?",
+      "type_at": 4.5
+    },
+    {
+      "from": "girl",
+      "text": "Says who?",
+      "type_at": 6.1
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile and way too much confidence",
+      "type_at": 7.7
+    },
+    {
+      "from": "girl",
+      "text": "You wish, i stay unbothered",
+      "type_at": 9.3
+    },
+    {
+      "from": "boy",
+      "text": "you post late night drive like a movie trailer and expect no reviews",
+      "type_at": 10.9
+    },
+    {
+      "from": "girl",
+      "text": "Keep hating, you still watched",
+      "type_at": 12.5
+    },
+    {
+      "from": "boy",
+      "text": "monday. i'll send you the address",
+      "type_at": 14.1
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 703 6189 😂",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "Don't blow it",
+      "type_at": 17.3
+    }
+  ]
+}

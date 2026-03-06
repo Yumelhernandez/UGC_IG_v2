@@ -1,0 +1,219 @@
+{
+  "video_id": "2026-02-12-prod5-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 61.1,
+    "spice_tier": "low",
+    "controversy_tier": "safe",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "rejection",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "I'm filing a noise complaint on your profile",
+      "first_reaction": "oh??",
+      "hook": "I'm filing a noise complaint on your profile",
+      "test": "oh??",
+      "escalation_turn": "you wanted a confession and got one",
+      "escalation": "you wanted a confession and got one",
+      "shift": "pass",
+      "close": "nah not today",
+      "shareable_moment": "you wanted a confession and got one",
+      "pre_close_tension": "fine",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "rejection"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_generation_warnings": {
+      "quality": [
+        "awkward reply",
+        "duplicate line 4"
+      ],
+      "checklist": []
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I'm filing a noise complaint on your profile",
+    "first_reaction": "oh??",
+    "hook": "I'm filing a noise complaint on your profile",
+    "test": "oh??",
+    "escalation_turn": "you wanted a confession and got one",
+    "escalation": "you wanted a confession and got one",
+    "shift": "pass",
+    "close": "nah not today",
+    "shareable_moment": "you wanted a confession and got one",
+    "pre_close_tension": "fine",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "rejection"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 13,
+    "shareable_index": 3,
+    "reveal_line": "you wanted a confession and got one"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "city glow",
+    "asset": "baddies/6e858ecd1d0c93db42583787ff4eb021.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm filing a noise complaint on your profile"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "oh??",
+      "type_at": 5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "city vibes noted, ill remember that",
+      "type_at": 7.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 10.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you wanted a confession and got one",
+      "type_at": 12.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 15.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you sound curious",
+      "type_at": 18.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "interesting 😳",
+      "type_at": 23.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre trouble and i like it",
+      "type_at": 28.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "earned it in record time",
+      "type_at": 33.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile",
+      "type_at": 38.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "try harder",
+      "type_at": 43.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "thursday. i'll send you the address",
+      "type_at": 48.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "fine",
+      "type_at": 53.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "nah not today",
+      "type_at": 58.3,
+      "response_type": "dismissal"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "video_id": "2026-02-12-checkB-010",
+  "meta": {
+    "theme": "default",
+    "duration_s": 58.3,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "I'm filing a noise complaint on your profile",
+      "first_reaction": "cap again",
+      "hook": "I'm filing a noise complaint on your profile",
+      "test": "cap again",
+      "escalation_turn": "yeah and now youre my midnight problem",
+      "escalation": "yeah and now youre my midnight problem",
+      "shift": "nah",
+      "close": "dont make me carry this conversation",
+      "shareable_moment": "yeah and now youre my midnight problem",
+      "pre_close_tension": "perfect, friday 11 late night tacos then dessert level snacks",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_generation_warnings": {
+      "quality": [
+        "awkward reply"
+      ],
+      "checklist": []
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I'm filing a noise complaint on your profile",
+    "first_reaction": "cap again",
+    "hook": "I'm filing a noise complaint on your profile",
+    "test": "cap again",
+    "escalation_turn": "yeah and now youre my midnight problem",
+    "escalation": "yeah and now youre my midnight problem",
+    "shift": "nah",
+    "close": "dont make me carry this conversation",
+    "shareable_moment": "yeah and now youre my midnight problem",
+    "pre_close_tension": "perfect, friday 11 late night tacos then dessert level snacks",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 10,
+    "shareable_index": 3,
+    "reveal_line": "Yeah and now youre my midnight problem"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/73a3b0ca833073f4068288fac230e828.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm filing a noise complaint on your profile"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "cap again",
+      "type_at": 3.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile and crumbs on your face midnight",
+      "type_at": 10.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "nice try",
+      "type_at": 14.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah and now youre my midnight problem",
+      "type_at": 17.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "nah",
+      "type_at": 20.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "pressed is you posting it like a trailer and no invite",
+      "type_at": 24.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "maybe ur not on vip snack list",
+      "type_at": 30.2,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "cute, background noise that you keep replying to on a wednesday",
+      "type_at": 36.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Keep dreaming investigator, here 555 218 9043",
+      "type_at": 42.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "perfect, friday 11 late night tacos then dessert level snacks",
+      "type_at": 48.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "dont make me carry this conversation",
+      "type_at": 54.5,
+      "response_type": "close"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "video_id": "2026-02-15-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.6,
+    "spice_tier": "low",
+    "format": "B",
+    "arc_type": "rejection",
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Rookie shooting my shot in ig dms",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "airport view",
+    "asset": "baddies/3af84c1794e3df459ca1b8e3fe54fb7d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist says i should avoid temptation so i showed her this"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound wildly unserious btw",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "You type like you would actually risk it",
+      "type_at": 4.6
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 6.2
+    },
+    {
+      "from": "boy",
+      "text": "im calm i just got medical proof youre dangerous",
+      "type_at": 7.8
+    },
+    {
+      "from": "girl",
+      "text": "Dangerous to bored men maybe 👀",
+      "type_at": 9.4
+    },
+    {
+      "from": "boy",
+      "text": "you want proof, say less",
+      "type_at": 11
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a man on instagram",
+      "type_at": 12.6
+    },
+    {
+      "from": "boy",
+      "text": "monday. i'll send you the address",
+      "type_at": 14.2
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 263 9368",
+      "type_at": 15.8
+    },
+    {
+      "from": "girl",
+      "text": "Deal. but you're paying",
+      "type_at": 17.4
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-042",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.5,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Made a girl qualify to daddy",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Shoot Your Shot Flirt GIF by Milk-Bone.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/62b53c45edc7e17bc33f210678e33437.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist just sent me an invoice with your story attached"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "keep that energy for me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "My therapist wants me blocked too 🙂",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "Therapists hate me but you dont",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😳",
+      "type_at": 4.1
+    },
+    {
+      "from": "boy",
+      "text": "then prove it thursday night, drinks and you texting me your number",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 995 4263",
+      "type_at": 7.8
+    }
+  ]
+}

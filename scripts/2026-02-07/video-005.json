@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "sunset skyline",
+    "asset": "baddies/b9ddc76bf8736b7f7a41215d3b75778b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So when did we decide this is your outfit for our next date"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Boy you real bold today",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Bold enough to say you look mine",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 7.9
+    },
+    {
+      "from": "boy",
+      "text": "yeah and somehow you still answering me",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "Bored scrolling, relax superstar 😳",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "try me",
+      "type_at": 12.7
+    },
+    {
+      "from": "girl",
+      "text": "You really schedule chaos huh",
+      "type_at": 14.3
+    },
+    {
+      "from": "boy",
+      "text": "saturday. i'll send you the address",
+      "type_at": 15.9
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 940 4702",
+      "type_at": 17.5
+    },
+    {
+      "from": "girl",
+      "text": "You better be fun",
+      "type_at": 19.1
+    }
+  ]
+}

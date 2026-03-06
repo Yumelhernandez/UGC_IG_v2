@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-006",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "This IG DM either gets a date… or blocked",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "sunset skyline",
+    "asset": "baddies/b29b2cf24affa5dbaa54357ce4fa4c0c.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "What do you hit more often gym sessions or confused men"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "I hit blocks more than both actually",
+      "type_at": 1.2
+    },
+    {
+      "from": "boy",
+      "text": "Good thing I dont confuse easy or skip gym days",
+      "type_at": 1.8
+    },
+    {
+      "from": "girl",
+      "text": "Oh you read minds now that is cute",
+      "type_at": 2.7
+    },
+    {
+      "from": "boy",
+      "text": "Nah I read patterns and yours screams men stay losing",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "Funny because youre still here typing novels",
+      "type_at": 3.7
+    },
+    {
+      "from": "boy",
+      "text": "im just doing cardio for my thumbs stay focused",
+      "type_at": 4.2
+    },
+    {
+      "from": "girl",
+      "text": "Your thumbs working harder than your brain though",
+      "type_at": 4.7
+    },
+    {
+      "from": "boy",
+      "text": "so its me or its me?",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "You say that like it is new",
+      "type_at": 5.7
+    },
+    {
+      "from": "boy",
+      "text": "About you hitting confused men then reracking them",
+      "type_at": 7.1
+    },
+    {
+      "from": "girl",
+      "text": "Please you would not last one set with me",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "Bet I outlast your playlist and your attitude",
+      "type_at": 9.6
+    },
+    {
+      "from": "girl",
+      "text": "Strong words for someone scared of leg day energy",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "If I survive your replies I can survive squats with you",
+      "type_at": 11.9
+    },
+    {
+      "from": "girl",
+      "text": "Brave assumption so what is your move then",
+      "type_at": 13.7
+    },
+    {
+      "from": "boy",
+      "text": "Drinks after your next gym session you pick the night",
+      "type_at": 14.9
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 933 1778. sunday 9 works",
+      "type_at": 15.9
+    }
+  ]
+}

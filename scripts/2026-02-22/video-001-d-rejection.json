@@ -1,0 +1,240 @@
+{
+  "video_id": "2026-02-22-001",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 23.1,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "D",
+    "arc_type": "rejection",
+    "punchline_style": "tease",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Bold of you to assume anyone is focusing on their shopping right now",
+      "first_reaction": "and?",
+      "hook": "Bold of you to assume anyone is focusing on their shopping right now",
+      "test": "and?",
+      "escalation_turn": "thats a yes, loud",
+      "escalation": "thats a yes, loud",
+      "shift": "you are bold, i am still bored",
+      "close": "no shot",
+      "shareable_moment": "self control left the chat when i saw those jeans in hd",
+      "pre_close_tension": "fine",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "rejection"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Bold of you to assume anyone is focusing on their shopping right now",
+    "first_reaction": "and?",
+    "hook": "Bold of you to assume anyone is focusing on their shopping right now",
+    "test": "and?",
+    "escalation_turn": "thats a yes, loud",
+    "escalation": "thats a yes, loud",
+    "shift": "you are bold, i am still bored",
+    "close": "no shot",
+    "shareable_moment": "self control left the chat when i saw those jeans in hd",
+    "pre_close_tension": "fine",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "rejection"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "thats a yes, loud"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "She’s a 10. I’m risking it off ONE story reply.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "quiet day",
+    "asset": "baddies/b49378f5a0c887bfc101600cca1fd44d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Bold of you to assume anyone is focusing on their shopping right now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 1.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "tragic u knew blue jeans and that tiny bag would cause chaos",
+      "type_at": 1.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "prove it",
+      "type_at": 2.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "fanboy is crazy when you posted it to the whole internet",
+      "type_at": 3.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "still chose to type though, self control not winning huh",
+      "type_at": 3.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "self control left the chat when i saw those jeans in hd",
+      "type_at": 4.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "sounds like a you problem, my cart doing just fine",
+      "type_at": 4.8,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, loud",
+      "type_at": 5.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are bold, i am still bored",
+      "type_at": 6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "if failing means standing behind you in line, i accept",
+      "type_at": 7.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bold talk for someone who probably bought frozen dinners",
+      "type_at": 8.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i did, but ill upgrade to tacos if you join thursday 8",
+      "type_at": 10.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "upgrade for who exactly, i eat good without strangers",
+      "type_at": 12.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you folded already",
+      "type_at": 14.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "cute try, but the answer is still no",
+      "type_at": 16.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "friday at 9. i'll handle the rest",
+      "type_at": 18.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "fine",
+      "type_at": 19.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "no shot",
+      "type_at": 21.9,
+      "response_type": "dismissal"
+    }
+  ]
+}

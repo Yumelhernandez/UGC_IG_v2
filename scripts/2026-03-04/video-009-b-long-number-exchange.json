@@ -1,0 +1,206 @@
+{
+  "video_id": "2026-03-04-009",
+  "meta": {
+    "theme": "selfie",
+    "duration_s": 64,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "list_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "Crazy how you just activated all my trust issues in broad daylight",
+      "first_reaction": "prove it",
+      "hook": "Crazy how you just activated all my trust issues in broad daylight",
+      "test": "prove it",
+      "escalation_turn": "cool i call dibs on your next mistake",
+      "escalation": "cool i call dibs on your next mistake",
+      "shift": "and? 😂",
+      "close": "ok lover boy now earn the title",
+      "shareable_moment": "cool i call dibs on your next mistake",
+      "pre_close_tension": "text me 555 663 5510",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "first_gap_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4.8
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Crazy how you just activated all my trust issues in broad daylight",
+    "first_reaction": "prove it",
+    "hook": "Crazy how you just activated all my trust issues in broad daylight",
+    "test": "prove it",
+    "escalation_turn": "cool i call dibs on your next mistake",
+    "escalation": "cool i call dibs on your next mistake",
+    "shift": "and? 😂",
+    "close": "ok lover boy now earn the title",
+    "shareable_moment": "cool i call dibs on your next mistake",
+    "pre_close_tension": "text me 555 663 5510",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "Cool I call dibs on your next mistake"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/El Conejo Malo Popcorn GIF by Bad Bunny.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "just me",
+    "asset": "baddies/0ad6818b2afe8d602c24989226a30b2e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Crazy how you just activated all my trust issues in broad daylight"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "prove it",
+      "type_at": 3.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that just, wild cuz i usually like problems i can grab",
+      "type_at": 8.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 10.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "cool i call dibs on your next mistake",
+      "type_at": 14.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "and? 😂",
+      "type_at": 16.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "see even ur low cut top believes in honesty",
+      "type_at": 21.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur really talking like this",
+      "type_at": 27.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "u posted that angle knowing somebody was gonna fold",
+      "type_at": 34.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur the one folded then 💀",
+      "type_at": 40.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 47.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 663 5510",
+      "type_at": 53.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok lover boy now earn the title",
+      "type_at": 59.7,
+      "response_type": "close"
+    }
+  ]
+}

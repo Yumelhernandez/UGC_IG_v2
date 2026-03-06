@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-037",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.9,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Katy Perry Reaction GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "mirror check",
+    "asset": "baddies/aeda5cc7eedc5bf0e04158e7da4bdfea.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You owe me an explanation for this post"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sure you’re ready to know",
+      "type_at": 2.4
+    },
+    {
+      "from": "boy",
+      "text": "youre testing how bold i am",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 7.2
+    },
+    {
+      "from": "boy",
+      "text": "Mirror just exposed you for causing problems on purpose",
+      "type_at": 8.8
+    },
+    {
+      "from": "girl",
+      "text": "Maybe I like problems 👀",
+      "type_at": 10.5
+    },
+    {
+      "from": "boy",
+      "text": "Good, then explain why you looked that confident in that story",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "Maybe you just look easy to impress",
+      "type_at": 13.7
+    },
+    {
+      "from": "boy",
+      "text": "Then let me disappoint you over drinks this Friday",
+      "type_at": 15.3
+    },
+    {
+      "from": "girl",
+      "text": "Friday 8. text me 555 580 8232",
+      "type_at": 16.9
+    }
+  ]
+}

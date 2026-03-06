@@ -1,0 +1,7 @@
+import { Config } from "@remotion/cli/config";
+
+// Set the public directory with absolute path
+Config.setPublicDir("/Users/yumelhernandez/UGC_Two_IG/remotion/public");
+
+// Enable image format support
+Config.setVideoImageFormat("jpeg");

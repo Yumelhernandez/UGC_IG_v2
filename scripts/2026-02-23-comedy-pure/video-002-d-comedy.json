@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-23-comedy-pure-002",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 20.2,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Im suing that dryer for getting more time with you than I do",
+      "first_reaction": "nice try",
+      "hook": "Im suing that dryer for getting more time with you than I do",
+      "test": "nice try",
+      "escalation_turn": "ok so we on?",
+      "escalation": "ok so we on?",
+      "shift": "you are bold, i am still bored",
+      "close": "",
+      "shareable_moment": "great clips could never handle main character settings like that",
+      "pre_close_tension": "ok i'm not done with you",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Im suing that dryer for getting more time with you than I do",
+    "first_reaction": "nice try",
+    "hook": "Im suing that dryer for getting more time with you than I do",
+    "test": "nice try",
+    "escalation_turn": "ok so we on?",
+    "escalation": "ok so we on?",
+    "shift": "you are bold, i am still bored",
+    "close": "",
+    "shareable_moment": "great clips could never handle main character settings like that",
+    "pre_close_tension": "ok i'm not done with you",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "ok so we on?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "This IG DM either gets a date… or blocked",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "quiet day",
+    "asset": "baddies/2d2ddaaa421905aaae96d0fdce6a4d6e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing that dryer for getting more time with you than I do"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nice try",
+      "type_at": 1.7,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "that helmet got vip access to your whole aura",
+      "type_at": 2.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bold",
+      "type_at": 2.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah but it still signed a longer contract than me",
+      "type_at": 3.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "cry about it to great clips or something",
+      "type_at": 3.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "great clips could never handle main character settings like that",
+      "type_at": 4.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you talk like you got declined by supercuts too 😂",
+      "type_at": 4.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "ok so we on?",
+      "type_at": 5.2,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are bold, i am still bored",
+      "type_at": 5.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i brought emotional volume, that counts as 3 inches",
+      "type_at": 7.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "no, that just screams frosted tips energy",
+      "type_at": 8.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "ok but the dryer and i are in a situationship now",
+      "type_at": 10.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "she is using you for your wifi at best",
+      "type_at": 12.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "jokes on her im on 2 percent and vibes",
+      "type_at": 13.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "that explains this whole lawsuit fantasy actually",
+      "type_at": 15.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "tuesday at 8. wear something cute",
+      "type_at": 16.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok i'm not done with you",
+      "type_at": 18.9,
+      "response_type": "condition"
+    }
+  ]
+}

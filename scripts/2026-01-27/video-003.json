@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-27-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.3,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "sunset skyline",
+    "asset": "baddies/402e73f0a70cfa9731b6bb00bb7974f5.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just wake up and decide to bully everyone else closets today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bullying how?",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "so its official?",
+      "type_at": 5.9
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 6.8
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 8.6
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for instagram",
+      "type_at": 10.3
+    },
+    {
+      "from": "boy",
+      "text": "i make it real fast",
+      "type_at": 12
+    },
+    {
+      "from": "girl",
+      "text": "For what exactly",
+      "type_at": 13.8
+    },
+    {
+      "from": "boy",
+      "text": "Drinks friday night you can bully my outfit in person",
+      "type_at": 15.5
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me",
+      "type_at": 17.3
+    }
+  ]
+}

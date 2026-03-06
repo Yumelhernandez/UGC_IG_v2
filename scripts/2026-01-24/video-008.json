@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-008",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/jack nicholson smile GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "",
+    "asset": "baddies/03395eaacaf4bd96e8fde8979080481e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You dressed like this just to stay home and ignore people did I guess right"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "bold guess for a stranger",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "stranger talk is crazy you post like that on purpose",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "maybe I like chaos",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "I can handle chaos you just scared to test it",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "or just bored already",
+      "type_at": 5.5
+    },
+    {
+      "from": "boy",
+      "text": "you bored but still answering me something not adding up",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "mild entertainment at best",
+      "type_at": 6.7
+    },
+    {
+      "from": "boy",
+      "text": "I will take mild for now you not ready for full anyway",
+      "type_at": 7.4
+    },
+    {
+      "from": "girl",
+      "text": "confident for someone uninvited",
+      "type_at": 8.1
+    },
+    {
+      "from": "boy",
+      "text": "invite me then and I show up proper",
+      "type_at": 9
+    },
+    {
+      "from": "girl",
+      "text": "you all talk online",
+      "type_at": 9.5
+    },
+    {
+      "from": "boy",
+      "text": "I talk and I do you just not outside to see it",
+      "type_at": 10.1
+    },
+    {
+      "from": "girl",
+      "text": "maybe I avoid clowns",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "cool I am more villain so you safe",
+      "type_at": 11.4
+    },
+    {
+      "from": "girl",
+      "text": "villain lines are killing me",
+      "type_at": 11.9
+    },
+    {
+      "from": "boy",
+      "text": "you laughing or pretending you too cool to smile right now",
+      "type_at": 12.7
+    },
+    {
+      "from": "girl",
+      "text": "coffee this week, be on time",
+      "type_at": 13.6
+    }
+  ]
+}

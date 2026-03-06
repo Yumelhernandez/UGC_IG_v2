@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-036",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.6,
+    "spice_tier": "high",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/jack nicholson smile GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "airport view",
+    "asset": "baddies/fcea1405c3d457d2a19b57c1edb0c1ce.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like you ruin self control and I ruin your type"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "plug_line": "dont tempt me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound way too sure 😭",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Funny, because your eyes just said prove it",
+      "type_at": 2.6
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😳",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "chill with me friday night instead drinks on me",
+      "type_at": 5.1
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 217 5725",
+      "type_at": 6.1
+    }
+  ]
+}

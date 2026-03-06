@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-020",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.2,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "This IG DM either gets a date… or blocked",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/So Excited Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "rooftop lights",
+    "asset": "baddies/503d926b0adee477f578b14ff141ef84.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my friends youre the reason I ignore their texts now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You ignoring them for this, 😭?",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "Yeah cause you got my full attention",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 😂",
+      "type_at": 6.5
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile dont lie now",
+      "type_at": 8.1
+    },
+    {
+      "from": "girl",
+      "text": "Delusional but kinda funny 😭😭",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "keep talking like that and rooftop lights gonna look tame",
+      "type_at": 11.3
+    },
+    {
+      "from": "girl",
+      "text": "Bold words for dm energy",
+      "type_at": 12.9
+    },
+    {
+      "from": "boy",
+      "text": "pull up for drinks friday then talk crazy in person",
+      "type_at": 14.5
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 427 3133. thursday 9 works",
+      "type_at": 16.1
+    }
+  ]
+}

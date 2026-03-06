@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-033",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "How to make her chase",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "rooftop lights",
+    "asset": "baddies/de839f985ba05b710d8d0ce5ab01a424.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So on a scale of tropical to reckless how wet do you like it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume you qualify for wetness scale",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "im just saying this story screams certified category five",
+      "type_at": 2.2
+    },
+    {
+      "from": "girl",
+      "text": "That line probably works on confused freshmen",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "Confused freshmen dont shower like that under palm trees",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "Relax, it is literally water and vibes",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "Water and vibes got you arching like a vacation villain",
+      "type_at": 4.3
+    },
+    {
+      "from": "girl",
+      "text": "Youre way too entertained by a rinse",
+      "type_at": 4.8
+    },
+    {
+      "from": "boy",
+      "text": "so youre saying yes?",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "You are persistent, I will give that",
+      "type_at": 5.8
+    },
+    {
+      "from": "boy",
+      "text": "Exactly why im taking applications with better views",
+      "type_at": 6.7
+    },
+    {
+      "from": "girl",
+      "text": "Application requires more than thirsty metaphors",
+      "type_at": 7.2
+    },
+    {
+      "from": "boy",
+      "text": "I can offer tropical chaos and clean towels",
+      "type_at": 8.1
+    },
+    {
+      "from": "girl",
+      "text": "Chaos sounds accurate, the rest doubtful",
+      "type_at": 9.4
+    },
+    {
+      "from": "boy",
+      "text": "you said it not me",
+      "type_at": 10.3
+    },
+    {
+      "from": "girl",
+      "text": "Hm, confident talk for a stranger online",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "be honest can i get your number?",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Tuesday 8. text me 555 968 6142",
+      "type_at": 12.8
+    }
+  ]
+}

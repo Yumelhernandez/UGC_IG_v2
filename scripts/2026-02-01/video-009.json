@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-009",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.1,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "studio warmup",
+    "asset": "baddies/9955b8ad0b8d262b0e3e37c9b4072d5a.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Why do you look like the reason I stop pretending ive standards"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "plug_line": "i can back it up in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound down bad already",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Call it down bad call it manifesting you",
+      "type_at": 2.7
+    },
+    {
+      "from": "girl",
+      "text": "And? 😳",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "cool prove it over drinks this week you free or you scared",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 981 6772. wednesday 8:30 works",
+      "type_at": 6.4
+    }
+  ]
+}

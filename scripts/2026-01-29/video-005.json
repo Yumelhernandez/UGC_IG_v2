@@ -1,0 +1,67 @@
+{
+  "video_id": "2026-01-29-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.7,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rainy walk",
+    "asset": "baddies/92beb529d779ef489fd3465cf71d82bf.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So we skipping the warmup and going straight to main character"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Main character where?",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "cool, thats a yes",
+      "type_at": 3.6
+    },
+    {
+      "from": "girl",
+      "text": "?? 😭😭",
+      "type_at": 4.4
+    },
+    {
+      "from": "boy",
+      "text": "Side quest saying get drinks this Friday and argue in person",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 328 5036. saturday 8 works",
+      "type_at": 6.5
+    }
+  ]
+}

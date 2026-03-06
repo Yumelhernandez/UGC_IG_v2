@@ -1,0 +1,16 @@
+{
+  "name": "texmi-remotion-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "remotion preview src/index.tsx",
+    "render": "remotion render src/index.tsx StoryReply"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.405",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  }
+}

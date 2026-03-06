@@ -1,0 +1,246 @@
+{
+  "video_id": "2026-03-05-005",
+  "meta": {
+    "theme": "nightlife",
+    "duration_s": 20,
+    "spice_tier": "high",
+    "controversy_tier": "spicy",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "persistence_flip",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 8,
+    "beat_plan": {
+      "inciting_incident": "Ive a theory about you and i need proof",
+      "first_reaction": "",
+      "hook": "Ive a theory about you and i need proof",
+      "test": "",
+      "escalation_turn": "no is a great start tell me more",
+      "escalation": "no is a great start tell me more",
+      "shift": "more is u projecting onto my jeans rn 😂",
+      "close": "just because that landed",
+      "shareable_moment": "so you just said yes?",
+      "pre_close_tension": "text me 555 544 5758",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Ive a theory about you and i need proof",
+    "first_reaction": "",
+    "hook": "Ive a theory about you and i need proof",
+    "test": "",
+    "escalation_turn": "no is a great start tell me more",
+    "escalation": "no is a great start tell me more",
+    "shift": "more is u projecting onto my jeans rn 😂",
+    "close": "just because that landed",
+    "shareable_moment": "so you just said yes?",
+    "pre_close_tension": "text me 555 544 5758",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 9,
+    "win_index": 19,
+    "shareable_index": 7,
+    "reveal_line": "no is a great start tell me more"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "DM'ing a baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "night out",
+    "asset": "baddies/2588cf06a9ab95abed66f939dd1b1072.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ive a theory about you and i need proof"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "a theory from pavement squat twitter is crazy😭",
+      "type_at": 1.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "about that night, theory is you only sit on floors when you know",
+      "type_at": 1.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "concrete knew i was the main course actually",
+      "type_at": 2.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "backless top plus distressed jeans confirmed my research",
+      "type_at": 2.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "what research, streetwear biology or street danger",
+      "type_at": 3.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "both, control group is girls who stay inside",
+      "type_at": 4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and im the lab rat in heeled sandals 😳",
+      "type_at": 4.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just said yes?",
+      "type_at": 5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you said that like i was impressed",
+      "type_at": 6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "no is a great start tell me more",
+      "type_at": 6.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "more is u projecting onto my jeans rn 😂",
+      "type_at": 7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "your replies say otherwise, denim got u chatty",
+      "type_at": 8.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "im only here so the pavement feels appreciated 😭",
+      "type_at": 9.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "try me",
+      "type_at": 11,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "curious why u think ur peer reviewed",
+      "type_at": 12.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "relax i got this",
+      "type_at": 13.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "say less, show more",
+      "type_at": 15.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i know i do",
+      "type_at": 16,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 544 5758",
+      "type_at": 17.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "just because that landed",
+      "type_at": 19.2,
+      "response_type": "punchline"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "video_id": "2026-02-12-checkA-008",
+  "meta": {
+    "theme": "default",
+    "duration_s": 22.8,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "I already told my friends youre the reason im moving",
+      "first_reaction": "who even are you",
+      "hook": "I already told my friends youre the reason im moving",
+      "test": "who even are you",
+      "escalation_turn": "you call it obsessed, i call it committed chaos",
+      "escalation": "you call it obsessed, i call it committed chaos",
+      "shift": "ok?",
+      "close": "surprise me in a good way",
+      "shareable_moment": "no",
+      "pre_close_tension": "text me 555 631 3952",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "I already told my friends youre the reason im moving",
+    "first_reaction": "who even are you",
+    "hook": "I already told my friends youre the reason im moving",
+    "test": "who even are you",
+    "escalation_turn": "you call it obsessed, i call it committed chaos",
+    "escalation": "you call it obsessed, i call it committed chaos",
+    "shift": "ok?",
+    "close": "surprise me in a good way",
+    "shareable_moment": "no",
+    "pre_close_tension": "text me 555 631 3952",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 6,
+    "shareable_index": 2,
+    "reveal_line": "You call it obsessed, I call it committed chaos"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "city glow",
+    "asset": "baddies/ac8d9657d5ba1027ea5b35769b178791.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my friends youre the reason im moving"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "who even are you",
+      "type_at": 5.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile dont lie to me city",
+      "type_at": 10.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "no",
+      "type_at": 12.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you call it obsessed, i call it committed chaos",
+      "type_at": 14.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "ok?",
+      "type_at": 16.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 631 3952",
+      "type_at": 18.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "surprise me in a good way",
+      "type_at": 21.1,
+      "response_type": "close"
+    }
+  ]
+}

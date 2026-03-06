@@ -1,0 +1,212 @@
+{
+  "video_id": "2026-02-12-prod4-011",
+  "meta": {
+    "theme": "default",
+    "duration_s": 60.1,
+    "spice_tier": "high",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "Would security kick me out if I said you look like the main course",
+      "first_reaction": "youre reaching",
+      "hook": "Would security kick me out if I said you look like the main course",
+      "test": "youre reaching",
+      "escalation_turn": "if you wanted safe you’d swipe left",
+      "escalation": "if you wanted safe you’d swipe left",
+      "shift": "not moved",
+      "close": "don't disappoint me",
+      "shareable_moment": "if you wanted safe you’d swipe left",
+      "pre_close_tension": "Ok you earned it. 555 319 3589",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Would security kick me out if I said you look like the main course",
+    "first_reaction": "youre reaching",
+    "hook": "Would security kick me out if I said you look like the main course",
+    "test": "youre reaching",
+    "escalation_turn": "if you wanted safe you’d swipe left",
+    "escalation": "if you wanted safe you’d swipe left",
+    "shift": "not moved",
+    "close": "don't disappoint me",
+    "shareable_moment": "if you wanted safe you’d swipe left",
+    "pre_close_tension": "Ok you earned it. 555 319 3589",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 13,
+    "shareable_index": 3,
+    "reveal_line": "If you wanted safe you’d swipe left"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/b49378f5a0c887bfc101600cca1fd44d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Would security kick me out if I said you look like the main course"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "youre reaching",
+      "type_at": 5.1,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "bold for someone posting late night drive thirst traps for free",
+      "type_at": 8.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not convinced",
+      "type_at": 12.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "if you wanted safe you’d swipe left",
+      "type_at": 14.6,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "not moved",
+      "type_at": 17.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "sure and you replayed your own story 3 times after",
+      "type_at": 20.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur confidence is louder than ur game 😳",
+      "type_at": 24.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "noted, ill remember that",
+      "type_at": 29.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "aggressive invite for a stranger",
+      "type_at": 34.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you said it not me",
+      "type_at": 39,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok",
+      "type_at": 43.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you already know why",
+      "type_at": 48.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 319 3589",
+      "type_at": 52.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "don't disappoint me",
+      "type_at": 57.5,
+      "response_type": "close"
+    }
+  ]
+}

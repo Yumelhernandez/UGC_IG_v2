@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "generated_at": "2026-03-04T20:21:54.024Z",
+    "model": "gpt-5.1",
+    "note": "Review this file and remove any flat or cringe lines before use."
+  },
+  "variants": {
+    "numeric_reveal": {
+      "math_punchlines": [
+        "your own cells are down bad and you haven't even caught up yet",
+        "girl your own body clocked me before you even replied",
+        "3 out of 5 of you said yes before you even opened your mouth",
+        "your body said yes. i'm just here for the confirmation.",
+        "that's a majority. i'm taking that.",
+        "60% is a passing grade. you passed.",
+        "majority rules and majority likes me. not my fault.",
+        "the other 40% just hasn't met me yet",
+        "only 40% left. that's basically a formality.",
+        "60% locked in. the other 40% is just paperwork.",
+        "claiming 60% effective immediately.",
+        "this isn't flirting this is literally biology.",
+        "don't argue with science. don't argue with me either.",
+        "60% of you is already in this and you haven't even agreed yet",
+        "do the math. then give me your number.",
+        "60% yes is enough to work with fr",
+        "we're already halfway there and you haven't even smiled yet",
+        "60% water. 60% mine. 0% coincidence.",
+        "your body answered before you could. respect.",
+        "that's more than half. this is practically official."
+      ]
+    },
+    "list_reveal": {
+      "list_openers": [
+        "i need 3 things from u: 1. [innocent] 2. [innocent] 3. ur number",
+        "3 lil requests: 1) [innocent] 2) [innocent] 3) your digits",
+        "real quick, 3 items: 1. [innocent] 2. [innocent] 3. ur contact",
+        "one sec: 1) [innocent] 2) [innocent] 3) ur number fr",
+        "top 3 wishes rn: 1. [innocent] 2. [innocent] 3. your @",
+        "my 3 goals today: 1) [innocent] 2) [innocent] 3) ur digits",
+        "manifesting 3 things: 1. [innocent] 2. [innocent] 3. ur snap",
+        "ok rapid fire: 1) [innocent] 2) [innocent] 3) your number",
+        "3 item checklist: 1. [innocent] 2. [innocent] 3. ur contact info",
+        "if i could get 3 things: 1) [innocent] 2) [innocent] 3) ur @",
+        "3 simple requests: 1. [innocent] 2. [innocent] 3. your digits",
+        "quick list: 1) [innocent] 2) [innocent] 3) ur number btw",
+        "agenda today: 1. [innocent] 2. [innocent] 3. your contact",
+        "lemme grab 3 things: 1) [innocent] 2) [innocent] 3) ur snap",
+        "top 3 priorities: 1. [innocent] 2. [innocent] 3. your @ fr",
+        "need 3 favors: 1) [innocent] 2) [innocent] 3) ur number",
+        "tiny wishlist: 1. [innocent] 2. [innocent] 3. your digits pls",
+        "3 step plan: 1) [innocent] 2) [innocent] 3) ur contact deets",
+        "my 3 requests: 1. [innocent] 2. [innocent] 3. your @ lowkey",
+        "quick 3 piece order: 1) [innocent] 2) [innocent] 3) ur number"
+      ]
+    },
+    "setup_reframe": {
+      "pairs": [
+        {
+          "setup": "i'm blocking you after tonight",
+          "reframe": "for making my standards way too high now"
+        },
+        {
+          "setup": "i just reported your account",
+          "reframe": "for stealing my attention every time you post"
+        },
+        {
+          "setup": "lowkey wanna start an argument with you",
+          "reframe": "just so we can do that cute makeup stage"
+        },
+        {
+          "setup": "i'm about to ghost you fr",
+          "reframe": "by haunting your thoughts every time you go to sleep"
+        },
+        {
+          "setup": "i'm fully stalking you right now",
+          "reframe": "for research purposes on how you're that attractive"
+        },
+        {
+          "setup": "i need you to stop posting",
+          "reframe": "so i can finally focus on anything but you"
+        },
+        {
+          "setup": "i'm unfollowing you this week",
+          "reframe": "for leading the race in my head instead"
+        },
+        {
+          "setup": "i might show up at your house",
+          "reframe": "with food, flowers, and that playlist you like"
+        },
+        {
+          "setup": "i'm honestly mad at you",
+          "reframe": "for existing in my type so perfectly"
+        },
+        {
+          "setup": "i'm putting you on do not disturb",
+          "reframe": "so my heart stops jumping every notification you send"
+        },
+        {
+          "setup": "i'm raising my voice at you",
+          "reframe": "so you hear how serious i am about us"
+        },
+        {
+          "setup": "i'm lowkey deleting our chat",
+          "reframe": "so i can memorize it instead of reread it"
+        },
+        {
+          "setup": "i just screenshotted your profile",
+          "reframe": "for evidence that angels actually be walking here"
+        },
+        {
+          "setup": "i'm about to start ignoring you",
+          "reframe": "so you notice how much you miss my energy"
+        },
+        {
+          "setup": "i'm sending you a formal complaint",
+          "reframe": "for being the main distraction in my day"
+        }
+      ]
+    },
+    "persistence_flip": {
+      "first_reframes": [
+        "funny, your paragraph says you care",
+        "and yet you still answering me",
+        "your curiosity just outed you",
+        "wild, you typed all that for ‘no’",
+        "if you weren’t into it, you’d ghost",
+        "you don’t know me but you’re invested",
+        "that ‘idk’ sounded a lot like ‘keep going’",
+        "calling it nothing while making it something",
+        "you keep saying no, your fingers disagree",
+        "interesting way to say ‘try harder’",
+        "you’re not interested but still locked in",
+        "kinda chatty for someone not curious",
+        "lowkey, this is what interest looks like",
+        "funny how rejection comes with paragraphs",
+        "you don’t know me but you’re here",
+        "you say stop, your energy says encore",
+        "if you were sure, we’d be done",
+        "your ‘whatever’ feels a lot like effort",
+        "you’re not feeling it but still replying",
+        "that’s crazy, i had you typing though"
+      ]
+    },
+    "presumptive_close": {
+      "pairs": [
+        {
+          "assumption": "already told my boys about my girlfriend",
+          "followthrough": "they expect you at poker night"
+        },
+        {
+          "assumption": "went ahead and saved your contact as “wife”",
+          "followthrough": "don’t worry, only my mom saw"
+        },
+        {
+          "assumption": "blocked out our weekly date night already",
+          "followthrough": "thursdays, 8pm, non‑negotiable"
+        },
+        {
+          "assumption": "told my barber i need a ‘taken’ cut",
+          "followthrough": "appointment at 4 to impress you"
+        },
+        {
+          "assumption": "my spotify wrapped thinks we’re dating",
+          "followthrough": "made us a shared playlist anyway"
+        },
+        {
+          "assumption": "put our anniversary in my calendar",
+          "followthrough": "today. yearly reminder. no backing out"
+        },
+        {
+          "assumption": "told my group chat i’m off the market",
+          "followthrough": "they said to bring you sunday brunch"
+        },
+        {
+          "assumption": "gave my uber driver our future house address",
+          "followthrough": "he said commute looks decent"
+        },
+        {
+          "assumption": "already put your name on my hulu profile",
+          "followthrough": "password comes with the first kiss"
+        },
+        {
+          "assumption": "told my gym partner i’m busy weekday nights",
+          "followthrough": "i said ‘girlfriend obligations’"
+        },
+        {
+          "assumption": "set your ringtone as my love language",
+          "followthrough": "it rings at 7 on friday"
+        },
+        {
+          "assumption": "added you to my imaginary wedding seating chart",
+          "followthrough": "you’re at my table, obviously"
+        },
+        {
+          "assumption": "told siri to remind me to text my girl",
+          "followthrough": "first alert goes off at 9pm"
+        },
+        {
+          "assumption": "already warned my dog about you",
+          "followthrough": "he’s waiting for you saturday"
+        },
+        {
+          "assumption": "told my manager i can’t do late shifts",
+          "followthrough": "friday nights are reserved for you"
+        }
+      ]
+    },
+    "roast_flip": {
+      "pairs": [
+        {
+          "roast": "you look kinda annoying",
+          "reframe": "annoying as in i’d never get bored of you"
+        },
+        {
+          "roast": "you give npc energy",
+          "reframe": "npc as in main character in my story"
+        },
+        {
+          "roast": "you look a little chaotic",
+          "reframe": "chaotic as in perfectly matching my favorite kind of vibe"
+        },
+        {
+          "roast": "you’re lowkey a red flag",
+          "reframe": "red flag as in the color of my next crush"
+        },
+        {
+          "roast": "you seem dangerously clingy",
+          "reframe": "clingy as in exactly how i want you on me"
+        },
+        {
+          "roast": "you look broke as hell",
+          "reframe": "broke as in i’d happily spend on you"
+        },
+        {
+          "roast": "you act way too confident",
+          "reframe": "confident as in you actually know you’re fine"
+        },
+        {
+          "roast": "you look kinda high maintenance",
+          "reframe": "high maintenance as in worth all the effort fr"
+        },
+        {
+          "roast": "you’re giving delulu vibes",
+          "reframe": "delulu as in manifesting me into your life"
+        },
+        {
+          "roast": "you look like you lie a lot",
+          "reframe": "lie as in lying on my chest all day"
+        },
+        {
+          "roast": "you look slightly dangerous",
+          "reframe": "dangerous as in i’d risk it every time"
+        },
+        {
+          "roast": "you’re actually mad extra",
+          "reframe": "extra as in more than i ever knew i wanted"
+        },
+        {
+          "roast": "you look super dramatic",
+          "reframe": "dramatic as in making my life way more interesting"
+        },
+        {
+          "roast": "you seem like a bad decision",
+          "reframe": "bad decision as in the story i’ll tell my kids"
+        },
+        {
+          "roast": "you’re kind of intimidating ngl",
+          "reframe": "intimidating as in so fine i forget how to talk"
+        }
+      ]
+    }
+  }
+}

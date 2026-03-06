@@ -1,0 +1,29 @@
+{
+  "name": "texmi-ig-story-reply-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MVP pipeline for generating IG story reply DM videos",
+  "scripts": {
+    "setup": "npm install --prefix remotion",
+    "convert-hooks": "node tools/convert-hooks.js",
+    "generate": "node -r dotenv/config tools/generate.js",
+    "qa": "node -r dotenv/config tools/qa.js",
+    "render": "node -r dotenv/config tools/render.js",
+    "batch": "node -r dotenv/config tools/batch.js",
+    "compare-viral": "node tests/compare-viral.js",
+    "test-comedy-arc-rollout": "node tests/test-comedy-arc-rollout.js",
+    "validate-render-tier-cv": "node tests/validate-render-tier-cv.js",
+    "validate-viral-mechanics": "node tests/validate-viral-mechanics.js",
+    "validate-arcs": "node tests/validate-arc-distribution.js",
+    "reliability-check": "node tests/reliability-check.js",
+    "select-candidates": "node tools/select-candidates.js",
+    "go-live-report": "node tools/generate-go-live-report.js",
+    "release-check": "node tools/release-check.js",
+    "benchmark-models": "node -r dotenv/config tools/benchmark-models.js",
+    "validate-pipeline": "./test-generation.sh",
+    "validate-batch": "./validate-existing-batch.sh"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

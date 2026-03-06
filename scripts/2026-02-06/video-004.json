@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-06-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.9,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/8456cdd3d28c0cd7a9a210b90422ae6b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You know you just raised the standard for my future wife right"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Future wife is crazy talk",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Youre saying crazy while acting like wife material",
+      "type_at": 6.7
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "brave of you to pretend you didnt like the wife part",
+      "type_at": 9.9
+    },
+    {
+      "from": "girl",
+      "text": "Who said I liked it",
+      "type_at": 11.5
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it",
+      "type_at": 13.1
+    },
+    {
+      "from": "girl",
+      "text": "Your confidence is loud as hell",
+      "type_at": 14.7
+    },
+    {
+      "from": "boy",
+      "text": "drinks sunday. you're gonna love this place",
+      "type_at": 16.3
+    },
+    {
+      "from": "girl",
+      "text": "Ugh fine. 555 405 1104 😭😭",
+      "type_at": 17.9
+    },
+    {
+      "from": "girl",
+      "text": "Prove it",
+      "type_at": 19.5
+    }
+  ]
+}

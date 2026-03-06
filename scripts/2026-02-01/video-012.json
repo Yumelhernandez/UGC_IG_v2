@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-012",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/jack nicholson smile GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "midnight snack",
+    "asset": "baddies/f84608bbe07779d2e8ed49ed8f190b50.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest how much trouble would we actually get in together"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You already sound like medium trouble honestly",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "Medium trouble still comes with warning labels",
+      "type_at": 2.3
+    },
+    {
+      "from": "girl",
+      "text": "Please, this is light work level trouble",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "You say that now then suddenly were banned somewhere",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "From what, the mirror section at Target",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "More like every chill spot that hates loud laughs",
+      "type_at": 4.3
+    },
+    {
+      "from": "girl",
+      "text": "Bold to assume youre even fun",
+      "type_at": 4.8
+    },
+    {
+      "from": "boy",
+      "text": "so im your problem now?",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "You are really selling this 😳",
+      "type_at": 5.8
+    },
+    {
+      "from": "boy",
+      "text": "Which is exactly why im trying this",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "You talk like you survive chaos daily 👀",
+      "type_at": 8.5
+    },
+    {
+      "from": "boy",
+      "text": "I do ive siblings and a bad impulse filter",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "Hm you might keep up for one night",
+      "type_at": 11.4
+    },
+    {
+      "from": "boy",
+      "text": "One night is all the trial I need",
+      "type_at": 12.4
+    },
+    {
+      "from": "girl",
+      "text": "Trial starts with drinks and zero whining",
+      "type_at": 13.8
+    },
+    {
+      "from": "boy",
+      "text": "text me your number",
+      "type_at": 15.6
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 752 8405",
+      "type_at": 16.6
+    }
+  ]
+}

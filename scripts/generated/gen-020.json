@@ -1,0 +1,94 @@
+{
+  "video_id": "gen-020",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 21.5,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "comedy",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "After 1 message/Basketball Shooting GIF.mp4",
+      "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4",
+      "In between messages/basketball_player_basketball_reaction_crowd_wrestling_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/michael_jordan_basketball_reaction_clothing_headgear_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_cant_stop_winning_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "do you like weekends?",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Lets Go Undress GIF by Paxeros.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 6
+  },
+  "story": {
+    "username": "naya",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/cc322e18655411dd8ae9f8977bf7b668.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "do you like weekends?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Dre",
+      "age": 20
+    },
+    "girl": {
+      "name": "Naya",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "maybe",
+      "type_at": 4.0
+    },
+    {
+      "from": "boy",
+      "text": "that was the plan all along",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "if you say so",
+      "type_at": 9.0
+    },
+    {
+      "from": "boy",
+      "text": "that's not even the best part",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "don't let it go to your head",
+      "type_at": 14.0
+    },
+    {
+      "from": "boy",
+      "text": "screenshot that",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "I hate you so much \ud83d\ude2d",
+      "type_at": 18.5
+    }
+  ]
+}

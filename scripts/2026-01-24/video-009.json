@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-009",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "Turn DMs into dates",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Katy Perry Reaction GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/b3390a758f4f391c8f6c9695896e4103.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You did not go to that room to work you went to distract everyone"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Wow, Sherlock is typing",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "I just observe what you cause in that room",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "Tragic, They stayed focused",
+      "type_at": 4.2
+    },
+    {
+      "from": "boy",
+      "text": "They were focused on you not on work",
+      "type_at": 4.7
+    },
+    {
+      "from": "girl",
+      "text": "Sounds like a them problem",
+      "type_at": 5.6
+    },
+    {
+      "from": "boy",
+      "text": "You know exactly what you were doing in there",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "I just exist, They fold",
+      "type_at": 6.9
+    },
+    {
+      "from": "boy",
+      "text": "You walked in like you knew they would",
+      "type_at": 7.7
+    },
+    {
+      "from": "girl",
+      "text": "Like you would not stare?",
+      "type_at": 8.6
+    },
+    {
+      "from": "boy",
+      "text": "I would stare then I would still work",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "Multitask king, Rare sight",
+      "type_at": 10.1
+    },
+    {
+      "from": "boy",
+      "text": "You are saying I am built different",
+      "type_at": 10.6
+    },
+    {
+      "from": "girl",
+      "text": "Saying you talk a lot",
+      "type_at": 11.3
+    },
+    {
+      "from": "boy",
+      "text": "You like that I talk like that",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "I like quiet more actually",
+      "type_at": 13
+    },
+    {
+      "from": "boy",
+      "text": "You would not complain if I was near you in that room",
+      "type_at": 13.5
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk, Prove it Friday?",
+      "type_at": 13.9
+    }
+  ]
+}

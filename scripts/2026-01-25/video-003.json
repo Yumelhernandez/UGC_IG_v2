@@ -1,0 +1,91 @@
+{
+  "video_id": "2026-01-25-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.4,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "Watch this let huzz cook",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "",
+    "asset": "baddies/e92a6950b6faa8d54494b86ebb968fc2.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You posted this on purpose to ruin my concentration admit it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "oh??",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "no my focus is fine you are just doing this on purpose",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "calm down, drama king",
+      "type_at": 6.8
+    },
+    {
+      "from": "boy",
+      "text": "you literally enjoy messing with me dont even deny it",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "someone’s feeling important today",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "you make it very hard to concentrate and you know it",
+      "type_at": 11.2
+    },
+    {
+      "from": "girl",
+      "text": "sounds like a you problem",
+      "type_at": 12.7
+    },
+    {
+      "from": "boy",
+      "text": "ok then help me fix my problem come out for drinks",
+      "type_at": 14.2
+    },
+    {
+      "from": "girl",
+      "text": "fine, one drink, friday 8 text me 😈",
+      "type_at": 15.7
+    }
+  ],
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 8,
+    "reveal_line": "no my focus is fine you are just doing this on purpose"
+  }
+}

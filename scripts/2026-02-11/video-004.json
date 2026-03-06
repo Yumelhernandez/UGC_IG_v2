@@ -1,0 +1,173 @@
+{
+  "video_id": "2026-02-11-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.4,
+    "spice_tier": "high",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "pair_isolated",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "If I book the next chair are we calling this our first date or what",
+      "first_reaction": "Delusional and bold combo",
+      "escalation_turn": "Bold enough to say you’ll be there",
+      "shareable_moment": "say less, i am in",
+      "pre_close_tension": "Alright you're funny.",
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "If I book the next chair are we calling this our first date or what",
+    "first_reaction": "Delusional and bold combo",
+    "escalation_turn": "Bold enough to say you’ll be there",
+    "shareable_moment": "say less, i am in",
+    "pre_close_tension": "Alright you're funny.",
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 11,
+    "shareable_index": 5,
+    "reveal_line": "Bold enough to say you’ll be there"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "coffee run",
+    "asset": "baddies/2d2ddaaa421905aaae96d0fdce6a4d6e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "If I book the next chair are we calling this our first date or what"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Delusional and bold combo",
+      "type_at": 2.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "Bold enough to say you’ll be there",
+      "type_at": 5.2,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 6.8,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "try me",
+      "type_at": 8.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "You talk like you close",
+      "type_at": 10,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "say less, i am in",
+      "type_at": 11.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "You are loud",
+      "type_at": 13.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "let me prove it",
+      "type_at": 14.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Still not impressed 😂",
+      "type_at": 16.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "drinks wednesday. you're gonna love this place",
+      "type_at": 18,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny.",
+      "type_at": 19.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you'll see",
+      "type_at": 21.2,
+      "response_type": "test"
+    }
+  ]
+}

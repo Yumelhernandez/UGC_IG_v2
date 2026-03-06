@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-26-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/6f6dce85213faeda04e6bb19264904ce.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So we just casually dropping thirst traps in the backseat now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You stressed or what?",
+      "type_at": 2.4
+    },
+    {
+      "from": "boy",
+      "text": "so we locked in?",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "Says who?",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "try me",
+      "type_at": 8.4
+    },
+    {
+      "from": "girl",
+      "text": "You sound very sure",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 11
+    },
+    {
+      "from": "girl",
+      "text": "Bold, You even fun in person",
+      "type_at": 12.4
+    },
+    {
+      "from": "boy",
+      "text": "be honest can i get your number?",
+      "type_at": 13.7
+    },
+    {
+      "from": "girl",
+      "text": "Friday 8 works, Text me before you leave",
+      "type_at": 15.1
+    }
+  ]
+}

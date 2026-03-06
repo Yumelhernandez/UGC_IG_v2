@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-051",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.1,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "gym mirror",
+    "asset": "baddies/7b372493b6a4780f59f20af75cc1c166.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist said avoid temptation yet here youre marinating veggies"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Temptation, Relax, you’re not that fine?",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "You’re just mad I tempt the brave",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 👀",
+      "type_at": 7.9
+    },
+    {
+      "from": "boy",
+      "text": "evidence for my lawyer when you fall in love and sue",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "You wish I’d fall actually",
+      "type_at": 11.5
+    },
+    {
+      "from": "boy",
+      "text": "my therapist said this is progress so keep bullying",
+      "type_at": 13.1
+    },
+    {
+      "from": "girl",
+      "text": "You sure you can handle me",
+      "type_at": 14.7
+    },
+    {
+      "from": "boy",
+      "text": "come prove it thursday drinks 8",
+      "type_at": 16.3
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 105 2787. monday 7:30 works",
+      "type_at": 17.9
+    }
+  ]
+}

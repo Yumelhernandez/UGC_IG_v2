@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-031",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.1,
+    "spice_tier": "high",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "How to rizz up baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "studio warmup",
+    "asset": "baddies/518f4a154ee848dd3b38d60cbc7efa4b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the reason sunscreen sales went up this summer"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax sunscreen salesman im not sponsoring you",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "im just saying stock probably jumped after that story",
+      "type_at": 2.2
+    },
+    {
+      "from": "girl",
+      "text": "You sound very invested in those imaginary sunscreen profits",
+      "type_at": 2.7
+    },
+    {
+      "from": "boy",
+      "text": "Someone has to track the economy and your beach pics",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "That is a very weird combo of hobbies honestly 😳",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "It is called balance and also survival for my eyes",
+      "type_at": 4.5
+    },
+    {
+      "from": "girl",
+      "text": "Your eyes will live stop being dramatic over one story",
+      "type_at": 5
+    },
+    {
+      "from": "boy",
+      "text": "so you just said yes?",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "You keep poking, do better",
+      "type_at": 6.1
+    },
+    {
+      "from": "boy",
+      "text": "World leaders probably paused meetings to zoom into that towel",
+      "type_at": 7.3
+    },
+    {
+      "from": "girl",
+      "text": "If they zoomed like you they need new jobs immediately",
+      "type_at": 8.2
+    },
+    {
+      "from": "boy",
+      "text": "im just gathering evidence that youre dangerous in daylight",
+      "type_at": 9.8
+    },
+    {
+      "from": "girl",
+      "text": "Say less, show more",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "ill risk total collapse for front row field research",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "You are bold, not winning",
+      "type_at": 13.2
+    },
+    {
+      "from": "boy",
+      "text": "when are we doing drinks? text me 555 839 5016",
+      "type_at": 14.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok, friday 7:30. text me 555 839 5016",
+      "type_at": 15.6
+    }
+  ]
+}

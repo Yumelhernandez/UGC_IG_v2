@@ -1,0 +1,94 @@
+{
+  "video_id": "br-004",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 21.4,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "plot_twist",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_3.mp4",
+      "In between messages/basketball_player_basketball_reaction_watch_master_work_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_2.mp4",
+      "In between messages/basketball_player_basketball_reaction_rudy_gobert_making_his_first_career_three_pointer_meme_clip.mp4",
+      "In between messages/person_reaction_feel_bad_for_bro_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_quote_card_hardwood_court_basketball_arena_mixed_tone_short_motion_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_81__clip_019.mp4",
+    "headline": "are your parents divorced?",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 6
+  },
+  "story": {
+    "username": "jade",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/c94944e85b383869fc3be93eba3eb673.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "are your parents divorced?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Dre",
+      "age": 20
+    },
+    "girl": {
+      "name": "Jade",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "that's so random and invasive \ud83d\udc80",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "because I can't figure out which one gave you all the looks",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "oh my GOD \ud83d\ude2d\ud83d\ude2d",
+      "type_at": 9.2
+    },
+    {
+      "from": "boy",
+      "text": "had to take a dark path to give you a compliment",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "you scared me for a second ngl \ud83d\udc80",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "scaring pretty girls is my specialty",
+      "type_at": 16.4
+    },
+    {
+      "from": "girl",
+      "text": "I literally can't with you \ud83d\ude2d",
+      "type_at": 18.4
+    }
+  ]
+}

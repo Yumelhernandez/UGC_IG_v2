@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-04-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "city glow",
+    "asset": "baddies/852a7a5dd440419ed1e9a13c5aa1c4be.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of treadmill to me where are you putting all that energy"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "Bold of you to dodge the question",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "Says who?",
+      "type_at": 6.5
+    },
+    {
+      "from": "boy",
+      "text": "tragic is wasting that city glow on dudes who say \"lmfaoo\"",
+      "type_at": 8.1
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for a dm",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 11.3
+    },
+    {
+      "from": "girl",
+      "text": "Who said id argue 😂",
+      "type_at": 12.9
+    },
+    {
+      "from": "boy",
+      "text": "friday at 9. i'll handle the rest",
+      "type_at": 14.5
+    },
+    {
+      "from": "girl",
+      "text": "Ugh fine. 555 407 1794",
+      "type_at": 16.1
+    },
+    {
+      "from": "girl",
+      "text": "You're lucky you're cute",
+      "type_at": 17.7
+    }
+  ]
+}

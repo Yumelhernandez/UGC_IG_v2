@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/5440cda60e15ac3b83ee7db935719a9b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ok but where is the invite to this very important laundry appointment"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Invite list is very tight",
+      "type_at": 3.3
+    },
+    {
+      "from": "boy",
+      "text": "I figured I cleared the very important bar though",
+      "type_at": 3.7
+    },
+    {
+      "from": "girl",
+      "text": "Bold assumption for a stranger",
+      "type_at": 4.5
+    },
+    {
+      "from": "boy",
+      "text": "Wow, Demoted to stranger status instantly",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "Earned it in record time",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "Harsh laundry critic, I respect it",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "Respect does not fold towels",
+      "type_at": 7.3
+    },
+    {
+      "from": "boy",
+      "text": "I can fold and talk trash, Multitasking",
+      "type_at": 7.9
+    },
+    {
+      "from": "girl",
+      "text": "Talk is free, Skills cost",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "So a live skills demo is required I see",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "You survive that, we discuss",
+      "type_at": 9.8
+    },
+    {
+      "from": "boy",
+      "text": "I appreciate this extremely official interview process",
+      "type_at": 10.5
+    },
+    {
+      "from": "girl",
+      "text": "Someone has to filter chaos",
+      "type_at": 11.2
+    },
+    {
+      "from": "boy",
+      "text": "Then schedule my evaluation, I am ready",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Thursday after 7, Minimal chaos",
+      "type_at": 12.4
+    },
+    {
+      "from": "boy",
+      "text": "That sounds like a very important time slot",
+      "type_at": 13.1
+    },
+    {
+      "from": "girl",
+      "text": "this week, pick a place and show up",
+      "type_at": 13.7
+    }
+  ]
+}

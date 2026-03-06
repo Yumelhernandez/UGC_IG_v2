@@ -1,0 +1,207 @@
+{
+  "video_id": "2026-02-24-haiku-vs-gpt51-n24-bench-haiku-013",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 62.3,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "plot_twist",
+    "punchline_style": "deflection",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "challenge_heavy",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "I'm pressing charges on this energy you're radiating today",
+      "first_reaction": "nice try",
+      "hook": "I'm pressing charges on this energy you're radiating today",
+      "test": "nice try",
+      "escalation_turn": "true, but you're still replying so that counts",
+      "escalation": "true, but you're still replying so that counts",
+      "shift": "whatever",
+      "close": "now what",
+      "shareable_moment": "better call my lawyer, you're dangerous",
+      "pre_close_tension": "friday. i'll send you the address",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "early_pacing_weak": true,
+      "timing_gap_large": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I'm pressing charges on this energy you're radiating today",
+    "first_reaction": "nice try",
+    "hook": "I'm pressing charges on this energy you're radiating today",
+    "test": "nice try",
+    "escalation_turn": "true, but you're still replying so that counts",
+    "escalation": "true, but you're still replying so that counts",
+    "shift": "whatever",
+    "close": "now what",
+    "shareable_moment": "better call my lawyer, you're dangerous",
+    "pre_close_tension": "friday. i'll send you the address",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 5,
+    "win_index": 10,
+    "shareable_index": 3,
+    "reveal_line": "Better call my lawyer, you're dangerous"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/aeda5cc7eedc5bf0e04158e7da4bdfea.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm pressing charges on this energy you're radiating today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nice try",
+      "type_at": 7.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that mirror, nah you're radiating it in that white dress",
+      "type_at": 11.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "no",
+      "type_at": 15.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "better call my lawyer, you're dangerous",
+      "type_at": 19,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "who even",
+      "type_at": 22.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "true, but you're still replying so that counts",
+      "type_at": 26.6,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "whatever",
+      "type_at": 30.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "i set this up actually",
+      "type_at": 35,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "what, that's random?",
+      "type_at": 43.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "friday. i'll send you the address",
+      "type_at": 51.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "now what",
+      "type_at": 58.6,
+      "response_type": "close"
+    }
+  ]
+}

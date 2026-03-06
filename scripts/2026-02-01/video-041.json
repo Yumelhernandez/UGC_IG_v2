@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-041",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.5,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Shemar Moore Dancing GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "late night drive",
+    "asset": "baddies/dd782e592b5960f58e335937700326e7.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Excuse me who approved this chill reading scene my lawyer is confused"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "keep that energy for me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax counselor you’re driving",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "Admit it you knew I’d crash for you",
+      "type_at": 2.8
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😭😭",
+      "type_at": 3.7
+    },
+    {
+      "from": "boy",
+      "text": "he said ask you out anyway so friday drinks you in",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 550 6129",
+      "type_at": 7
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-040",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.7,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/mine the revenant GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "rooftop lights",
+    "asset": "baddies/70077d7f0a9d9102ad00a5c917c97e63.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest, how flexible is your schedule"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold for someone I might ignore",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "Your thumbs bold too I see",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 6.5
+    },
+    {
+      "from": "boy",
+      "text": "my schedule is, argue with your feelings",
+      "type_at": 8.6
+    },
+    {
+      "from": "girl",
+      "text": "Your ego is screaming btw",
+      "type_at": 10.2
+    },
+    {
+      "from": "boy",
+      "text": "my ego is right about you though",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "You know nothing about me",
+      "type_at": 13.4
+    },
+    {
+      "from": "boy",
+      "text": "then let me study you over drinks",
+      "type_at": 15
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 209 9981. thursday 7:30 works",
+      "type_at": 16.6
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "video_id": "2026-02-23-comedy-sysfix6-002",
+  "meta": {
+    "theme": "selfie",
+    "duration_s": 19.4,
+    "spice_tier": "low",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "tease",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Would you still cover your face like that on our first fake date",
+      "first_reaction": "pass",
+      "hook": "Would you still cover your face like that on our first fake date",
+      "test": "pass",
+      "escalation_turn": "thats a yes, dont lie",
+      "escalation": "thats a yes, dont lie",
+      "shift": "i heard you, still waiting",
+      "close": "",
+      "shareable_moment": "good thing we in a car not a pool",
+      "pre_close_tension": "only because you're actually funny",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Would you still cover your face like that on our first fake date",
+    "first_reaction": "pass",
+    "hook": "Would you still cover your face like that on our first fake date",
+    "test": "pass",
+    "escalation_turn": "thats a yes, dont lie",
+    "escalation": "thats a yes, dont lie",
+    "shift": "i heard you, still waiting",
+    "close": "",
+    "shareable_moment": "good thing we in a car not a pool",
+    "pre_close_tension": "only because you're actually funny",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "thats a yes, dont lie"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "quick selfie",
+    "asset": "baddies/f38cab678e6b704e59e06ef5820afb12.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Would you still cover your face like that on our first fake date"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 1.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "that ring lowkey proposed before i did",
+      "type_at": 2.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "who even",
+      "type_at": 2.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "scared i might outshine it with my charm",
+      "type_at": 3.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "baby your charm not even waterproof",
+      "type_at": 3.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "good thing we in a car not a pool",
+      "type_at": 4.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "right, so your jokes can stay afloat",
+      "type_at": 4.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, dont lie",
+      "type_at": 5.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "i heard you, still waiting",
+      "type_at": 5.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i paid emotional gas to get here ok",
+      "type_at": 7.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "keep talking, meter running, tips not included 😂",
+      "type_at": 8.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i accept payment in unblocking your face",
+      "type_at": 10.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "nah, mystery is the only thing you earning",
+      "type_at": 11.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i can work with mystery, i love puzzles",
+      "type_at": 13.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "this puzzle missing a patience piece already",
+      "type_at": 15.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "sunday night. i'll pick you up",
+      "type_at": 16.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "only because you're actually funny",
+      "type_at": 18.6,
+      "response_type": "condition"
+    }
+  ]
+}

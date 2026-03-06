@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-057",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "coffee run",
+    "asset": "baddies/0f1beca80dc456dec9b6b10a3f46e970.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im pressing retail charges on you for weaponizing leggings like that"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Retail charges are crazy talk, stay broke then 😭",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Joke is wild but I stand on business about those leggings",
+      "type_at": 2.2
+    },
+    {
+      "from": "girl",
+      "text": "You surviving but barely, relax courtroom hero",
+      "type_at": 3.1
+    },
+    {
+      "from": "boy",
+      "text": "ill subpoena that mirror as evidence actually",
+      "type_at": 3.6
+    },
+    {
+      "from": "girl",
+      "text": "Mirror innocent, your thirst clearly guilty though",
+      "type_at": 4.1
+    },
+    {
+      "from": "boy",
+      "text": "I get paid in vibes and chaos, you take store credit",
+      "type_at": 4.6
+    },
+    {
+      "from": "girl",
+      "text": "Vibes declined, card swallowed, try again later 👀",
+      "type_at": 5.1
+    },
+    {
+      "from": "boy",
+      "text": "so you basically picked me?",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "You are bold, I am still bored 😳",
+      "type_at": 6.1
+    },
+    {
+      "from": "boy",
+      "text": "Cool ill finance the down payment in patience",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "Interest rate is insane, most men tap out",
+      "type_at": 7.9
+    },
+    {
+      "from": "boy",
+      "text": "I do long term investments in problematic women",
+      "type_at": 9.5
+    },
+    {
+      "from": "girl",
+      "text": "Finally some honesty, you might be slightly useful",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "im not just talking",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "I am not convinced yet",
+      "type_at": 12.6
+    },
+    {
+      "from": "boy",
+      "text": "text me your number",
+      "type_at": 13.7
+    },
+    {
+      "from": "girl",
+      "text": "Ok, text me 555 128 4739 and we go",
+      "type_at": 15
+    }
+  ]
+}

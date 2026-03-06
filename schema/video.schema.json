@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IG Story Reply Video Script",
+  "type": "object",
+  "required": ["video_id", "meta", "story", "reply", "persona", "messages"],
+  "properties": {
+    "video_id": { "type": "string" },
+    "meta": {
+      "type": "object",
+      "required": ["theme", "duration_s", "spice_tier", "controversy_tier", "arc_type", "beat_plan"],
+      "properties": {
+        "theme": { "type": "string" },
+        "duration_s": { "type": "number" },
+        "spice_tier": { "type": "string", "enum": ["low", "medium", "high"] },
+        "controversy_tier": { "type": "string", "enum": ["safe", "spicy", "edge"] },
+        "format": { "type": "string", "enum": ["A", "B", "C", "D"] },
+        "format_variant": { "type": "string", "enum": ["short", "long", "standard"] },
+        "arc_type": {
+          "type": "string",
+          "enum": ["number_exchange", "rejection", "plot_twist", "cliffhanger", "comedy", "brainrot"]
+        },
+        "brainrot_variant": {
+          "type": "string",
+          "enum": ["random", "contextual"]
+        },
+        "brainrot_typo_line": {
+          "type": ["string", "null"]
+        },
+        "brainrot_typo_word": {
+          "type": ["string", "null"]
+        },
+        "brainrot_score": {
+          "type": ["number", "null"]
+        },
+        "brainrot_recontext_score": {
+          "type": ["number", "null"]
+        },
+        "brainrot_warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "hook_type": { "type": "string" },
+        "payoff_type": { "type": "string" },
+        "template_id": { "type": "string" },
+        "mechanic_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "slot_index": { "type": "number" },
+        "run_seed": { "type": "number" },
+        "payoff_punch_score": { "type": ["number", "null"] },
+        "repair_applied": { "type": "boolean" },
+        "repair_rounds": { "type": "number" },
+        "repair_failed": { "type": "boolean" },
+        "verifier_passed": { "type": "boolean" },
+        "girl_archetype": { "type": "string" },
+        "conversation_mode": { "type": "string", "enum": ["cumulative", "pair_isolated"] },
+        "app_insert_policy": { "type": "string", "enum": ["off", "optional", "required"] },
+        "beat_plan": {
+          "type": "object",
+          "required": [
+            "inciting_incident",
+            "first_reaction",
+            "escalation_turn",
+            "shareable_moment",
+            "resolution_type"
+          ],
+          "properties": {
+            "inciting_incident": { "type": "string" },
+            "first_reaction": { "type": "string" },
+            "escalation_turn": { "type": "string" },
+            "hook": { "type": "string" },
+            "test": { "type": "string" },
+            "escalation": { "type": "string" },
+            "shift": { "type": "string" },
+            "close": { "type": "string" },
+            "shareable_moment": { "type": "string" },
+            "pre_close_tension": { "type": "string" },
+            "required_markers": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "resolution_type": { "type": "string" },
+            "pre_close_tension": { "type": "string" },
+            "disruption": { "type": "string" },
+            "chaos_drop": { "type": "string" }
+          }
+        },
+        "qa_overrides": {
+          "type": "object",
+          "properties": {
+            "first_gap_reason": { "type": "string" }
+          }
+        }
+      }
+    },
+    "beat_plan": {
+      "type": "object",
+      "required": [
+        "inciting_incident",
+        "first_reaction",
+        "escalation_turn",
+        "shareable_moment",
+        "pre_close_tension",
+        "resolution_type"
+      ],
+      "properties": {
+        "inciting_incident": { "type": "string" },
+        "first_reaction": { "type": "string" },
+        "escalation_turn": { "type": "string" },
+        "hook": { "type": "string" },
+        "test": { "type": "string" },
+        "escalation": { "type": "string" },
+        "shift": { "type": "string" },
+        "close": { "type": "string" },
+        "shareable_moment": { "type": "string" },
+        "pre_close_tension": { "type": "string" },
+        "required_markers": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "resolution_type": { "type": "string" }
+      }
+    },
+    "hook": {
+      "type": "object",
+      "properties": {
+        "mode": { "type": "string", "enum": ["media", "reply"] },
+        "asset": { "type": "string" },
+        "headline": { "type": "string" },
+        "subtitle": { "type": "string" }
+      }
+    },
+    "stinger": {
+      "type": "object",
+      "properties": {
+        "after_first": { "type": "string" }
+      }
+    },
+    "story": {
+      "type": "object",
+      "required": ["username", "age", "caption", "asset"],
+      "properties": {
+        "username": { "type": "string" },
+        "age": { "type": "number" },
+        "caption": { "type": "string" },
+        "asset": { "type": "string" }
+      }
+    },
+    "reply": {
+      "type": "object",
+      "required": ["from", "text"],
+      "properties": {
+        "from": { "type": "string" },
+        "text": { "type": "string" }
+      }
+    },
+    "persona": {
+      "type": "object",
+      "required": ["boy", "girl"],
+      "properties": {
+        "boy": {
+          "type": "object",
+          "required": ["name", "age"],
+          "properties": {
+            "name": { "type": "string" },
+            "age": { "type": "number" }
+          }
+        },
+        "girl": {
+          "type": "object",
+          "required": ["name", "age"],
+          "properties": {
+            "name": { "type": "string" },
+            "age": { "type": "number" }
+          }
+        }
+      }
+    },
+    "plug_line": { "type": "string" },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "text", "type_at"],
+        "properties": {
+          "from": { "type": "string" },
+          "text": { "type": "string" },
+          "type_at": { "type": "number" },
+          "response_type": {
+            "type": "string",
+            "enum": ["challenge", "dismissal", "test", "tease", "concession", "condition", "close"]
+          }
+        }
+      }
+    }
+  }
+}

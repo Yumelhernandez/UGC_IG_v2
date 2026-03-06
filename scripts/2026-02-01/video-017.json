@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-017",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.7,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Shemar Moore Dancing GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "airport view",
+    "asset": "baddies/515fa053ab2f61b52d5a7b0dc4707521.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of church girl to menace where do you rate yourself tonight"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Menace sounds cute, I’m worse",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "youre too loud to play shy",
+      "type_at": 5.9
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 7.5
+    },
+    {
+      "from": "boy",
+      "text": "you look like the reason guys start going to therapy",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "And you look breakable 😌",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "bold words for someone hiding behind an airport caption",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "You’re still in my DMs tho 😂",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "then let me suffer in person drinks when you land",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "Ok, monday 9. text me 555 964 9825",
+      "type_at": 17.3
+    }
+  ]
+}

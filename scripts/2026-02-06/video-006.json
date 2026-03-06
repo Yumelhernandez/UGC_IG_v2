@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-06-006",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "Rizzing up a 20/10",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "coffee run",
+    "asset": "baddies/b8eb177cb4bfea24880e400797964c55.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the type they warn about in the rental waiver"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Rental waiver, you sound scared?",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "you love the attention",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 7.2
+    },
+    {
+      "from": "boy",
+      "text": "i read the fine print youre high risk high reward",
+      "type_at": 8.8
+    },
+    {
+      "from": "girl",
+      "text": "You could not handle refunds 😳",
+      "type_at": 10.4
+    },
+    {
+      "from": "boy",
+      "text": "good thing i only do store credit and chaos",
+      "type_at": 12
+    },
+    {
+      "from": "girl",
+      "text": "You talk like you believe that",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "this weekend. i'll plan everything",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "555 989 1725",
+      "type_at": 16.8
+    },
+    {
+      "from": "girl",
+      "text": "You're lucky you're cute",
+      "type_at": 18.4
+    }
+  ]
+}

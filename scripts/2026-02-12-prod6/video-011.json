@@ -1,0 +1,188 @@
+{
+  "video_id": "2026-02-12-prod6-011",
+  "meta": {
+    "theme": "default",
+    "duration_s": 58.3,
+    "spice_tier": "medium",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "You owe me an explanation for this post",
+      "first_reaction": "earned it in record time",
+      "hook": "You owe me an explanation for this post",
+      "test": "earned it in record time",
+      "escalation_turn": "youre playing innocent",
+      "escalation": "youre playing innocent",
+      "shift": "nah",
+      "close": "you'll see",
+      "shareable_moment": "youre playing innocent",
+      "pre_close_tension": "ok you earned it",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "You owe me an explanation for this post",
+    "first_reaction": "earned it in record time",
+    "hook": "You owe me an explanation for this post",
+    "test": "earned it in record time",
+    "escalation_turn": "youre playing innocent",
+    "escalation": "youre playing innocent",
+    "shift": "nah",
+    "close": "you'll see",
+    "shareable_moment": "youre playing innocent",
+    "pre_close_tension": "ok you earned it",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 9,
+    "shareable_index": 3,
+    "reveal_line": "youre playing innocent"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Texting hot girls",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "studio warmup",
+    "asset": "baddies/852a7a5dd440419ed1e9a13c5aa1c4be.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You owe me an explanation for this post"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "earned it in record time",
+      "type_at": 3.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "studio vibes you said it not me",
+      "type_at": 11.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "cap",
+      "type_at": 15,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre playing innocent",
+      "type_at": 18.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "nah",
+      "type_at": 22.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "keep that energy for me",
+      "type_at": 26.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok",
+      "type_at": 34.1,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "thursday. 8. i know a spot",
+      "type_at": 40.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok you earned it",
+      "type_at": 48,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you'll see",
+      "type_at": 54.4,
+      "response_type": "test"
+    }
+  ]
+}

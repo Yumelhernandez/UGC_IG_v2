@@ -1,0 +1,262 @@
+{
+  "video_id": "2026-08-01-005",
+  "meta": {
+    "theme": "beach",
+    "duration_s": 20.9,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "list_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 6,
+    "beat_plan": {
+      "inciting_incident": "I'm suing you for emotional damage",
+      "first_reaction": "",
+      "hook": "I'm suing you for emotional damage",
+      "test": "",
+      "escalation_turn": "objection, it’s clearly all year for you",
+      "escalation": "objection, it’s clearly all year for you",
+      "shift": "sustained, but keep talking nice like that😭",
+      "close": "only because you're actually funny 😭",
+      "shareable_moment": "so youre choosing me?",
+      "pre_close_tension": "text me 555 685 4388",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "format_variant": "standard",
+    "hook_type": "situation_reveal",
+    "payoff_type": "vulnerability_close",
+    "template_id": "T-09",
+    "mechanic_ids": [
+      "M-ARC-comedy",
+      "M-HOOK-situation_reveal",
+      "M-PAYOFF-vulnerability_close"
+    ],
+    "slot_index": 5,
+    "run_seed": 803943388,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I'm suing you for emotional damage",
+    "first_reaction": "",
+    "hook": "I'm suing you for emotional damage",
+    "test": "",
+    "escalation_turn": "objection, it’s clearly all year for you",
+    "escalation": "objection, it’s clearly all year for you",
+    "shift": "sustained, but keep talking nice like that😭",
+    "close": "only because you're actually funny 😭",
+    "shareable_moment": "so youre choosing me?",
+    "pre_close_tension": "text me 555 685 4388",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 9,
+    "win_index": 19,
+    "shareable_index": 7,
+    "reveal_line": "objection, it’s clearly all year for you"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "sun glow",
+    "asset": "baddies/af42783370b8cc3cdc122387cd771bef.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm suing you for emotional damage"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "emotional damage is crazy talk rn",
+      "type_at": 1.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i got 3 things for you — 1. my time, 2. my energy, 3. ur number",
+      "type_at": 2.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "lmao ok that was smooth😭",
+      "type_at": 2.9,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "poolside lawyer vibes, i stand on business",
+      "type_at": 3.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur case weak, clouds backing me up",
+      "type_at": 4.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "jury saw that black bikini and fainted",
+      "type_at": 4.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "they folded before opening statements honestly 💀",
+      "type_at": 5.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so youre choosing me?",
+      "type_at": 5.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you got jokes, now show it",
+      "type_at": 6.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "objection, it’s clearly all year for you",
+      "type_at": 6.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "sustained, but keep talking nice like that😭",
+      "type_at": 7.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "ill, as your emotional support menace",
+      "type_at": 8.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not emotional support villain by the pool 💀",
+      "type_at": 9.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "villain arc started when you posted that angle",
+      "type_at": 11.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur really fighting for this number huh😭",
+      "type_at": 12.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "youre testing me and i like it",
+      "type_at": 14.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "elaborate",
+      "type_at": 15.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "because you want to",
+      "type_at": 16.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 685 4388",
+      "type_at": 18,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "only because you're actually funny 😭",
+      "type_at": 19.8,
+      "response_type": "punchline"
+    }
+  ]
+}

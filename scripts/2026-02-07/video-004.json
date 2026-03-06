@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.2,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "sunset skyline",
+    "asset": "baddies/503d926b0adee477f578b14ff141ef84.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im pressing charges because this story just broke my focus"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume you matter",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Bold of you to assume I noticed",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "Says who?",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "im just saying your villain arc looks kind of fun",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "Im the final boss actually",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "Bold for someone already losing",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "friday. 7:30. i know a spot",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 462 9829",
+      "type_at": 17.3
+    },
+    {
+      "from": "girl",
+      "text": "You're on",
+      "type_at": 18.9
+    }
+  ]
+}

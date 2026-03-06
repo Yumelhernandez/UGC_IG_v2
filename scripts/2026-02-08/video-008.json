@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-08-008",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/73cd64b26f14242b54edd32ba7de9c43.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "If I stand next to you do I need a permit for loitering"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound like a walking red flag",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Embrace the chaos, it’s a vibe you love",
+      "type_at": 5.1
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 6.7
+    },
+    {
+      "from": "boy",
+      "text": "says the girl posting midnight snack thirst traps",
+      "type_at": 8.3
+    },
+    {
+      "from": "girl",
+      "text": "Stay pressed from the sidelines",
+      "type_at": 9.9
+    },
+    {
+      "from": "boy",
+      "text": "cant i prefer front row tuesday night dessert on me",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a stranger",
+      "type_at": 13.1
+    },
+    {
+      "from": "boy",
+      "text": "saturday night. i'll pick you up",
+      "type_at": 14.7
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 813 9777",
+      "type_at": 16.3
+    },
+    {
+      "from": "girl",
+      "text": "Prove it",
+      "type_at": 17.9
+    }
+  ]
+}

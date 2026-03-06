@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-06-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rooftop lights",
+    "asset": "baddies/e40f57d6a834c5f7f3834d37a060e710.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm pressing charges on this story"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume innocence",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "Bold of you to assume I’d resist",
+      "type_at": 6.4
+    },
+    {
+      "from": "girl",
+      "text": "?? 😂",
+      "type_at": 8
+    },
+    {
+      "from": "boy",
+      "text": "i dont wish i observe",
+      "type_at": 9.6
+    },
+    {
+      "from": "girl",
+      "text": "Relax lawyer boy 😳",
+      "type_at": 11.2
+    },
+    {
+      "from": "boy",
+      "text": "relax i got this",
+      "type_at": 12.8
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a stranger",
+      "type_at": 14.4
+    },
+    {
+      "from": "boy",
+      "text": "drinks tuesday. i'm choosing the place",
+      "type_at": 16
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 663 5634",
+      "type_at": 17.6
+    },
+    {
+      "from": "girl",
+      "text": "Don't be boring",
+      "type_at": 19.2
+    }
+  ]
+}

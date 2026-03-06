@@ -1,0 +1,249 @@
+{
+  "video_id": "2026-02-24-haiku-vs-gpt51-n24-bench-gpt51-006",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 21.4,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "D",
+    "arc_type": "plot_twist",
+    "punchline_style": "cocky_claim",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "challenge",
+    "first_reaction_words": 4,
+    "beat_plan": {
+      "inciting_incident": "My therapist is going to ask why a hammock has me this stressed",
+      "first_reaction": "you serious about therapist?",
+      "hook": "My therapist is going to ask why a hammock has me this stressed",
+      "test": "you serious about therapist?",
+      "escalation_turn": "i like confusing pretty, suffering is just the side quest",
+      "escalation": "i like confusing pretty, suffering is just the side quest",
+      "shift": "cute line, still not impressed",
+      "close": "surprise",
+      "shareable_moment": "then unfollow and breathe, dramatic",
+      "pre_close_tension": "because i'm worth it",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "My therapist is going to ask why a hammock has me this stressed",
+    "first_reaction": "you serious about therapist?",
+    "hook": "My therapist is going to ask why a hammock has me this stressed",
+    "test": "you serious about therapist?",
+    "escalation_turn": "i like confusing pretty, suffering is just the side quest",
+    "escalation": "i like confusing pretty, suffering is just the side quest",
+    "shift": "cute line, still not impressed",
+    "close": "surprise",
+    "shareable_moment": "then unfollow and breathe, dramatic",
+    "pre_close_tension": "because i'm worth it",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 9,
+    "win_index": 18,
+    "shareable_index": 6,
+    "reveal_line": "i like confusing pretty, suffering is just the side quest"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "How to rizz up baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "soft day",
+    "asset": "baddies/3f19cd6326b93930a4c265b3c584e504.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist is going to ask why a hammock has me this stressed"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you serious about therapist?",
+      "type_at": 1.9,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that soft, you really chose sunlight and hammock just to raise",
+      "type_at": 2.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "stressed over a net and some toes is wild",
+      "type_at": 2.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "the toes are fine, the sunlight snitching through the hammock is evil",
+      "type_at": 3.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "sounds like a you problem tbh",
+      "type_at": 3.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah my therapist agrees, said stop following women with cozy lives",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "then unfollow and breathe, dramatic",
+      "type_at": 4.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just said yes?",
+      "type_at": 5.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you are loud, make it count",
+      "type_at": 5.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i like confusing pretty, suffering is just the side quest",
+      "type_at": 6.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "cute line, still not impressed",
+      "type_at": 6.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 8.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "i've been watching your stuff for a while",
+      "type_at": 9.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "i was testing you this whole time",
+      "type_at": 11.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you really forgot im your ex huh",
+      "type_at": 13,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 15.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "that's a lot 👀",
+      "type_at": 16.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "because i'm worth it",
+      "type_at": 18.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "surprise",
+      "type_at": 20.2,
+      "response_type": "close"
+    }
+  ]
+}

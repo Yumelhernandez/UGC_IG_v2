@@ -1,0 +1,241 @@
+{
+  "video_id": "2026-02-23-endingtest-004",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 22.3,
+    "spice_tier": "low",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "cliffhanger",
+    "punchline_style": "deflection",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "My therapist is gonna ask why one chill walk stresses me out now",
+      "first_reaction": "be serious",
+      "hook": "My therapist is gonna ask why one chill walk stresses me out now",
+      "test": "be serious",
+      "escalation_turn": "so we skipping the small talk?",
+      "escalation": "so we skipping the small talk?",
+      "shift": "you are committed to this bit 👀",
+      "close": "maybe. maybe not",
+      "shareable_moment": "sidewalk was fine, it is the girl with the yellow bag haunting me",
+      "pre_close_tension": "that was smooth i'll give you that",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "My therapist is gonna ask why one chill walk stresses me out now",
+    "first_reaction": "be serious",
+    "hook": "My therapist is gonna ask why one chill walk stresses me out now",
+    "test": "be serious",
+    "escalation_turn": "so we skipping the small talk?",
+    "escalation": "so we skipping the small talk?",
+    "shift": "you are committed to this bit 👀",
+    "close": "maybe. maybe not",
+    "shareable_moment": "sidewalk was fine, it is the girl with the yellow bag haunting me",
+    "pre_close_tension": "that was smooth i'll give you that",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so we skipping the small talk?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "street bite",
+    "asset": "baddies/06d282912cd069c4a27c87469c147bb7.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist is gonna ask why one chill walk stresses me out now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "be serious",
+      "type_at": 1.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "the yellow bag and denim skirt combo feels like a warning sign",
+      "type_at": 2.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "cap",
+      "type_at": 2.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "my therapist is gonna ask why one chill walk stresses me out now",
+      "type_at": 3.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you are loud, still boring",
+      "type_at": 3.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "sidewalk was fine, it is the girl with the yellow bag haunting me",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you acting like the bag chased you down the street",
+      "type_at": 4.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so we skipping the small talk?",
+      "type_at": 5.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are committed to this bit 👀",
+      "type_at": 5.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "nah this felt personal, like the skirt knew i was staring",
+      "type_at": 7.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "the skirt does not know you babe, relax",
+      "type_at": 9.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "that is fair, but my brain zoomed in anyway, no consent",
+      "type_at": 10.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "sounds like a you problem, maybe learn eye control",
+      "type_at": 12.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "im trying, but the outfit has side quest energy i cant skip",
+      "type_at": 14.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok explain",
+      "type_at": 16.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "thursday night. i'll pick you up",
+      "type_at": 17.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "that was smooth i'll give you that",
+      "type_at": 19.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "maybe. maybe not",
+      "type_at": 21.3,
+      "response_type": "test"
+    }
+  ]
+}

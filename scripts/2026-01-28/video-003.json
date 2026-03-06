@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-28-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.1,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "gym mirror",
+    "asset": "baddies/b29b2cf24affa5dbaa54357ce4fa4c0c.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ok athlete so when are you making me suffer through a workout with you"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Why?",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "so you basically picked me?",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 6.9
+    },
+    {
+      "from": "boy",
+      "text": "i can back it up in person",
+      "type_at": 8.5
+    },
+    {
+      "from": "girl",
+      "text": "You would actually cry",
+      "type_at": 10.1
+    },
+    {
+      "from": "boy",
+      "text": "try me",
+      "type_at": 11.7
+    },
+    {
+      "from": "girl",
+      "text": "Delusional but cute try",
+      "type_at": 13.3
+    },
+    {
+      "from": "boy",
+      "text": "Cool so when are we testing this over drinks",
+      "type_at": 14.9
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 796 7630 at 9",
+      "type_at": 16.5
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-23-endingtest2-005",
+  "meta": {
+    "theme": "food",
+    "duration_s": 20.9,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "D",
+    "arc_type": "plot_twist",
+    "punchline_style": "deflection",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Wild thought what if that empty seat was legally reserved for me",
+      "first_reaction": "not happening",
+      "hook": "Wild thought what if that empty seat was legally reserved for me",
+      "test": "not happening",
+      "escalation_turn": "so you want me?",
+      "escalation": "so you want me?",
+      "shift": "cute words, where is the proof",
+      "close": "",
+      "shareable_moment": "benches listen better than people who ghost their iced matcha",
+      "pre_close_tension": "so. what are you gonna do with that",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Wild thought what if that empty seat was legally reserved for me",
+    "first_reaction": "not happening",
+    "hook": "Wild thought what if that empty seat was legally reserved for me",
+    "test": "not happening",
+    "escalation_turn": "so you want me?",
+    "escalation": "so you want me?",
+    "shift": "cute words, where is the proof",
+    "close": "",
+    "shareable_moment": "benches listen better than people who ghost their iced matcha",
+    "pre_close_tension": "so. what are you gonna do with that",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so you want me?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "quiet day",
+    "asset": "baddies/73a3b0ca833073f4068288fac230e828.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Wild thought what if that empty seat was legally reserved for me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "not happening",
+      "type_at": 1.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "relax professor, i just recognized my assigned seat in that pic",
+      "type_at": 2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 2.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "the bench saw the green drink and said she needs supervision",
+      "type_at": 3.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "supervision from a man who texts benches, scary 👀",
+      "type_at": 3.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "benches listen better than people who ghost their iced matcha",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "maybe the matcha deserved it, acting too sweet",
+      "type_at": 4.9,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "so you want me?",
+      "type_at": 5.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "cute words, where is the proof",
+      "type_at": 5.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "c minus still passing, i just need office hours beside that croissant",
+      "type_at": 7.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "office hours booked, fully allergic to randoms",
+      "type_at": 9.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "i set this up actually",
+      "type_at": 10.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "talkative for someone i allegedly favored, evidence please",
+      "type_at": 12.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "evidence is you left me on read last april at this same spot",
+      "type_at": 14.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "wait, that was you with the tragic latte art",
+      "type_at": 16.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "this weekend. i'll plan everything",
+      "type_at": 18.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "so. what are you gonna do with that",
+      "type_at": 19.6,
+      "response_type": "condition"
+    }
+  ]
+}

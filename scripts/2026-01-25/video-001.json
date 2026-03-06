@@ -1,0 +1,89 @@
+{
+  "video_id": "2026-01-25-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "You replied to their story"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/39ef9ed1490a8d5c69408d3772ea517f.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Why do I feel like you did more posing than actual buying today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "what do you mean?",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "I just know staged content when I see it",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "jealous you weren’t invited?",
+      "type_at": 5.6
+    },
+    {
+      "from": "boy",
+      "text": "I’m more fun than that whole place anyway",
+      "type_at": 7
+    },
+    {
+      "from": "girl",
+      "text": "bold talk from the couch",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "say less I’ll out pose you in real life",
+      "type_at": 9.7
+    },
+    {
+      "from": "girl",
+      "text": "you talk a lot for free drinks",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "then let me pay for them this week dinner and see if you keep up",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "text me then Ava +1 3 3 0 wait and find out",
+      "type_at": 13.8
+    }
+  ],
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 8,
+    "reveal_line": "I just know staged content when I see it"
+  }
+}

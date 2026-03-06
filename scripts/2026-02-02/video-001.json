@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-02-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "How to rizz up baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "studio warmup",
+    "asset": "baddies/b8eb177cb4bfea24880e400797964c55.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told our kids their mom is a water problem"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You rehearsing or actually applying",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "Water you gonna do about it?",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 6.5
+    },
+    {
+      "from": "boy",
+      "text": "loud enough you posted studio warmup like a movie trailer",
+      "type_at": 8.1
+    },
+    {
+      "from": "girl",
+      "text": "Maybe i like the views",
+      "type_at": 9.7
+    },
+    {
+      "from": "boy",
+      "text": "youre trouble and i like it",
+      "type_at": 11.3
+    },
+    {
+      "from": "girl",
+      "text": "Bold to assume i’m free",
+      "type_at": 12.9
+    },
+    {
+      "from": "boy",
+      "text": "thursday night. i'll pick you up",
+      "type_at": 14.5
+    },
+    {
+      "from": "girl",
+      "text": "You're annoying. 555 629 3000",
+      "type_at": 16.1
+    },
+    {
+      "from": "girl",
+      "text": "You have 24 hours",
+      "type_at": 17.7
+    }
+  ]
+}

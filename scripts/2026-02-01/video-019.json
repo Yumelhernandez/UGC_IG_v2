@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-019",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Slide Sliding GIF by TipsyElves.com.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "weekend escape",
+    "asset": "baddies/a04ec160a22586f75b80e66f34969f6d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Bold claim but im pretty sure I could match that energy in person"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold claim for someone off the beach",
+      "type_at": 1.9
+    },
+    {
+      "from": "boy",
+      "text": "you say that like id not keep up",
+      "type_at": 2.4
+    },
+    {
+      "from": "girl",
+      "text": "Please, you would tap out mid walk",
+      "type_at": 2.9
+    },
+    {
+      "from": "boy",
+      "text": "I do more than walk, I race the vibe",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "That sounded cooler in your head 😳",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "maybe, but the confidence still hits",
+      "type_at": 4.4
+    },
+    {
+      "from": "girl",
+      "text": "Confidence is cute, delusion is funnier",
+      "type_at": 4.9
+    },
+    {
+      "from": "boy",
+      "text": "so its me then?",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "You are committed to this bit",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "you posted this, im just reading the energy",
+      "type_at": 7
+    },
+    {
+      "from": "girl",
+      "text": "And what energy are you reading exactly",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "sunshine trouble with a caffeine addiction",
+      "type_at": 9.4
+    },
+    {
+      "from": "girl",
+      "text": "You got one thing right, caffeine stays",
+      "type_at": 10.1
+    },
+    {
+      "from": "boy",
+      "text": "not yet, that is why im asking you out",
+      "type_at": 11.2
+    },
+    {
+      "from": "girl",
+      "text": "Hm bold again, what are you thinking",
+      "type_at": 12.3
+    },
+    {
+      "from": "boy",
+      "text": "drinks this Friday at 8, I pick a spot",
+      "type_at": 13.3
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 662 5184",
+      "type_at": 15
+    }
+  ]
+}

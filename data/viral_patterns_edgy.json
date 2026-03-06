@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-02-27T19:21:36.597Z",
+  "source": "/Users/yumelhernandez/Downloads/viral_video_breakdowns_unique_MASTER.md",
+  "stats": {
+    "total_videos": 104,
+    "videos_with_bubbles": 14,
+    "two_beat_count": 0,
+    "two_beat_rate": 0,
+    "avg_boy_words_per_msg": 5.52,
+    "avg_punchline_position": 5.5,
+    "mechanic_counts": {
+      "two_beat_innuendo": 4,
+      "screenshot_punchline": 3,
+      "accuse_generic": 2,
+      "puzzle_math_trick": 2,
+      "presumption_reveal": 2
+    }
+  },
+  "examples": [
+    {
+      "video": "Viral_video_one.mp4",
+      "mechanics": [
+        "two_beat_innuendo",
+        "screenshot_punchline"
+      ],
+      "two_beat": false,
+      "first_boy": "are u still mad?",
+      "first_girl": "yes",
+      "last_boy": "I know 70 ways to make you happy"
+    },
+    {
+      "video": "Viral_video_two.mp4",
+      "mechanics": [],
+      "two_beat": false,
+      "first_boy": "Burger or Pizza?",
+      "first_girl": "Burger??",
+      "last_boy": "Burger or Pizza?"
+    },
+    {
+      "video": "Viral_video_three.mp4",
+      "mechanics": [],
+      "two_beat": false,
+      "first_boy": "do you like water?",
+      "first_girl": "yeah why",
+      "last_boy": "do you like water?"
+    },
+    {
+      "video": "Viral_video_four.mp4",
+      "mechanics": [
+        "two_beat_innuendo"
+      ],
+      "two_beat": false,
+      "first_boy": "matcha n missionary?",
+      "first_girl": "???",
+      "last_boy": "matcha n missionary?"
+    },
+    {
+      "video": "Viral_video_five.mp4",
+      "mechanics": [
+        "two_beat_innuendo"
+      ],
+      "two_beat": false,
+      "first_boy": "Your body is tea",
+      "first_girl": "Ah okay thanks",
+      "last_boy": "Your body is tea"
+    },
+    {
+      "video": "Viral_video_six.mp4",
+      "mechanics": [
+        "accuse_generic"
+      ],
+      "two_beat": false,
+      "first_boy": "You ever get tired of breaking necks when you post?",
+      "first_girl": "you don’t even know me",
+      "last_boy": "Acknowledgment’s a formality. Interest speaks louder."
+    },
+    {
+      "video": "Viral_video_8.mp4",
+      "mechanics": [],
+      "two_beat": false,
+      "first_boy": "You just ruined the beach for everyone else",
+      "first_girl": "",
+      "last_boy": "You just ruined the beach for everyone else"
+    },
+    {
+      "video": "Viral_video_20.mp4",
+      "mechanics": [
+        "puzzle_math_trick",
+        "screenshot_punchline"
+      ],
+      "two_beat": false,
+      "first_boy": "roses are red",
+      "first_girl": "that was so sweet",
+      "last_boy": "drop your number"
+    },
+    {
+      "video": "Viral_video_21.mp4",
+      "mechanics": [
+        "presumption_reveal"
+      ],
+      "two_beat": false,
+      "first_boy": "I would never play hide and seek with you 🥺",
+      "first_girl": "",
+      "last_boy": "I would never play hide and seek with you 🥺"
+    },
+    {
+      "video": "Viral_video_22.mp4",
+      "mechanics": [
+        "two_beat_innuendo",
+        "accuse_generic",
+        "screenshot_punchline"
+      ],
+      "two_beat": false,
+      "first_boy": "can I use your thighs as earmuffs??",
+      "first_girl": "hmmm…",
+      "last_boy": "you mean it for real?"
+    },
+    {
+      "video": "Viral_video_23.mp4",
+      "mechanics": [
+        "presumption_reveal"
+      ],
+      "two_beat": false,
+      "first_boy": "Quick question",
+      "first_girl": "Because my parents are strict: (",
+      "last_boy": "Why don’t you have a boyfriend? 🥺"
+    },
+    {
+      "video": "Viral_video_24.mp4",
+      "mechanics": [],
+      "two_beat": false,
+      "first_boy": "do you like water?",
+      "first_girl": "yeah why",
+      "last_boy": "do you like water?"
+    },
+    {
+      "video": "Viral_video_25.mp4",
+      "mechanics": [
+        "puzzle_math_trick"
+      ],
+      "two_beat": false,
+      "first_boy": "You the first 10/10 i ever seen",
+      "first_girl": "You misunderstood me",
+      "last_boy": "yeah yu right"
+    },
+    {
+      "video": "Viral_video_33.mp4",
+      "mechanics": [],
+      "two_beat": false,
+      "first_boy": "If it ain’t rice then it ain’t nice",
+      "first_girl": "",
+      "last_boy": "Never mind"
+    }
+  ],
+  "blueprints": [
+    {
+      "id": "water_type",
+      "mechanic": "two_beat_innuendo",
+      "weight": 20,
+      "setup_instruction": "Boy opens with a totally innocent, almost absurd question ('do you like water?', 'can you hold your breath?', 'how do you feel about ice?'). Must sound completely benign — no trace of innuendo.",
+      "payoff_instruction": "After girl's confused reaction (yes?? / why? / what does that mean?), boy lands a numeric or double-meaning punchline that reframes the setup as spicy (e.g., 'because you're like 70% my type', 'because you're about to be soaked in compliments', 'good because I need someone who can handle a little heat').",
+      "example_exchanges": [
+        {
+          "boy": "do you like water?",
+          "girl": "yeah why",
+          "boy2": "because you're about 70% my type"
+        },
+        {
+          "boy": "can you hold your breath?",
+          "girl": "why??",
+          "boy2": "because you take mine away"
+        },
+        {
+          "boy": "do you like ice?",
+          "girl": "yes?? why",
+          "boy2": "because you're one cool move away from melting me"
+        }
+      ],
+      "comment_bait_hint": "The '70% my type' or numeric payoff is inherently screenshot-bait. Set up so viewers can share the punchline line alone.",
+      "screenshot_hint": "The boy's payoff line should be short and quotable (under 10 words). It should work as a standalone text.",
+      "safety_note": "PG-13 innuendo only. No explicit sexual content. The double meaning should be implied, not stated."
+    },
+    {
+      "id": "earmuffs_physical",
+      "mechanic": "two_beat_innuendo",
+      "weight": 15,
+      "setup_instruction": "Boy asks an innocent but slightly unusual physical question about a body part or action ('can I use your thighs as earmuffs?', 'is your shoulder a good pillow?', 'how warm are your hands?'). The question sounds weird but not overtly sexual.",
+      "payoff_instruction": "Girl hesitates or responds with confusion/thinking (hmm... / hm. / ok wait). Boy then doubles down with a short, confident declaration that makes the innuendo crystal clear but still non-explicit ('don't play... you know that's exactly where my face belongs').",
+      "example_exchanges": [
+        {
+          "boy": "can I use your thighs as earmuffs??",
+          "girl": "hmmm…",
+          "boy2": "don't play... you know that's exactly where my face belongs"
+        },
+        {
+          "boy": "is your neck a good pillow?",
+          "girl": "why are you asking",
+          "boy2": "i just like things soft and close"
+        }
+      ],
+      "comment_bait_hint": "The buildup through multiple girl 'hmm' responses creates tension. Viewers debate if she'll say yes.",
+      "screenshot_hint": "Boy's final declaration should be bold and short — the contrast between sweet setup and this line is the screenshot moment.",
+      "safety_note": "Implication must stay PG-13. The joke is about closeness/warmth, not explicit acts."
+    },
+    {
+      "id": "number_innuendo",
+      "mechanic": "two_beat_innuendo",
+      "weight": 18,
+      "setup_instruction": "Boy opens with a bold but seemingly innocent claim ('I know 70 ways to make you happy', 'I have 100 reasons to text you back'). This sets up curiosity — girl wants to know more.",
+      "payoff_instruction": "Girl asks for the first one or says 'and the rest?'. Boy reveals a sweet/innocent first item, then when pushed for more, the final answer is a number-based innuendo (e.g., 'the rest is 69', 'the last one starts with a 6 and ends with a 9').",
+      "example_exchanges": [
+        {
+          "boy": "I know 70 ways to make you happy",
+          "girl": "alright what's the first",
+          "boy2": "buy you flowers",
+          "girl2": "and the rest?",
+          "boy3": "the rest is 69"
+        }
+      ],
+      "comment_bait_hint": "The '69' reveal is pure comment-bait — viewers will flood comments with laughing emojis and 'he said it'.",
+      "screenshot_hint": "The exchange 'I know 70 ways to make you happy → the rest is 69' is the screenshot. Keep boy's answer short.",
+      "safety_note": "69 is a well-known innuendo that stays safe for most platforms. Do not go more explicit."
+    },
+    {
+      "id": "absurd_question_pivot",
+      "mechanic": "two_beat_innuendo",
+      "weight": 17,
+      "setup_instruction": "Boy sends a completely random, left-field question mid-conversation ('quick question. favorite color?', 'real quick — do you believe in aliens?', 'random but: can you cook?'). The question feels disconnected from anything that came before.",
+      "payoff_instruction": "Girl responds confused or curious ('why?' / 'what does that have to do with anything?'). Boy then lands a punchline that connects the random question back to a flirty intent ('just checking if we're compatible before I ruin your week', 'aliens because I've never seen anything like you', 'because I want to know if I should bring groceries or a reservation').",
+      "example_exchanges": [
+        {
+          "boy": "quick question. favorite color?",
+          "girl": "why",
+          "boy2": "just checking if we're compatible before i ruin your week"
+        },
+        {
+          "boy": "real quick — do you believe in aliens?",
+          "girl": "lol why??",
+          "boy2": "because i've never seen anything like you in my section of the universe"
+        }
+      ],
+      "comment_bait_hint": "The random pivot creates a 'wait what?' moment that makes viewers rewatch. The payoff lands harder because of the setup.",
+      "screenshot_hint": "The punchline after the pivot is the screenshot moment. Make it surprising and quotable.",
+      "safety_note": "Keep it witty and playful. No explicit content. The humor is in the unexpected connection."
+    },
+    {
+      "id": "presumptive_bold",
+      "mechanic": "presumption_reveal",
+      "weight": 15,
+      "setup_instruction": "Boy acts as if they're already dating or already have a plan ('I already told my mom about us', 'what time should I pick you up', 'I already planned our first argument'). This is presumptuous and slightly chaotic — she never agreed to anything.",
+      "payoff_instruction": "Girl pushes back with confusion or skepticism ('you don't know me' / '???' / 'who said that?'). Boy responds with either a callback that reframes his presumption as confidence ('acknowledgment's a formality, interest speaks louder') or a funny escalation.",
+      "example_exchanges": [
+        {
+          "boy": "I already told my mom about us",
+          "girl": "she should have warned me before i replied tbh",
+          "boy2": "she said you would say that"
+        },
+        {
+          "boy": "I would never play hide and seek with you",
+          "girl": "why not??",
+          "boy2": "because someone like you is impossible to hide from"
+        }
+      ],
+      "comment_bait_hint": "The chaos of acting like they're already together drives comments like 'the confidence' and 'he said MOM'.",
+      "screenshot_hint": "The original bold claim + her confused reaction is the screenshot. Keep the boy's opener under 10 words.",
+      "safety_note": "Confident not coercive. The humor is in the presumption, not pressure."
+    },
+    {
+      "id": "body_compliment_flip",
+      "mechanic": "two_beat_innuendo",
+      "weight": 10,
+      "setup_instruction": "Boy sends an innocent-sounding compliment or observation ('your body is tea', 'you're giving tea energy', 'you look like a green flag'). She takes it literally or responds warmly.",
+      "payoff_instruction": "After her warm/neutral response, boy escalates with a second message that adds the innuendo layer ('I meant I want to drink you in slowly', 'hot and worth every sip', 'and I drink a lot of tea'). The payoff reframes the compliment.",
+      "example_exchanges": [
+        {
+          "boy": "your body is tea",
+          "girl": "Ah okay thanks",
+          "boy2": "hot. worth every sip. keeping you."
+        },
+        {
+          "boy": "you're giving tea energy",
+          "girl": "thanks i guess?",
+          "boy2": "the kind you want to take your time with"
+        }
+      ],
+      "comment_bait_hint": "The flip from 'innocent compliment' to spicy second layer is the comment-bait — viewers love the double-take.",
+      "screenshot_hint": "The pair of messages ('your body is tea' + the follow-up) creates a quotable exchange.",
+      "safety_note": "Tea = attractive, not explicit. Keep the innuendo about warmth and desirability, not body parts."
+    },
+    {
+      "id": "rate_reveal",
+      "mechanic": "puzzle_math_trick",
+      "weight": 5,
+      "setup_instruction": "Boy opens with a rating or scoring mechanic ('you're the first 10/10 I've ever seen', 'I'd give you a solid 8/10'). This provokes either pride or pushback.",
+      "payoff_instruction": "When girl reacts, boy backtracks slightly ('yeah my bad, you're more like 9/10') which makes her defensive. Then when she pushes back asking what took points off, boy lands a clever or spicy answer that implies what the missing point could buy.",
+      "example_exchanges": [
+        {
+          "boy": "You the first 10/10 i ever seen",
+          "girl": "you misunderstood me",
+          "boy2": "yeah yu right you more like 9/10",
+          "girl2": "So what made it go down?"
+        }
+      ],
+      "comment_bait_hint": "Dropping her rating on purpose makes viewers want to know what the answer is — they comment guessing.",
+      "screenshot_hint": "The 'you the first 10/10' line is screenshot-worthy if paired with the rating drop.",
+      "safety_note": "The missing point implies attraction, not a physical flaw. Keep it flirtatious not mean."
+    }
+  ]
+}

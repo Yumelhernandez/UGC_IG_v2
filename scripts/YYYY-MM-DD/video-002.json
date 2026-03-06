@@ -1,0 +1,50 @@
+{
+  "video_id": "YYYY-MM-DD-002",
+  "meta": {
+    "theme": "mystery",
+    "duration_s": 9.2,
+    "spice_tier": "medium"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "weekend escape",
+    "asset": "assets/stories/curated/story-07.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "who's the photographer?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "can't tell you yet",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "i'll find out",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "keep guessing",
+      "type_at": 6.6
+    },
+    {
+      "from": "boy",
+      "text": "i can handle",
+      "type_at": 7.9
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-01-31-006",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/d825a4cdb93f9f8954b57624169a18d6.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "This looks less transport more album cover where are the tour dates"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax groupie this tour is invite only",
+      "type_at": 1.2
+    },
+    {
+      "from": "boy",
+      "text": "Wild because I already scalped front row in my head",
+      "type_at": 1.7
+    },
+    {
+      "from": "girl",
+      "text": "Imaginary tickets fit your imaginary rizz",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "Plot twist my rizz is standing right across the aisle",
+      "type_at": 3.1
+    },
+    {
+      "from": "girl",
+      "text": "Please you would trip walking over",
+      "type_at": 3.6
+    },
+    {
+      "from": "boy",
+      "text": "ill fall but it will be into your close friends list",
+      "type_at": 4.1
+    },
+    {
+      "from": "girl",
+      "text": "Bold to assume you make the roster",
+      "type_at": 4.6
+    },
+    {
+      "from": "boy",
+      "text": "so youre choosing me?",
+      "type_at": 5.1
+    },
+    {
+      "from": "girl",
+      "text": "You are persistent, I will give that",
+      "type_at": 5.6
+    },
+    {
+      "from": "boy",
+      "text": "Cool ill just come with director cut energy then",
+      "type_at": 6.6
+    },
+    {
+      "from": "girl",
+      "text": "Director could never with that caption energy",
+      "type_at": 7.5
+    },
+    {
+      "from": "boy",
+      "text": "Caption was the trailer full movie clearly on this story",
+      "type_at": 8.5
+    },
+    {
+      "from": "girl",
+      "text": "Movie budget is high you sure 😭😭",
+      "type_at": 9.1
+    },
+    {
+      "from": "boy",
+      "text": "I stay in pre sale mode I can keep up",
+      "type_at": 10.4
+    },
+    {
+      "from": "girl",
+      "text": "Talk is cheap tickets are not babe",
+      "type_at": 11
+    },
+    {
+      "from": "boy",
+      "text": "Then let me buy drinks and we call it merch",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 432 5430 at 7",
+      "type_at": 13.3
+    }
+  ]
+}

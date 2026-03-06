@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-013",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA copy.mp4",
+    "headline": "Rizzing ig baddies",
+    "subtitle": "(wedding method)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Katy Perry Reaction GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/12b04f0c3b993d5a5bf328a641947822.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm suing you for emotional damage"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Emotional damage from a coconut is crazy",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "That coconut and that view are guilty as charged",
+      "type_at": 2.2
+    },
+    {
+      "from": "girl",
+      "text": "Please, you will live, drama king 👀",
+      "type_at": 2.7
+    },
+    {
+      "from": "boy",
+      "text": "im just stating the medical facts here",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "Your doctor know you text like this",
+      "type_at": 3.7
+    },
+    {
+      "from": "boy",
+      "text": "watch me back it up",
+      "type_at": 4.3
+    },
+    {
+      "from": "girl",
+      "text": "Bold of you to assume im bothered",
+      "type_at": 4.8
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, loud",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "You got jokes, now show it",
+      "type_at": 5.8
+    },
+    {
+      "from": "boy",
+      "text": "Fair, but you read it twice so it worked",
+      "type_at": 6.9
+    },
+    {
+      "from": "girl",
+      "text": "Congrats, you can count, what now",
+      "type_at": 7.4
+    },
+    {
+      "from": "boy",
+      "text": "True, so let me start with just matching the drink",
+      "type_at": 8.3
+    },
+    {
+      "from": "girl",
+      "text": "You really think you earned a drink already",
+      "type_at": 9.4
+    },
+    {
+      "from": "boy",
+      "text": "I think I earned a chance to try at least",
+      "type_at": 10.4
+    },
+    {
+      "from": "girl",
+      "text": "Hm, brave words for a thirsty man",
+      "type_at": 11.9
+    },
+    {
+      "from": "boy",
+      "text": "Then let me fix that thirst, drinks Friday night",
+      "type_at": 12.4
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 394 7162 at 8:30",
+      "type_at": 13.7
+    }
+  ]
+}

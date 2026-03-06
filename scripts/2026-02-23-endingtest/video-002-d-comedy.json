@@ -1,0 +1,240 @@
+{
+  "video_id": "2026-02-23-endingtest-002",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 20.1,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "callback",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "So if I asked how flexible your weekend is what are we doing",
+      "first_reaction": "not happening",
+      "hook": "So if I asked how flexible your weekend is what are we doing",
+      "test": "not happening",
+      "escalation_turn": "so you just said yes?",
+      "escalation": "so you just said yes?",
+      "shift": "you say that like it is new",
+      "close": "ok you win this round",
+      "shareable_moment": "both, gotta test durability and emotional damage resistance",
+      "pre_close_tension": "i can't believe i'm doing this",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "So if I asked how flexible your weekend is what are we doing",
+    "first_reaction": "not happening",
+    "hook": "So if I asked how flexible your weekend is what are we doing",
+    "test": "not happening",
+    "escalation_turn": "so you just said yes?",
+    "escalation": "so you just said yes?",
+    "shift": "you say that like it is new",
+    "close": "ok you win this round",
+    "shareable_moment": "both, gotta test durability and emotional damage resistance",
+    "pre_close_tension": "i can't believe i'm doing this",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so you just said yes?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Happy Nba Finals GIF by NBA.mp4",
+    "headline": "Turn DMs into dates",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "fit check",
+    "asset": "baddies/aeda5cc7eedc5bf0e04158e7da4bdfea.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So if I asked how flexible your weekend is what are we doing"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "not happening",
+      "type_at": 1.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "understandable, it saw me and tried to clock out early",
+      "type_at": 2.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "so",
+      "type_at": 2.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "relax i got this",
+      "type_at": 3.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "inspector of what exactly, the seams or my patience",
+      "type_at": 4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "both, gotta test durability and emotional damage resistance",
+      "type_at": 4.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "emotional damage is crazy from a man in my dms",
+      "type_at": 5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just said yes?",
+      "type_at": 5.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you say that like it is new",
+      "type_at": 6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah im projecting you walking out the store with that dress",
+      "type_at": 7.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you also projected your card declining or just vibes",
+      "type_at": 8.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "my card approved the vision, bank texted \"stay focused king\"",
+      "type_at": 10.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "your bank lying, that text said go home immediately",
+      "type_at": 11.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "it said stop looking at her like rent is optional",
+      "type_at": 13.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "rent been optional, delusion pays better anyway",
+      "type_at": 15.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "sunday. 9. i know a spot",
+      "type_at": 16.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "i can't believe i'm doing this",
+      "type_at": 17.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok you win this round",
+      "type_at": 19.3,
+      "response_type": "punchline"
+    }
+  ]
+}

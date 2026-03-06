@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-028",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.2,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/39ef9ed1490a8d5c69408d3772ea517f.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Id like to press charges for weaponizing that outfit in public"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Your weaponizing flex is not landing",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "Joke is on you I already hired myself as my lawyer",
+      "type_at": 2.3
+    },
+    {
+      "from": "girl",
+      "text": "Your lawyer probably thinks youre delusional too",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "He fully agrees but says that outfit is crucial evidence",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "Evidence that you got no self control maybe",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "Evidence that Zara needs warning signs when you walk in",
+      "type_at": 4.3
+    },
+    {
+      "from": "girl",
+      "text": "Relax, the mannequins handle it better than you",
+      "type_at": 4.8
+    },
+    {
+      "from": "boy",
+      "text": "so youre claiming me?",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "You are pushing, I will test it",
+      "type_at": 5.8
+    },
+    {
+      "from": "boy",
+      "text": "Jury needed a closer look, im doing research",
+      "type_at": 7.1
+    },
+    {
+      "from": "girl",
+      "text": "Your research skills scream bored in the group chat 😭😭",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "My research says you know exactly what you doing",
+      "type_at": 9.6
+    },
+    {
+      "from": "girl",
+      "text": "I just tried on boots, calm your fantasy",
+      "type_at": 11
+    },
+    {
+      "from": "boy",
+      "text": "you really thought that would work",
+      "type_at": 12.2
+    },
+    {
+      "from": "girl",
+      "text": "Hm bold ask for a man this dramatic",
+      "type_at": 13.5
+    },
+    {
+      "from": "boy",
+      "text": "Let me present closing argument drinks Friday night",
+      "type_at": 14.7
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 746 4293",
+      "type_at": 15.7
+    }
+  ]
+}

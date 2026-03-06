@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-034",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.9,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Rizzing up a 20/10",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/gif.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "studio warmup",
+    "asset": "baddies/e64b5548485aa37ef7cc5c36557a9961.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the type to break hearts and then ask for a ride home"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound like unpaid therapy",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Cute, you can tip in attention",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.1
+    },
+    {
+      "from": "boy",
+      "text": "says the one doing studio warmup like a main character",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "Maybe im the villain",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "villains still get heartbroken when the ride leaves early",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "Who said I’d ride with you",
+      "type_at": 13.9
+    },
+    {
+      "from": "boy",
+      "text": "you will after one drink come prove me wrong friday night",
+      "type_at": 15.5
+    },
+    {
+      "from": "girl",
+      "text": "Friday 7. text me 555 847 1888",
+      "type_at": 17.1
+    }
+  ]
+}

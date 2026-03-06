@@ -1,0 +1,240 @@
+{
+  "video_id": "2026-02-23-comedy-debug-001",
+  "meta": {
+    "theme": "beach",
+    "duration_s": 20.9,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "I need the permit that allowed you to serve this much temptation",
+      "first_reaction": "bold",
+      "hook": "I need the permit that allowed you to serve this much temptation",
+      "test": "bold",
+      "escalation_turn": "cool, thats a yes",
+      "escalation": "cool, thats a yes",
+      "shift": "that line needs a follow up",
+      "close": "just because that landed",
+      "shareable_moment": "i panicked, the vitamin c blinded me",
+      "pre_close_tension": "text me 555 391 2832",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "I need the permit that allowed you to serve this much temptation",
+    "first_reaction": "bold",
+    "hook": "I need the permit that allowed you to serve this much temptation",
+    "test": "bold",
+    "escalation_turn": "cool, thats a yes",
+    "escalation": "cool, thats a yes",
+    "shift": "that line needs a follow up",
+    "close": "just because that landed",
+    "shareable_moment": "i panicked, the vitamin c blinded me",
+    "pre_close_tension": "text me 555 391 2832",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "cool, thats a yes"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "sun glow",
+    "asset": "baddies/5d2bbaaddb40a929c11970010350ef5e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need the permit that allowed you to serve this much temptation"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "bold",
+      "type_at": 1.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "that orange slice had more riz than me",
+      "type_at": 1.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 2.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "in my defense, the fruit got a close up",
+      "type_at": 3.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u zoomed in on the orange not me",
+      "type_at": 3.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i panicked, the vitamin c blinded me",
+      "type_at": 4.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "sure, blame your thirst on antioxidants",
+      "type_at": 4.8,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "cool, thats a yes",
+      "type_at": 5.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "that line needs a follow up",
+      "type_at": 5.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "hydration is temporary, striped pants are forever",
+      "type_at": 7.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "these pants sign your community service hours or what",
+      "type_at": 8.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah, 40 hours of staring respectfully",
+      "type_at": 10.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "respectfully is wild for how u typed permit",
+      "type_at": 11.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i was trying to sound official, got denied",
+      "type_at": 13.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "appeal it with a powerpoint on those ice cubes",
+      "type_at": 14.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "monday at 8:30. don't eat beforehand",
+      "type_at": 16.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 391 2832",
+      "type_at": 18,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "just because that landed",
+      "type_at": 19.6,
+      "response_type": "punchline"
+    }
+  ]
+}

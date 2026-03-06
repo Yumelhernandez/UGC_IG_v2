@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-047",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.3,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/W Sigma GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/7beb214e9dfbd910587b687ac3178e83.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So when did you decide gym wear was going to bully everyone else"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "you said it not me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Funny how you kept staring",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "youre testing if im real",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "?? 😂",
+      "type_at": 4.2
+    },
+    {
+      "from": "boy",
+      "text": "Cool story, come stress a drink with me Friday night",
+      "type_at": 5.8
+    },
+    {
+      "from": "girl",
+      "text": "Ok, when and where? text me 555 929 3442",
+      "type_at": 7.5
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-006",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.5,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/e8031b6efef7d49f9ab10adefac3a36b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing for emotional damage caused by this late night menace"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Emotional damage, youll live crybaby?",
+      "type_at": 1.9
+    },
+    {
+      "from": "boy",
+      "text": "Call me crybaby again I dare you",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "So what 👀",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile i can hear the chaos",
+      "type_at": 10
+    },
+    {
+      "from": "girl",
+      "text": "You wish i cared that much",
+      "type_at": 11.6
+    },
+    {
+      "from": "boy",
+      "text": "i will make it easy",
+      "type_at": 13.2
+    },
+    {
+      "from": "girl",
+      "text": "Try harder",
+      "type_at": 14.8
+    },
+    {
+      "from": "boy",
+      "text": "let me take you out this week",
+      "type_at": 16.4
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 767 5740",
+      "type_at": 18
+    },
+    {
+      "from": "girl",
+      "text": "You have 24 hours",
+      "type_at": 19.6
+    }
+  ]
+}

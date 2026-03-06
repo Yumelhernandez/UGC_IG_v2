@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-27-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.8,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rainy walk",
+    "asset": "baddies/f79e2c02df7bec131330138b102cafb8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest you tested ten outfits then acted like it was effortless"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Huh?",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "so youre choosing me?",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 7.6
+    },
+    {
+      "from": "boy",
+      "text": "bet, let me prove it",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "You sound very sure, professor",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "say the word",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "Bold invite for a stranger",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "Then fix that, give me your number or meet me Friday at 8",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "Thursday 8. text me",
+      "type_at": 17.3
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-23-comedy-sysfix5-001",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 18.8,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "callback",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Crazy thought are you this put together when youre running late",
+      "first_reaction": "cap",
+      "hook": "Crazy thought are you this put together when youre running late",
+      "test": "cap",
+      "escalation_turn": "say less, its me",
+      "escalation": "say less, its me",
+      "shift": "i heard you, still waiting",
+      "close": "",
+      "shareable_moment": "i was minding my business till the teddy glared",
+      "pre_close_tension": "so here we are",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Crazy thought are you this put together when youre running late",
+    "first_reaction": "cap",
+    "hook": "Crazy thought are you this put together when youre running late",
+    "test": "cap",
+    "escalation_turn": "say less, its me",
+    "escalation": "say less, its me",
+    "shift": "i heard you, still waiting",
+    "close": "",
+    "shareable_moment": "i was minding my business till the teddy glared",
+    "pre_close_tension": "so here we are",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "say less, its me"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Druski GIF.mp4",
+    "headline": "Sliding into IG dms 100% success rate 🙏",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "mirror check",
+    "asset": "baddies/f79e2c02df7bec131330138b102cafb8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Crazy thought are you this put together when youre running late"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "cap",
+      "type_at": 1.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "teddy got u in a brown top and light jeans combo",
+      "type_at": 1.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 2.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "he succeeded i forgot what i was doing",
+      "type_at": 3.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u were probably doing nothing, relax",
+      "type_at": 3.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i was minding my business till the teddy glared",
+      "type_at": 4.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "he glares at men who lie on apps",
+      "type_at": 4.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "say less, its me",
+      "type_at": 5.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "i heard you, still waiting",
+      "type_at": 5.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i already promised teddy id be respectful",
+      "type_at": 6.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "teddy accepted, i did not sign anything",
+      "type_at": 8.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "wait i actually screenshotted this already",
+      "type_at": 10.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "crazy, cant relate, i only fold laundry",
+      "type_at": 11.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "lies, those jeans folded my attention in half",
+      "type_at": 12.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "at least ur self aware, slightly less tragic",
+      "type_at": 14.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "let me take you out this week",
+      "type_at": 15.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "so here we are",
+      "type_at": 17.7,
+      "response_type": "condition"
+    }
+  ]
+}

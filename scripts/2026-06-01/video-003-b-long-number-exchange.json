@@ -1,0 +1,232 @@
+{
+  "video_id": "2026-06-01-003",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 67.9,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "I already told my friends this is my girlfriend so dont embarrass me",
+      "first_reaction": "you practicing delusion or manifestation",
+      "hook": "I already told my friends this is my girlfriend so dont embarrass me",
+      "test": "you practicing delusion or manifestation",
+      "escalation_turn": "i want to ruin your whole week",
+      "escalation": "i want to ruin your whole week",
+      "shift": "excuse me??",
+      "close": "Ok you earned it. 555 653 3385 😭",
+      "shareable_moment": "i want to ruin your whole week",
+      "pre_close_tension": "hmm. convince me",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 3.9
+    },
+    "hook_type": "other",
+    "payoff_type": "soft_rejection_pivot",
+    "template_id": "T-04",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-other",
+      "M-PAYOFF-soft_rejection_pivot"
+    ],
+    "slot_index": 3,
+    "run_seed": 3402643625,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I already told my friends this is my girlfriend so dont embarrass me",
+    "first_reaction": "you practicing delusion or manifestation",
+    "hook": "I already told my friends this is my girlfriend so dont embarrass me",
+    "test": "you practicing delusion or manifestation",
+    "escalation_turn": "i want to ruin your whole week",
+    "escalation": "i want to ruin your whole week",
+    "shift": "excuse me??",
+    "close": "Ok you earned it. 555 653 3385 😭",
+    "shareable_moment": "i want to ruin your whole week",
+    "pre_close_tension": "hmm. convince me",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 13,
+    "shareable_index": 3,
+    "reveal_line": "Call it delusion when you like it too"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "Rizzing up a 20/10",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/56cbe8d12a13f6668bef161db97405d8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my friends this is my girlfriend so dont embarrass me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you practicing delusion or manifestation",
+      "type_at": 3.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that mirror, got you in that black fit in a bathroom",
+      "type_at": 7.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "relax😭",
+      "type_at": 10.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i want to ruin your whole week",
+      "type_at": 12.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "excuse me??",
+      "type_at": 15.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "by being the person you cant stop thinking about",
+      "type_at": 19.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok that was smooth omg😭",
+      "type_at": 24.8,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "your reflection cleared but i still won the mirror check",
+      "type_at": 30.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur actually annoying💀",
+      "type_at": 35.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah but you smiled a little",
+      "type_at": 41.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "shut up rn😭",
+      "type_at": 47.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "give me your number",
+      "type_at": 52.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "hmm. convince me",
+      "type_at": 58.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 653 3385 😭",
+      "type_at": 63.8,
+      "response_type": "close"
+    }
+  ]
+}

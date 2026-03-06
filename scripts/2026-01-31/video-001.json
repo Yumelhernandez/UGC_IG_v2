@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-31-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/e7bf327b66dd1eefbb01d63bef7293b6.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just live at the gym now or what, athlete hours every day"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "plug_line": "relax i got this",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Careful you sound obsessed with me",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "youre not as innocent as that post",
+      "type_at": 2.9
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 😂",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "we can test that, friday drinks after your so called athlete hours",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok, when and where? text me 555 318 5018",
+      "type_at": 6.6
+    }
+  ]
+}

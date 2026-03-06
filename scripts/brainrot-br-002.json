@@ -1,0 +1,104 @@
+{
+  "video_id": "br-002",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 25.5,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "comedy",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_hardwood_court_basketball_arena_red_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_basketball_reaction_but_game_game_meme_clip_2.mp4",
+      "In between messages/basketball_player_basketball_quote_card_crypto_com_arena_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_gotta_more_offensive_meme_clip.mp4",
+      "In between messages/person_reaction_start_off_strong_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_quote_card_reaction_shes_boutta_fold_gng_its_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/lebron james basketball GIF by NBA.mp4",
+    "headline": "I'm outside your window",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Steve Harvey Wow GIF by NBC.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 8
+  },
+  "story": {
+    "username": "zara",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/97b89f215933c88e364d3a71764d2b29.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm outside your window"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jay",
+      "age": 20
+    },
+    "girl": {
+      "name": "Zara",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "bro I'm calling the cops \ud83d\udc80",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "tell them to bring snacks I forgot mine",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "you're actually a psychopath",
+      "type_at": 7.8
+    },
+    {
+      "from": "boy",
+      "text": "psychopath with great taste apparently",
+      "type_at": 10.6
+    },
+    {
+      "from": "girl",
+      "text": "tf does that even mean \ud83d\ude2d",
+      "type_at": 12.8
+    },
+    {
+      "from": "boy",
+      "text": "it means I chose your window specifically",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "I live on the 8th floor HOW",
+      "type_at": 18.1
+    },
+    {
+      "from": "boy",
+      "text": "dedication",
+      "type_at": 20.1
+    },
+    {
+      "from": "girl",
+      "text": "I'm scared AND impressed \ud83d\ude2d\ud83d\ude2d",
+      "type_at": 22.5
+    }
+  ]
+}

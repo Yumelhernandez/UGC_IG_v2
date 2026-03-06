@@ -1,0 +1,173 @@
+{
+  "video_id": "2026-02-11-go1-013",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "controversy_tier": "edge",
+    "format": "B",
+    "arc_type": "number_exchange",
+    "conversation_mode": "pair_isolated",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "i was scrolling peacefully before this attack",
+      "first_reaction": "You cant be fr?",
+      "escalation_turn": "youre the reason im distracted",
+      "shareable_moment": "Try harder",
+      "pre_close_tension": "Fine. 555 253 4427",
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "i was scrolling peacefully before this attack",
+    "first_reaction": "You cant be fr?",
+    "escalation_turn": "youre the reason im distracted",
+    "shareable_moment": "Try harder",
+    "pre_close_tension": "Fine. 555 253 4427",
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 11,
+    "shareable_index": 4,
+    "reveal_line": "youre the reason im distracted"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/06d282912cd069c4a27c87469c147bb7.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "i was scrolling peacefully before this attack"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You cant be fr?",
+      "type_at": 2.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "youre the reason im distracted",
+      "type_at": 6.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "Says who?",
+      "type_at": 8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 9.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Try harder",
+      "type_at": 11.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you really thought that would work",
+      "type_at": 12.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Talk is free, skills cost",
+      "type_at": 14.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile",
+      "type_at": 16,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Earned it in record time",
+      "type_at": 17.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "because you want to",
+      "type_at": 19.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 253 4427",
+      "type_at": 20.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Deal. but you're paying",
+      "type_at": 22.4,
+      "response_type": "close"
+    }
+  ]
+}

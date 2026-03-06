@@ -1,0 +1,193 @@
+{
+  "video_id": "2026-02-24-bridge10-005",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 60.2,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "cliffhanger",
+    "punchline_style": "cocky_claim",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "You look like the plot twist my mom warned me about and I ignored",
+      "first_reaction": "and you disobey warnings often",
+      "hook": "You look like the plot twist my mom warned me about and I ignored",
+      "test": "and you disobey warnings often",
+      "escalation_turn": "rules are for people who dont meet you",
+      "escalation": "rules are for people who dont meet you",
+      "shift": "and?",
+      "close": "not answering that yet",
+      "shareable_moment": "rules are for people who dont meet you",
+      "pre_close_tension": "drinks friday. i'm choosing the place",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "first_gap_absolute_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 7.9
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "You look like the plot twist my mom warned me about and I ignored",
+    "first_reaction": "and you disobey warnings often",
+    "hook": "You look like the plot twist my mom warned me about and I ignored",
+    "test": "and you disobey warnings often",
+    "escalation_turn": "rules are for people who dont meet you",
+    "escalation": "rules are for people who dont meet you",
+    "shift": "and?",
+    "close": "not answering that yet",
+    "shareable_moment": "rules are for people who dont meet you",
+    "pre_close_tension": "drinks friday. i'm choosing the place",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 8,
+    "shareable_index": 3,
+    "reveal_line": "Rules are for people who dont meet you"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant nba GIF.mp4",
+    "headline": "How to make her chase",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "home mood",
+    "asset": "baddies/beee7c17929b763717ad574429f1ca52.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the plot twist my mom warned me about and I ignored"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "and you disobey warnings often",
+      "type_at": 5.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that home, says the girl in the bathroom holding a weapon",
+      "type_at": 13.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "it’s a curling iron relax",
+      "type_at": 20.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "rules are for people who dont meet you",
+      "type_at": 26.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 30.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "favorite childhood movie then",
+      "type_at": 35.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why does that even matter",
+      "type_at": 43,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "drinks friday. i'm choosing the place",
+      "type_at": 49.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "not answering that yet",
+      "type_at": 57,
+      "response_type": "test"
+    }
+  ]
+}

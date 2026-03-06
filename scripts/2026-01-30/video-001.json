@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-30-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 10,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/2a5a3b06aa4a639f7d4211b4ee75a90d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So we just ignoring how dangerous youre for my concentration today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "relax i got this",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Dangerous how exactly, 😏?",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "so youre team me now?",
+      "type_at": 2.5
+    },
+    {
+      "from": "girl",
+      "text": "So what 😂",
+      "type_at": 3.7
+    },
+    {
+      "from": "boy",
+      "text": "act tough all you want come prove it over drinks friday",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "Fine, thursday 9. text me 555 232 8542",
+      "type_at": 8.9
+    }
+  ]
+}

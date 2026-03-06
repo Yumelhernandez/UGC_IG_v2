@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-023",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.1,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/W Sigma GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "weekend escape",
+    "asset": "baddies/032175e2688b768b9e29bd38f62748e8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already warned my therapist about the chaos you bring to my brain"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "cool, test me in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Chaos, you sound very weak minded?",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "Maybe but you clearly love the chaos",
+      "type_at": 3.6
+    },
+    {
+      "from": "girl",
+      "text": "So what 👀",
+      "type_at": 4.4
+    },
+    {
+      "from": "boy",
+      "text": "cool so bring your average self to drinks friday night",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "Ok, friday 9. text me 555 262 8646",
+      "type_at": 7.4
+    }
+  ]
+}

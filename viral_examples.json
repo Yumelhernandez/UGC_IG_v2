@@ -1,0 +1,5456 @@
+[
+  {
+    "video_id": "Viral_video_one",
+    "opener": "are u still mad?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "are u still mad?"
+      },
+      {
+        "from": "girl",
+        "text": "yes"
+      },
+      {
+        "from": "boy",
+        "text": "I know 70 ways to make you happy"
+      },
+      {
+        "from": "girl",
+        "text": "alright what’s the first"
+      },
+      {
+        "from": "girl",
+        "text": "and the rest?"
+      },
+      {
+        "from": "boy",
+        "text": "buy you flowers"
+      },
+      {
+        "from": "boy",
+        "text": "69"
+      }
+    ],
+    "arc_type": "punchline",
+    "ai_card_punchline": "the rest is 69"
+  },
+  {
+    "video_id": "Viral_video_two",
+    "opener": "Burger or Pizza?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Burger or Pizza?"
+      },
+      {
+        "from": "girl",
+        "text": "Burger??"
+      },
+      {
+        "from": "girl",
+        "text": "steak I guess"
+      },
+      {
+        "from": "boy",
+        "text": "pasta or steak?"
+      },
+      {
+        "from": "girl",
+        "text": "why are you asking me that?"
+      },
+      {
+        "from": "boy",
+        "text": "just collecting information for our first date"
+      },
+      {
+        "from": "girl",
+        "text": "oh 😭😭"
+      }
+    ],
+    "arc_type": "pivot",
+    "ai_card_punchline": "just collecting information for our first date",
+    "hook_text": "How to text huzz",
+    "pivot_setup": "Burger or Pizza?"
+  },
+  {
+    "video_id": "Viral_video_three",
+    "opener": "do you like water?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "do you like water?"
+      },
+      {
+        "from": "girl",
+        "text": "yeah why"
+      },
+      {
+        "from": "girl",
+        "text": "everyone likes water"
+      }
+    ],
+    "arc_type": "pivot",
+    "ai_card_punchline": "so you already like 73% of me",
+    "hook_text": "How to text huzz",
+    "pivot_setup": "do you like water?"
+  },
+  {
+    "video_id": "Viral_video_four",
+    "opener": "matcha n missionary?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "matcha n missionary?"
+      },
+      {
+        "from": "girl",
+        "text": "???"
+      }
+    ],
+    "arc_type": "double_meaning",
+    "hook_text": "Shooting in ig dms"
+  },
+  {
+    "video_id": "Viral_video_five",
+    "opener": "Your body is tea",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Your body is tea"
+      },
+      {
+        "from": "girl",
+        "text": "Ah okay thanks"
+      },
+      {
+        "from": "boy",
+        "text": "And I’m tryna take a sip 😎"
+      },
+      {
+        "from": "boy",
+        "text": "LMAO OMG"
+      },
+      {
+        "from": "boy",
+        "text": "you’re smooth"
+      }
+    ],
+    "arc_type": "double_meaning",
+    "hook_text": "How to text baddies"
+  },
+  {
+    "video_id": "Viral_video_six",
+    "opener": "You ever get tired of breaking necks when you post?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You ever get tired of breaking necks when you post?"
+      },
+      {
+        "from": "boy",
+        "text": "wow"
+      },
+      {
+        "from": "boy",
+        "text": "so original"
+      },
+      {
+        "from": "boy",
+        "text": "Original? Nah"
+      },
+      {
+        "from": "boy",
+        "text": "Just facts"
+      },
+      {
+        "from": "girl",
+        "text": "you don’t even know me"
+      },
+      {
+        "from": "boy",
+        "text": "True"
+      },
+      {
+        "from": "boy",
+        "text": "But that hasn’t stopped you from replying"
+      },
+      {
+        "from": "girl",
+        "text": "maybe i’m just bored"
+      },
+      {
+        "from": "boy",
+        "text": "Then let me give you something better to do"
+      },
+      {
+        "from": "girl",
+        "text": "bold request for someone i barely acknowledged"
+      },
+      {
+        "from": "boy",
+        "text": "Acknowledgment’s a formality. Interest speaks louder."
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_7",
+    "opener": "You’re mid",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You’re mid"
+      },
+      {
+        "from": "girl",
+        "text": "excuse me??"
+      },
+      {
+        "from": "girl",
+        "text": "you wish you pulled girls this “mid"
+      },
+      {
+        "from": "boy",
+        "text": "Prove me wrong then"
+      },
+      {
+        "from": "girl",
+        "text": "this mid??"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "Prove me wrong then"
+  },
+  {
+    "video_id": "Viral_video_8",
+    "opener": "You just ruined the beach for everyone else",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You just ruined the beach for everyone else"
+      },
+      {
+        "from": "girl",
+        "text": "Huh? How? 😭"
+      },
+      {
+        "from": "boy",
+        "text": "Cuz now every wave looks boring compared to you"
+      },
+      {
+        "from": "girl",
+        "text": "Oh goddd 😭😭"
+      },
+      {
+        "from": "girl",
+        "text": "That’s a crazy line"
+      },
+      {
+        "from": "boy",
+        "text": "Crazy how it’s true tho"
+      },
+      {
+        "from": "girl",
+        "text": "You say that to every girl?"
+      },
+      {
+        "from": "boy",
+        "text": "Nah, most girls don’t even surf through my mind like you did"
+      },
+      {
+        "from": "girl",
+        "text": "Not sure if I should be flattered or scared 😂"
+      },
+      {
+        "from": "boy",
+        "text": "Be flattered. I’m only dangerous if you hate being treated right"
+      },
+      {
+        "from": "girl",
+        "text": "You don’t even know me 😭"
+      },
+      {
+        "from": "boy",
+        "text": "That’s why I’m here. Trying to fix that."
+      },
+      {
+        "from": "girl",
+        "text": "And what if I’m not easy to get to know?"
+      },
+      {
+        "from": "boy",
+        "text": "Then I’ll enjoy the challenge."
+      },
+      {
+        "from": "girl",
+        "text": "You’re too smooth for your own good"
+      },
+      {
+        "from": "boy",
+        "text": "Or just smooth enough to be exactly what you didn’t know you wanted"
+      },
+      {
+        "from": "girl",
+        "text": "Damn…"
+      },
+      {
+        "from": "girl",
+        "text": "Ok I’ll admit, you got me curious"
+      },
+      {
+        "from": "boy",
+        "text": "Curiosity looks good on you"
+      },
+      {
+        "from": "girl",
+        "text": "Stop it 😭 I’m actually smiling now"
+      },
+      {
+        "from": "boy",
+        "text": "Let me give you more reasons to"
+      },
+      {
+        "from": "boy",
+        "text": "Drop your number, we’ll continue somewhere better"
+      },
+      {
+        "from": "girl",
+        "text": "Mmm I don’t usually give my number that quick"
+      },
+      {
+        "from": "boy",
+        "text": "Then give me a challenge"
+      },
+      {
+        "from": "boy",
+        "text": "Guess the digits one by one over dinner"
+      },
+      {
+        "from": "girl",
+        "text": "Okayyyy wait that was hot"
+      },
+      {
+        "from": "girl",
+        "text": "Fine."
+      },
+      {
+        "from": "boy",
+        "text": "That’s what I call progress 😉"
+      },
+      {
+        "from": "girl",
+        "text": "Text me. I’m not missing this vibe ❤️"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "Then I",
+    "hook_text": "A masterpiece"
+  },
+  {
+    "video_id": "Viral_video_9",
+    "opener": "You taste as good as you look?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You taste as good as you look?"
+      },
+      {
+        "from": "girl",
+        "text": "lmao i have a bf, sorry"
+      },
+      {
+        "from": "boy",
+        "text": "Seen the pics"
+      },
+      {
+        "from": "boy",
+        "text": "You never look happy in em tho"
+      },
+      {
+        "from": "girl",
+        "text": "tf u mean? 💀 im happy"
+      },
+      {
+        "from": "girl",
+        "text": "it ain’t nunya business anyway ok?"
+      },
+      {
+        "from": "boy",
+        "text": "Word?"
+      },
+      {
+        "from": "boy",
+        "text": "Seems like you be craving a different kind of attention though"
+      },
+      {
+        "from": "girl",
+        "text": "um what??"
+      },
+      {
+        "from": "girl",
+        "text": "u assuming a lot rn"
+      },
+      {
+        "from": "girl",
+        "text": "and fym ‘different kind of attention’ anyway?"
+      },
+      {
+        "from": "boy",
+        "text": "What if I said I like watching you try to behave"
+      },
+      {
+        "from": "boy",
+        "text": "Knowing you won’t"
+      },
+      {
+        "from": "girl",
+        "text": "u not helping my situation at all rn and u know it"
+      },
+      {
+        "from": "boy",
+        "text": "Nah you don’t wanna ignore me"
+      },
+      {
+        "from": "boy",
+        "text": "You just want a reason not to feel guilty"
+      },
+      {
+        "from": "girl",
+        "text": "stop tryna read me seriously"
+      },
+      {
+        "from": "girl",
+        "text": "u need to chill 😂"
+      },
+      {
+        "from": "boy",
+        "text": "Telling me to chill like you don’t want this"
+      },
+      {
+        "from": "boy",
+        "text": "Your replies say otherwise"
+      },
+      {
+        "from": "girl",
+        "text": "nah actually u need to stop"
+      },
+      {
+        "from": "girl",
+        "text": "cz now im lowkey waiting on ur texts"
+      },
+      {
+        "from": "boy",
+        "text": "If I’m not what you need"
+      },
+      {
+        "from": "boy",
+        "text": "Why you still here"
+      },
+      {
+        "from": "girl",
+        "text": "idek"
+      },
+      {
+        "from": "girl",
+        "text": "ur making it real hard to answer that"
+      },
+      {
+        "from": "girl",
+        "text": "i shouldn’t even be doing this"
+      },
+      {
+        "from": "girl",
+        "text": "but i don’t want to stop"
+      },
+      {
+        "from": "boy",
+        "text": "Just send the number"
+      },
+      {
+        "from": "boy",
+        "text": "I’ll handle the rest"
+      },
+      {
+        "from": "girl",
+        "text": "nah see this is why i need to ignore dms"
+      },
+      {
+        "from": "girl",
+        "text": "yall dangerous 😮‍💨"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "Someone’s girl…"
+  },
+  {
+    "video_id": "Viral_video_10",
+    "opener": "Please mommy I’ll do anything",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Please mommy I’ll do anything"
+      },
+      {
+        "from": "boy",
+        "text": "I’ll get on my knees for you🥺"
+      },
+      {
+        "from": "boy",
+        "text": "I like your face"
+      },
+      {
+        "from": "girl",
+        "text": "Thank you"
+      },
+      {
+        "from": "boy",
+        "text": "Photo"
+      },
+      {
+        "from": "boy",
+        "text": "Do you like mine ?"
+      },
+      {
+        "from": "girl",
+        "text": "Yeah it’s cute"
+      },
+      {
+        "from": "boy",
+        "text": "Can you set on it then ?"
+      }
+    ],
+    "arc_type": "pivot",
+    "ai_card_punchline": "Can you set on it then ?",
+    "hook_text": "Shooting my shot",
+    "pivot_setup": "Do you like mine ?",
+    "pivot_punchline": "Can you set on it then ?"
+  },
+  {
+    "video_id": "Viral_video_11",
+    "opener": "In my eyes you’re the perfect age",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "In my eyes you’re the perfect age"
+      },
+      {
+        "from": "girl",
+        "text": "haha good save"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "Texting mommy"
+  },
+  {
+    "video_id": "Viral_video_12",
+    "opener": "cheesecake or ice cream??",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "cheesecake or ice cream??"
+      },
+      {
+        "from": "girl",
+        "text": "Cheesecake.."
+      },
+      {
+        "from": "girl",
+        "text": "What’s going on😭😭"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "gathering all the information I need for our first date",
+    "hook_text": "Texting huzz *take notes*"
+  },
+  {
+    "video_id": "Viral_video_14",
+    "opener": "Pasta or sushi?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Pasta or sushi?"
+      },
+      {
+        "from": "boy",
+        "text": "cheesecake or ice cream??"
+      },
+      {
+        "from": "boy",
+        "text": "Mid"
+      },
+      {
+        "from": "boy",
+        "text": "Prove me wrong then"
+      },
+      {
+        "from": "girl",
+        "text": "Is this mid?"
+      },
+      {
+        "from": "girl",
+        "text": "View photo"
+      }
+    ],
+    "arc_type": "pivot",
+    "ai_card_punchline": "gathering all the information I need for our first date"
+  },
+  {
+    "video_id": "Viral_video_15",
+    "opener": "I got 3 things I’m trynna put into you",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "I got 3 things I’m trynna put into you"
+      },
+      {
+        "from": "girl",
+        "text": "Excuse me??"
+      },
+      {
+        "from": "girl",
+        "text": "Creep"
+      },
+      {
+        "from": "boy",
+        "text": "relax let me finish"
+      },
+      {
+        "from": "boy",
+        "text": "1. My name"
+      },
+      {
+        "from": "boy",
+        "text": "2. My effort"
+      },
+      {
+        "from": "boy",
+        "text": "3. my face"
+      },
+      {
+        "from": "girl",
+        "text": "that was smooth but"
+      },
+      {
+        "from": "girl",
+        "text": "I lowkey like the face part.."
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "3. my face"
+  },
+  {
+    "video_id": "Viral_video_16",
+    "opener": "8/10 lips 💋",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "8/10 lips 💋"
+      },
+      {
+        "from": "girl",
+        "text": "Thanks"
+      },
+      {
+        "from": "girl",
+        "text": "Hmm"
+      },
+      {
+        "from": "girl",
+        "text": "Hmmmmmm"
+      },
+      {
+        "from": "boy",
+        "text": "I would get on all fours 🥺"
+      },
+      {
+        "from": "girl",
+        "text": "Okay.."
+      },
+      {
+        "from": "girl",
+        "text": "Yup"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_17",
+    "opener": "which is better jelly or jam?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "which is better jelly or jam?"
+      },
+      {
+        "from": "boy",
+        "text": "Hmmm"
+      },
+      {
+        "from": "boy",
+        "text": "Jam"
+      },
+      {
+        "from": "boy",
+        "text": "So lemme jam this 🚌 up in your ahh"
+      },
+      {
+        "from": "girl",
+        "text": "Wow"
+      },
+      {
+        "from": "girl",
+        "text": "Hmmmmmmmm"
+      },
+      {
+        "from": "girl",
+        "text": "Okay"
+      },
+      {
+        "from": "boy",
+        "text": "Really?"
+      },
+      {
+        "from": "girl",
+        "text": "Mhm.."
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_18",
+    "opener": "9/10",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "9/10"
+      },
+      {
+        "from": "boy",
+        "text": "slide me your number and I show you that I mean it"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_20",
+    "opener": "roses are red",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "roses are red"
+      },
+      {
+        "from": "boy",
+        "text": "violets are blue"
+      },
+      {
+        "from": "boy",
+        "text": "I wanna be with you"
+      },
+      {
+        "from": "girl",
+        "text": "that was so sweet"
+      },
+      {
+        "from": "boy",
+        "text": "where did you get that from?"
+      },
+      {
+        "from": "girl",
+        "text": "Get what?"
+      },
+      {
+        "from": "boy",
+        "text": "that beautiful smile of yours"
+      },
+      {
+        "from": "girl",
+        "text": "Who are you?"
+      },
+      {
+        "from": "boy",
+        "text": "I hope to be the man from your dreams"
+      },
+      {
+        "from": "boy",
+        "text": "drop your number"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "that beautiful smile of yours",
+    "hook_text": "How to text huzz"
+  },
+  {
+    "video_id": "Viral_video_21",
+    "opener": "I would never play hide and seek with you 🥺",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "I would never play hide and seek with you 🥺"
+      },
+      {
+        "from": "girl",
+        "text": "Why?"
+      },
+      {
+        "from": "boy",
+        "text": "Because it’s impossible to find somone like you"
+      },
+      {
+        "from": "girl",
+        "text": "Stop that’s actually cute 🥺"
+      },
+      {
+        "from": "boy",
+        "text": "Not as cute as you tho"
+      },
+      {
+        "from": "boy",
+        "text": "Let me take you out"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_22",
+    "opener": "can I use your thighs as earmuffs??",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "can I use your thighs as earmuffs??"
+      },
+      {
+        "from": "girl",
+        "text": "hmmm…"
+      },
+      {
+        "from": "girl",
+        "text": "hmm.."
+      },
+      {
+        "from": "girl",
+        "text": "hm."
+      },
+      {
+        "from": "boy",
+        "text": "can I use your thighs as earmuffs??🥺🥺"
+      },
+      {
+        "from": "boy",
+        "text": "Don’t play... you know that’s exactly where my face belongs."
+      },
+      {
+        "from": "girl",
+        "text": "okay"
+      },
+      {
+        "from": "boy",
+        "text": "you mean it for real?"
+      },
+      {
+        "from": "girl",
+        "text": "yeah"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "Don"
+  },
+  {
+    "video_id": "Viral_video_23",
+    "opener": "Quick question",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Quick question"
+      },
+      {
+        "from": "boy",
+        "text": "Why don’t you have a boyfriend? 🥺"
+      },
+      {
+        "from": "girl",
+        "text": "Because my parents are strict: ("
+      },
+      {
+        "from": "girl",
+        "text": "Wbu"
+      },
+      {
+        "from": "girl",
+        "text": "Why don’t you have a girl?"
+      },
+      {
+        "from": "boy",
+        "text": "Because your parents are strict 🥺"
+      },
+      {
+        "from": "girl",
+        "text": "Omg stop playing with me😭"
+      },
+      {
+        "from": "boy",
+        "text": "I could play with you all night"
+      },
+      {
+        "from": "girl",
+        "text": "There’s tears running down my thighs"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "Because your parents are strict 🥺"
+  },
+  {
+    "video_id": "Viral_video_24",
+    "opener": "do you like water?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "do you like water?"
+      },
+      {
+        "from": "girl",
+        "text": "yeah why"
+      },
+      {
+        "from": "girl",
+        "text": "everyone likes water"
+      },
+      {
+        "from": "boy",
+        "text": "so you already like 73% of me"
+      },
+      {
+        "from": "girl",
+        "text": "I already like 100% of you"
+      }
+    ],
+    "arc_type": "pivot",
+    "ai_card_punchline": "so you already like 73% of me",
+    "pivot_setup": "do you like water?"
+  },
+  {
+    "video_id": "Viral_video_25",
+    "opener": "You the first 10/10 i ever seen",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You the first 10/10 i ever seen"
+      },
+      {
+        "from": "girl",
+        "text": "That’s tough to believe"
+      },
+      {
+        "from": "boy",
+        "text": "yeah yu right"
+      },
+      {
+        "from": "boy",
+        "text": "you more like 9/10"
+      },
+      {
+        "from": "girl",
+        "text": "You misunderstood me"
+      },
+      {
+        "from": "girl",
+        "text": "So what made it go down?"
+      },
+      {
+        "from": "boy",
+        "text": "Cause i am the 1 you need"
+      },
+      {
+        "from": "girl",
+        "text": "Gtfo😭"
+      },
+      {
+        "from": "girl",
+        "text": "Okay that was kinda good"
+      },
+      {
+        "from": "boy",
+        "text": "Slide in the digits so i can prove it"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "Cause i am the 1 you need"
+  },
+  {
+    "video_id": "Viral_video_27",
+    "opener": "R u still mad?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "R u still mad?"
+      },
+      {
+        "from": "girl",
+        "text": "Yes"
+      },
+      {
+        "from": "boy",
+        "text": "I know 70 ways to make you happy"
+      },
+      {
+        "from": "girl",
+        "text": "What are they?"
+      },
+      {
+        "from": "boy",
+        "text": "The first is flowers"
+      },
+      {
+        "from": "girl",
+        "text": "And the rest?"
+      },
+      {
+        "from": "boy",
+        "text": "69"
+      },
+      {
+        "from": "girl",
+        "text": "I acc thaought you had 70 different ways🥺"
+      },
+      {
+        "from": "girl",
+        "text": "But we can still work with that ig🙂"
+      }
+    ],
+    "arc_type": "punchline"
+  },
+  {
+    "video_id": "Viral_video_28",
+    "opener": "Are you mixed?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Are you mixed?"
+      },
+      {
+        "from": "girl",
+        "text": "No,why?"
+      },
+      {
+        "from": "boy",
+        "text": "Cause you look half mine and half fine"
+      },
+      {
+        "from": "girl",
+        "text": "But which half do you want first?"
+      },
+      {
+        "from": "boy",
+        "text": "The fine half cus I’ll handle the mine part myself"
+      }
+    ],
+    "arc_type": "pivot",
+    "pivot_setup": "Are you mixed?",
+    "pivot_punchline": "Cause you look half mine and half fine"
+  },
+  {
+    "video_id": "Viral_video_29",
+    "opener": "Is your dad a pirate?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Is your dad a pirate?"
+      },
+      {
+        "from": "girl",
+        "text": "No why?"
+      },
+      {
+        "from": "boy",
+        "text": "Because you’re a treasure."
+      },
+      {
+        "from": "boy",
+        "text": "Well, an abandoned treasure"
+      },
+      {
+        "from": "girl",
+        "text": "You really think so?🥺"
+      },
+      {
+        "from": "boy",
+        "text": "Yes and I also think you should slide the digits"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_30",
+    "opener": "You were in my dream",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You were in my dream"
+      },
+      {
+        "from": "girl",
+        "text": "Really?"
+      },
+      {
+        "from": "girl",
+        "text": "was my fit hard?"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_31",
+    "opener": "do you have a heart?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "do you have a heart?"
+      },
+      {
+        "from": "girl",
+        "text": "Yes?"
+      },
+      {
+        "from": "girl",
+        "text": "then why are you stealing mine"
+      },
+      {
+        "from": "girl",
+        "text": "that was good😭"
+      }
+    ],
+    "arc_type": "pivot",
+    "hook_text": "Texting huzz",
+    "pivot_setup": "do you have a heart?"
+  },
+  {
+    "video_id": "Viral_video_32",
+    "opener": "May I rate you?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "May I rate you?"
+      },
+      {
+        "from": "girl",
+        "text": "No..."
+      },
+      {
+        "from": "girl",
+        "text": "actually yes I changed my mind"
+      },
+      {
+        "from": "girl",
+        "text": "You’re a 3, because you need 2 realize im the 1 for you"
+      },
+      {
+        "from": "girl",
+        "text": "Oh thats cute"
+      },
+      {
+        "from": "girl",
+        "text": "So... do you have a gf?"
+      },
+      {
+        "from": "boy",
+        "text": "I don’t unless you’re trying to be mine"
+      },
+      {
+        "from": "girl",
+        "text": "I mean you are cute.."
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "How to text huzz"
+  },
+  {
+    "video_id": "Viral_video_33",
+    "opener": "If it ain’t rice then it ain’t nice",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "If it ain’t rice then it ain’t nice"
+      },
+      {
+        "from": "girl",
+        "text": "Excuse me??"
+      },
+      {
+        "from": "boy",
+        "text": "You heard me"
+      },
+      {
+        "from": "girl",
+        "text": "What happened to a simple hello?"
+      },
+      {
+        "from": "boy",
+        "text": "You're questioning my authority?"
+      },
+      {
+        "from": "girl",
+        "text": "No sir"
+      },
+      {
+        "from": "boy",
+        "text": "So is your name Gillette?"
+      },
+      {
+        "from": "girl",
+        "text": "No?"
+      },
+      {
+        "from": "girl",
+        "text": "It's Lana"
+      },
+      {
+        "from": "boy",
+        "text": "Because you look like the best a man can get"
+      },
+      {
+        "from": "girl",
+        "text": "Huh?"
+      },
+      {
+        "from": "boy",
+        "text": "Never mind"
+      },
+      {
+        "from": "boy",
+        "text": "Lana do you know the difference between history and you?"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_35",
+    "opener": "I need yall both",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "I need yall both"
+      },
+      {
+        "from": "girl",
+        "text": "excuse me??"
+      },
+      {
+        "from": "boy",
+        "text": "Would yall let me crack after the first date?"
+      },
+      {
+        "from": "boy",
+        "text": "What’s your return policy if I fall in love too fast"
+      },
+      {
+        "from": "boy",
+        "text": "I’d bark if you told me to"
+      },
+      {
+        "from": "girl",
+        "text": "that’s concerning"
+      },
+      {
+        "from": "boy",
+        "text": "What’s concerning is you haven’t told me to bark yet"
+      },
+      {
+        "from": "boy",
+        "text": "If you say ‘hi’ I’ll cancel all my h [black bar obscures a word] rn"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_36",
+    "opener": "You were always the prettier one tbh",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You were always the prettier one tbh"
+      },
+      {
+        "from": "girl",
+        "text": "ain't no way"
+      },
+      {
+        "from": "girl",
+        "text": "you do know im her sister right??"
+      },
+      {
+        "from": "boy",
+        "text": "Yeah"
+      },
+      {
+        "from": "boy",
+        "text": "The prettier one"
+      },
+      {
+        "from": "boy",
+        "text": "And besides"
+      },
+      {
+        "from": "boy",
+        "text": "That supposed to stop me?"
+      },
+      {
+        "from": "boy",
+        "text": "Don't act like this is about her now"
+      },
+      {
+        "from": "boy",
+        "text": "You keep replying"
+      },
+      {
+        "from": "girl",
+        "text": "give me one good reason why i shouldn't go show her this rn"
+      },
+      {
+        "from": "girl",
+        "text": "im jus tryna see how far you'll actually take this 😭"
+      },
+      {
+        "from": "boy",
+        "text": "And you keep watching me cross lines like you won't follow right behind me"
+      },
+      {
+        "from": "girl",
+        "text": "your tryna get both of us in trouble"
+      },
+      {
+        "from": "boy",
+        "text": "Look at you blaming me like you're not part of it"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_37",
+    "opener": "Why don’t you have a boyfriend?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Why don’t you have a boyfriend?"
+      },
+      {
+        "from": "girl",
+        "text": "my parents are too strict 😭"
+      },
+      {
+        "from": "girl",
+        "text": "why don’t you have a gf?"
+      },
+      {
+        "from": "boy",
+        "text": "Because your parents are too strict"
+      },
+      {
+        "from": "girl",
+        "text": "omgg"
+      },
+      {
+        "from": "girl",
+        "text": "stop playinggg"
+      },
+      {
+        "from": "boy",
+        "text": "I could play with you all night"
+      },
+      {
+        "from": "girl",
+        "text": "stopp"
+      },
+      {
+        "from": "girl",
+        "text": "there’s tears running down my thighs"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "How to dm baddies (bf method)"
+  },
+  {
+    "video_id": "Viral_video_38",
+    "opener": "You tryna go to Paris with me?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You tryna go to Paris with me?"
+      },
+      {
+        "from": "girl",
+        "text": "i don’t know you 😭"
+      },
+      {
+        "from": "girl",
+        "text": "but I love Paris 😍"
+      },
+      {
+        "from": "boy",
+        "text": "I already have the Eiffel Tower in my pants when i look at you"
+      },
+      {
+        "from": "girl",
+        "text": "you’re crazy"
+      },
+      {
+        "from": "boy",
+        "text": "I’m still tryna take you on a date"
+      },
+      {
+        "from": "boy",
+        "text": "Let me get the digits"
+      },
+      {
+        "from": "girl",
+        "text": "sure why not"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "How to text baddies (Paris method)"
+  },
+  {
+    "video_id": "Viral_video_39",
+    "opener": "Do you like water? 😈💦",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Do you like water? 😈💦"
+      },
+      {
+        "from": "girl",
+        "text": "ofc i do 😭"
+      },
+      {
+        "from": "girl",
+        "text": "i need water"
+      },
+      {
+        "from": "boy",
+        "text": "So you mean you already need 72% of me"
+      },
+      {
+        "from": "girl",
+        "text": "only 72% 🙄"
+      },
+      {
+        "from": "girl",
+        "text": "boy i need 100% of you rn"
+      },
+      {
+        "from": "boy",
+        "text": "Let me get the digits"
+      },
+      {
+        "from": "girl",
+        "text": "63"
+      }
+    ],
+    "arc_type": "pivot",
+    "hook_text": "How to text baddies (water method)",
+    "pivot_setup": "Do you like water? 😈💦"
+  },
+  {
+    "video_id": "Viral_video_40",
+    "opener": "Happy mothers day <3",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Happy mothers day <3"
+      },
+      {
+        "from": "girl",
+        "text": "Not a mom but thanks"
+      },
+      {
+        "from": "boy",
+        "text": "I can change that"
+      },
+      {
+        "from": "girl",
+        "text": "WHAT 😭"
+      },
+      {
+        "from": "girl",
+        "text": "You’re crazy"
+      },
+      {
+        "from": "boy",
+        "text": "Crazy enough you’re still here"
+      },
+      {
+        "from": "boy",
+        "text": "Send your number or keep thinking about it"
+      },
+      {
+        "from": "girl",
+        "text": "Oh my god"
+      },
+      {
+        "from": "girl",
+        "text": "91"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "How to text baddies"
+  },
+  {
+    "video_id": "Viral_video_41",
+    "opener": "Your body is tea",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Your body is tea"
+      },
+      {
+        "from": "girl",
+        "text": "Ah okay thanks"
+      },
+      {
+        "from": "boy",
+        "text": "And I’m tryna take a sip"
+      },
+      {
+        "from": "boy",
+        "text": "And I’m tryna take a sip 😎"
+      },
+      {
+        "from": "girl",
+        "text": "LMAO OMG"
+      },
+      {
+        "from": "girl",
+        "text": "you’re smooth"
+      },
+      {
+        "from": "boy",
+        "text": "Smooth enough for your number?"
+      },
+      {
+        "from": "girl",
+        "text": "Yeah alright"
+      },
+      {
+        "from": "girl",
+        "text": "+17"
+      },
+      {
+        "from": "girl",
+        "text": "81"
+      }
+    ],
+    "arc_type": "double_meaning",
+    "hook_text": "How to text baddies"
+  },
+  {
+    "video_id": "Viral_video_42",
+    "opener": "You tryna go to Paris with me?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You tryna go to Paris with me?"
+      },
+      {
+        "from": "girl",
+        "text": "i don’t know you 😭"
+      },
+      {
+        "from": "girl",
+        "text": "but I love Paris 😍"
+      },
+      {
+        "from": "boy",
+        "text": "I already have the Eiffel Tower in my pants when i look at you"
+      },
+      {
+        "from": "girl",
+        "text": "you’re crazy"
+      },
+      {
+        "from": "boy",
+        "text": "I’m still tryna take you on a date"
+      },
+      {
+        "from": "boy",
+        "text": "Let me get the digits"
+      },
+      {
+        "from": "girl",
+        "text": "sure why not"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "How to text baddies (Paris method)"
+  },
+  {
+    "video_id": "Viral_video_43",
+    "opener": "Do you like water? 😈💦",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Do you like water? 😈💦"
+      },
+      {
+        "from": "girl",
+        "text": "ofc i do 😭"
+      },
+      {
+        "from": "girl",
+        "text": "i need water"
+      },
+      {
+        "from": "boy",
+        "text": "So you mean you already need 72% of me"
+      },
+      {
+        "from": "girl",
+        "text": "only 72% 🙄"
+      },
+      {
+        "from": "girl",
+        "text": "boy i need 100% of you rn"
+      },
+      {
+        "from": "boy",
+        "text": "Let me get the digits"
+      },
+      {
+        "from": "girl",
+        "text": "63"
+      }
+    ],
+    "arc_type": "pivot",
+    "hook_text": "How to text baddies (water method)",
+    "pivot_setup": "Do you like water? 😈💦"
+  },
+  {
+    "video_id": "Viral_video_44",
+    "opener": "You want to go on a date with me",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You want to go on a date with me"
+      },
+      {
+        "from": "boy",
+        "text": "You really want to go on a date with me"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_46",
+    "opener": "you wanna watch inside out 2 with me?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "you wanna watch inside out 2 with me?"
+      },
+      {
+        "from": "boy",
+        "text": "then get your inside ate out too"
+      },
+      {
+        "from": "girl",
+        "text": "What??"
+      },
+      {
+        "from": "boy",
+        "text": "my bad i got hacked"
+      },
+      {
+        "from": "girl",
+        "text": "Sure sure"
+      },
+      {
+        "from": "girl",
+        "text": "That's a wild thing for your"
+      },
+      {
+        "from": "girl",
+        "text": "to say"
+      },
+      {
+        "from": "boy",
+        "text": "blame it on the keyboard warriors"
+      },
+      {
+        "from": "boy",
+        "text": "but now that you mention it... you lowkey curious?"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_47",
+    "opener": "idk am i?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "idk am i?"
+      },
+      {
+        "from": "girl",
+        "text": "what-"
+      },
+      {
+        "from": "boy",
+        "text": "i mean can't lie, you make science my favorite subject"
+      },
+      {
+        "from": "girl",
+        "text": "i suppose i never heard that one before, i'll give you points for creativity"
+      },
+      {
+        "from": "girl",
+        "text": "I got a whole syllabus if you want to see what else I'm good at"
+      },
+      {
+        "from": "boy",
+        "text": "i got a whole syllabus if you wanna see what else i'm good at"
+      },
+      {
+        "from": "boy",
+        "text": "might need a study partner though"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_48",
+    "opener": "from pretending i don't want you",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "from pretending i don't want you"
+      },
+      {
+        "from": "boy",
+        "text": "not my fault..."
+      },
+      {
+        "from": "boy",
+        "text": "can't focus..."
+      },
+      {
+        "from": "girl",
+        "text": "well, maybe close your eyes next time idk"
+      },
+      {
+        "from": "girl",
+        "text": "problem solved."
+      },
+      {
+        "from": "girl",
+        "text": "I tried that, all I see is you anyway"
+      },
+      {
+        "from": "boy",
+        "text": "tried that, all i see is you anyway"
+      },
+      {
+        "from": "boy",
+        "text": "tough life"
+      },
+      {
+        "from": "girl",
+        "text": "lol that's on you"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_49",
+    "opener": "i'll fetch whatever you want, just say the word",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "i'll fetch whatever you want, just say the word"
+      },
+      {
+        "from": "boy",
+        "text": "swear i'd sit, stay, roll over, whatever makes you happy"
+      },
+      {
+        "from": "girl",
+        "text": "you're lucky i like obedience"
+      },
+      {
+        "from": "girl",
+        "text": "most boys don't know how to listen"
+      },
+      {
+        "from": "girl",
+        "text": "All I need is a little attention from you and I'll behave all night, might even learn a new trick"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_50",
+    "opener": "i just know it’s pinker than the dress",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "i just know it’s pinker than the dress"
+      },
+      {
+        "from": "girl",
+        "text": "HELLO?!??"
+      },
+      {
+        "from": "girl",
+        "text": "what kind of opener is that"
+      },
+      {
+        "from": "boy",
+        "text": "couldn’t help myself, blame the dress"
+      },
+      {
+        "from": "boy",
+        "text": "pink got me curious"
+      },
+      {
+        "from": "girl",
+        "text": "nah i’m actually crying, who even says that"
+      },
+      {
+        "from": "boy",
+        "text": "somebody who appreciates details"
+      },
+      {
+        "from": "boy",
+        "text": "and isn’t afraid to ask the real questions"
+      },
+      {
+        "from": "girl",
+        "text": "lmaooo i’m speechless"
+      },
+      {
+        "from": "girl",
+        "text": "do you always just say whatever’s on your mind??"
+      },
+      {
+        "from": "boy",
+        "text": "only when the fit is worth it"
+      },
+      {
+        "from": "boy",
+        "text": "i mean, you knew what you were doing with that color"
+      },
+      {
+        "from": "girl",
+        "text": "i literally just liked the dress😭"
+      },
+      {
+        "from": "girl",
+        "text": "now i gotta think twice before i wear pink again"
+      },
+      {
+        "from": "boy",
+        "text": "nah, keep wearing it"
+      },
+      {
+        "from": "boy",
+        "text": "i’ll keep guessing"
+      },
+      {
+        "from": "boy",
+        "text": "unless you feel like ending the mystery"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_51",
+    "opener": "does that kitty meow only or does it also roar?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "does that kitty meow only or does it also roar?"
+      },
+      {
+        "from": "girl",
+        "text": "wow lol straight to the point"
+      },
+      {
+        "from": "boy",
+        "text": "just being honest"
+      },
+      {
+        "from": "boy",
+        "text": "i like a little danger"
+      },
+      {
+        "from": "girl",
+        "text": "danger is easy to find, you sure you can handle it tho"
+      },
+      {
+        "from": "boy",
+        "text": "i got skills, and i don’t scare easy"
+      },
+      {
+        "from": "boy",
+        "text": "bet you’d surprise me though"
+      },
+      {
+        "from": "girl",
+        "text": "maybe, maybe not"
+      },
+      {
+        "from": "girl",
+        "text": "some people fold real quick"
+      },
+      {
+        "from": "girl",
+        "text": "I don’t fold, I got patience for the wild ones"
+      },
+      {
+        "from": "boy",
+        "text": "i don’t fold"
+      },
+      {
+        "from": "boy",
+        "text": "i got patience for the wild ones"
+      },
+      {
+        "from": "girl",
+        "text": "sure, i’ve heard that before 🥴"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "I don",
+    "hook_text": "NBA on TNT"
+  },
+  {
+    "video_id": "Viral_video_52",
+    "opener": "Mommy? Sorry. Mommy? Sorry. Mommy? Sorry… unless?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Mommy? Sorry. Mommy? Sorry. Mommy? Sorry… unless?"
+      },
+      {
+        "from": "girl",
+        "text": "unless what exactly? you lost or just looking for trouble?"
+      },
+      {
+        "from": "boy",
+        "text": "unless you wanna teach me how to behave"
+      },
+      {
+        "from": "boy",
+        "text": "cowgirl style"
+      },
+      {
+        "from": "girl",
+        "text": "behave? you don’t even look like you’d survive a lap around the corral"
+      },
+      {
+        "from": "boy",
+        "text": "i’ll take the risk if it means getting a private rodeo"
+      },
+      {
+        "from": "boy",
+        "text": "bet i’d hold on tight"
+      },
+      {
+        "from": "girl",
+        "text": "tight’s cute but i need a man who doesn’t fall off after five seconds"
+      },
+      {
+        "from": "girl",
+        "text": "Give me eight and I’ll buy the boots"
+      },
+      {
+        "from": "boy",
+        "text": "give me eight and i’ll buy the boots"
+      },
+      {
+        "from": "girl",
+        "text": "these boots are too wild for you, baby"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "Give me eight and I"
+  },
+  {
+    "video_id": "Viral_video_53",
+    "opener": "i already know you taste heavenly",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "i already know you taste heavenly"
+      },
+      {
+        "from": "girl",
+        "text": "what do you even mean???"
+      },
+      {
+        "from": "boy",
+        "text": "sun hit you like you’re fresh out the bakery"
+      },
+      {
+        "from": "boy",
+        "text": "don’t blame me for noticing"
+      },
+      {
+        "from": "girl",
+        "text": "you just compared me to bread?"
+      },
+      {
+        "from": "boy",
+        "text": "not just bread, warm, soft, top shelf dessert vibes"
+      },
+      {
+        "from": "boy",
+        "text": "like the kind you only get once"
+      },
+      {
+        "from": "girl",
+        "text": "maybe i’m a lemon, ever think of that?"
+      },
+      {
+        "from": "girl",
+        "text": "bite me and find out"
+      },
+      {
+        "from": "girl",
+        "text": "If you sour, I’ll risk the face"
+      },
+      {
+        "from": "boy",
+        "text": "if you sour, i’ll risk the face"
+      },
+      {
+        "from": "boy",
+        "text": "worth it for that kind of sunlight"
+      }
+    ],
+    "arc_type": "plot_twist",
+    "ai_card_punchline": "If you sour, I"
+  },
+  {
+    "video_id": "Viral_video_54",
+    "opener": "can i call you mommy?",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "can i call you mommy?"
+      },
+      {
+        "from": "girl",
+        "text": "boy what in the hell is wrong with you"
+      },
+      {
+        "from": "girl",
+        "text": "maybe i do, maybe i don’t"
+      },
+      {
+        "from": "girl",
+        "text": "but you definitely need guidance"
+      },
+      {
+        "from": "boy",
+        "text": "guidance, snacks, and some head pats tbh"
+      },
+      {
+        "from": "boy",
+        "text": "i could use all three"
+      },
+      {
+        "from": "girl",
+        "text": "you are really out here begging for love huh"
+      },
+      {
+        "from": "girl",
+        "text": "If begging works, I will get on my knees right now"
+      },
+      {
+        "from": "boy",
+        "text": "if begging works, i’ll get on my knees rn"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_55",
+    "opener": "that gym mirror’s lucky as hell",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "that gym mirror’s lucky as hell"
+      },
+      {
+        "from": "girl",
+        "text": "lucky?"
+      },
+      {
+        "from": "boy",
+        "text": "yeah, getting to see all that from that angle"
+      },
+      {
+        "from": "boy",
+        "text": "unreal"
+      },
+      {
+        "from": "girl",
+        "text": "you’re wild"
+      },
+      {
+        "from": "boy",
+        "text": "nah i’m serious"
+      },
+      {
+        "from": "boy",
+        "text": "i saw that and forgot what i was supposed to be doing"
+      },
+      {
+        "from": "girl",
+        "text": "sounds like a you problem"
+      },
+      {
+        "from": "boy",
+        "text": "i’d say it’s your fault"
+      },
+      {
+        "from": "boy",
+        "text": "but honestly? not mad about it"
+      },
+      {
+        "from": "girl",
+        "text": "so you just dm girls every time they post in gym clothes?"
+      },
+      {
+        "from": "girl",
+        "text": "Only when they look like they bench press souls, and look that good doing it"
+      },
+      {
+        "from": "boy",
+        "text": "only when they look like they bench press souls"
+      },
+      {
+        "from": "boy",
+        "text": "and look that good doing it"
+      },
+      {
+        "from": "girl",
+        "text": "bench press souls is insane lol"
+      },
+      {
+        "from": "boy",
+        "text": "tell me i’m wrong though"
+      },
+      {
+        "from": "boy",
+        "text": "you knew exactly what that fit was doing"
+      },
+      {
+        "from": "girl",
+        "text": "i literally just finished leg day"
+      },
+      {
+        "from": "girl",
+        "text": "wasn’t tryna start anything"
+      },
+      {
+        "from": "boy",
+        "text": "too late"
+      },
+      {
+        "from": "boy",
+        "text": "you posted that and now i’m out here questioning my upper body strength and self-worth"
+      },
+      {
+        "from": "girl",
+        "text": "sounds personal"
+      },
+      {
+        "from": "boy",
+        "text": "it is"
+      },
+      {
+        "from": "boy",
+        "text": "but i’m also thinking we skip the stories and make this a real conversation"
+      },
+      {
+        "from": "girl",
+        "text": "depends"
+      },
+      {
+        "from": "girl",
+        "text": "you asking or hinting?"
+      },
+      {
+        "from": "boy",
+        "text": "asking"
+      },
+      {
+        "from": "girl",
+        "text": "then here"
+      },
+      {
+        "from": "girl",
+        "text": "256-"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_56",
+    "opener": "2+2=4 but you+me=fate",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "2+2=4 but you+me=fate"
+      },
+      {
+        "from": "girl",
+        "text": "oh no lmao"
+      },
+      {
+        "from": "boy",
+        "text": "don’t do me like that"
+      },
+      {
+        "from": "boy",
+        "text": "i was up late writing equations just for you"
+      },
+      {
+        "from": "girl",
+        "text": "you really sent that with confidence huh"
+      },
+      {
+        "from": "boy",
+        "text": "always"
+      },
+      {
+        "from": "boy",
+        "text": "you think someone like you gets a casual “hey"
+      },
+      {
+        "from": "boy",
+        "text": "; one gray bubble on left with"
+      },
+      {
+        "from": "boy",
+        "text": "; gray bubble"
+      },
+      {
+        "from": "girl",
+        "text": "; blue bubble at bottom with"
+      },
+      {
+        "from": "girl",
+        "text": "hmm fair"
+      },
+      {
+        "from": "boy",
+        "text": "you been posting like you already got 3 people in love with you"
+      },
+      {
+        "from": "boy",
+        "text": "i just wanted to be the fourth"
+      },
+      {
+        "from": "girl",
+        "text": "that’s insane"
+      },
+      {
+        "from": "girl",
+        "text": "but kinda smooth ngl"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_57",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "i already told my mom about us"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "about who??"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "you and me"
+      },
+      {
+        "from": "boy",
+        "text": "she said she's happy i'm finally taking someone serious"
+      },
+      {
+        "from": "girl",
+        "text": "you're wild for that"
+      },
+      {
+        "from": "boy",
+        "text": "nah, just efficient"
+      },
+      {
+        "from": "boy",
+        "text": "she likes early updates"
+      },
+      {
+        "from": "girl",
+        "text": "does she know i don't know you?"
+      },
+      {
+        "from": "boy",
+        "text": "not yet"
+      },
+      {
+        "from": "boy",
+        "text": "but she thinks we'd look good in holiday pictures"
+      },
+      {
+        "from": "girl",
+        "text": "wow"
+      },
+      {
+        "from": "girl",
+        "text": "you really commit to a bit huh"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_58",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "please let me drown between those like it's my baptism"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "you need serious help"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "you knew what you were doing when you posted that"
+      },
+      {
+        "from": "boy",
+        "text": "i'm just the victim"
+      },
+      {
+        "from": "girl",
+        "text": "a loud one at that"
+      },
+      {
+        "from": "boy",
+        "text": "i've never begged for anything with this much pride"
+      },
+      {
+        "from": "girl",
+        "text": "ugh keep going then"
+      },
+      {
+        "from": "boy",
+        "text": "i saw that pic and started apologizing for things i didn't even do"
+      },
+      {
+        "from": "girl",
+        "text": "lmao not the preemptive guilt"
+      },
+      {
+        "from": "boy",
+        "text": "It got me confessing like it's Sunday service"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_59",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "or is it just me?"
+      },
+      {
+        "from": "girl",
+        "text": "how many people passed out when you posted this?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "| right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "just you 😔"
+      },
+      {
+        "from": "girl",
+        "text": "probably"
+      },
+      {
+        "from": "boy",
+        "text": "| left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "i'll take it"
+      },
+      {
+        "from": "girl",
+        "text": "first place in something at least"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "| left bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "congrats i guess"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "boy",
+        "text": "do you like books?"
+      },
+      {
+        "from": "girl",
+        "text": "sometimes"
+      },
+      {
+        "from": "girl",
+        "text": "why?"
+      },
+      {
+        "from": "girl",
+        "text": "Cause I've been reading your body language and it says 'try harder"
+      },
+      {
+        "from": "girl",
+        "text": "| left bubble (color: cyan/light blue):"
+      },
+      {
+        "from": "boy",
+        "text": "cause i've been reading your body language and it says 'try harder"
+      },
+      {
+        "from": "girl",
+        "text": "maybe"
+      },
+      {
+        "from": "girl",
+        "text": "you're not wrong"
+      },
+      {
+        "from": "boy",
+        "text": "i knew it"
+      },
+      {
+        "from": "girl",
+        "text": "you type like someone who doesn't flinch easy"
+      }
+    ],
+    "arc_type": "pivot",
+    "hook_text": "let me size her up real quick",
+    "pivot_setup": "do you like books?"
+  },
+  {
+    "video_id": "Viral_video_62",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "not to be dramatic but i think this just reset my standards"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "reset?? that bad huh? 😂"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "nah, that good"
+      },
+      {
+        "from": "boy",
+        "text": "i almost forgot how to type for a sec"
+      },
+      {
+        "from": "girl",
+        "text": "you recovered fast"
+      },
+      {
+        "from": "boy",
+        "text": "fake confidence. i'm sweating behind the screen"
+      },
+      {
+        "from": "girl",
+        "text": "well it's working"
+      },
+      {
+        "from": "girl",
+        "text": "you don't sound completely unhinged yet"
+      },
+      {
+        "from": "boy",
+        "text": "give it a minute"
+      },
+      {
+        "from": "boy",
+        "text": "i've got at least three pickup lines queued up"
+      },
+      {
+        "from": "girl",
+        "text": "oh god"
+      },
+      {
+        "from": "girl",
+        "text": "go on then ❤️"
+      },
+      {
+        "from": "boy",
+        "text": "alright"
+      },
+      {
+        "from": "boy",
+        "text": "you seem like the type who'd ruin someone's life politely and still get thanked for it"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_63",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "whatever spell you're casting, it's working"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "you think that's original?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "probably not"
+      },
+      {
+        "from": "boy",
+        "text": "but the timing was flawless"
+      },
+      {
+        "from": "boy",
+        "text": "and i respect power when i see it"
+      },
+      {
+        "from": "girl",
+        "text": "so you're saying i'm powerful now?"
+      },
+      {
+        "from": "boy",
+        "text": "you post like someone who doesn't ask twice"
+      },
+      {
+        "from": "boy",
+        "text": "that's power in my book"
+      },
+      {
+        "from": "girl",
+        "text": "hm"
+      },
+      {
+        "from": "girl",
+        "text": "not a bad read"
+      },
+      {
+        "from": "boy",
+        "text": "don't gas me too early"
+      },
+      {
+        "from": "boy",
+        "text": "i'm pacing myself"
+      },
+      {
+        "from": "girl",
+        "text": "please"
+      },
+      {
+        "from": "girl",
+        "text": "you came in with sorcery talk, there's no pacing involved"
+      },
+      {
+        "from": "boy",
+        "text": "nah that was controlled"
+      },
+      {
+        "from": "boy",
+        "text": "if i went unfiltered i'd be typing like 'majesty, command me"
+      },
+      {
+        "from": "girl",
+        "text": "okay, chill"
+      },
+      {
+        "from": "girl",
+        "text": "you're one dramatic message away from being sent to the shadow realm"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_64",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "i'd cancel my entire bloodline just to get crushed between those thighs"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "you didn't even try to ease into it huh"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "for what? that post knocked the oxygen outta me"
+      },
+      {
+        "from": "boy",
+        "text": "i went straight to survival mode"
+      },
+      {
+        "from": "girl",
+        "text": "you need help"
+      },
+      {
+        "from": "boy",
+        "text": "i need your legs wrapped around me like a resistance band"
+      },
+      {
+        "from": "girl",
+        "text": "you're wild"
+      },
+      {
+        "from": "girl",
+        "text": "like genuinely concerning"
+      },
+      {
+        "from": "boy",
+        "text": "nah i'm just passionate"
+      },
+      {
+        "from": "boy",
+        "text": "and maybe a little quad-blind"
+      },
+      {
+        "from": "girl",
+        "text": "quad-blind??"
+      },
+      {
+        "from": "boy",
+        "text": "it's a real condition"
+      },
+      {
+        "from": "boy",
+        "text": "happens when someone sees legs like yours and forgets how to act"
+      },
+      {
+        "from": "girl",
+        "text": "i don't even know how to respond"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_65",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "i just looked at this pic for so long i forgot where i was"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "be careful"
+      },
+      {
+        "from": "girl",
+        "text": "the ocean isn't the only thing that'll drown you"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "i'd drown with joy if it meant being near that energy for 3 seconds"
+      },
+      {
+        "from": "girl",
+        "text": "you typed that like you meant it too"
+      },
+      {
+        "from": "boy",
+        "text": "i did"
+      },
+      {
+        "from": "boy",
+        "text": "i just called in sick and told my boss i saw something divine"
+      },
+      {
+        "from": "girl",
+        "text": "and he believed you?"
+      },
+      {
+        "from": "boy",
+        "text": "no"
+      },
+      {
+        "from": "boy",
+        "text": "but he saw your story and said"
+      },
+      {
+        "from": "girl",
+        "text": "you're insane"
+      },
+      {
+        "from": "girl",
+        "text": "but mildly entertaining"
+      },
+      {
+        "from": "boy",
+        "text": "i'd let a wave take me out just to impress you"
+      },
+      {
+        "from": "boy",
+        "text": "and i can't swim"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_66",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "if being fine was a crime, you'd be serving back-to-back life sentences"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "lmao"
+      },
+      {
+        "from": "girl",
+        "text": "not prison time"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "i'm just saying"
+      },
+      {
+        "from": "boy",
+        "text": "you post like you don't know you're the main character"
+      },
+      {
+        "from": "girl",
+        "text": "i post like someone who got dumped last week actually"
+      },
+      {
+        "from": "boy",
+        "text": "...oh"
+      },
+      {
+        "from": "boy",
+        "text": "damn"
+      },
+      {
+        "from": "boy",
+        "text": "do i still flirt or do we light a candle and unpack this?"
+      },
+      {
+        "from": "girl",
+        "text": "depends"
+      },
+      {
+        "from": "girl",
+        "text": "are you good at distractions?"
+      },
+      {
+        "from": "boy",
+        "text": "i've been told i'm top tier at pretending things don't hurt"
+      },
+      {
+        "from": "girl",
+        "text": "perfect"
+      },
+      {
+        "from": "girl",
+        "text": "maybe we'll get along"
+      },
+      {
+        "from": "boy",
+        "text": "wasn't expecting to trauma bond this early but i'm here for it"
+      },
+      {
+        "from": "girl",
+        "text": "don't get excited"
+      },
+      {
+        "from": "girl",
+        "text": "i'm still debating if men are even real"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_67",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "is your reflection single or is she also ignoring me?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "she has better taste than to answer that"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "ouch"
+      },
+      {
+        "from": "boy",
+        "text": "so she's just like you then"
+      },
+      {
+        "from": "girl",
+        "text": "smart, selective, and unbothered?"
+      },
+      {
+        "from": "girl",
+        "text": "yeah, exactly like me"
+      },
+      {
+        "from": "boy",
+        "text": "sounds like i need to level up just to get ghosted properly"
+      },
+      {
+        "from": "girl",
+        "text": "at least you know your place"
+      },
+      {
+        "from": "boy",
+        "text": "i do"
+      },
+      {
+        "from": "boy",
+        "text": "right under your story, looking foolish on purpose"
+      },
+      {
+        "from": "girl",
+        "text": "you'd probably flirt with my shadow if it moved right"
+      },
+      {
+        "from": "boy",
+        "text": "only if it wears heels and ignores me like you do"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_68",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "i just stared at this like it owed me something"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "you really in my dms after already trying to bag my friend?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "damn"
+      },
+      {
+        "from": "boy",
+        "text": "word travels fast"
+      },
+      {
+        "from": "girl",
+        "text": "you think we don't talk?"
+      },
+      {
+        "from": "girl",
+        "text": "we send screenshots for sport"
+      },
+      {
+        "from": "boy",
+        "text": "respectfully, your whole circle cute"
+      },
+      {
+        "from": "boy",
+        "text": "what was i supposed to do? pick one and die loyal?"
+      },
+      {
+        "from": "girl",
+        "text": "you wild"
+      },
+      {
+        "from": "girl",
+        "text": "you just say this to every girl?"
+      },
+      {
+        "from": "boy",
+        "text": "only the ones that post like they run my blood pressure"
+      },
+      {
+        "from": "girl",
+        "text": "so what, you tryna run through the whole friend group?"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_69",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "i just know you ruin people's lives and sleep like a baby"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "you don't even see my face"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "don't need to"
+      },
+      {
+        "from": "boy",
+        "text": "that back says 'i've ghosted someone mid-convo and felt nothing"
+      },
+      {
+        "from": "girl",
+        "text": "that's not far off"
+      },
+      {
+        "from": "boy",
+        "text": "exactly"
+      },
+      {
+        "from": "boy",
+        "text": "i recognized the danger instantly"
+      },
+      {
+        "from": "girl",
+        "text": "but you still came to talk?"
+      },
+      {
+        "from": "boy",
+        "text": "yah, i've already imagined 3 arguments and 1 apology dinner and we haven't even met"
+      },
+      {
+        "from": "girl",
+        "text": "and somehow you're still texting"
+      },
+      {
+        "from": "boy",
+        "text": "i'm committed"
+      },
+      {
+        "from": "boy",
+        "text": "i'm ready to be ignored with intention"
+      },
+      {
+        "from": "girl",
+        "text": "you got a lot of faith in this back pic"
+      },
+      {
+        "from": "boy",
+        "text": "i'd ask you to turn around but i feel like that's how people die in stories"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_70",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "can you choke me just a little?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "like not enough to kill me"
+      },
+      {
+        "from": "boy",
+        "text": "but enough to humble me"
+      },
+      {
+        "from": "girl",
+        "text": "what is wrong with you"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "idk"
+      },
+      {
+        "from": "boy",
+        "text": "probably whatever made me think i could survive you"
+      },
+      {
+        "from": "girl",
+        "text": "you are not well"
+      },
+      {
+        "from": "boy",
+        "text": "not since that picture"
+      },
+      {
+        "from": "boy",
+        "text": "my soul left my body and asked for a restart"
+      },
+      {
+        "from": "girl",
+        "text": "you talk like you're in pain"
+      },
+      {
+        "from": "boy",
+        "text": "i am"
+      },
+      {
+        "from": "boy",
+        "text": "but like... the kind you don't want cured"
+      },
+      {
+        "from": "girl",
+        "text": "be serious"
+      },
+      {
+        "from": "boy",
+        "text": "i'm trying"
+      },
+      {
+        "from": "boy",
+        "text": "but you got me typing like i've never seen a woman before"
+      },
+      {
+        "from": "girl",
+        "text": "and this is what you chose to say?"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT"
+  },
+  {
+    "video_id": "Viral_video_71",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "girl",
+        "text": "i'd say something smart"
+      },
+      {
+        "from": "girl",
+        "text": "but my brain shut off the second i saw this"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: blue/teal, photo thumbnail): embedded story image. left bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": ". left bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "over a book? that serious?"
+      },
+      {
+        "from": "boy",
+        "text": ". left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "nah, over you holding it like you're solving world peace"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": ". right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "pls i'm just trying to read"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "and i'm just tryna respectfully fall in love from a distance"
+      },
+      {
+        "from": "girl",
+        "text": "respectfully\\"
+      },
+      {
+        "from": "boy",
+        "text": "i'm trying"
+      },
+      {
+        "from": "boy",
+        "text": "but you look like the type to underline quotes and break hearts"
+      },
+      {
+        "from": "girl",
+        "text": "I only underline the ones that hit too close"
+      },
+      {
+        "from": "boy",
+        "text": "so basically you're dangerous"
+      },
+      {
+        "from": "girl",
+        "text": "i've been told so"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_72",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "crazy how i still feel like that belongs to me"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "stop, you don't get to talk like that anymore"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "i was just admiring what used to be my favorite view"
+      },
+      {
+        "from": "boy",
+        "text": "let me be nostalgic"
+      },
+      {
+        "from": "girl",
+        "text": "you can be nostalgic in silence"
+      },
+      {
+        "from": "girl",
+        "text": "like the rest of your kind"
+      },
+      {
+        "from": "boy",
+        "text": "but i got front-row history"
+      },
+      {
+        "from": "boy",
+        "text": "i've earned at least one comment"
+      },
+      {
+        "from": "girl",
+        "text": "you earned a block, that's what you earned"
+      },
+      {
+        "from": "boy",
+        "text": "if i get blocked for honesty, so be it"
+      },
+      {
+        "from": "boy",
+        "text": "but you posted like that and expected peace?"
+      },
+      {
+        "from": "girl",
+        "text": "you still got that damn ego"
+      },
+      {
+        "from": "girl",
+        "text": "nothing changed"
+      },
+      {
+        "from": "boy",
+        "text": "not true"
+      },
+      {
+        "from": "boy",
+        "text": "i learned to keep my mouth shut"
+      },
+      {
+        "from": "boy",
+        "text": "but you still look like trouble, and my self-control is weak"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "give me a three point"
+  },
+  {
+    "video_id": "Viral_video_73",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "can you please assault me"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "excuse me??"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "like just a little"
+      },
+      {
+        "from": "boy",
+        "text": "emotionally, physically, spiritually - i'm open"
+      },
+      {
+        "from": "girl",
+        "text": "you really are in my dms begging for violence?"
+      },
+      {
+        "from": "boy",
+        "text": "i'm begging for whatever gets your attention ✨"
+      },
+      {
+        "from": "boy",
+        "text": "step on my shoes, call me useless, idc"
+      },
+      {
+        "from": "girl",
+        "text": "you're wild"
+      },
+      {
+        "from": "girl",
+        "text": "and clearly too far gone"
+      },
+      {
+        "from": "boy",
+        "text": "for you? easily"
+      },
+      {
+        "from": "boy",
+        "text": "i'd bark but my dignity hanging by a thread"
+      },
+      {
+        "from": "girl",
+        "text": "and somehow that thread still holding on"
+      },
+      {
+        "from": "girl",
+        "text": "i'm impressed"
+      },
+      {
+        "from": "boy",
+        "text": "barely"
+      },
+      {
+        "from": "boy",
+        "text": "but for you, i'll unravel with grace"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_74",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "you look like you left three hearts broken just walking in"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "how many girls you send that to?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "just the ones who look like trouble worth chasing"
+      },
+      {
+        "from": "girl",
+        "text": "y'all never quit"
+      },
+      {
+        "from": "boy",
+        "text": "i'm not y'all, i'm me"
+      },
+      {
+        "from": "girl",
+        "text": "they all say that"
+      },
+      {
+        "from": "girl",
+        "text": "then cheat like it's a hobby"
+      },
+      {
+        "from": "boy",
+        "text": "whoa, you been through some wild drafts"
+      },
+      {
+        "from": "girl",
+        "text": "drafts?"
+      },
+      {
+        "from": "girl",
+        "text": "i've dated the whole bench and the coach cheated too"
+      },
+      {
+        "from": "boy",
+        "text": "damn"
+      },
+      {
+        "from": "boy",
+        "text": "they fumbled a franchise player"
+      },
+      {
+        "from": "girl",
+        "text": "nope, i retired"
+      },
+      {
+        "from": "girl",
+        "text": "men don't even get interviews now"
+      }
+    ],
+    "arc_type": "rejection",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_75",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "you post like you got nothing to prove"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "i respect it"
+      },
+      {
+        "from": "girl",
+        "text": "what does that even mean?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "you know how some people post trying to convient the world?"
+      },
+      {
+        "from": "boy",
+        "text": "you post like the world already knows"
+      },
+      {
+        "from": "girl",
+        "text": "that's kinda deep for a dm"
+      },
+      {
+        "from": "girl",
+        "text": "you good over there?"
+      },
+      {
+        "from": "boy",
+        "text": "i'm chilling"
+      },
+      {
+        "from": "boy",
+        "text": "you just give off that"
+      },
+      {
+        "from": "boy",
+        "text": "i know who i am"
+      },
+      {
+        "from": "girl",
+        "text": "hmm"
+      },
+      {
+        "from": "girl",
+        "text": "i kinda like that"
+      },
+      {
+        "from": "girl",
+        "text": "better than the usual"
+      },
+      {
+        "from": "girl",
+        "text": "you fine"
+      },
+      {
+        "from": "boy",
+        "text": "you fine too"
+      },
+      {
+        "from": "boy",
+        "text": "but i figured you already knew that"
+      },
+      {
+        "from": "boy",
+        "text": "no need to waste a line"
+      },
+      {
+        "from": "girl",
+        "text": "ok see"
+      },
+      {
+        "from": "girl",
+        "text": "now you're talking"
+      },
+      {
+        "from": "boy",
+        "text": "i have been talking"
+      },
+      {
+        "from": "boy",
+        "text": "you just finally started listening"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_76",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "are you trying to break the internet or just test my self-control?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "damn, you don't even know how to act"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "i'm trying to stay calm"
+      },
+      {
+        "from": "boy",
+        "text": "but you got my screen feeling illegal right now"
+      },
+      {
+        "from": "girl",
+        "text": "it's just a picture"
+      },
+      {
+        "from": "boy",
+        "text": "nah, that ain't just a picture"
+      },
+      {
+        "from": "boy",
+        "text": "that's a public threat to my focus"
+      },
+      {
+        "from": "girl",
+        "text": "you really extra for no reason, i swear lol"
+      },
+      {
+        "from": "girl",
+        "text": "but i'll take it"
+      },
+      {
+        "from": "boy",
+        "text": "you knew what you were doing"
+      },
+      {
+        "from": "boy",
+        "text": "that mirror ain't never worked this hard before"
+      },
+      {
+        "from": "girl",
+        "text": "boy please"
+      },
+      {
+        "from": "girl",
+        "text": "i was just trying to check out my hair"
+      }
+    ],
+    "arc_type": "pivot",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_77",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "this hallway lucky af"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "i'd trip just to land in your story"
+      },
+      {
+        "from": "girl",
+        "text": "lmao wtf, you're so dramatic"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "i'm just saying"
+      },
+      {
+        "from": "girl",
+        "text": "mirror selfies hit harder when you're in them"
+      },
+      {
+        "from": "girl",
+        "text": "you got those lines pre-saved"
+      },
+      {
+        "from": "boy",
+        "text": "nah this is freestyle"
+      },
+      {
+        "from": "girl",
+        "text": "and you're the inspiration"
+      },
+      {
+        "from": "girl",
+        "text": "omg stoppp"
+      },
+      {
+        "from": "girl",
+        "text": "you really trying to charm your way into something"
+      },
+      {
+        "from": "boy",
+        "text": "is it working or not"
+      },
+      {
+        "from": "girl",
+        "text": "cause i'm really ready to risk it all over that hallway lighting"
+      },
+      {
+        "from": "girl",
+        "text": "you are too much"
+      },
+      {
+        "from": "girl",
+        "text": "i'm lowkey crying at the effort tho"
+      },
+      {
+        "from": "boy",
+        "text": "all i'm asking for is a chance"
+      },
+      {
+        "from": "girl",
+        "text": "coffee? tea? hallway date? i'm flexible"
+      }
+    ],
+    "arc_type": "double_meaning"
+  },
+  {
+    "video_id": "Viral_video_78",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "how does your mirror not crack under pressure like that?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "lol i'm chilling"
+      },
+      {
+        "from": "girl",
+        "text": "wasn't even doing too much"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "nah you hit that mirror angle too perfect for it to be \\"
+      },
+      {
+        "from": "boy",
+        "text": "chilling\\"
+      },
+      {
+        "from": "girl",
+        "text": "boy please"
+      },
+      {
+        "from": "girl",
+        "text": "this is like my third try lmao"
+      },
+      {
+        "from": "boy",
+        "text": "and it paid off"
+      },
+      {
+        "from": "boy",
+        "text": "you got mirror selfies scared to be basic now"
+      },
+      {
+        "from": "girl",
+        "text": "lmaoo shut up"
+      },
+      {
+        "from": "girl",
+        "text": "you talk too much"
+      },
+      {
+        "from": "boy",
+        "text": "and you're still replying"
+      },
+      {
+        "from": "boy",
+        "text": "so it's clearly working"
+      },
+      {
+        "from": "girl",
+        "text": "ehhh"
+      },
+      {
+        "from": "girl",
+        "text": "you're entertaining at least"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_79",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "damn, sunset had competition today"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "lmao"
+      },
+      {
+        "from": "boy",
+        "text": "for real, sun was trying to show out and still got outshinied"
+      },
+      {
+        "from": "girl",
+        "text": "you corny asl"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: gray):"
+      },
+      {
+        "from": "boy",
+        "text": "corny but accurate"
+      },
+      {
+        "from": "boy",
+        "text": "don't blame me, blame the view"
+      },
+      {
+        "from": "girl",
+        "text": "mhmm"
+      },
+      {
+        "from": "girl",
+        "text": "keep going then"
+      },
+      {
+        "from": "boy",
+        "text": "bet"
+      },
+      {
+        "from": "boy",
+        "text": "you are the type to make the sun clock out early like 'nah i'm good she got it"
+      },
+      {
+        "from": "girl",
+        "text": "ok that one is pretty good"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "WATCH ME SHOOT MY SHOT"
+  },
+  {
+    "video_id": "Viral_video_80",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "you really just pop up on my screen like that with no warning?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: blue/purple):"
+      },
+      {
+        "from": "girl",
+        "text": "what does that even mean lol"
+      },
+      {
+        "from": "boy",
+        "text": "just saying"
+      },
+      {
+        "from": "boy",
+        "text": "you post a picture like that and now i gotta act normal?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "you could've just kept scrolling"
+      },
+      {
+        "from": "boy",
+        "text": "i could've"
+      },
+      {
+        "from": "boy",
+        "text": "but you knew exactly what you were doing posting that"
+      },
+      {
+        "from": "girl",
+        "text": "boy, it's just a picture"
+      },
+      {
+        "from": "boy",
+        "text": "and i'm just a guy trying to survive it"
+      },
+      {
+        "from": "girl",
+        "text": "you're ridiculous"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_81",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "I got 3 things I'm trynna put into you"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "excuse me??"
+      },
+      {
+        "from": "girl",
+        "text": "creep"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "relax let me finish"
+      },
+      {
+        "from": "boy",
+        "text": "1. My name"
+      },
+      {
+        "from": "boy",
+        "text": "2. My effort"
+      },
+      {
+        "from": "boy",
+        "text": "3. My face"
+      },
+      {
+        "from": "girl",
+        "text": "that was smooth but"
+      },
+      {
+        "from": "girl",
+        "text": "I lowkey like the face part.."
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_82",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "do you have a heart?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: dark blue/purple):"
+      },
+      {
+        "from": "girl",
+        "text": "yes?"
+      },
+      {
+        "from": "boy",
+        "text": "then why are you stealing mine"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: dark blue):"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "that was good 😂"
+      }
+    ],
+    "arc_type": "pivot"
+  },
+  {
+    "video_id": "Viral_video_83",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "so do you have any New Year's resolution?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "no not really"
+      },
+      {
+        "from": "girl",
+        "text": "you?"
+      },
+      {
+        "from": "boy",
+        "text": "I'm looking at mine right now"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "well that was good 😏"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_84",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "are you the girl from that movie?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "what movie?"
+      },
+      {
+        "from": "girl",
+        "text": "no"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "doesn't matter, you already look like a star"
+      },
+      {
+        "from": "girl",
+        "text": "aww thank you"
+      },
+      {
+        "from": "boy",
+        "text": "do you have a picture of yourself?"
+      },
+      {
+        "from": "girl",
+        "text": "why you want that?"
+      },
+      {
+        "from": "boy",
+        "text": "wanna show my mom that angels do exist"
+      },
+      {
+        "from": "girl",
+        "text": "who are you? that was good"
+      },
+      {
+        "from": "boy",
+        "text": "): Displayed within embedded chat box (not live bubbles): right bubble (color: violet):"
+      },
+      {
+        "from": "boy",
+        "text": "/ left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "): Displayed within embedded chat box: right bubble (color: violet):"
+      },
+      {
+        "from": "boy",
+        "text": "the man from your dreams"
+      },
+      {
+        "from": "boy",
+        "text": "what's your number?"
+      },
+      {
+        "from": "girl",
+        "text": "😂 +[redacted]"
+      }
+    ],
+    "arc_type": "pivot",
+    "pivot_setup": "do you have a picture of yourself?",
+    "pivot_punchline": "wanna show my mom that angels do exist"
+  },
+  {
+    "video_id": "Viral_video_85",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "girl",
+        "text": "what??"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "that's your first message 😆"
+      },
+      {
+        "from": "boy",
+        "text": "tryna shoot my shot here"
+      },
+      {
+        "from": "boy",
+        "text": "had to get your attention somehow"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "well worked I guess.."
+      },
+      {
+        "from": "boy",
+        "text": "): Embedded in display window: right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "I feel like it's worth getting your number"
+      },
+      {
+        "from": "boy",
+        "text": "): Embedded: right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "Mhh..alright + [redacted]"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "I goon to your highlights",
+    "hook_text": "AURA AI"
+  },
+  {
+    "video_id": "Viral_video_86",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "girl",
+        "text": "I just know it's pinker than that dress"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "hello?!"
+      },
+      {
+        "from": "boy",
+        "text": ". left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "what kind of opener is that 😭"
+      },
+      {
+        "from": "boy",
+        "text": "couldn't help myself"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": ". right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "the pink dress is beautiful"
+      },
+      {
+        "from": "girl",
+        "text": "nah I'm actually crying ngl"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "I'm just somebody who appreciates the details"
+      },
+      {
+        "from": "boy",
+        "text": "): Within embedded thumbnail: right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": ". left bubble (color: black/dark):"
+      },
+      {
+        "from": "girl",
+        "text": ". Below thumbnail: right bubble (color: cyan):"
+      },
+      {
+        "from": "boy",
+        "text": ". left bubble (color: black):"
+      },
+      {
+        "from": "girl",
+        "text": ". Below: right bubble (color: cyan):"
+      },
+      {
+        "from": "girl",
+        "text": "that's sweet"
+      },
+      {
+        "from": "boy",
+        "text": "lemme take out to dinner"
+      },
+      {
+        "from": "girl",
+        "text": "alright 😂"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_87",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "so what's the secret?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "secret?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "on how you look so good"
+      },
+      {
+        "from": "girl",
+        "text": "aww thank you"
+      },
+      {
+        "from": "boy",
+        "text": "left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "but fr what is it?"
+      },
+      {
+        "from": "boy",
+        "text": "genetics?"
+      },
+      {
+        "from": "girl",
+        "text": "idk idk I guess so"
+      },
+      {
+        "from": "boy",
+        "text": "): Within embedded message box: right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "yea"
+      },
+      {
+        "from": "boy",
+        "text": "in that case, let's mix our genetics and create a baby supermodel"
+      },
+      {
+        "from": "boy",
+        "text": "Can I get your number then?"
+      },
+      {
+        "from": "girl",
+        "text": "[redacted phone number]"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "hollup...Let him cook"
+  },
+  {
+    "video_id": "Viral_video_88",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "What's your name?"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "or can I just call you mine"
+      },
+      {
+        "from": "girl",
+        "text": "not so quick buddy"
+      },
+      {
+        "from": "girl",
+        "text": "it's Riley"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "you look more like a jasmine"
+      },
+      {
+        "from": "girl",
+        "text": "what??"
+      },
+      {
+        "from": "boy",
+        "text": "but without the"
+      },
+      {
+        "from": "boy",
+        "text": "jas"
+      },
+      {
+        "from": "girl",
+        "text": "that was good ngl"
+      },
+      {
+        "from": "boy",
+        "text": "then slide your number"
+      },
+      {
+        "from": "girl",
+        "text": "alright bet + [REDACTED]"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "hollup...Let him cook"
+  },
+  {
+    "video_id": "Viral_video_89",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "I could eyp for 4 hours straight"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "you couldn't handle it"
+      },
+      {
+        "from": "boy",
+        "text": "why not?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "You'd drown"
+      },
+      {
+        "from": "boy",
+        "text": "I don't mind drowning in success"
+      },
+      {
+        "from": "girl",
+        "text": "I'm serious"
+      },
+      {
+        "from": "girl",
+        "text": "every guy I've been with has complained about it 😭"
+      },
+      {
+        "from": "boy",
+        "text": "): Within embedded chat window: right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "oh noo my lobster is too buttery and my steak to juicy"
+      },
+      {
+        "from": "girl",
+        "text": "you actually like that? 😭"
+      },
+      {
+        "from": "boy",
+        "text": "slide me your number"
+      },
+      {
+        "from": "boy",
+        "text": "and let me be your aquaman"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "hollup...Let him cook"
+  },
+  {
+    "video_id": "Viral_video_90",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "I really need help to solve that"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: violet):"
+      },
+      {
+        "from": "girl",
+        "text": "what exactly?"
+      },
+      {
+        "from": "boy",
+        "text": ", left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "I'm lost here"
+      },
+      {
+        "from": "girl",
+        "text": ", right bubble (color: violet):"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "ohh 😅"
+      },
+      {
+        "from": "boy",
+        "text": "trying to find the way to your number yk"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: cyan/light blue):"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: cyan):"
+      },
+      {
+        "from": "girl",
+        "text": "got it, maybe i can help you out 😅"
+      },
+      {
+        "from": "girl",
+        "text": "+1"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "hollup...Let him cook"
+  },
+  {
+    "video_id": "Viral_video_91",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "girl",
+        "text": "Why don't you have a boyfriend?"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "because my parents are strict"
+      },
+      {
+        "from": "boy",
+        "text": ", right bubble (color: dark gray/black):"
+      },
+      {
+        "from": "boy",
+        "text": "wbu? why don't u have a girl?"
+      },
+      {
+        "from": "boy",
+        "text": ", left bubble (color: dark gray/black):"
+      },
+      {
+        "from": "boy",
+        "text": "because you're parents are strict"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray/black):"
+      },
+      {
+        "from": "girl",
+        "text": ", right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "omg 😳"
+      },
+      {
+        "from": "girl",
+        "text": "stop playinggg with me"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "I could play with you all night"
+      },
+      {
+        "from": "girl",
+        "text": "omg 😳 stop playinggg with me"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: black):"
+      },
+      {
+        "from": "girl",
+        "text": ", right bubble (color: cyan/light purple):"
+      },
+      {
+        "from": "girl",
+        "text": "stopp 😂😂"
+      },
+      {
+        "from": "girl",
+        "text": "you kinda cute"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_92",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "girl",
+        "text": "whattt 😭"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "Only 3??"
+      },
+      {
+        "from": "boy",
+        "text": "because you need 2 realise that u the 1 4 me"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "never heard this one"
+      },
+      {
+        "from": "boy",
+        "text": "get used to compliments like this"
+      },
+      {
+        "from": "boy",
+        "text": "send your number"
+      },
+      {
+        "from": "girl",
+        "text": "alright 😭👌👌"
+      },
+      {
+        "from": "girl",
+        "text": "+1 [blurred]"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_93",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "I goon to your highlights"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "what??"
+      },
+      {
+        "from": "girl",
+        "text": "that's your first message 😭"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "tryna shot my shot here"
+      },
+      {
+        "from": "boy",
+        "text": "I have to get your attention somehow"
+      },
+      {
+        "from": "girl",
+        "text": "well worked I guess.."
+      },
+      {
+        "from": "boy",
+        "text": "I feel like it's worth getting your number"
+      },
+      {
+        "from": "girl",
+        "text": "Mhh...alright +[redacted]"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_94",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "girl",
+        "text": "Burger"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "Pasta or Steak?"
+      },
+      {
+        "from": "girl",
+        "text": "Steak??"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "what are you doing?"
+      },
+      {
+        "from": "boy",
+        "text": "I'm collecting information for our first date"
+      },
+      {
+        "from": "girl",
+        "text": "hmm 😂"
+      },
+      {
+        "from": "girl",
+        "text": "I have to think about that"
+      },
+      {
+        "from": "boy",
+        "text": "I take that as a yes"
+      },
+      {
+        "from": "boy",
+        "text": "drop your number"
+      },
+      {
+        "from": "girl",
+        "text": "here just for creativity"
+      },
+      {
+        "from": "girl",
+        "text": "+1 [number redacted/obscured]"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "pivot_setup": "Pasta or Steak?",
+    "pivot_punchline": "): right bubble (color: purple):"
+  },
+  {
+    "video_id": "Viral_video_95",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "): purple bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "No I don't think so"
+      },
+      {
+        "from": "boy",
+        "text": "I could've sworn we had chemistry together"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "ohh good one 😂"
+      },
+      {
+        "from": "boy",
+        "text": "let's close this deal"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_96",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "You're very beautiful, the one who marries you will be lucky"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "Aww, thanks!"
+      },
+      {
+        "from": "boy",
+        "text": ". left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "what's your name?"
+      },
+      {
+        "from": "boy",
+        "text": "Lucky"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": ". right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "ohh smooth one"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_97",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "I know I can't have your beautiful eyes"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "aww thanks"
+      },
+      {
+        "from": "boy",
+        "text": "but our kids can"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "girl",
+        "text": "you're smooth"
+      },
+      {
+        "from": "boy",
+        "text": "there is only two things i want rn"
+      },
+      {
+        "from": "girl",
+        "text": "what's that?"
+      },
+      {
+        "from": "boy",
+        "text": "it's you and your number"
+      },
+      {
+        "from": "girl",
+        "text": "alright sure +[REDACTED]"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_98",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "tell your parents that I am a big fan of their work"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "Damn that was smooth"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "What do you do for a living? Besides being beautiful?"
+      },
+      {
+        "from": "girl",
+        "text": "u got even more of these? 😏"
+      },
+      {
+        "from": "boy",
+        "text": "): Within the preview window: right bubble (color: purple):"
+      },
+      {
+        "from": "boy",
+        "text": "Why would I make the water wine when I can make you mine?"
+      },
+      {
+        "from": "girl",
+        "text": "Already yours"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_99",
+    "opener": "text",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "text"
+      },
+      {
+        "from": "boy",
+        "text": "You fine, but there ain't nothing back there"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: purple):"
+      },
+      {
+        "from": "girl",
+        "text": "There's definitely something back there"
+      },
+      {
+        "from": "boy",
+        "text": "): left bubble (color: dark gray):"
+      },
+      {
+        "from": "boy",
+        "text": "I'm more of a visual learner"
+      },
+      {
+        "from": "boy",
+        "text": "): right bubble (color: dark blue):"
+      },
+      {
+        "from": "girl",
+        "text": "let's do a quick video call"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_100",
+    "opener": "9/10",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "9/10"
+      },
+      {
+        "from": "girl",
+        "text": "tf, why only 9/10??"
+      },
+      {
+        "from": "boy",
+        "text": "I’m the 1 your missing"
+      },
+      {
+        "from": "girl",
+        "text": "Oh"
+      },
+      {
+        "from": "girl",
+        "text": "tbh that was smooth 😭"
+      },
+      {
+        "from": "boy",
+        "text": "btw do you remember me?"
+      },
+      {
+        "from": "girl",
+        "text": "what?"
+      },
+      {
+        "from": "girl",
+        "text": "we’ve met before?"
+      },
+      {
+        "from": "girl",
+        "text": "I’m the man from your dreams"
+      },
+      {
+        "from": "boy",
+        "text": "In the man from your dreams"
+      },
+      {
+        "from": "girl",
+        "text": "you can’t be fr 😘"
+      },
+      {
+        "from": "boy",
+        "text": "slide me your number and I show you that I mean it"
+      },
+      {
+        "from": "girl",
+        "text": "+1"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_1001",
+    "opener": "Damn you build like my next girlfriend fr",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "Damn you build like my next girlfriend fr"
+      },
+      {
+        "from": "girl",
+        "text": "What happened to the last one"
+      },
+      {
+        "from": "girl",
+        "text": "She wasn’t you"
+      },
+      {
+        "from": "girl",
+        "text": "Well that’s a bit too forward"
+      },
+      {
+        "from": "boy",
+        "text": "we have to move forward to get somewhere and I wanna take it far with you"
+      },
+      {
+        "from": "girl",
+        "text": "how far 😭"
+      },
+      {
+        "from": "boy",
+        "text": "far enough to be my last girlfriend"
+      },
+      {
+        "from": "girl",
+        "text": "damn 🥺"
+      },
+      {
+        "from": "girl",
+        "text": "sounds good"
+      },
+      {
+        "from": "boy",
+        "text": "don’t hide that smile, because it will come often"
+      },
+      {
+        "from": "boy",
+        "text": "slide your number"
+      },
+      {
+        "from": "girl",
+        "text": "ok bet +1"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_1002",
+    "opener": "They say the tongue is the strongest muscle",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "They say the tongue is the strongest muscle"
+      },
+      {
+        "from": "boy",
+        "text": "wanna wrestle? 🤭"
+      },
+      {
+        "from": "girl",
+        "text": "well that was pretty straight forward"
+      },
+      {
+        "from": "girl",
+        "text": "What happened to a simple “how you doing"
+      },
+      {
+        "from": "boy",
+        "text": "what’s your name?"
+      },
+      {
+        "from": "girl",
+        "text": "Sofie"
+      },
+      {
+        "from": "boy",
+        "text": "I think you are missing, an N"
+      },
+      {
+        "from": "girl",
+        "text": "what??"
+      },
+      {
+        "from": "girl",
+        "text": "because you’re Sophine you blow my mind"
+      },
+      {
+        "from": "boy",
+        "text": "Because you’re Sophine you blow my mind"
+      },
+      {
+        "from": "girl",
+        "text": "ohh no 😭"
+      },
+      {
+        "from": "girl",
+        "text": "damn"
+      },
+      {
+        "from": "boy",
+        "text": "I’m dead serious about u"
+      },
+      {
+        "from": "girl",
+        "text": "oh my god 😭"
+      },
+      {
+        "from": "boy",
+        "text": "rest of my love for you is still loading"
+      },
+      {
+        "from": "girl",
+        "text": "wanna link up soon, you are kinda cute ngl"
+      },
+      {
+        "from": "girl",
+        "text": "text me +1"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_1003",
+    "opener": "You need to be in a museum",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You need to be in a museum"
+      },
+      {
+        "from": "girl",
+        "text": "What??"
+      },
+      {
+        "from": "boy",
+        "text": "because you are a work of art"
+      },
+      {
+        "from": "girl",
+        "text": "oh that’s good"
+      },
+      {
+        "from": "girl",
+        "text": "you got my attention btw"
+      },
+      {
+        "from": "boy",
+        "text": "what is a Fine Melatonin girl like you doing right now btw?"
+      },
+      {
+        "from": "girl",
+        "text": "You mean melanin you bird-brain"
+      },
+      {
+        "from": "boy",
+        "text": "what’s wrong?"
+      },
+      {
+        "from": "girl",
+        "text": "Melanin is for skin pigmentation"
+      },
+      {
+        "from": "girl",
+        "text": "Melatonin puts you to sleep"
+      },
+      {
+        "from": "girl",
+        "text": "Call me Melatonin the way I put you too sleep"
+      },
+      {
+        "from": "girl",
+        "text": "oh that was smooth"
+      },
+      {
+        "from": "boy",
+        "text": "This is my first and last time saying it to a woman"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_1004",
+    "opener": "hey I think someone is using your pics to catfish",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "hey I think someone is using your pics to catfish"
+      },
+      {
+        "from": "girl",
+        "text": "hey thanks for reaching out"
+      },
+      {
+        "from": "girl",
+        "text": "can you share the link"
+      },
+      {
+        "from": "boy",
+        "text": "https://www.nasa.gov/"
+      },
+      {
+        "from": "boy",
+        "text": "Here it is"
+      },
+      {
+        "from": "boy",
+        "text": "because you are out of this world"
+      },
+      {
+        "from": "girl",
+        "text": "shitt"
+      },
+      {
+        "from": "girl",
+        "text": "that was smooth"
+      },
+      {
+        "from": "boy",
+        "text": "if stunning was a person"
+      },
+      {
+        "from": "girl",
+        "text": "Then what would you be?"
+      },
+      {
+        "from": "boy",
+        "text": "Stunned"
+      },
+      {
+        "from": "girl",
+        "text": "I’m impressed"
+      },
+      {
+        "from": "boy",
+        "text": "btw you know about superman, Batman or Spiderman?"
+      },
+      {
+        "from": "girl",
+        "text": "yes who doesn’t"
+      },
+      {
+        "from": "girl",
+        "text": "forget them cuz I’ll be your man"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "hook_text": "FOX OHIO"
+  },
+  {
+    "video_id": "Viral_video_1005",
+    "opener": "You the first 10/10 I’ve ever seen",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "You the first 10/10 I’ve ever seen"
+      },
+      {
+        "from": "girl",
+        "text": "what you lying for?"
+      },
+      {
+        "from": "boy",
+        "text": "you right"
+      },
+      {
+        "from": "boy",
+        "text": "your more of a 9/10"
+      },
+      {
+        "from": "girl",
+        "text": "wasn’t talking about that part"
+      },
+      {
+        "from": "girl",
+        "text": "But why’d you go down"
+      },
+      {
+        "from": "boy",
+        "text": "Because I am the 1 you need"
+      },
+      {
+        "from": "girl",
+        "text": "oh ok!!"
+      },
+      {
+        "from": "boy",
+        "text": "Now lemme get your number and prove it"
+      },
+      {
+        "from": "girl",
+        "text": "+1"
+      }
+    ],
+    "arc_type": "number_exchange"
+  }
+]

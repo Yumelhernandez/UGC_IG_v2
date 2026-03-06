@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.4,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Rizzing ig baddies",
+    "subtitle": "(wedding method)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "weekend escape",
+    "asset": "baddies/53fd0b66fd37ca6c6fddfab92303e5c3.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So when did we agree youre in charge of date night fits"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "thats not a no",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax, you barely dress yourself",
+      "type_at": 1.2
+    },
+    {
+      "from": "boy",
+      "text": "Relax, you love fixing my chaos",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😭😭",
+      "type_at": 4
+    },
+    {
+      "from": "boy",
+      "text": "good then bring it to drinks friday night 8",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 503 8203. monday 7:30 works",
+      "type_at": 6.7
+    }
+  ]
+}

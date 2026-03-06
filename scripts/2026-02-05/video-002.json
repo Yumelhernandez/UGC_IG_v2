@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-05-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "This IG DM either gets a date… or blocked",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "studio warmup",
+    "asset": "baddies/f598d86fef5cc2cfcbbf1a1da7645fc7.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like you skip rest days and start fights with treadmills"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound jealous of a treadmill",
+      "type_at": 2.7
+    },
+    {
+      "from": "boy",
+      "text": "you wanted to make it interesting",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "And? 😳",
+      "type_at": 7.6
+    },
+    {
+      "from": "boy",
+      "text": "wild coming from the main character of studio warmup",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for a spectator",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "say that to my face",
+      "type_at": 12.4
+    },
+    {
+      "from": "girl",
+      "text": "You assume I’m free",
+      "type_at": 14
+    },
+    {
+      "from": "boy",
+      "text": "saturday at 8. i'll handle the rest",
+      "type_at": 15.6
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 405 1764",
+      "type_at": 17.2
+    },
+    {
+      "from": "girl",
+      "text": "If you're boring i'm blocking you",
+      "type_at": 18.8
+    }
+  ]
+}

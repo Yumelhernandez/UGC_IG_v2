@@ -1,0 +1,86 @@
+{
+  "date": "2026-03-02",
+  "run_seed": 42,
+  "daily_count": 3,
+  "slots": [
+    {
+      "slot_index": 1,
+      "arc_type": "comedy",
+      "format": "B",
+      "format_variant": "long",
+      "hook_type": "situation_reveal",
+      "payoff_type": "soft_rejection_pivot",
+      "template_id": "T-01",
+      "mechanic_ids": [
+        "M-ARC-comedy",
+        "M-HOOK-situation_reveal",
+        "M-PAYOFF-soft_rejection_pivot"
+      ],
+      "run_seed": 2581720955
+    },
+    {
+      "slot_index": 2,
+      "arc_type": "number_exchange",
+      "format": "B",
+      "format_variant": "short",
+      "hook_type": "cold_open_bold",
+      "payoff_type": "hard_rejection",
+      "template_id": "T-09",
+      "mechanic_ids": [
+        "M-ARC-number_exchange",
+        "M-HOOK-cold_open_bold",
+        "M-PAYOFF-twist_reveal"
+      ],
+      "run_seed": 1925393289
+    },
+    {
+      "slot_index": 3,
+      "arc_type": "comedy",
+      "format": "B",
+      "format_variant": "short",
+      "hook_type": "challenge_opener",
+      "payoff_type": "number_drop",
+      "template_id": "T-06",
+      "mechanic_ids": [
+        "M-ARC-comedy",
+        "M-HOOK-cold_open_bold",
+        "M-PAYOFF-number_drop"
+      ],
+      "run_seed": 2876485804
+    }
+  ],
+  "fatigue_caps": {
+    "daily_count": 3,
+    "hook_type": 1,
+    "payoff_type": 1,
+    "template_id": 1,
+    "mechanic_combo": 1,
+    "format_wrapper": 2
+  },
+  "fatigue_counters": {
+    "hook_type": {
+      "situation_reveal": 1,
+      "cold_open_bold": 1,
+      "challenge_opener": 1
+    },
+    "payoff_type": {
+      "soft_rejection_pivot": 1,
+      "hard_rejection": 1,
+      "number_drop": 1
+    },
+    "template_id": {
+      "T-01": 1,
+      "T-09": 1,
+      "T-06": 1
+    },
+    "mechanic_combo": {
+      "M-ARC-comedy+M-HOOK-situation_reveal+M-PAYOFF-soft_rejection_pivot": 1,
+      "M-ARC-number_exchange+M-HOOK-cold_open_bold+M-PAYOFF-twist_reveal": 1,
+      "M-ARC-comedy+M-HOOK-cold_open_bold+M-PAYOFF-number_drop": 1
+    },
+    "format_wrapper": {
+      "B-long": 1,
+      "B-short": 2
+    }
+  }
+}

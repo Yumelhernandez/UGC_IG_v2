@@ -1,0 +1,240 @@
+{
+  "video_id": "2026-02-23-comedy-pure-003",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 19.3,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "callback",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Im suing for academic sabotage my focus disappeared with this story",
+      "first_reaction": "who even",
+      "hook": "Im suing for academic sabotage my focus disappeared with this story",
+      "test": "who even",
+      "escalation_turn": "so you picked me?",
+      "escalation": "so you picked me?",
+      "shift": "cute words, where is the proof",
+      "close": "we're not done here",
+      "shareable_moment": "yeah but my delusion grade is a strong a plus",
+      "pre_close_tension": "ok that's actually funny",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Im suing for academic sabotage my focus disappeared with this story",
+    "first_reaction": "who even",
+    "hook": "Im suing for academic sabotage my focus disappeared with this story",
+    "test": "who even",
+    "escalation_turn": "so you picked me?",
+    "escalation": "so you picked me?",
+    "shift": "cute words, where is the proof",
+    "close": "we're not done here",
+    "shareable_moment": "yeah but my delusion grade is a strong a plus",
+    "pre_close_tension": "ok that's actually funny",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so you picked me?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "quiet day",
+    "asset": "baddies/abd17c676c0f081dbe6c3c2677bda597.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing for academic sabotage my focus disappeared with this story"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "who even",
+      "type_at": 1.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "crazy talk from someone drinking sugar with a side of book",
+      "type_at": 2.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "nah",
+      "type_at": 3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i can, i just keep rereading the main character",
+      "type_at": 3.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "that line sounded like it failed english twice",
+      "type_at": 4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "yeah but my delusion grade is a strong a plus",
+      "type_at": 4.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "delusion not helping u pass this lawsuit tho",
+      "type_at": 5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you picked me?",
+      "type_at": 5.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "cute words, where is the proof",
+      "type_at": 6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "facts, it saw your story and dropped my gpa three points",
+      "type_at": 7.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur gpa was fighting for its life before me",
+      "type_at": 8.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "true, but you turned the life support into ambient lighting",
+      "type_at": 10.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and u still chose to scroll in a library, talent",
+      "type_at": 11.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "research purposes, studying the effects of hot people on grades",
+      "type_at": 13,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "conclusion is ur just bad at time management 😳",
+      "type_at": 14.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "let me take you out this week",
+      "type_at": 15.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok that's actually funny",
+      "type_at": 17.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "we're not done here",
+      "type_at": 18.4,
+      "response_type": "punchline"
+    }
+  ]
+}

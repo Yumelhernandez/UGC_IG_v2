@@ -1,0 +1,176 @@
+{
+  "video_id": "2026-02-12-prod5-009",
+  "meta": {
+    "theme": "default",
+    "duration_s": 24.3,
+    "spice_tier": "low",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "You look like a girl who gets what she wants",
+      "first_reaction": "you cant be fr?",
+      "hook": "You look like a girl who gets what she wants",
+      "test": "you cant be fr?",
+      "escalation_turn": "youre not as shy as you act",
+      "escalation": "youre not as shy as you act",
+      "shift": "ok?",
+      "close": "not answering that yet",
+      "shareable_moment": "not happening",
+      "pre_close_tension": "😳",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "You look like a girl who gets what she wants",
+    "first_reaction": "you cant be fr?",
+    "hook": "You look like a girl who gets what she wants",
+    "test": "you cant be fr?",
+    "escalation_turn": "youre not as shy as you act",
+    "escalation": "youre not as shy as you act",
+    "shift": "ok?",
+    "close": "not answering that yet",
+    "shareable_moment": "not happening",
+    "pre_close_tension": "😳",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 7,
+    "shareable_index": 2,
+    "reveal_line": "youre not as shy as you act"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/El Conejo Malo Popcorn GIF by Bad Bunny.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/92beb529d779ef489fd3465cf71d82bf.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like a girl who gets what she wants"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you cant be fr?",
+      "type_at": 5.9,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "midnight vibes say that to my face",
+      "type_at": 8.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not happening",
+      "type_at": 10.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "youre not as shy as you act",
+      "type_at": 11.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "ok?",
+      "type_at": 13.4,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "tuesday. i'll send you the address",
+      "type_at": 15.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "😳",
+      "type_at": 18.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "not answering that yet",
+      "type_at": 22.3,
+      "response_type": "test"
+    }
+  ]
+}

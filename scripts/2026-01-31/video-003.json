@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-31-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.2,
+    "spice_tier": "high",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/b0c21ce3fc00e1593955f1597f4ffdcf.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So we just pretending this is about the car reflection and not you huh"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "im not just talking",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Careful you’re about to prove me right",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "Admit it you missed this chaos",
+      "type_at": 2.8
+    },
+    {
+      "from": "girl",
+      "text": "Says who? 😂",
+      "type_at": 3.6
+    },
+    {
+      "from": "boy",
+      "text": "can i get your number?",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "Cool, text me 555 942 9734. friday works",
+      "type_at": 6.9
+    }
+  ]
+}

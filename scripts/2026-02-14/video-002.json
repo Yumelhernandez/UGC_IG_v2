@@ -1,0 +1,126 @@
+{
+  "video_id": "2026-02-14-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B",
+    "arc_type": "rejection",
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/ac8d9657d5ba1027ea5b35769b178791.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to speak to whoever approved this much power in one selfie"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Calm down hero, i’m dangerous",
+      "type_at": 2.7
+    },
+    {
+      "from": "boy",
+      "text": "Challenge accepted, let’s see what you’ve got",
+      "type_at": 5.9
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 7.8
+    },
+    {
+      "from": "boy",
+      "text": "that’s the thrill, i’ll be there, you can reject me in 4k",
+      "type_at": 9.4
+    },
+    {
+      "from": "girl",
+      "text": "Cute invite, but nice try",
+      "type_at": 11
+    },
+    {
+      "from": "boy",
+      "text": "say less, i am in",
+      "type_at": 12.6
+    },
+    {
+      "from": "girl",
+      "text": "I have heard worse 😭😭",
+      "type_at": 14.2
+    },
+    {
+      "from": "boy",
+      "text": "monday. i'll send you the address",
+      "type_at": 15.8
+    },
+    {
+      "from": "girl",
+      "text": "Here. 555 327 2669",
+      "type_at": 17.4
+    },
+    {
+      "from": "girl",
+      "text": "You better be fun",
+      "type_at": 19
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-05-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.5,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Rizzing ig baddies",
+    "subtitle": "(wedding method)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/4965ae1d208cca7c1e0752ede3990aee.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I know at least 70 ways to make you fall in love"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "70 ways, boy please relax?",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Challenge accepted, but only if you dare",
+      "type_at": 4.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😂",
+      "type_at": 6
+    },
+    {
+      "from": "boy",
+      "text": "strangers are just fans who havent met me yet",
+      "type_at": 7.6
+    },
+    {
+      "from": "girl",
+      "text": "Wow the ego is loud",
+      "type_at": 9.2
+    },
+    {
+      "from": "boy",
+      "text": "loud enough that you answered at midnight snack time",
+      "type_at": 10.8
+    },
+    {
+      "from": "girl",
+      "text": "Bored not impressed",
+      "type_at": 12.4
+    },
+    {
+      "from": "boy",
+      "text": "let me take you out this week",
+      "type_at": 14.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 677 5818",
+      "type_at": 15.9
+    },
+    {
+      "from": "girl",
+      "text": "Don't be late",
+      "type_at": 17.6
+    }
+  ]
+}

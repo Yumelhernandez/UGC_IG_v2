@@ -1,0 +1,232 @@
+{
+  "video_id": "2026-02-27-002",
+  "meta": {
+    "theme": "food",
+    "duration_s": 22.4,
+    "spice_tier": "high",
+    "controversy_tier": "spicy",
+    "format": "D",
+    "arc_type": "cliffhanger",
+    "punchline_style": "deflection",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "curiosity",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "So who taught you to mix gas station food with main character energy",
+      "first_reaction": "how character?",
+      "hook": "So who taught you to mix gas station food with main character energy",
+      "test": "how character?",
+      "escalation_turn": "so youre saying yes?",
+      "escalation": "so youre saying yes?",
+      "shift": "you are persistent, i will give that",
+      "close": "not yet",
+      "shareable_moment": "the snacks look like a side quest the top is the plot",
+      "pre_close_tension": "wednesday at 9. i'll handle the rest",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "So who taught you to mix gas station food with main character energy",
+    "first_reaction": "how character?",
+    "hook": "So who taught you to mix gas station food with main character energy",
+    "test": "how character?",
+    "escalation_turn": "so youre saying yes?",
+    "escalation": "so youre saying yes?",
+    "shift": "you are persistent, i will give that",
+    "close": "not yet",
+    "shareable_moment": "the snacks look like a side quest the top is the plot",
+    "pre_close_tension": "wednesday at 9. i'll handle the rest",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 16,
+    "shareable_index": 5,
+    "reveal_line": "so youre saying yes?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "How to make her chase",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "quick bite",
+    "asset": "baddies/06a8eef43e4e544b45f88c2b87df5c16.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So who taught you to mix gas station food with main character energy"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "how character?",
+      "type_at": 1.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that quick, you really walked in like cheetos and chaos",
+      "type_at": 2.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "and you really typed that sober",
+      "type_at": 2.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i saw the bikini top and said yeah she bit the sun",
+      "type_at": 3.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur worried about the top not the snacks",
+      "type_at": 3.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "the snacks look like a side quest the top is the plot",
+      "type_at": 4.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u studying my outfit for homework or what",
+      "type_at": 4.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so youre saying yes?",
+      "type_at": 5.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are persistent, i will give that",
+      "type_at": 5.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i fear nothing except running into you with my ex",
+      "type_at": 7.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "she shop at this gas station too or what 😭",
+      "type_at": 9.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "she couldnt handle regular hot fries you out here on expert mode",
+      "type_at": 11.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "expert is crazy i just like chaos",
+      "type_at": 13.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "relax i got this",
+      "type_at": 15.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "i need effort, not noise",
+      "type_at": 17.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "wednesday at 9. i'll handle the rest",
+      "type_at": 19.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "not yet",
+      "type_at": 21.4,
+      "response_type": "test"
+    }
+  ]
+}

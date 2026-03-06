@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-24-haiku-vs-gpt51-mini5-bench-gpt51-002",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 18.5,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "D",
+    "arc_type": "plot_twist",
+    "punchline_style": "tease",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "challenge",
+    "first_reaction_words": 4,
+    "beat_plan": {
+      "inciting_incident": "I already told my future self I regret letting you drive alone",
+      "first_reaction": "you serious about already?",
+      "hook": "I already told my future self I regret letting you drive alone",
+      "test": "you serious about already?",
+      "escalation_turn": "so we locked in?",
+      "escalation": "so we locked in?",
+      "shift": "cute words, where is the proof",
+      "close": "so. what are you gonna do with that",
+      "shareable_moment": "your future insurance claim disagrees",
+      "pre_close_tension": "friday night. i'll pick you up",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "I already told my future self I regret letting you drive alone",
+    "first_reaction": "you serious about already?",
+    "hook": "I already told my future self I regret letting you drive alone",
+    "test": "you serious about already?",
+    "escalation_turn": "so we locked in?",
+    "escalation": "so we locked in?",
+    "shift": "cute words, where is the proof",
+    "close": "so. what are you gonna do with that",
+    "shareable_moment": "your future insurance claim disagrees",
+    "pre_close_tension": "friday night. i'll pick you up",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 7,
+    "win_index": 16,
+    "shareable_index": 5,
+    "reveal_line": "so we locked in?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "casual fit",
+    "asset": "baddies/ca15c6966272658abaa9a455286b21f4.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my future self I regret letting you drive alone"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you serious about already?",
+      "type_at": 1.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that casual, wild how that red top and keychain just caused",
+      "type_at": 2.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur dramatic",
+      "type_at": 2.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "dramatic is posting that fit and pretending you can park",
+      "type_at": 3.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "i park better than you 😭😭",
+      "type_at": 3.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "your future insurance claim disagrees",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok comedian",
+      "type_at": 4.9,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "so we locked in?",
+      "type_at": 5.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "cute words, where is the proof",
+      "type_at": 5.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i got enough to risk my life as passenger",
+      "type_at": 7.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "who said you getting in",
+      "type_at": 8.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "i was testing you this whole time",
+      "type_at": 9.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "future you sounds pressed",
+      "type_at": 11.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "he watched you in that car alone and panicked",
+      "type_at": 12.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "maybe i like driving solo 😳",
+      "type_at": 13.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "friday night. i'll pick you up",
+      "type_at": 15.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "so. what are you gonna do with that",
+      "type_at": 17.1,
+      "response_type": "close"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "video_id": "2026-01-25-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "You replied to their story"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/12b04f0c3b993d5a5bf328a641947822.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "This looks too peaceful clearly you need me there to cause problems"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "what do you mean?",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "I cause very fun problems actually",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "bold talk from instagram fingers",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "you say that like I wouldn’t back it up in person",
+      "type_at": 8
+    },
+    {
+      "from": "girl",
+      "text": "everyone’s a menace online babe",
+      "type_at": 8.9
+    },
+    {
+      "from": "boy",
+      "text": "so let me come ruin that peace properly then",
+      "type_at": 9.9
+    },
+    {
+      "from": "girl",
+      "text": "wow you’re very committed chaos",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "commit it over drinks this week then what’s your number",
+      "type_at": 11.9
+    },
+    {
+      "from": "girl",
+      "text": "fine, text me 5551234 and don’t be boring",
+      "type_at": 12.8
+    }
+  ],
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 8,
+    "reveal_line": "I cause very fun problems actually"
+  }
+}

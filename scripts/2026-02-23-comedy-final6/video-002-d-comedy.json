@@ -1,0 +1,235 @@
+{
+  "video_id": "2026-02-23-comedy-final6-002",
+  "meta": {
+    "theme": "food",
+    "duration_s": 23.1,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "tease",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "My therapist is going to need a second opinion on this one",
+      "first_reaction": "",
+      "hook": "My therapist is going to need a second opinion on this one",
+      "test": "",
+      "escalation_turn": "so you just said yes?",
+      "escalation": "so you just said yes?",
+      "shift": "you say that like it is new",
+      "close": "",
+      "shareable_moment": "you swear you’re out but never leave",
+      "pre_close_tension": "ok that's actually funny",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "My therapist is going to need a second opinion on this one",
+    "first_reaction": "",
+    "hook": "My therapist is going to need a second opinion on this one",
+    "test": "",
+    "escalation_turn": "so you just said yes?",
+    "escalation": "so you just said yes?",
+    "shift": "you say that like it is new",
+    "close": "",
+    "shareable_moment": "you swear you’re out but never leave",
+    "pre_close_tension": "ok that's actually funny",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "so you just said yes?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "food mood",
+    "asset": "baddies/3de22f188164d04ee46bee690b7a0cbd.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "My therapist is going to need a second opinion on this one"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nah",
+      "type_at": 1.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "food vibes relax i got this",
+      "type_at": 2.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "who even",
+      "type_at": 2.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you’re arguing with emphasis, not distance",
+      "type_at": 3.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "keep the confidence, fix the line",
+      "type_at": 4.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you swear you’re out but never leave",
+      "type_at": 4.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "try harder, still no",
+      "type_at": 5.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just said yes?",
+      "type_at": 5.7,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you say that like it is new",
+      "type_at": 6.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you show up “by accident” very on purpose",
+      "type_at": 7.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "where did that come from",
+      "type_at": 10.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you argue like comments are turned on",
+      "type_at": 11.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "that is cute, still no",
+      "type_at": 13.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you push back with suspicious enthusiasm",
+      "type_at": 15.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "i need effort, not noise",
+      "type_at": 17.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "wednesday night. i'll pick you up",
+      "type_at": 19.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok that's actually funny",
+      "type_at": 21.8,
+      "response_type": "condition"
+    }
+  ]
+}

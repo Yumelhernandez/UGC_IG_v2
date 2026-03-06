@@ -1,0 +1,219 @@
+{
+  "video_id": "2026-02-24-haiku-vs-gpt51-n24-cleanfix-bench-gpt51-008",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 65.1,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "plot_twist",
+    "punchline_style": "challenge",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "sarcastic",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "Wild question but why does this look like my future Saturdays",
+      "first_reaction": "nice try",
+      "hook": "Wild question but why does this look like my future Saturdays",
+      "test": "nice try",
+      "escalation_turn": "interesting of you to assume they visit",
+      "escalation": "interesting of you to assume they visit",
+      "shift": "and what about it 👀",
+      "close": "so here we are",
+      "shareable_moment": "interesting of you to assume they visit",
+      "pre_close_tension": "because you want to",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "early_pacing_weak": true,
+      "first_gap_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 5.3
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Wild question but why does this look like my future Saturdays",
+    "first_reaction": "nice try",
+    "hook": "Wild question but why does this look like my future Saturdays",
+    "test": "nice try",
+    "escalation_turn": "interesting of you to assume they visit",
+    "escalation": "interesting of you to assume they visit",
+    "shift": "and what about it 👀",
+    "close": "so here we are",
+    "shareable_moment": "interesting of you to assume they visit",
+    "pre_close_tension": "because you want to",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 12,
+    "shareable_index": 3,
+    "reveal_line": "interesting of you to assume they visit"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "coffee run",
+    "asset": "baddies/507e83a230f6f0e723f568c305237f16.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Wild question but why does this look like my future Saturdays"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nice try",
+      "type_at": 7.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "i already know the answer",
+      "type_at": 12.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "prove it",
+      "type_at": 15.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "interesting of you to assume they visit",
+      "type_at": 17.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "and what about it 👀",
+      "type_at": 20.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "honest answer whats the best day of the week",
+      "type_at": 24.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why u doing a survey",
+      "type_at": 29.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile",
+      "type_at": 35.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "i replied on purpose. just checking something",
+      "type_at": 40.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "i was testing you this whole time",
+      "type_at": 45.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "evidence please",
+      "type_at": 51.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "because you want to",
+      "type_at": 56.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "so here we are",
+      "type_at": 62.2,
+      "response_type": "close"
+    }
+  ]
+}

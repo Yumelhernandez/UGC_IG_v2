@@ -1,0 +1,176 @@
+{
+  "video_id": "2026-02-12-prod1-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 24.3,
+    "spice_tier": "medium",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "So when our grandkids ask how we met can I show them this pic",
+      "first_reaction": "i dont buy it",
+      "hook": "So when our grandkids ask how we met can I show them this pic",
+      "test": "i dont buy it",
+      "escalation_turn": "you say fertile i hear future problem",
+      "escalation": "you say fertile i hear future problem",
+      "shift": "?? 😳",
+      "close": "not answering that yet",
+      "shareable_moment": "thats ambitious",
+      "pre_close_tension": "ugh fine",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "So when our grandkids ask how we met can I show them this pic",
+    "first_reaction": "i dont buy it",
+    "hook": "So when our grandkids ask how we met can I show them this pic",
+    "test": "i dont buy it",
+    "escalation_turn": "you say fertile i hear future problem",
+    "escalation": "you say fertile i hear future problem",
+    "shift": "?? 😳",
+    "close": "not answering that yet",
+    "shareable_moment": "thats ambitious",
+    "pre_close_tension": "ugh fine",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 7,
+    "shareable_index": 2,
+    "reveal_line": "You say fertile I hear future problem"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/ed406621a33e89a483e3afedd4d7ee7e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So when our grandkids ask how we met can I show them this pic"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "i dont buy it",
+      "type_at": 3.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile and a little fear admit it",
+      "type_at": 7.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "thats ambitious",
+      "type_at": 9.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you say fertile i hear future problem",
+      "type_at": 10.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "?? 😳",
+      "type_at": 12.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "thursday night. i'll pick you up",
+      "type_at": 15.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ugh fine",
+      "type_at": 18.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "not answering that yet",
+      "type_at": 22.2,
+      "response_type": "test"
+    }
+  ]
+}

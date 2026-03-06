@@ -1,0 +1,212 @@
+{
+  "video_id": "2026-02-24-haiku-vs-gpt51-n24-bench-gpt51-024",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 62.7,
+    "spice_tier": "low",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "plot_twist",
+    "punchline_style": "callback",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "challenge",
+    "first_reaction_words": 4,
+    "beat_plan": {
+      "inciting_incident": "Im pressing formal charges for using that mirror as a weapon",
+      "first_reaction": "mirror not that serious",
+      "hook": "Im pressing formal charges for using that mirror as a weapon",
+      "test": "mirror not that serious",
+      "escalation_turn": "crazy you call psychological warfare “not serious”",
+      "escalation": "crazy you call psychological warfare “not serious”",
+      "shift": "try again",
+      "close": "anyway now you know",
+      "shareable_moment": "crazy you call psychological warfare “not serious”",
+      "pre_close_tension": "u think u funny huh",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "win_line_weak": true,
+      "early_pacing_weak": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4.8
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Im pressing formal charges for using that mirror as a weapon",
+    "first_reaction": "mirror not that serious",
+    "hook": "Im pressing formal charges for using that mirror as a weapon",
+    "test": "mirror not that serious",
+    "escalation_turn": "crazy you call psychological warfare “not serious”",
+    "escalation": "crazy you call psychological warfare “not serious”",
+    "shift": "try again",
+    "close": "anyway now you know",
+    "shareable_moment": "crazy you call psychological warfare “not serious”",
+    "pre_close_tension": "u think u funny huh",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "Crazy you call psychological warfare “not serious”"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Shemar Moore Dancing GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/7265acfef59603625e6e91e7661f96c2.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im pressing formal charges for using that mirror as a weapon"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "mirror not that serious",
+      "type_at": 7.7,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "says the guy in full trial mode over gray leggings",
+      "type_at": 12.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "u mad at the leggings",
+      "type_at": 16.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "crazy you call psychological warfare “not serious”",
+      "type_at": 21.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "try again",
+      "type_at": 24.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "just the ones treating white sweatshirts like biological weapons",
+      "type_at": 27.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "okay lil hater",
+      "type_at": 32.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "random but whats your go to cereal",
+      "type_at": 38.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "my friend showed me your page. not an accident",
+      "type_at": 44,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i dont need permission",
+      "type_at": 48.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "u think u funny huh",
+      "type_at": 54.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "anyway now you know",
+      "type_at": 60.1,
+      "response_type": "close"
+    }
+  ]
+}

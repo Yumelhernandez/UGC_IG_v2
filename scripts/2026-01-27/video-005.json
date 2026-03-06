@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-27-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "airport view",
+    "asset": "baddies/56d26b92abf0066c1f4dc287055f0512.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just go to the gym to flex on the mirrors now be honest"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You obsessed or what?",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "cool, thats a yes",
+      "type_at": 4.7
+    },
+    {
+      "from": "girl",
+      "text": "And?",
+      "type_at": 6.6
+    },
+    {
+      "from": "boy",
+      "text": "i make it real fast",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "My ego earned its spot",
+      "type_at": 9.8
+    },
+    {
+      "from": "boy",
+      "text": "watch me back it up",
+      "type_at": 11.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a side character",
+      "type_at": 13
+    },
+    {
+      "from": "boy",
+      "text": "cool then give me your number and ill schedule office hours",
+      "type_at": 14.8
+    },
+    {
+      "from": "girl",
+      "text": "Text me at 8",
+      "type_at": 16.4
+    }
+  ]
+}

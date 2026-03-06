@@ -1,0 +1,84 @@
+{
+  "video_id": "gen-030",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 17.0,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "After 1 message/Lets Go Undress GIF by Paxeros.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4",
+      "In between messages/person_basketball_quote_card_going_for_the_point_gng_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_4.mp4",
+      "In between messages/turtle_character_person_reaction_turtle_scene_meme_clip.mp4",
+      "In between messages/lebron_james_basketball_quote_card_digital_graphic_graphic_dark_tone_short_motion_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "official business only",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Full Court Basketball GIF.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 4
+  },
+  "story": {
+    "username": "zara",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/afb6b6b07beba6dd50993a451bad27f1.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "official business only"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 20
+    },
+    "girl": {
+      "name": "Zara",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 4.0
+    },
+    {
+      "from": "boy",
+      "text": "worst means most memorable",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "mhm",
+      "type_at": 9.0
+    },
+    {
+      "from": "boy",
+      "text": "I'm just getting started",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "let me think about it...",
+      "type_at": 14.0
+    }
+  ]
+}

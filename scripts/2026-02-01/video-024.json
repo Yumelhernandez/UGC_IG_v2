@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-024",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.7,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "How to make her chase",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Walk Out Lets Go GIF by MOODMAN.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "sunset skyline",
+    "asset": "baddies/b49378f5a0c887bfc101600cca1fd44d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Quick question, why are you single"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You applying for the position",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Depends, you offering long term chaos",
+      "type_at": 5.8
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.4
+    },
+    {
+      "from": "boy",
+      "text": "You typed that with a smile, relax",
+      "type_at": 9
+    },
+    {
+      "from": "girl",
+      "text": "Relaxing is for boring girls 😭😭",
+      "type_at": 10.6
+    },
+    {
+      "from": "boy",
+      "text": "Good, I hate boring more than I hate bad wifi",
+      "type_at": 12.2
+    },
+    {
+      "from": "girl",
+      "text": "And what do you do with chaos?",
+      "type_at": 13.8
+    },
+    {
+      "from": "boy",
+      "text": "Take it for drinks and see if it behaves, When are you free",
+      "type_at": 15.4
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 793 5660 at 8:30",
+      "type_at": 17
+    }
+  ]
+}

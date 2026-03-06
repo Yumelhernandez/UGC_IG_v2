@@ -1,0 +1,250 @@
+{
+  "video_id": "YYYY-MM-DD-runname-023",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 18.8,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "D",
+    "arc_type": "plot_twist",
+    "punchline_style": "cocky_claim",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "opener_intensity": "challenge_heavy",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 1,
+    "beat_plan": {
+      "inciting_incident": "Im suing you for emotional damage this chill day is criminal behavior",
+      "first_reaction": "cap",
+      "hook": "Im suing you for emotional damage this chill day is criminal behavior",
+      "test": "cap",
+      "escalation_turn": "insane is you calling that a chill day and causing riots",
+      "escalation": "insane is you calling that a chill day and causing riots",
+      "shift": "ur being dramatic 😭😭",
+      "close": "so. what are you gonna do with that",
+      "shareable_moment": "tell her u thirsty",
+      "pre_close_tension": "i know i do",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "win_line_weak": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Im suing you for emotional damage this chill day is criminal behavior",
+    "first_reaction": "cap",
+    "hook": "Im suing you for emotional damage this chill day is criminal behavior",
+    "test": "cap",
+    "escalation_turn": "insane is you calling that a chill day and causing riots",
+    "escalation": "insane is you calling that a chill day and causing riots",
+    "shift": "ur being dramatic 😭😭",
+    "close": "so. what are you gonna do with that",
+    "shareable_moment": "tell her u thirsty",
+    "pre_close_tension": "i know i do",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 9,
+    "win_index": 18,
+    "shareable_index": 6,
+    "reveal_line": "insane is you calling that a chill day and causing riots"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "She’s a 10. I’m risking it off ONE story reply.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Sexy Teddy Bear GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "lazy sunday",
+    "asset": "baddies/fa7ca832e8eb0cee13bb0162d274c2b1.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing you for emotional damage this chill day is criminal behavior"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "cap",
+      "type_at": 1.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that lazy, you really posted a nap like a skincare commercial",
+      "type_at": 2.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "wdym",
+      "type_at": 2.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "im mad my bed never looks that peaceful",
+      "type_at": 3.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "continue 😭😭",
+      "type_at": 3.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "it is, my therapist will hear about that sunlight",
+      "type_at": 4.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "tell her u thirsty",
+      "type_at": 4.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just green lit this?",
+      "type_at": 5.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "that is a lot of confidence",
+      "type_at": 6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "insane is you calling that a chill day and causing riots",
+      "type_at": 6.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "ur being dramatic 😭😭",
+      "type_at": 7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "dramatic is my heart rate when that black tank showed up",
+      "type_at": 8.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "i already knew your name before you replied",
+      "type_at": 9.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "bold if u forgot we dated",
+      "type_at": 10.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "took you long enough",
+      "type_at": 12.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i make it real fast",
+      "type_at": 13.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you are confident, show results",
+      "type_at": 14.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i know i do",
+      "type_at": 15.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "so. what are you gonna do with that",
+      "type_at": 17.7,
+      "response_type": "close"
+    }
+  ]
+}

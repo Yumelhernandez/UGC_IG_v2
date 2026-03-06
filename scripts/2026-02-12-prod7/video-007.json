@@ -1,0 +1,170 @@
+{
+  "video_id": "2026-02-12-prod7-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 22.9,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "Be honest, how flexible is your schedule",
+      "first_reaction": "why",
+      "hook": "Be honest, how flexible is your schedule",
+      "test": "why",
+      "escalation_turn": "you knew id notice",
+      "escalation": "you knew id notice",
+      "shift": "??",
+      "close": "you get one chance to be funny",
+      "shareable_moment": "prove it 😂",
+      "pre_close_tension": "text me 555 460 2285",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Be honest, how flexible is your schedule",
+    "first_reaction": "why",
+    "hook": "Be honest, how flexible is your schedule",
+    "test": "why",
+    "escalation_turn": "you knew id notice",
+    "escalation": "you knew id notice",
+    "shift": "??",
+    "close": "you get one chance to be funny",
+    "shareable_moment": "prove it 😂",
+    "pre_close_tension": "text me 555 460 2285",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 6,
+    "shareable_index": 2,
+    "reveal_line": "you knew id notice"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "She’s a 10. I’m risking it off ONE story reply.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Dance GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "weekend escape",
+    "asset": "baddies/ca15c6966272658abaa9a455286b21f4.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest, how flexible is your schedule"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "why",
+      "type_at": 5.9,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you cant scare me off that easy weekend",
+      "type_at": 7.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "prove it 😂",
+      "type_at": 9.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you knew id notice",
+      "type_at": 11.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "??",
+      "type_at": 13.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 460 2285",
+      "type_at": 16.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you get one chance to be funny",
+      "type_at": 21.1,
+      "response_type": "close"
+    }
+  ]
+}

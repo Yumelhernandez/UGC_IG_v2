@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-038",
+  "meta": {
+    "theme": "default",
+    "duration_s": 9.8,
+    "spice_tier": "high",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Pull Up Chicago Bulls GIF by NBA.mp4",
+    "headline": "How to rizz up baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Lets Go Undress GIF by Paxeros.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "rainy walk",
+    "asset": "baddies/3af84c1794e3df459ca1b8e3fe54fb7d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like my next mistake and my best decision at the same time"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "plug_line": "cool, test me in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold talk for a stranger, Relax",
+      "type_at": 1.3
+    },
+    {
+      "from": "boy",
+      "text": "Sounds like you're into bold moves",
+      "type_at": 2.4
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 👀",
+      "type_at": 3.3
+    },
+    {
+      "from": "boy",
+      "text": "Come test the dream Friday night drinks, 8, you in or scared?",
+      "type_at": 5.7
+    },
+    {
+      "from": "girl",
+      "text": "Friday 9. text me 555 742 8264",
+      "type_at": 8.7
+    }
+  ]
+}

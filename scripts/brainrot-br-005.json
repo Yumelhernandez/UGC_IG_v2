@@ -1,0 +1,104 @@
+{
+  "video_id": "br-005",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 26.0,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "brainrot",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/person_reaction_scene_adult_portrait_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_these_women_expensive_meme_clip.mp4",
+      "In between messages/michael_jordan_basketball_reaction_defense_cant_keep_meme_clip.mp4",
+      "In between messages/person_reaction_scene_clothing_hat_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_mixed_tone_short_motion_meme_clip_2.mp4",
+      "In between messages/lebron_james_basketball_quote_card_shooting_like_glorious_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_13__clip_015.mp4",
+    "headline": "I just screenshotted your story",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Im Ready Lets Go GIF.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 8
+  },
+  "story": {
+    "username": "luna",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/031ea32c5068b16c35fa0a660304245e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I just screenshotted your story"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 20
+    },
+    "girl": {
+      "name": "Luna",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "um ok?? creepy much \ud83d\udc80",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "I also made it my wallpaper",
+      "type_at": 6.0
+    },
+    {
+      "from": "girl",
+      "text": "BRO",
+      "type_at": 8.1
+    },
+    {
+      "from": "boy",
+      "text": "and my lock screen",
+      "type_at": 11.0
+    },
+    {
+      "from": "girl",
+      "text": "STOP \ud83d\ude2d",
+      "type_at": 13.2
+    },
+    {
+      "from": "boy",
+      "text": "and I printed it for my wallet",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "you need to be locked up fr",
+      "type_at": 17.5
+    },
+    {
+      "from": "boy",
+      "text": "locked up in your heart maybe",
+      "type_at": 20.4
+    },
+    {
+      "from": "girl",
+      "text": "that was the worst best thing I ever read \ud83d\ude2d\ud83d\ude2d",
+      "type_at": 23.0
+    }
+  ]
+}

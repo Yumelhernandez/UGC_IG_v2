@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-02-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.1,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "mirror check",
+    "asset": "baddies/c296b8e099389f149a50f4df3edf1d91.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already planned our first argument"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Planned it without me, psycho?",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "I figured you could handle the chaos",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 6.4
+    },
+    {
+      "from": "boy",
+      "text": "mirror check was the application",
+      "type_at": 8
+    },
+    {
+      "from": "girl",
+      "text": "Cute, you’re already losing 👀",
+      "type_at": 9.6
+    },
+    {
+      "from": "boy",
+      "text": "bold talk for someone 5 minutes late to everything",
+      "type_at": 11.2
+    },
+    {
+      "from": "girl",
+      "text": "And you’d still wait",
+      "type_at": 12.8
+    },
+    {
+      "from": "boy",
+      "text": "this weekend. i'll plan everything",
+      "type_at": 14.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 756 2980 👀",
+      "type_at": 16
+    },
+    {
+      "from": "girl",
+      "text": "You're lucky you're cute",
+      "type_at": 17.6
+    }
+  ]
+}

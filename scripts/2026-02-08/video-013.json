@@ -1,0 +1,126 @@
+{
+  "video_id": "2026-02-08-013",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B",
+    "arc_type": "rejection",
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/GIF by Chaz French.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "gym mirror",
+    "asset": "baddies/ac6da027aa8473862a8589dabaf3ebbe.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to speak to whoever approved this comfort level immediately"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Calm down, you sound pressed",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "Pressed by whoever let you post that",
+      "type_at": 5.7
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 7.3
+    },
+    {
+      "from": "boy",
+      "text": "i accept full responsibility for this chaos",
+      "type_at": 8.9
+    },
+    {
+      "from": "girl",
+      "text": "That ego needs cardio",
+      "type_at": 10.5
+    },
+    {
+      "from": "boy",
+      "text": "you said it not me",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "And then?",
+      "type_at": 13.7
+    },
+    {
+      "from": "boy",
+      "text": "tuesday night. i'll pick you up",
+      "type_at": 15.3
+    },
+    {
+      "from": "girl",
+      "text": "Here. 555 103 1813 👀",
+      "type_at": 16.9
+    },
+    {
+      "from": "girl",
+      "text": "You have 24 hours",
+      "type_at": 18.5
+    }
+  ]
+}

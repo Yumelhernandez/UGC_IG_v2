@@ -1,0 +1,200 @@
+{
+  "video_id": "2026-02-18-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 59.1,
+    "spice_tier": "low",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "plot_twist",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "How flexible is your grocery budget because you look expensive",
+      "first_reaction": "who even",
+      "hook": "How flexible is your grocery budget because you look expensive",
+      "test": "who even",
+      "escalation_turn": "guess that makes me your favorite challenge",
+      "escalation": "guess that makes me your favorite challenge",
+      "shift": "why tho",
+      "close": "you walked into that one",
+      "shareable_moment": "guess that makes me your favorite challenge",
+      "pre_close_tension": "fine",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "plot_twist"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "How flexible is your grocery budget because you look expensive",
+    "first_reaction": "who even",
+    "hook": "How flexible is your grocery budget because you look expensive",
+    "test": "who even",
+    "escalation_turn": "guess that makes me your favorite challenge",
+    "escalation": "guess that makes me your favorite challenge",
+    "shift": "why tho",
+    "close": "you walked into that one",
+    "shareable_moment": "guess that makes me your favorite challenge",
+    "pre_close_tension": "fine",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "plot_twist"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "Guess that makes me your favorite challenge"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "midnight snack",
+    "asset": "baddies/b49378f5a0c887bfc101600cca1fd44d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "How flexible is your grocery budget because you look expensive"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "who even",
+      "type_at": 3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "you typed that with a smile, stop lying to both of us midnight",
+      "type_at": 5.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 9.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "guess that makes me your favorite challenge",
+      "type_at": 12.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "why tho",
+      "type_at": 14.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "good, i only buy what appreciates in value anyway",
+      "type_at": 19.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bold talk for ig dms 👀",
+      "type_at": 25.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "plot twist, i was testing you",
+      "type_at": 31.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "girl",
+      "text": "😭 u really made a plan",
+      "type_at": 37.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "tuesday at 7:30. i'll handle the rest",
+      "type_at": 43.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "fine",
+      "type_at": 48.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you walked into that one",
+      "type_at": 54.8,
+      "response_type": "close"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-29-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.8,
+    "spice_tier": "low",
+    "format": "A"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "sunset skyline",
+    "asset": "baddies/0f1beca80dc456dec9b6b10a3f46e970.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So its your turn to act innocent?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "?",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "so youre team me now?",
+      "type_at": 4.8
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 6.9
+    },
+    {
+      "from": "boy",
+      "text": "Exactly why the act is killing me, you not fooling nobody",
+      "type_at": 8.5
+    },
+    {
+      "from": "girl",
+      "text": "Stay pressed then",
+      "type_at": 10.1
+    },
+    {
+      "from": "boy",
+      "text": "ill, front row, watching you pretend",
+      "type_at": 11.7
+    },
+    {
+      "from": "girl",
+      "text": "You wish you had tickets 😳",
+      "type_at": 13.3
+    },
+    {
+      "from": "boy",
+      "text": "I want the backstage pass, what time you free for drinks",
+      "type_at": 14.9
+    },
+    {
+      "from": "girl",
+      "text": "Friday 8. text me 555 100 8519",
+      "type_at": 16.5
+    }
+  ]
+}

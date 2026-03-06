@@ -1,0 +1,131 @@
+{
+  "video_id": "2026-02-08-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B",
+    "arc_type": "number_exchange",
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Made a girl qualify to daddy",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Dance GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "gym mirror",
+    "asset": "baddies/53fd0b66fd37ca6c6fddfab92303e5c3.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I dare you post one picture where you dont look this elite"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Oh??",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "You posted elite content consequences follow",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 6.8
+    },
+    {
+      "from": "boy",
+      "text": "delusional is thinking you have bad angles",
+      "type_at": 8.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk from the dms",
+      "type_at": 10
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it",
+      "type_at": 11.6
+    },
+    {
+      "from": "girl",
+      "text": "Needy behavior but alright",
+      "type_at": 13.2
+    },
+    {
+      "from": "boy",
+      "text": "perfect i’ll pick the spot and you just bring that elite energy",
+      "type_at": 14.8
+    },
+    {
+      "from": "girl",
+      "text": "555 812 3049 don’t blow it",
+      "type_at": 16.4
+    },
+    {
+      "from": "boy",
+      "text": "be honest can i get your number?",
+      "type_at": 18
+    },
+    {
+      "from": "girl",
+      "text": "Don't disappoint me",
+      "type_at": 19.6
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+# Format D Dialogue Specification (Conversation Flow Only)
+
+Purpose
+- Extended, rapid banter after a guy replies to a girl's Instagram story.
+- The girl is sharp, dismissive, and makes him work; the boy is confident and playful.
+- Ends with a clear win (number/drinks/day-time) so the exchange feels successful.
+
+High-level constraints
+- Message count: 17–23 total lines (default: 17).
+- Strict alternation: girl, boy, girl, boy... no double texts.
+- Starts with the girl and ends with the girl.
+- Keep each line short; no narration or descriptions.
+
+Per-line length limits
+- Girl lines: 3–10 words for the opener; otherwise <= 10 words.
+- Boy lines: <= 14 words.
+- Max 70 characters per line.
+
+Forbidden content
+- No explicit sexual content, coercion, threats, or slurs.
+- Do not mention AI, prompts, screenshots, or “rewriting.”
+- Do not use hyphens (-) anywhere.
+- Do not describe story image details; keep references generic ("that story", "that post").
+- Girl never says the boy’s name. Boy should not use the girl’s name.
+- Girl never asks for his number directly; she can only green light.
+- Avoid coffee-date asks; the ask should be number or drinks.
+
+Opening behavior (message 1, girl)
+- Must be a sarcastic roast or sharp pushback.
+- 3–10 words, not punctuation-only, not bland.
+- Must tie to the boy’s initial story reply via a shared keyword.
+- Examples of intent (not literal):
+  - "That [keyword] line needs proof"
+  - "Your [keyword] take is weak"
+
+Early turn (message 2, boy)
+- Punchy comeback that matches the vibe of his initial reply.
+- Confident, playful, not needy. No apologies.
+
+Extended banter (messages 3–7 or so)
+- Girl: short, dismissive, skeptical, keeps him working.
+- Boy: confident and escalating; “prove it” energy, playful challenges.
+- Avoid bland girl reactions like "ok?", "and?", "so what".
+
+Midpoint reveal (boy, around the middle)
+- A reveal/punchline placed near the midpoint.
+- 3–10 words, includes “you/your/you’re.”
+- Accusation/callout energy, e.g., “you wanted a reaction.”
+- Immediately after, girl reacts with a sharper, non-bland response.
+
+Late banter (after reveal reaction)
+- Boy keeps momentum with confident escalation.
+- Girl remains unimpressed but starts to soften slightly by the end.
+
+Closing beat (last 2 lines)
+- Second-to-last line (boy): a clear ask for number or drinks.
+  - Must include one of: “text me”, “number”, or “drinks”.
+- Final line (girl): clear green light that confirms the win.
+  - Should include a scheduling signal (“when/where”, a day/time) or “text me”.
+  - She does not ask for his number directly.
+
+Algorithmic flow template (17-line default)
+1. Girl: pushback roast tied to his reply keyword.
+2. Boy: punchline comeback.
+3. Girl: dismissive challenge.
+4. Boy: confident reply.
+5. Girl: sharper pushback.
+6. Boy: proof energy.
+7. Girl: still unimpressed.
+8. Boy: set-up line.
+9. Girl: skeptical.
+10. Boy: midpoint reveal/punchline (accusation).
+11. Girl: strong reaction (not bland).
+12. Boy: confident escalation.
+13. Girl: still withholding.
+14. Boy: playful pressure.
+15. Girl: “almost”/softening.
+16. Boy: ask for number or drinks (“text me/number/drinks”).
+17. Girl: green light with a clear win (day/time or “text me”).
+
+Validation checklist (must pass)
+- 17–23 total lines, strict alternation, starts/ends with girl.
+- Opener is 3–10 words, roasty, not bland, tied to his reply keyword.
+- Midpoint reveal is a boy line and reads like a bold callout.
+- Reveal reaction is a girl line and not bland.
+- Second-to-last boy line is a strong ask (number/drinks/text me).
+- Last girl line clearly accepts/green-lights.

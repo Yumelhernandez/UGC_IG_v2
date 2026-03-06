@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "total_videos": 104,
+    "source_file": "/Users/yumelhernandez/Downloads/viral_video_breakdowns_unique_MASTER.md",
+    "mined_at": "2026-03-04T02:50:17.215Z",
+    "extraction_errors": []
+  },
+  "hook_patterns": {
+    "total_unique_hooks": 23,
+    "opening_lines_unique": [
+      "are u still mad?",
+      "Burger or Pizza?",
+      "do you like water?",
+      "matcha n missionary?",
+      "Your body is tea",
+      "You ever get tired of breaking necks when you post?",
+      "You just ruined the beach for everyone else",
+      "roses are red",
+      "I would never play hide and seek with you 🥺",
+      "can I use your thighs as earmuffs??",
+      "Quick question",
+      "You the first 10/10 i ever seen",
+      "If it ain’t rice then it ain’t nice",
+      "pasta or steak?",
+      "jelly or jam?",
+      "You're mid",
+      "I got 3 things I'm trynna put into you",
+      "8/10 lips 💋",
+      "Wanna feel young again?",
+      "You taste as good as you look?",
+      "Quick question why don't you have a boyfriend",
+      "So is your name Gillette?",
+      "which is better jelly or jam?"
+    ],
+    "girl_response_patterns": [
+      "yes",
+      "Burger??",
+      "yeah why",
+      "Ah okay thanks",
+      "you don’t even know me",
+      "that was so sweet",
+      "okay",
+      "Because my parents are strict: (",
+      "You misunderstood me",
+      "Excuse me??"
+    ],
+    "hook_response_pairs": [
+      {
+        "hook": "are u still mad?",
+        "response": "yes"
+      },
+      {
+        "hook": "Burger or Pizza?",
+        "response": "Burger??"
+      },
+      {
+        "hook": "do you like water?",
+        "response": "yeah why"
+      },
+      {
+        "hook": "Your body is tea",
+        "response": "Ah okay thanks"
+      },
+      {
+        "hook": "You ever get tired of breaking necks when you post?",
+        "response": "you don’t even know me"
+      },
+      {
+        "hook": "roses are red",
+        "response": "that was so sweet"
+      },
+      {
+        "hook": "can I use your thighs as earmuffs??",
+        "response": "okay"
+      },
+      {
+        "hook": "Quick question",
+        "response": "Because my parents are strict: ("
+      },
+      {
+        "hook": "You the first 10/10 i ever seen",
+        "response": "You misunderstood me"
+      },
+      {
+        "hook": "If it ain’t rice then it ain’t nice",
+        "response": "Excuse me??"
+      },
+      {
+        "hook": "I know 70 ways to make you happy",
+        "response": "alright what's the first"
+      },
+      {
+        "hook": "do you like water?",
+        "response": "everyone likes water"
+      },
+      {
+        "hook": "pasta or steak?",
+        "response": "steak I guess"
+      },
+      {
+        "hook": "steak I guess",
+        "response": "why are you asking me that?"
+      },
+      {
+        "hook": "just collecting information for our first date",
+        "response": "oh 😭"
+      },
+      {
+        "hook": "You're mid",
+        "response": "excuse me??"
+      },
+      {
+        "hook": "Prove me wrong then",
+        "response": "this mid??"
+      },
+      {
+        "hook": "can I use your thighs as earmuffs??",
+        "response": "hmmm…"
+      },
+      {
+        "hook": "can I use your thighs as earmuffs??",
+        "response": "hm."
+      },
+      {
+        "hook": "Don't play... you know that's exactly where my face belongs.",
+        "response": "okay"
+      },
+      {
+        "hook": "You just ruined the beach for everyone else",
+        "response": "Huh? How? 😭"
+      },
+      {
+        "hook": "Cuz now every wave looks boring compared to you",
+        "response": "Oh goddd 😭😭"
+      },
+      {
+        "hook": "You taste as good as you look?",
+        "response": "lmao i have a bf, sorry"
+      },
+      {
+        "hook": "I got 3 things I'm trynna put into you",
+        "response": "Creep"
+      },
+      {
+        "hook": "3. my face",
+        "response": "😮😮"
+      },
+      {
+        "hook": "quick question why don't you have a boyfriend 🥺",
+        "response": "Because my parents are strict :("
+      },
+      {
+        "hook": "you more like 9/10",
+        "response": "So what made it go down?"
+      },
+      {
+        "hook": "where did you get that from?",
+        "response": "Get what?"
+      },
+      {
+        "hook": "that beautiful smile of yours",
+        "response": "Who are you?"
+      },
+      {
+        "hook": "I would never play hide and seek with you 🥺",
+        "response": "Why?? 😭"
+      },
+      {
+        "hook": "so you already like 73% of me",
+        "response": "LMAO NO😭"
+      },
+      {
+        "hook": "You heard me",
+        "response": "What happened to a simple hello?"
+      },
+      {
+        "hook": "You're questioning my authority?",
+        "response": "No sir"
+      },
+      {
+        "hook": "So is your name Gillette?",
+        "response": "why lol"
+      }
+    ],
+    "punchline_reveals": [
+      "the rest is 69",
+      "just collecting information for our first date",
+      "so you already like 73% of me",
+      "that beautiful smile of yours",
+      "Prove me wrong then",
+      "3. my face",
+      "Can you set on it then?",
+      "Can I also rate the vertical ones?",
+      "I hope to be the man from your dreams",
+      "gathering all the information for our first date"
+    ]
+  },
+  "videos": [
+    {
+      "video_id": "viral_001",
+      "conversation": {
+        "hook_line": "are u still mad?",
+        "first_response": "yes",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "are u still mad?"
+          },
+          {
+            "from": "girl",
+            "text": "yes"
+          },
+          {
+            "from": "boy",
+            "text": "I know 70 ways to make you happy"
+          },
+          {
+            "from": "girl",
+            "text": "alright what’s the first"
+          }
+        ],
+        "message_count": 4
+      }
+    },
+    {
+      "video_id": "viral_002",
+      "conversation": {
+        "hook_line": "Burger or Pizza?",
+        "first_response": "Burger??",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "Burger or Pizza?"
+          },
+          {
+            "from": "girl",
+            "text": "Burger??"
+          }
+        ],
+        "message_count": 2
+      }
+    },
+    {
+      "video_id": "viral_003",
+      "conversation": {
+        "hook_line": "do you like water?",
+        "first_response": "yeah why",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "do you like water?"
+          },
+          {
+            "from": "girl",
+            "text": "yeah why"
+          }
+        ],
+        "message_count": 2
+      }
+    },
+    {
+      "video_id": "viral_004",
+      "conversation": {
+        "hook_line": "matcha n missionary?",
+        "first_response": "",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "matcha n missionary?"
+          }
+        ],
+        "message_count": 1
+      }
+    },
+    {
+      "video_id": "viral_005",
+      "conversation": {
+        "hook_line": "Your body is tea",
+        "first_response": "Ah okay thanks",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "Your body is tea"
+          },
+          {
+            "from": "girl",
+            "text": "Ah okay thanks"
+          }
+        ],
+        "message_count": 2
+      }
+    },
+    {
+      "video_id": "viral_006",
+      "conversation": {
+        "hook_line": "You ever get tired of breaking necks when you post?",
+        "first_response": "you don’t even know me",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "You ever get tired of breaking necks when you post?"
+          },
+          {
+            "from": "girl",
+            "text": "you don’t even know me"
+          },
+          {
+            "from": "boy",
+            "text": "But that hasn’t stopped you from replying"
+          },
+          {
+            "from": "girl",
+            "text": "maybe i’m just bored"
+          },
+          {
+            "from": "boy",
+            "text": "Then let me give you something better to do"
+          },
+          {
+            "from": "girl",
+            "text": "bold request for someone i barely acknowledged"
+          },
+          {
+            "from": "boy",
+            "text": "Acknowledgment’s a formality. Interest speaks louder."
+          }
+        ],
+        "message_count": 7
+      }
+    },
+    {
+      "video_id": "viral_007",
+      "conversation": {
+        "hook_line": "You just ruined the beach for everyone else",
+        "first_response": "",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "You just ruined the beach for everyone else"
+          }
+        ],
+        "message_count": 1
+      }
+    },
+    {
+      "video_id": "viral_008",
+      "conversation": {
+        "hook_line": "roses are red",
+        "first_response": "that was so sweet",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "roses are red"
+          },
+          {
+            "from": "boy",
+            "text": "violets are blue"
+          },
+          {
+            "from": "boy",
+            "text": "roses are red"
+          },
+          {
+            "from": "boy",
+            "text": "violets are blue"
+          },
+          {
+            "from": "boy",
+            "text": "I wanna be with you"
+          },
+          {
+            "from": "girl",
+            "text": "that was so sweet"
+          },
+          {
+            "from": "boy",
+            "text": "violets are blue"
+          },
+          {
+            "from": "boy",
+            "text": "I wanna be with you"
+          },
+          {
+            "from": "girl",
+            "text": "that was so sweet"
+          },
+          {
+            "from": "boy",
+            "text": "I wanna be with you"
+          }
+        ],
+        "message_count": 10
+      }
+    },
+    {
+      "video_id": "viral_009",
+      "conversation": {
+        "hook_line": "I would never play hide and seek with you 🥺",
+        "first_response": "",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "I would never play hide and seek with you 🥺"
+          }
+        ],
+        "message_count": 1
+      }
+    },
+    {
+      "video_id": "viral_010",
+      "conversation": {
+        "hook_line": "can I use your thighs as earmuffs??",
+        "first_response": "okay",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "can I use your thighs as earmuffs??"
+          },
+          {
+            "from": "boy",
+            "text": "can I use your thighs as earmuffs??🥺🥺"
+          },
+          {
+            "from": "boy",
+            "text": "Don’t play... you know that’s exactly where my face belongs."
+          },
+          {
+            "from": "girl",
+            "text": "okay"
+          },
+          {
+            "from": "boy",
+            "text": "you mean it for real?"
+          },
+          {
+            "from": "girl",
+            "text": "yeah"
+          }
+        ],
+        "message_count": 6
+      }
+    },
+    {
+      "video_id": "viral_011",
+      "conversation": {
+        "hook_line": "Quick question",
+        "first_response": "Because my parents are strict: (",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "Quick question"
+          },
+          {
+            "from": "boy",
+            "text": "Why don’t you have a boyfriend? 🥺"
+          },
+          {
+            "from": "girl",
+            "text": "Because my parents are strict: ("
+          }
+        ],
+        "message_count": 3
+      }
+    },
+    {
+      "video_id": "viral_012",
+      "conversation": {
+        "hook_line": "do you like water?",
+        "first_response": "yeah why",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "do you like water?"
+          },
+          {
+            "from": "girl",
+            "text": "yeah why"
+          }
+        ],
+        "message_count": 2
+      }
+    },
+    {
+      "video_id": "viral_013",
+      "conversation": {
+        "hook_line": "You the first 10/10 i ever seen",
+        "first_response": "You misunderstood me",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "You the first 10/10 i ever seen"
+          },
+          {
+            "from": "boy",
+            "text": "yeah yu right"
+          },
+          {
+            "from": "girl",
+            "text": "You misunderstood me"
+          }
+        ],
+        "message_count": 3
+      }
+    },
+    {
+      "video_id": "viral_014",
+      "conversation": {
+        "hook_line": "If it ain’t rice then it ain’t nice",
+        "first_response": "Excuse me??",
+        "messages": [
+          {
+            "from": "boy",
+            "text": "If it ain’t rice then it ain’t nice"
+          },
+          {
+            "from": "girl",
+            "text": "Excuse me??"
+          },
+          {
+            "from": "boy",
+            "text": "If it ain’t rice then it ain’t nice"
+          },
+          {
+            "from": "girl",
+            "text": "Excuse me??"
+          },
+          {
+            "from": "boy",
+            "text": "If it ain’t rice then it ain’t nice"
+          },
+          {
+            "from": "girl",
+            "text": "Excuse me??"
+          },
+          {
+            "from": "boy",
+            "text": "You heard me"
+          },
+          {
+            "from": "girl",
+            "text": "Excuse me??"
+          },
+          {
+            "from": "boy",
+            "text": "You heard me"
+          },
+          {
+            "from": "girl",
+            "text": "What happened to a simple hello?"
+          }
+        ],
+        "message_count": 10
+      }
+    }
+  ]
+}

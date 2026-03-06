@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-31-010",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.2,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/gif.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/3f60dde8caf997a1da530995bdd186fd.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just volunteered for my attention"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound obsessed already relax",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "you wanted a confession and got one",
+      "type_at": 5.7
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 7.3
+    },
+    {
+      "from": "boy",
+      "text": "you literally posted midnight snack then summoned me",
+      "type_at": 8.9
+    },
+    {
+      "from": "girl",
+      "text": "Delusional but kind of funny",
+      "type_at": 10.5
+    },
+    {
+      "from": "boy",
+      "text": "you keep replying so clearly it works",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "Maybe I’m just bored tonight 😭😭",
+      "type_at": 13.7
+    },
+    {
+      "from": "boy",
+      "text": "then unbore yourself and grab drinks with me this week",
+      "type_at": 15.3
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 666 3964. tuesday 8 works",
+      "type_at": 16.9
+    }
+  ]
+}

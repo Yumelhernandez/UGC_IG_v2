@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-04-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.7,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "How to f*ck her mind",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Celebrate In Love GIF by HBO Max.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/783129078717705ca8d4b6e000b767eb.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like you bully rich men for sport and I respect it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Wow, You want problems actually",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "I ordered chaos with a side of you",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "So what",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "You typed that with a smile, cyber bully",
+      "type_at": 8.6
+    },
+    {
+      "from": "girl",
+      "text": "Keep dreaming, instagram therapist",
+      "type_at": 10.2
+    },
+    {
+      "from": "boy",
+      "text": "Free diagnosis: you bully to hide you like me a little",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Delusional but lowkey funny",
+      "type_at": 13.4
+    },
+    {
+      "from": "boy",
+      "text": "tuesday night. i'll pick you up",
+      "type_at": 15
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 339 4413 👀",
+      "type_at": 16.6
+    },
+    {
+      "from": "girl",
+      "text": "Prove it",
+      "type_at": 18.2
+    }
+  ]
+}

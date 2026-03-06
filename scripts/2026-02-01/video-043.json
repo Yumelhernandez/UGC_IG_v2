@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-043",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.8,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "DM'ing a baddie",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Slide Sliding GIF by TipsyElves.com.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "studio warmup",
+    "asset": "baddies/30c650d1799afc2e95225f7fe38d6297.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So when our kids see this pic what lie are we telling them"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Our kids is wild talk 😭",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "Wild but you did not say no",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "bet, let me prove it",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "Relax, you a draft pick 😭😭",
+      "type_at": 11.3
+    },
+    {
+      "from": "boy",
+      "text": "cool just remember draft picks still get rings",
+      "type_at": 12.9
+    },
+    {
+      "from": "girl",
+      "text": "You gotta earn court time first",
+      "type_at": 14.5
+    },
+    {
+      "from": "boy",
+      "text": "say less we can argue this over drinks this week",
+      "type_at": 16.1
+    },
+    {
+      "from": "girl",
+      "text": "Fine, tuesday 8. text me 555 303 6431",
+      "type_at": 17.7
+    }
+  ]
+}

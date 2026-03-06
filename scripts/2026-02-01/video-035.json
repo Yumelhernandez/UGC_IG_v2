@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-035",
+  "meta": {
+    "theme": "default",
+    "duration_s": 9.2,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "She’s a 10. I’m risking it off ONE story reply.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Im Ready Lets Go GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "late night drive",
+    "asset": "baddies/b9ddc76bf8736b7f7a41215d3b75778b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So random question how dangerous do you get when you dress comfy"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "plug_line": "cool, test me in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Dangerous enough for the backseat",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "you were fishing and i bit",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "Says who? 😳",
+      "type_at": 4.2
+    },
+    {
+      "from": "boy",
+      "text": "then stop playing and come get a drink with me this week",
+      "type_at": 5.8
+    },
+    {
+      "from": "girl",
+      "text": "Monday 8. text me 555 814 4844",
+      "type_at": 8.2
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-06-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "city glow",
+    "asset": "baddies/d5b148e8c38f9d3ef19e1dc7b69c5595.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the reason stores have a two item limit"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound dangerously unserious rn",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "Dangerously unserious, dangerously your problem now",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "Ok? 😭😭",
+      "type_at": 7.6
+    },
+    {
+      "from": "boy",
+      "text": "that city glow looked like main character energy",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "Everyone thinks that, you’re late",
+      "type_at": 10.8
+    },
+    {
+      "from": "boy",
+      "text": "i just say it better than they do",
+      "type_at": 12.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for a stranger",
+      "type_at": 14
+    },
+    {
+      "from": "boy",
+      "text": "friday. i'll send you the address",
+      "type_at": 15.6
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 237 5338",
+      "type_at": 17.2
+    },
+    {
+      "from": "girl",
+      "text": "You're lucky you're cute",
+      "type_at": 18.8
+    }
+  ]
+}

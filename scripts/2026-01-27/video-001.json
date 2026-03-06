@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-27-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.6,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "mirror check",
+    "asset": "baddies/614d3973f855a901dd783d6f2238be92.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Be honest you posted this just to make everyone skip leg day in shame"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You cant be fr",
+      "type_at": 2.4
+    },
+    {
+      "from": "boy",
+      "text": "say less, its me",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "And?",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "i make it real fast",
+      "type_at": 9
+    },
+    {
+      "from": "girl",
+      "text": "Okay comedian relax",
+      "type_at": 10.6
+    },
+    {
+      "from": "boy",
+      "text": "keep that energy for me",
+      "type_at": 12.2
+    },
+    {
+      "from": "girl",
+      "text": "Sounds like a you problem",
+      "type_at": 13.8
+    },
+    {
+      "from": "boy",
+      "text": "Fix my problem this week drinks and you pretending to be nice",
+      "type_at": 15.4
+    },
+    {
+      "from": "girl",
+      "text": "Ok, when and where? text me",
+      "type_at": 17
+    }
+  ]
+}

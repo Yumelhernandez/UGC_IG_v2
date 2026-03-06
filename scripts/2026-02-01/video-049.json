@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-049",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Nba GIF by Tomi Ferraro, Sportz.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "sunset skyline",
+    "asset": "baddies/d5ba0d2fe8a7c64d7c339d76899aea10.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of chill to criminal what is that bite doing to me"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax criminal, you’re not special",
+      "type_at": 2
+    },
+    {
+      "from": "boy",
+      "text": "Guess I’ll just have to prove you wrong",
+      "type_at": 5.9
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 7.5
+    },
+    {
+      "from": "boy",
+      "text": "menace is crazy when you watched that story three times",
+      "type_at": 9.1
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for a fanboy",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "fanboy is wild when you staged that caption for me",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "My world doesn’t orbit you",
+      "type_at": 14.4
+    },
+    {
+      "from": "boy",
+      "text": "drinks this week? text me 555 486 7671",
+      "type_at": 16
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 486 7671. sunday 7:30 works",
+      "type_at": 17.6
+    }
+  ]
+}

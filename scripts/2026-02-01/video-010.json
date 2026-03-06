@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-010",
+  "meta": {
+    "theme": "default",
+    "duration_s": 10.4,
+    "spice_tier": "high",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/nba all star verizon slam dunk GIF by NBA.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/gif.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "midnight snack",
+    "asset": "baddies/f96a50adfe46de10e68fa666ffce2b5e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the main reason traffic suddenly got way slower today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "you sound curious",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sure you can handle this",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "You can't handle all this chaos",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "So what 😂",
+      "type_at": 4
+    },
+    {
+      "from": "boy",
+      "text": "Cool then prove it over drinks friday night",
+      "type_at": 6.4
+    },
+    {
+      "from": "girl",
+      "text": "Fine, monday 8. text me 555 516 8380",
+      "type_at": 9.5
+    }
+  ]
+}

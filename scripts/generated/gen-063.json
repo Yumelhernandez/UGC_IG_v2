@@ -1,0 +1,94 @@
+{
+  "video_id": "gen-063",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 21.5,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "rejection",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "After 1 message/Kobe Bryant Basketball GIF.mp4",
+      "In between messages/person_reaction_who_let_bro_cook_red_tone_short_motion_meme_clip.mp4",
+      "After 1 message/Lets Go Undress GIF by Paxeros.mp4",
+      "In between messages/basketball_player_basketball_reaction_going_for_three_point_meme_clip.mp4",
+      "In between messages/lebron_james_basketball_quote_card_shooting_like_glorious_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_quote_card_crowd_hardwood_court_mixed_tone_short_motion_meme_clip.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_29__clip_011.mp4",
+    "headline": "honest question no games",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 6
+  },
+  "story": {
+    "username": "naomi",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/4cc7e19f0c2f63fca50a94c06010569a.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "honest question no games"
+  },
+  "persona": {
+    "boy": {
+      "name": "Kai",
+      "age": 20
+    },
+    "girl": {
+      "name": "Naomi",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "omg \ud83d\ude2d",
+      "type_at": 4.0
+    },
+    {
+      "from": "boy",
+      "text": "so you gotta come over instead",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "that's so cheesy but cute \ud83d\udc80",
+      "type_at": 9.0
+    },
+    {
+      "from": "boy",
+      "text": "hold on",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "ok I really like you \ud83d\ude2d",
+      "type_at": 14.0
+    },
+    {
+      "from": "boy",
+      "text": "fair enough. respect \ud83e\udd40",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "you're sweet but I have a boyfriend \ud83d\ude2d",
+      "type_at": 18.5
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-046",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.4,
+    "spice_tier": "medium",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "How to DM mommy",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/The Kid Mero Flirt GIF by Desus & Mero.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "late night drive",
+    "asset": "baddies/64360aa0c5b65c05de6fd748a8882d1c.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You know our first couple fight is happening in this gym right"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Our first fight is you stalking my gym selfies",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "I just came here to file my boyfriend application actually",
+      "type_at": 2
+    },
+    {
+      "from": "girl",
+      "text": "Application rejected, HR said vibes too unserious 😭😭",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "HR just mad they not getting this gym couple content",
+      "type_at": 3
+    },
+    {
+      "from": "girl",
+      "text": "Gym couple, You still on level treadmill, relax?",
+      "type_at": 3.5
+    },
+    {
+      "from": "boy",
+      "text": "im on the level where I cheer from the sidelines",
+      "type_at": 4
+    },
+    {
+      "from": "girl",
+      "text": "So youre the emotional support water bottle then",
+      "type_at": 4.5
+    },
+    {
+      "from": "boy",
+      "text": "ok so we on?",
+      "type_at": 5
+    },
+    {
+      "from": "girl",
+      "text": "You love the sound of you",
+      "type_at": 5.5
+    },
+    {
+      "from": "boy",
+      "text": "Interns become CEOs once they survive leg day arguments",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "You would cry three reps into leg day honestly",
+      "type_at": 8.3
+    },
+    {
+      "from": "boy",
+      "text": "ill cry but ill not quit, very on brand",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "Cute speech, still does not earn gym boyfriend title",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "Then give me a probation period, ill clock in",
+      "type_at": 12.2
+    },
+    {
+      "from": "girl",
+      "text": "Probation requires post workout smoothie bribes at least",
+      "type_at": 13.5
+    },
+    {
+      "from": "boy",
+      "text": "drinks this week? text me 555 515 9495",
+      "type_at": 15.3
+    },
+    {
+      "from": "girl",
+      "text": "Friday 8:30. text me 555 515 9495",
+      "type_at": 16.6
+    }
+  ]
+}

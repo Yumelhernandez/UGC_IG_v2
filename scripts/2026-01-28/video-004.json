@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-28-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "coffee run",
+    "asset": "baddies/3141937c0a2f76302917a871be258f3a.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just decided mirrors are lucky to have you now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Why?",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, loud",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 7.2
+    },
+    {
+      "from": "boy",
+      "text": "cool, test me in person",
+      "type_at": 8.8
+    },
+    {
+      "from": "girl",
+      "text": "Calm down, fan club",
+      "type_at": 10.4
+    },
+    {
+      "from": "boy",
+      "text": "you want bold, ill show it",
+      "type_at": 12
+    },
+    {
+      "from": "girl",
+      "text": "Application denied, sorry",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "Cool ill reapply over drinks this week, you free Friday",
+      "type_at": 15.2
+    },
+    {
+      "from": "girl",
+      "text": "Text me at 7",
+      "type_at": 16.8
+    }
+  ]
+}

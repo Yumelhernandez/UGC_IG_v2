@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-008",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Nba Playoffs Sport GIF by NBA.mp4",
+    "headline": "Watch me shoot my shot",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rainy walk",
+    "asset": "baddies/9d0d55f164b6c4be7cb400d8dfe2f6a1.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I already told my mom youre the reason I love summer now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Tell your mom im trouble",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "you wanted the push and the pull",
+      "type_at": 6.1
+    },
+    {
+      "from": "girl",
+      "text": "Says who? 👀",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "i dont need permission to ruin your favorite season",
+      "type_at": 9.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for one dm",
+      "type_at": 11.4
+    },
+    {
+      "from": "boy",
+      "text": "you want proof, say less",
+      "type_at": 13
+    },
+    {
+      "from": "girl",
+      "text": "Who said im free this weekend 😂",
+      "type_at": 14.6
+    },
+    {
+      "from": "boy",
+      "text": "then tell me when youre and we do drinks not texts",
+      "type_at": 16.2
+    },
+    {
+      "from": "girl",
+      "text": "Friday 8. text me 555 193 9783",
+      "type_at": 17.8
+    }
+  ]
+}

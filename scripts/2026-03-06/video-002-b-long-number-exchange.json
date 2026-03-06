@@ -1,0 +1,211 @@
+{
+  "video_id": "2026-03-06-002",
+  "meta": {
+    "theme": "fitness",
+    "duration_s": 61.9,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "direct",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 1,
+    "beat_plan": {
+      "inciting_incident": "I'm filing a noise complaint on your profile",
+      "first_reaction": "pass",
+      "hook": "I'm filing a noise complaint on your profile",
+      "test": "pass",
+      "escalation_turn": "i want to ruin your whole week",
+      "escalation": "i want to ruin your whole week",
+      "shift": "excuse me??",
+      "close": "don't be boring 😭 😭",
+      "shareable_moment": "i want to ruin your whole week",
+      "pre_close_tension": "555 509 9963. that was smooth i'll give you that",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "early_pacing_weak": true,
+      "first_gap_absolute_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 5.9
+    },
+    "hook_type": "cold_open_bold",
+    "payoff_type": "comedic_exit",
+    "template_id": "T-05",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-other",
+      "M-PAYOFF-comedic_exit"
+    ],
+    "slot_index": 2,
+    "run_seed": 2046905220,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I'm filing a noise complaint on your profile",
+    "first_reaction": "pass",
+    "hook": "I'm filing a noise complaint on your profile",
+    "test": "pass",
+    "escalation_turn": "i want to ruin your whole week",
+    "escalation": "i want to ruin your whole week",
+    "shift": "excuse me??",
+    "close": "don't be boring 😭 😭",
+    "shareable_moment": "i want to ruin your whole week",
+    "pre_close_tension": "555 509 9963. that was smooth i'll give you that",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 9,
+    "shareable_index": 3,
+    "reveal_line": "interesting of you assuming I dont like dangerous habits"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Happy Nba Finals GIF by NBA.mp4",
+    "headline": "Sliding into IG dms until I find wifey",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "fit check",
+    "asset": "baddies/0e368b3bc55366ff06d07b450a383a82.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'm filing a noise complaint on your profile"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 6.9,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that check, you’re dramatic",
+      "type_at": 12.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why tho",
+      "type_at": 16.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i want to ruin your whole week",
+      "type_at": 20.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "excuse me??",
+      "type_at": 23,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "by being the person you cant stop thinking about",
+      "type_at": 28.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok that was smooth omg😭",
+      "type_at": 36.3,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "let me get your number",
+      "type_at": 43.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "555 509 9963. that was smooth i'll give you that",
+      "type_at": 51.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "don't be boring 😭 😭",
+      "type_at": 58.1,
+      "response_type": "close"
+    }
+  ]
+}

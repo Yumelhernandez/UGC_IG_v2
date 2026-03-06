@@ -1,0 +1,67 @@
+{
+  "video_id": "2026-01-29-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "rooftop lights",
+    "asset": "baddies/cb0bb060ec568fc55e471ac37bd24cdf.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you invite the noodles out but not me wild priorities you got there"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Crying over noodles now?",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "thats a yes, dont lie",
+      "type_at": 2.9
+    },
+    {
+      "from": "girl",
+      "text": "So what 👀",
+      "type_at": 3.7
+    },
+    {
+      "from": "boy",
+      "text": "be honest can i get your number?",
+      "type_at": 5.5
+    },
+    {
+      "from": "girl",
+      "text": "Fine, thursday 8. text me 555 739 6293",
+      "type_at": 7.3
+    }
+  ]
+}

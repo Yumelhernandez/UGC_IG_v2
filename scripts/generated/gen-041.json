@@ -1,0 +1,94 @@
+{
+  "video_id": "gen-041",
+  "meta": {
+    "theme": "brainrot",
+    "duration_s": 21.5,
+    "spice_tier": "high",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "plot_twist",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "app_insert_policy": "required",
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_why_she_defensive_like_that_meme_clip.mp4",
+      "In between messages/person_reaction_scene_digital_graphic_graphic_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_basketball_reaction_dont_judge_gang_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_going_for_the_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_going_for_three_point_meme_clip.mp4",
+      "After 1 message/The Kid Mero Flirt GIF by Desus & Mero.mp4"
+    ]
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_13__clip_014.mp4",
+    "headline": "is your name Google?",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Slam Dunk Basketball GIF by NBA.mp4"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 2,
+    "win_index": 6
+  },
+  "story": {
+    "username": "aaliyah",
+    "age": 20,
+    "caption": "\u2728",
+    "asset": "baddies/aeda5cc7eedc5bf0e04158e7da4bdfea.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "is your name Google?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Kai",
+      "age": 20
+    },
+    "girl": {
+      "name": "Aaliyah",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "why \ud83d\udc80",
+      "type_at": 4.0
+    },
+    {
+      "from": "boy",
+      "text": "but it worked because you're still here",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "you're weird",
+      "type_at": 9.0
+    },
+    {
+      "from": "boy",
+      "text": "I'm just getting started",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "wait that's smooth",
+      "type_at": 14.0
+    },
+    {
+      "from": "boy",
+      "text": "name the day",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "...yes \ud83d\ude2d",
+      "type_at": 18.5
+    }
+  ]
+}

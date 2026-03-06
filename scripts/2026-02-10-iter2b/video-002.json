@@ -1,0 +1,173 @@
+{
+  "video_id": "2026-02-10-iter2b-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.2,
+    "spice_tier": "medium",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "arc_type": "cliffhanger",
+    "conversation_mode": "cumulative",
+    "app_insert_policy": "optional",
+    "beat_plan": {
+      "inciting_incident": "i would never play hide and seek with you",
+      "first_reaction": "Invite list is very tight",
+      "escalation_turn": "youre not playing nice today",
+      "shareable_moment": "Ok",
+      "pre_close_tension": "😭😭",
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "i would never play hide and seek with you",
+    "first_reaction": "Invite list is very tight",
+    "escalation_turn": "youre not playing nice today",
+    "shareable_moment": "Ok",
+    "pre_close_tension": "😭😭",
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 11,
+    "shareable_index": 4,
+    "reveal_line": "youre not playing nice today"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/de839f985ba05b710d8d0ce5ab01a424.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "i would never play hide and seek with you"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Invite list is very tight",
+      "type_at": 2.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "youre not playing nice today",
+      "type_at": 4.7,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 😂",
+      "type_at": 6.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i can handle that",
+      "type_at": 7.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Ok",
+      "type_at": 9.5,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 11.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Talk is free, skills cost",
+      "type_at": 12.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "cool, test me in person",
+      "type_at": 14.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "Why should i",
+      "type_at": 15.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you already know why",
+      "type_at": 17.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "😭😭",
+      "type_at": 19.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you'll see",
+      "type_at": 20.7,
+      "response_type": "test"
+    }
+  ]
+}

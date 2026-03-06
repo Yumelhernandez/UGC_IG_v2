@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/7c4859827f886837ff20571e620fcff8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Acting lowkey but the fit is screaming main character energy where were you headed"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold talk for the comments",
+      "type_at": 3.4
+    },
+    {
+      "from": "boy",
+      "text": "comments were too small for that fit energy honestly",
+      "type_at": 4.1
+    },
+    {
+      "from": "girl",
+      "text": "Relax, It is not that deep",
+      "type_at": 4.6
+    },
+    {
+      "from": "boy",
+      "text": "it got my attention so clearly it did something right",
+      "type_at": 5.6
+    },
+    {
+      "from": "girl",
+      "text": "Your standards sound suspiciously low",
+      "type_at": 6.5
+    },
+    {
+      "from": "boy",
+      "text": "lowkey yeah but that post cleared them with ease",
+      "type_at": 7.2
+    },
+    {
+      "from": "girl",
+      "text": "Tragic, You fall for everyone",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "if i did i would not be in your dms like this",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "You are in many dms, Stop",
+      "type_at": 8.7
+    },
+    {
+      "from": "boy",
+      "text": "I multitask but this tab definitely top priority",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "Congrats on bare minimum effort",
+      "type_at": 9.9
+    },
+    {
+      "from": "boy",
+      "text": "bare minimum was just reacting i actually typed a whole sentence",
+      "type_at": 10.7
+    },
+    {
+      "from": "girl",
+      "text": "And yet I am still bored",
+      "type_at": 11.7
+    },
+    {
+      "from": "boy",
+      "text": "we can upgrade to in person dialogue if you can handle it",
+      "type_at": 12.1
+    },
+    {
+      "from": "girl",
+      "text": "You talk like you give lectures",
+      "type_at": 12.7
+    },
+    {
+      "from": "boy",
+      "text": "you look like you skip them and still pass with an A",
+      "type_at": 13.3
+    },
+    {
+      "from": "girl",
+      "text": "Cute line, Try using it on me Friday",
+      "type_at": 14
+    }
+  ]
+}

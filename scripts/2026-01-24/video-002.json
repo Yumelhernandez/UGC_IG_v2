@@ -1,0 +1,125 @@
+{
+  "video_id": "2026-01-24-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "How to text fine shyt",
+    "subtitle": "*we are all in"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/3ab5a830e542a050ac3439939c6c6773.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So we just casually dropping thirst traps on a Tuesday now"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound stressed for Tuesday",
+      "type_at": 3.3
+    },
+    {
+      "from": "boy",
+      "text": "Nah I am just observing powerful Tuesday energy",
+      "type_at": 4
+    },
+    {
+      "from": "girl",
+      "text": "Relax, It is not for you",
+      "type_at": 4.8
+    },
+    {
+      "from": "boy",
+      "text": "Wild cause it really looked very much for me",
+      "type_at": 5.2
+    },
+    {
+      "from": "girl",
+      "text": "Delusional, but cute try",
+      "type_at": 5.8
+    },
+    {
+      "from": "boy",
+      "text": "You posted it knowing I would say something",
+      "type_at": 6.3
+    },
+    {
+      "from": "girl",
+      "text": "I barely remember following you",
+      "type_at": 7.1
+    },
+    {
+      "from": "boy",
+      "text": "Tragic cause I remember that follow very clearly",
+      "type_at": 7.8
+    },
+    {
+      "from": "girl",
+      "text": "Memory of a golden retriever",
+      "type_at": 8.6
+    },
+    {
+      "from": "boy",
+      "text": "And you posted that like throwing a ball",
+      "type_at": 9.2
+    },
+    {
+      "from": "girl",
+      "text": "You chase anything that moves?",
+      "type_at": 9.6
+    },
+    {
+      "from": "boy",
+      "text": "Just the problems that dress well",
+      "type_at": 10.2
+    },
+    {
+      "from": "girl",
+      "text": "So you admit I am a problem",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "Top tier Tuesday problem and I respect it",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk from a viewer",
+      "type_at": 12.6
+    },
+    {
+      "from": "boy",
+      "text": "Viewer is crazy I am clearly main character material",
+      "type_at": 13.2
+    },
+    {
+      "from": "girl",
+      "text": "Prove it, Drinks this week",
+      "type_at": 13.9
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-02-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "How to make her chase",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "airport view",
+    "asset": "baddies/b76d58b6f98412b0cbcc70177a20ac0f.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So when people ask how we met do we say gym or bedroom"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bedroom, you lost your mind?",
+      "type_at": 2.5
+    },
+    {
+      "from": "boy",
+      "text": "You arguing like I did not upgrade us",
+      "type_at": 6.5
+    },
+    {
+      "from": "girl",
+      "text": "Says who? 👀",
+      "type_at": 8.1
+    },
+    {
+      "from": "boy",
+      "text": "cool we can argue about it at mine or yours",
+      "type_at": 9.7
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a stranger",
+      "type_at": 11.3
+    },
+    {
+      "from": "boy",
+      "text": "stranger who already called the gym storyline months ago",
+      "type_at": 12.9
+    },
+    {
+      "from": "girl",
+      "text": "Manifesting now, cute 😭?",
+      "type_at": 14.5
+    },
+    {
+      "from": "boy",
+      "text": "sunday night. i'll pick you up",
+      "type_at": 16.1
+    },
+    {
+      "from": "girl",
+      "text": "Fine. 555 300 8375",
+      "type_at": 17.7
+    },
+    {
+      "from": "girl",
+      "text": "Impress me",
+      "type_at": 19.3
+    }
+  ]
+}

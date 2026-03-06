@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-048",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.2,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant basketball GIF by Showtime.mp4",
+    "headline": "Sliding into IG dms 100% success rate 🙏",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Walk Out Lets Go GIF by MOODMAN.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "studio warmup",
+    "asset": "baddies/ed3175a41f375d2993b3756f56337859.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like the girl professors warn us about and now I get it"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You say that like it’s a warning",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "Maybe you should take the risk",
+      "type_at": 5
+    },
+    {
+      "from": "girl",
+      "text": "And what about it 😭😭",
+      "type_at": 6.6
+    },
+    {
+      "from": "boy",
+      "text": "I figured, you look like the girl that makes rules then breaks them",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "You really think you read me",
+      "type_at": 9.9
+    },
+    {
+      "from": "boy",
+      "text": "I do and I think you like being read wrong",
+      "type_at": 11.5
+    },
+    {
+      "from": "girl",
+      "text": "Hm, Bold for a stranger",
+      "type_at": 13.1
+    },
+    {
+      "from": "boy",
+      "text": "Then let me fix that over drinks this week",
+      "type_at": 14.7
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 284 9831 at 8",
+      "type_at": 16.3
+    }
+  ]
+}

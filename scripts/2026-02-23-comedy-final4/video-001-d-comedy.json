@@ -1,0 +1,243 @@
+{
+  "video_id": "2026-02-23-comedy-final4-001",
+  "meta": {
+    "theme": "fitness",
+    "duration_s": 22.3,
+    "spice_tier": "medium",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "tease",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "blunt",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Why would you post this when people are trying to function",
+      "first_reaction": "",
+      "hook": "Why would you post this when people are trying to function",
+      "test": "",
+      "escalation_turn": "so you just green lit this?",
+      "escalation": "so you just green lit this?",
+      "shift": "you keep poking, do better",
+      "close": "",
+      "shareable_moment": "you’re playing defense like the score matters",
+      "pre_close_tension": "ok now you know",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ]
+  },
+  "beat_plan": {
+    "inciting_incident": "Why would you post this when people are trying to function",
+    "first_reaction": "",
+    "hook": "Why would you post this when people are trying to function",
+    "test": "",
+    "escalation_turn": "so you just green lit this?",
+    "escalation": "so you just green lit this?",
+    "shift": "you keep poking, do better",
+    "close": "",
+    "shareable_moment": "you’re playing defense like the score matters",
+    "pre_close_tension": "ok now you know",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 7,
+    "win_index": 19,
+    "shareable_index": 5,
+    "reveal_line": "so you just green lit this?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Sport GIF by NBA.mp4",
+    "headline": "How to bag fine shyt",
+    "subtitle": "*zero fear method*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "training mode",
+    "asset": "baddies/5d6ae4ac4de0d0b2278126d250e65fe8.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Why would you post this when people are trying to function"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nah prove it",
+      "type_at": 1.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "training vibes you folded already",
+      "type_at": 2.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why would i",
+      "type_at": 2.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you argue like comments are turned on",
+      "type_at": 3.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "talk is cheap, impress me",
+      "type_at": 4.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you’re playing defense like the score matters",
+      "type_at": 4.6,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "prove it in real life",
+      "type_at": 5.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just green lit this?",
+      "type_at": 5.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you keep poking, do better",
+      "type_at": 6.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you argue like cross examination is a hobby",
+      "type_at": 7.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "try harder, still no",
+      "type_at": 9.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you’re pretending not to care with paragraphs",
+      "type_at": 11,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "i was literally about to dm you first",
+      "type_at": 12.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "say the word",
+      "type_at": 13.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "say less, show more",
+      "type_at": 15.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "bet, let me prove it",
+      "type_at": 17.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "continue 😂",
+      "type_at": 18.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "i know i do",
+      "type_at": 19.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "ok now you know",
+      "type_at": 21.4,
+      "response_type": "condition"
+    }
+  ]
+}

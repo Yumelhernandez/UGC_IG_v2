@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-01-28-001",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.9,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "How to text huzz",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "midnight snack",
+    "asset": "baddies/56d26b92abf0066c1f4dc287055f0512.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "So you just go to the gym to bully the rest of us now huh"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "blunt"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bullying who exactly?",
+      "type_at": 2.6
+    },
+    {
+      "from": "boy",
+      "text": "so we outside?",
+      "type_at": 5.7
+    },
+    {
+      "from": "girl",
+      "text": "And what about it",
+      "type_at": 7.7
+    },
+    {
+      "from": "boy",
+      "text": "talk is cheap, watch me",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "You paid for this view",
+      "type_at": 10.9
+    },
+    {
+      "from": "boy",
+      "text": "im not just talking",
+      "type_at": 12.5
+    },
+    {
+      "from": "girl",
+      "text": "Tragic way to go",
+      "type_at": 14.1
+    },
+    {
+      "from": "boy",
+      "text": "Tragic is not getting your number for a post gym drink",
+      "type_at": 15.7
+    },
+    {
+      "from": "girl",
+      "text": "When and where? text me 555 431 2620",
+      "type_at": 17.3
+    }
+  ]
+}

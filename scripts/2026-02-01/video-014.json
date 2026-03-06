@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-014",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.5,
+    "spice_tier": "low",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Turn DMs into dates",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Lets Go Undress GIF by Paxeros.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "city glow",
+    "asset": "baddies/2d2ddaaa421905aaae96d0fdce6a4d6e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Quick question, why are you single"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "i can back it up in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold for a stranger, relax",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Guess I bring the chaos you need",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "So what 😭😭",
+      "type_at": 4
+    },
+    {
+      "from": "boy",
+      "text": "Then let me try in person, drinks this Friday night?",
+      "type_at": 5.8
+    },
+    {
+      "from": "girl",
+      "text": "Friday 7. text me 555 518 6564",
+      "type_at": 7.8
+    }
+  ]
+}

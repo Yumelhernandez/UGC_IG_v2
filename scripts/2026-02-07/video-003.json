@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-07-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17.5,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Heads Up Win GIF by Major League Soccer.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "coffee run",
+    "asset": "baddies/12087932f8e1d02a16bc7c7d82fd0150.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale of chill to dangerous where do you place yourself here"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Bold of you to assume chill",
+      "type_at": 2.3
+    },
+    {
+      "from": "boy",
+      "text": "Bold of you to assume im scared",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "Ok?",
+      "type_at": 6.9
+    },
+    {
+      "from": "boy",
+      "text": "i know you stared at that story longer than 3 seconds",
+      "type_at": 8.5
+    },
+    {
+      "from": "girl",
+      "text": "Relax detective, you just bored",
+      "type_at": 10.1
+    },
+    {
+      "from": "boy",
+      "text": "i show up when it counts",
+      "type_at": 11.7
+    },
+    {
+      "from": "girl",
+      "text": "Ok. and",
+      "type_at": 13.3
+    },
+    {
+      "from": "boy",
+      "text": "let me take you out this week",
+      "type_at": 14.9
+    },
+    {
+      "from": "girl",
+      "text": "Ok you earned it. 555 562 3892",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "Don't be late",
+      "type_at": 18.1
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "2026-01-29-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.4,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Sliding in her IG dms",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "sunset skyline",
+    "asset": "baddies/e4f2330ba85059e50a0fe3f9926904af.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ok but why are you acting like that"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Acting like what exactly?",
+      "type_at": 1.4
+    },
+    {
+      "from": "boy",
+      "text": "so youre claiming me?",
+      "type_at": 3.3
+    },
+    {
+      "from": "girl",
+      "text": "Oh really? 👀",
+      "type_at": 4.1
+    },
+    {
+      "from": "boy",
+      "text": "ill over drinks this Friday you free or you still acting up",
+      "type_at": 5
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 949 2369. wednesday 8:30 works",
+      "type_at": 6.5
+    }
+  ]
+}

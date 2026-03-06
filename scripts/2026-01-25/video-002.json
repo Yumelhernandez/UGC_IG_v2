@@ -1,0 +1,91 @@
+{
+  "video_id": "2026-01-25-002",
+  "meta": {
+    "theme": "default",
+    "duration_s": 18.1,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Slam Dunk Basketball GIF by NBA.mp4",
+    "headline": "Shooting in ig dms pt 1",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/dm GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "",
+    "asset": "baddies/405783be883a5cc0146f36f4ebc7a41b.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Ok wow so you dress like this and expect people to focus on the sink"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "why?",
+      "type_at": 1.5
+    },
+    {
+      "from": "boy",
+      "text": "I mean you dressed like a distraction on purpose",
+      "type_at": 4.5
+    },
+    {
+      "from": "girl",
+      "text": "maybe you just lack focus",
+      "type_at": 5.2
+    },
+    {
+      "from": "boy",
+      "text": "or maybe you like being the problem in the room",
+      "type_at": 7.1
+    },
+    {
+      "from": "girl",
+      "text": "and you like staring",
+      "type_at": 9
+    },
+    {
+      "from": "boy",
+      "text": "guilty but I own it better than most people",
+      "type_at": 10.9
+    },
+    {
+      "from": "girl",
+      "text": "talking big for instagram",
+      "type_at": 12.8
+    },
+    {
+      "from": "boy",
+      "text": "ok wow so bring that same energy at drinks this week",
+      "type_at": 14.7
+    },
+    {
+      "from": "girl",
+      "text": "friday, 9, text me then go quiet",
+      "type_at": 16.7
+    }
+  ],
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 1,
+    "win_index": 8,
+    "reveal_line": "I mean you dressed like a distraction on purpose"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "video_id": "2026-02-01-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "high",
+    "format": "D"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "Sliding in females dms until I get a gf",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "weekend escape",
+    "asset": "baddies/beee7c17929b763717ad574429f1ca52.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to speak with whoever approved this level of confidence"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Imagine leading with confidence",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "im simply requesting a meeting with upper management immediately",
+      "type_at": 2.1
+    },
+    {
+      "from": "girl",
+      "text": "Upper management is busy being hot in mirrors",
+      "type_at": 2.8
+    },
+    {
+      "from": "boy",
+      "text": "That is exactly why this is an urgent matter actually",
+      "type_at": 3.4
+    },
+    {
+      "from": "girl",
+      "text": "Bold to think you get meetings off one DM",
+      "type_at": 3.9
+    },
+    {
+      "from": "boy",
+      "text": "im prepared to submit a full presentation on why I deserve one",
+      "type_at": 4.4
+    },
+    {
+      "from": "girl",
+      "text": "Presentation better be stronger than that caption energy",
+      "type_at": 4.9
+    },
+    {
+      "from": "boy",
+      "text": "so we good or what?",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "You are trying, still not landing",
+      "type_at": 5.9
+    },
+    {
+      "from": "boy",
+      "text": "im just respecting the main character budget no need for extras",
+      "type_at": 7.1
+    },
+    {
+      "from": "girl",
+      "text": "Main character does not hide behind flower phone cases",
+      "type_at": 8.1
+    },
+    {
+      "from": "boy",
+      "text": "That phone case is clearly a security system for innocent bystanders",
+      "type_at": 9.3
+    },
+    {
+      "from": "girl",
+      "text": "Please im the threat here not them",
+      "type_at": 10.7
+    },
+    {
+      "from": "boy",
+      "text": "say that to my face",
+      "type_at": 12.3
+    },
+    {
+      "from": "girl",
+      "text": "Cute pitch try again with a real plan",
+      "type_at": 13.6
+    },
+    {
+      "from": "boy",
+      "text": "Friday night drinks you pick the spot I bring the sarcasm",
+      "type_at": 14.8
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 416 4972 at 7:30",
+      "type_at": 15.7
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-039",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8.2,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "Rizzing up a 20/10",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/liar dancing GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "coffee run",
+    "asset": "baddies/186c98e1b84fc7775ff0e281c6388685.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I would never play hide and seek with you"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "plug_line": "i dont chase, i attract",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "That supposed to impress me?",
+      "type_at": 1.9
+    },
+    {
+      "from": "boy",
+      "text": "You’re not a maybe, you’re a problem",
+      "type_at": 3
+    },
+    {
+      "from": "girl",
+      "text": "Says who? 👀",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "delusional enough to say lets test that over drinks friday",
+      "type_at": 5
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 647 5295 at 7:30",
+      "type_at": 7.1
+    }
+  ]
+}

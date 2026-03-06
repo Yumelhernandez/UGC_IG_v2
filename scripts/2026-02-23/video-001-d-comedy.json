@@ -1,0 +1,234 @@
+{
+  "video_id": "2026-02-23-001",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 22.4,
+    "spice_tier": "low",
+    "controversy_tier": "safe",
+    "format": "D",
+    "arc_type": "comedy",
+    "punchline_style": "challenge",
+    "conversation_mode": "cumulative",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "teasing",
+    "app_insert_policy": "required",
+    "beat_plan": {
+      "inciting_incident": "Mommy, Sorry, Mommy, Sorry?",
+      "first_reaction": "",
+      "hook": "Mommy, Sorry, Mommy, Sorry?",
+      "test": "",
+      "escalation_turn": "cool, thats a yes",
+      "escalation": "cool, thats a yes",
+      "shift": "big claim, now prove it",
+      "close": "",
+      "shareable_moment": "mine waved white flag soon as i tapped your story",
+      "pre_close_tension": "fine. don't make it weird",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "comedy"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/Anthony Edwards Nba GIF by EsZ  Giphy World.mp4",
+      "In between messages/Bop GIF by DaBaby.mp4",
+      "In between messages/Cracking Up Lol GIF by STRAPPED!.mp4",
+      "In between messages/Dance Moves GIF.mp4",
+      "In between messages/Dance Winning GIF.mp4",
+      "In between messages/Deez Nuts GIF.mp4",
+      "In between messages/Excited Universal Music GIF by Edward Blom.mp4",
+      "In between messages/Feeling Myself Flirting GIF.mp4",
+      "In between messages/gif.mp4",
+      "In between messages/Good Music Fire GIF by STRAPPED!.mp4",
+      "In between messages/Happy British Basketball GIF by London Lions.mp4",
+      "In between messages/happy in love GIF by Lifetime.mp4",
+      "In between messages/Happy Penn Badgley GIF by Lifetime.mp4",
+      "In between messages/Happy Smirk GIF by Moyesa & Co..mp4",
+      "In between messages/Jean-Pierre Rubbing Hands GIF.mp4",
+      "In between messages/Jimmy Fallon Yes GIF by The Tonight Show Starring Jimmy Fallon.mp4",
+      "In between messages/Leonardo Dicaprio Laughing GIF.mp4",
+      "In between messages/Let Me Think GIF.mp4",
+      "In between messages/Lets Go Reaction GIF.mp4",
+      "In between messages/Lets Go Time GIF by NETFLIX.mp4",
+      "In between messages/Master Chef Fire GIF.mp4",
+      "In between messages/Playing Around Lionel Messi GIF by Major League Soccer.mp4",
+      "In between messages/Puerto Rico Baile GIF.mp4",
+      "In between messages/Say What Oh Hell No GIF by Robert E Blackmon.mp4",
+      "In between messages/Scared Mom GIF.mp4",
+      "In between messages/Smirk Cheesing GIF by The Bachelorette.mp4",
+      "In between messages/Valentines Day Flirt GIF by Demic.mp4",
+      "In between messages/Watch This GIF.mp4",
+      "In between messages/Will Smith Best Gif GIF.mp4",
+      "In between messages/Wwe Wwf GIF by Dobbi Apparel.mp4"
+    ],
+    "qa_signals": {
+      "timing_gap_large": true
+    }
+  },
+  "beat_plan": {
+    "inciting_incident": "Mommy, Sorry, Mommy, Sorry?",
+    "first_reaction": "",
+    "hook": "Mommy, Sorry, Mommy, Sorry?",
+    "test": "",
+    "escalation_turn": "cool, thats a yes",
+    "escalation": "cool, thats a yes",
+    "shift": "big claim, now prove it",
+    "close": "",
+    "shareable_moment": "mine waved white flag soon as i tapped your story",
+    "pre_close_tension": "fine. don't make it weird",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "comedy"
+  },
+  "beats": {
+    "pushback_index": -1,
+    "reveal_index": 7,
+    "win_index": 17,
+    "shareable_index": 5,
+    "reveal_line": "cool, thats a yes"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/North Carolina Dancing GIF by UNC Tar Heels.mp4",
+    "headline": "If she doesn’t reply to THIS I’m retiring.",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "fit check",
+    "asset": "baddies/1154dad304915292b15dbda7895ae353.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Mommy, Sorry, Mommy, Sorry?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "leather jacket got you stuttering already huh",
+      "type_at": 1.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you walked in looking like final boss dlc",
+      "type_at": 2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "relax, you still on tutorial mode babe",
+      "type_at": 3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "tutorial didnt cover surviving that mirror lighting",
+      "type_at": 3.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "that mirror lights up insecurities for sport",
+      "type_at": 4.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "mine waved white flag soon as i tapped your story",
+      "type_at": 4.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "blame the purple lights, they bully feelings",
+      "type_at": 5.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "cool, thats a yes",
+      "type_at": 5.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "big claim, now prove it",
+      "type_at": 6.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "humble is keeping my jaw attached after that fit",
+      "type_at": 8.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "jaw detachable now, add that to your resume?",
+      "type_at": 9.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "skills include typing through emotional damage",
+      "type_at": 12.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "emotional damage from a jacket is crazy",
+      "type_at": 13.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "its the jacket and the phone combo, villain arc",
+      "type_at": 15.7,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "every villain needs a vanity with good bulbs",
+      "type_at": 17.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "drinks saturday. i'm choosing the place",
+      "type_at": 19.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "fine. don't make it weird",
+      "type_at": 21.5,
+      "response_type": "condition"
+    }
+  ]
+}

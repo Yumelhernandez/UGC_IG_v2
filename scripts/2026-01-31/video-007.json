@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-01-31-007",
+  "meta": {
+    "theme": "default",
+    "duration_s": 7.7,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Sliding like a menace",
+    "subtitle": "(take notes)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Flight Plotting GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "rooftop lights",
+    "asset": "baddies/79d2456dc2a53bdb8a2fc194ae25bce1.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You definitely look like you just fired three assistants and blamed"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "sarcastic"
+    }
+  },
+  "plug_line": "dont tempt me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sound pressed already, relax",
+      "type_at": 1.8
+    },
+    {
+      "from": "boy",
+      "text": "You love this smoke under rooftop lights",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "So what 😳",
+      "type_at": 4.4
+    },
+    {
+      "from": "boy",
+      "text": "Good, bring that energy to drinks, tomorrow night, I dare you",
+      "type_at": 5.3
+    },
+    {
+      "from": "girl",
+      "text": "Ok, thursday 8. text me 555 339 8536",
+      "type_at": 6.6
+    }
+  ]
+}

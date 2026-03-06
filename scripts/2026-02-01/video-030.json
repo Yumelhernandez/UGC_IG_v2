@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-030",
+  "meta": {
+    "theme": "default",
+    "duration_s": 8,
+    "spice_tier": "high",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Rizzing ig baddies",
+    "subtitle": "(wedding method)"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Dog Smile GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "airport view",
+    "asset": "baddies/3f19cd6326b93930a4c265b3c584e504.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I have a theory about you and i need proof"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "plug_line": "dont tempt me",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Theory about me sounds dangerous",
+      "type_at": 1.6
+    },
+    {
+      "from": "boy",
+      "text": "Boarding pass says you’re my problem now",
+      "type_at": 3.2
+    },
+    {
+      "from": "girl",
+      "text": "And? 😂",
+      "type_at": 4
+    },
+    {
+      "from": "boy",
+      "text": "i need your number to test this theory over drinks tomorrow",
+      "type_at": 4.9
+    },
+    {
+      "from": "girl",
+      "text": "Fine, monday 8:30. text me 555 210 9195",
+      "type_at": 7
+    }
+  ]
+}

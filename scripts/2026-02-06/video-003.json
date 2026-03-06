@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-06-003",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Michael Jordan Dunk GIF by NBA.mp4",
+    "headline": "Win in IG DMs",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/bcf4cbcd60764e060d67d479b60fe327.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need the contact for whoever approved this outfit"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Relax, you sound obsessed",
+      "type_at": 2.2
+    },
+    {
+      "from": "boy",
+      "text": "youre too loud to play shy",
+      "type_at": 6.9
+    },
+    {
+      "from": "girl",
+      "text": "And? 😂",
+      "type_at": 8.5
+    },
+    {
+      "from": "boy",
+      "text": "mirror check approved the confidence too",
+      "type_at": 10.1
+    },
+    {
+      "from": "girl",
+      "text": "Prove it",
+      "type_at": 11.7
+    },
+    {
+      "from": "boy",
+      "text": "strangers are just future bad decisions with good stories",
+      "type_at": 13.3
+    },
+    {
+      "from": "girl",
+      "text": "Who said you’re a good one",
+      "type_at": 14.9
+    },
+    {
+      "from": "boy",
+      "text": "monday. 7:30. i know a spot",
+      "type_at": 16.5
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 969 3040",
+      "type_at": 18.1
+    },
+    {
+      "from": "girl",
+      "text": "Deal. but you're paying",
+      "type_at": 19.7
+    }
+  ]
+}

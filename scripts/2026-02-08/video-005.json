@@ -1,0 +1,92 @@
+{
+  "video_id": "2026-02-08-005",
+  "meta": {
+    "theme": "default",
+    "duration_s": 17,
+    "spice_tier": "high",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/golden state warriors dunk GIF.mp4",
+    "headline": "Trying to get a valentine",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Cracking Up Lol GIF by STRAPPED!.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "mirror check",
+    "asset": "baddies/f96a50adfe46de10e68fa666ffce2b5e.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I have a theory about you and i need proof"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "direct"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "You sure you can handle proof",
+      "type_at": 2.1
+    },
+    {
+      "from": "boy",
+      "text": "If I fold after proof you win",
+      "type_at": 5.4
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 7
+    },
+    {
+      "from": "boy",
+      "text": "my theory is you act cold so nobody sees you staring",
+      "type_at": 8.6
+    },
+    {
+      "from": "girl",
+      "text": "Bold for a man online",
+      "type_at": 10.2
+    },
+    {
+      "from": "boy",
+      "text": "you really thought that would work",
+      "type_at": 11.8
+    },
+    {
+      "from": "girl",
+      "text": "You assume i’m free",
+      "type_at": 13.4
+    },
+    {
+      "from": "boy",
+      "text": "let me take you out this week",
+      "type_at": 15
+    },
+    {
+      "from": "girl",
+      "text": "Ugh fine. 555 565 7992",
+      "type_at": 16.6
+    },
+    {
+      "from": "girl",
+      "text": "Don't be boring",
+      "type_at": 18.2
+    }
+  ]
+}

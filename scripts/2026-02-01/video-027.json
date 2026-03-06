@@ -1,0 +1,68 @@
+{
+  "video_id": "2026-02-01-027",
+  "meta": {
+    "theme": "default",
+    "duration_s": 9.4,
+    "spice_tier": "medium",
+    "format": "C"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
+    "headline": "Plan b",
+    "subtitle": ""
+  },
+  "stinger": {
+    "after_first": "After 1 message/Come Here Lets Go GIF by The Late Late Show with James Corden.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/9a6c0f7613ce098e94cce3f9f672b2f6.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Im suing for emotional damages my laptop never looked that good"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "teasing"
+    }
+  },
+  "plug_line": "i can back it up in person",
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Emotional damages, grow up, loser 😭?",
+      "type_at": 1.7
+    },
+    {
+      "from": "boy",
+      "text": "Fine call me loser you still winning",
+      "type_at": 3.7
+    },
+    {
+      "from": "girl",
+      "text": "Says who? 👀",
+      "type_at": 4.5
+    },
+    {
+      "from": "boy",
+      "text": "tragic enough you should let me fix it over drinks this week",
+      "type_at": 6
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 317 7186. saturday 8 works",
+      "type_at": 8
+    }
+  ]
+}

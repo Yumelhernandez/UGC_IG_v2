@@ -1,0 +1,87 @@
+{
+  "video_id": "2026-02-01-025",
+  "meta": {
+    "theme": "default",
+    "duration_s": 19.4,
+    "spice_tier": "medium",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Take That Ronaldo GIF by Lucas.mp4",
+    "headline": "Shooting in IG dms",
+    "subtitle": "*take notes"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Basketball Shooting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "mirror check",
+    "asset": "baddies/cc83ecb5d19cc2e413a61baa8850351f.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need to speak to whoever approved this aquatic chaos immediately"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Aquatic chaos is wild disrespect",
+      "type_at": 2.4
+    },
+    {
+      "from": "boy",
+      "text": "Chaos yeah but you ate that up",
+      "type_at": 6.8
+    },
+    {
+      "from": "girl",
+      "text": "Oh really?",
+      "type_at": 8.4
+    },
+    {
+      "from": "boy",
+      "text": "impossible this app gave you mirrors for a reason",
+      "type_at": 10
+    },
+    {
+      "from": "girl",
+      "text": "You really trust that caption 😂",
+      "type_at": 11.6
+    },
+    {
+      "from": "boy",
+      "text": "i trust the chaos more than your fake outrage",
+      "type_at": 13.2
+    },
+    {
+      "from": "girl",
+      "text": "Bold talk for the dms",
+      "type_at": 14.8
+    },
+    {
+      "from": "boy",
+      "text": "say less grab drinks and argue this thursday night",
+      "type_at": 16.4
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 545 1414. sunday 9 works",
+      "type_at": 18
+    }
+  ]
+}

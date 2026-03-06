@@ -1,0 +1,123 @@
+{
+  "video_id": "2026-01-24-004",
+  "meta": {
+    "theme": "default",
+    "duration_s": 15,
+    "spice_tier": "low",
+    "format": "B"
+  },
+  "hook": {
+    "mode": "reply",
+    "headline": "You replied to their story"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "",
+    "asset": "baddies/d8cebc9cc5fe0ea65eb038a6d1e0c72f.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Tell me you are on island time without telling me you are on island time"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Someone is pressed about it",
+      "type_at": 3.8
+    },
+    {
+      "from": "boy",
+      "text": "Just observing a pro level commitment to zero urgency",
+      "type_at": 4.6
+    },
+    {
+      "from": "girl",
+      "text": "Must be hard watching",
+      "type_at": 5.1
+    },
+    {
+      "from": "boy",
+      "text": "I am surviving the hardship somehow",
+      "type_at": 5.9
+    },
+    {
+      "from": "girl",
+      "text": "Tragic, Thoughts and prayers",
+      "type_at": 6.4
+    },
+    {
+      "from": "boy",
+      "text": "Thoughts and prayers and maybe a drink to recover",
+      "type_at": 6.9
+    },
+    {
+      "from": "girl",
+      "text": "You need a drink for that?",
+      "type_at": 7.5
+    },
+    {
+      "from": "boy",
+      "text": "I need a drink for keeping up with your schedule",
+      "type_at": 8.2
+    },
+    {
+      "from": "girl",
+      "text": "Who said you are invited",
+      "type_at": 8.9
+    },
+    {
+      "from": "boy",
+      "text": "I am reading the hidden invite between the lines",
+      "type_at": 9.4
+    },
+    {
+      "from": "girl",
+      "text": "Reading skills a bit too strong",
+      "type_at": 10
+    },
+    {
+      "from": "boy",
+      "text": "Reading skills and decent company, not the worst combo",
+      "type_at": 10.6
+    },
+    {
+      "from": "girl",
+      "text": "Debatable on the company part",
+      "type_at": 11.1
+    },
+    {
+      "from": "boy",
+      "text": "Then schedule a live review and grade it properly",
+      "type_at": 11.9
+    },
+    {
+      "from": "girl",
+      "text": "You really love extra credit",
+      "type_at": 12.3
+    },
+    {
+      "from": "boy",
+      "text": "I just do not believe in homework over text",
+      "type_at": 12.9
+    },
+    {
+      "from": "girl",
+      "text": "friday drinks, keep it simple",
+      "type_at": 13.5
+    }
+  ]
+}
