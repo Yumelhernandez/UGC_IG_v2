@@ -1,1 +1,11 @@
-console.log('hello');
+console.log('Applying fixes...');
+const fs = require('fs');
+const hookOld = '        .filter(Boolean)\n    )\n    .filter((lines) => lines.length > 0)';
+const hookNew = hookOld.replace('.filter(Boolean)', '.filter(Boolean)\n        .filter((line) => !line.startsWith("#"))');
+let g = fs.readFileSync('tools/generate.js','utf8');
+fs.writeFileSync('tools/generate.js', g.replace(hookOld, hookNew));
+console.log('FIX 1 done');
+let q = fs.readFileSync('tools/lib/qa.js','utf8');
+fs.writeFileSync('tools/lib/qa.js', q.replace(hookOld, hookNew));
+console.log('FIX 2 done');
+console.log('FIX 3+4: see README');
