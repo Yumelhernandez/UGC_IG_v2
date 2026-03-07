@@ -1,8 +1,8 @@
 {
   "video_id": "2026-03-06-003",
   "meta": {
-    "theme": "fitness",
-    "duration_s": 22.8,
+    "theme": "casual",
+    "duration_s": 19.5,
     "spice_tier": "high",
     "controversy_tier": "edge",
     "format": "D",
@@ -10,22 +10,22 @@
     "punchline_style": "list_reveal",
     "conversation_mode": "pair_isolated",
     "use_beat_conditioned_overlays": true,
-    "girl_archetype": "matching_energy",
+    "girl_archetype": "hostile",
     "app_insert_policy": "required",
-    "opener_intensity": "provocative",
+    "opener_intensity": "neutral",
     "first_reaction_type": "confusion",
-    "first_reaction_words": 1,
+    "first_reaction_words": 2,
     "beat_plan": {
-      "inciting_incident": "Im suing you for emotional damages my gym membership feels useless now",
-      "first_reaction": "membership?",
-      "hook": "Im suing you for emotional damages my gym membership feels useless now",
-      "test": "membership?",
-      "escalation_turn": "interesting talk for someone doing runway laps on a random path",
-      "escalation": "interesting talk for someone doing runway laps on a random path",
-      "shift": "u watching my form a lil too hard",
-      "close": "not for me 😭",
-      "shareable_moment": "shut up that was kinda good😭",
-      "pre_close_tension": "you already know why",
+      "inciting_incident": "I already told our kids this is the car theyre not driving",
+      "first_reaction": "wait what😭",
+      "hook": "I already told our kids this is the car theyre not driving",
+      "test": "wait what😭",
+      "escalation_turn": "so we skipping the small talk?",
+      "escalation": "so we skipping the small talk?",
+      "shift": "you keep poking, do better",
+      "close": "nah i'm good 😭",
+      "shareable_moment": "red crop top fertility spell, i dont make rules",
+      "pre_close_tension": "drinks friday. you're gonna love this place",
       "required_markers": [
         "hook",
         "test",
@@ -191,8 +191,7 @@
       "In between messages/turtle_character_scene_reaction_turtle_scene_meme_clip_3.mp4"
     ],
     "qa_signals": {
-      "pushback_opener_weak": true,
-      "timing_gap_large": true
+      "pushback_opener_weak": true
     },
     "format_variant": "standard",
     "hook_type": "callback_opener",
@@ -212,16 +211,16 @@
     "verifier_passed": true
   },
   "beat_plan": {
-    "inciting_incident": "Im suing you for emotional damages my gym membership feels useless now",
-    "first_reaction": "membership?",
-    "hook": "Im suing you for emotional damages my gym membership feels useless now",
-    "test": "membership?",
-    "escalation_turn": "interesting talk for someone doing runway laps on a random path",
-    "escalation": "interesting talk for someone doing runway laps on a random path",
-    "shift": "u watching my form a lil too hard",
-    "close": "not for me 😭",
-    "shareable_moment": "shut up that was kinda good😭",
-    "pre_close_tension": "you already know why",
+    "inciting_incident": "I already told our kids this is the car theyre not driving",
+    "first_reaction": "wait what😭",
+    "hook": "I already told our kids this is the car theyre not driving",
+    "test": "wait what😭",
+    "escalation_turn": "so we skipping the small talk?",
+    "escalation": "so we skipping the small talk?",
+    "shift": "you keep poking, do better",
+    "close": "nah i'm good 😭",
+    "shareable_moment": "red crop top fertility spell, i dont make rules",
+    "pre_close_tension": "drinks friday. you're gonna love this place",
     "required_markers": [
       "hook",
       "test",
@@ -233,82 +232,82 @@
   },
   "beats": {
     "pushback_index": 0,
-    "reveal_index": 9,
-    "win_index": 18,
-    "shareable_index": 6,
-    "reveal_line": "interesting talk for someone doing runway laps on a random path"
+    "reveal_index": 7,
+    "win_index": 16,
+    "shareable_index": 5,
+    "reveal_line": "so we skipping the small talk?"
   },
   "hook": {
     "mode": "media",
     "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
-    "headline": "Shooting a risky shot",
-    "subtitle": "*bold moves only*"
+    "headline": "This man is BOLD 💀",
+    "subtitle": "*watch closely*"
   },
   "stinger": {
     "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
   },
   "story": {
-    "username": "chloe",
-    "age": 22,
-    "caption": "gym flow",
-    "asset": "baddies/8456cdd3d28c0cd7a9a210b90422ae6b.jpg"
+    "username": "raven",
+    "age": 21,
+    "caption": "late plans",
+    "asset": "baddies/ca15c6966272658abaa9a455286b21f4.jpg"
   },
   "reply": {
     "from": "boy",
-    "text": "Im suing you for emotional damages my gym membership feels useless now"
+    "text": "I already told our kids this is the car theyre not driving"
   },
   "persona": {
     "boy": {
-      "name": "Marcus",
-      "age": 23,
-      "tone": "smooth"
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
     },
     "girl": {
-      "name": "Chloe",
-      "age": 22,
-      "tone": "matching_energy"
+      "name": "Raven",
+      "age": 21,
+      "tone": "hostile"
     }
   },
   "messages": [
     {
       "from": "girl",
-      "text": "membership?",
-      "type_at": 1.8,
+      "text": "wait what😭",
+      "type_at": 1.5,
       "response_type": "challenge"
     },
     {
       "from": "boy",
       "text": "i got 3 things for you — 1. my time, 2. my energy, 3. ur number",
-      "type_at": 2.3,
+      "type_at": 2,
       "response_type": "test"
     },
     {
       "from": "girl",
       "text": "lmao ok that was smooth😭",
-      "type_at": 2.8,
+      "type_at": 2.6,
       "response_type": "concession"
     },
     {
       "from": "boy",
-      "text": "them blue leggings got my treadmill in shambles rn",
-      "type_at": 3.3,
+      "text": "our kids already grounded from that car btw",
+      "type_at": 3.1,
       "response_type": "test"
     },
     {
       "from": "girl",
-      "text": "my treadmill doing more than u tho 👀",
-      "type_at": 3.8,
+      "text": "who said ur getting kids outta me 💀",
+      "type_at": 3.6,
       "response_type": "dismissal"
     },
     {
       "from": "boy",
-      "text": "my treadmill dont run in circles thinking bout you",
-      "type_at": 4.3,
+      "text": "red crop top fertility spell, i dont make rules",
+      "type_at": 4.2,
       "response_type": "test"
     },
     {
       "from": "girl",
-      "text": "shut up that was kinda good😭",
+      "text": "shut yo delulu ass up😭",
       "type_at": 4.8,
       "response_type": "dismissal"
     },
@@ -316,72 +315,60 @@
       "from": "boy",
       "text": "so we skipping the small talk?",
       "type_at": 5.3,
-      "response_type": "test"
-    },
-    {
-      "from": "girl",
-      "text": "that is a lot of confidence",
-      "type_at": 5.9,
-      "response_type": "dismissal"
-    },
-    {
-      "from": "boy",
-      "text": "interesting talk for someone doing runway laps on a random path",
-      "type_at": 6.4,
       "response_type": "tease"
     },
     {
       "from": "girl",
-      "text": "u watching my form a lil too hard",
-      "type_at": 6.9,
+      "text": "you keep poking, do better",
+      "type_at": 5.8,
       "response_type": "dismissal"
     },
     {
       "from": "boy",
-      "text": "nah i just saw my gym card burst into flames💀",
-      "type_at": 8.6,
+      "text": "means you like quality, i qualify lowkey",
+      "type_at": 7.2,
       "response_type": "test"
     },
     {
       "from": "girl",
-      "text": "bro what is actually wrong with u",
-      "type_at": 10.4,
+      "text": "bold words for a stranger rn",
+      "type_at": 9,
       "response_type": "dismissal"
     },
     {
       "from": "boy",
-      "text": "chronic condition called \"saw you jog once\" no cure😮‍💨",
-      "type_at": 12,
+      "text": "stranger trynna upgrade from viewer to passenger seat",
+      "type_at": 10.7,
       "response_type": "condition"
     },
     {
       "from": "girl",
-      "text": "go see a doctor then pls💀",
-      "type_at": 13.9,
+      "text": "ur not touching this wheel bro💀 😳",
+      "type_at": 11.9,
       "response_type": "condition"
     },
     {
       "from": "boy",
-      "text": "bet, let me prove it",
-      "type_at": 16.2,
+      "text": "cool i just sit there and look pretty then",
+      "type_at": 14,
       "response_type": "condition"
     },
     {
       "from": "girl",
-      "text": "try harder, still no",
-      "type_at": 17.7,
+      "text": "ur confidence is insane😭",
+      "type_at": 15.1,
       "response_type": "condition"
     },
     {
       "from": "boy",
-      "text": "you already know why",
-      "type_at": 20,
+      "text": "drinks friday. you're gonna love this place",
+      "type_at": 17.2,
       "response_type": "condition"
     },
     {
       "from": "girl",
-      "text": "not for me 😭",
-      "type_at": 21.5,
+      "text": "nah i'm good 😭",
+      "type_at": 18.4,
       "response_type": "dismissal"
     }
   ],

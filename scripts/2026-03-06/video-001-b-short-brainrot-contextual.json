@@ -1,7 +1,7 @@
 {
   "video_id": "2026-03-06-001",
   "meta": {
-    "theme": "beach",
+    "theme": "mirror",
     "duration_s": 20,
     "spice_tier": "high",
     "controversy_tier": "edge",
@@ -12,18 +12,18 @@
     "brainrot_typo_line": null,
     "brainrot_typo_word": null,
     "brainrot_score": 10,
-    "brainrot_recontext_score": 1,
+    "brainrot_recontext_score": 1.5,
     "brainrot_warnings": [],
     "conversation_mode": "cumulative",
     "app_insert_policy": "required",
-    "girl_archetype": "hostile",
+    "girl_archetype": "playing_hard_to_get",
     "beat_plan": {
-      "inciting_incident": "i drafted a foliage prevention letter for that vine",
-      "first_reaction": "i cleared one for your ivy rank",
-      "escalation_turn": "charles notairzd aquatics weekly near the path",
-      "disruption": "say less",
-      "chaos_drop": "jake over at finance issued a vehicle registration notice",
-      "shareable_moment": "i approved jake’s vine memoranda in april",
+      "inciting_incident": "security footage analyzed your reflection anomaly at section 9F",
+      "first_reaction": "i scheduled reflection viewings for mondays now",
+      "escalation_turn": "reaction metrics show compliance rthersholds attained inarguably",
+      "disruption": "what??",
+      "chaos_drop": "linda settled the lawn citation by thursday",
+      "shareable_moment": "linda swapped methods last november with me dauerhaft",
       "resolution_type": "recontextualization",
       "required_markers": [
         "disruption_cue",
@@ -186,6 +186,9 @@
       "In between messages/turtle_character_scene_reaction_turtle_scene_meme_clip_2.mp4",
       "In between messages/turtle_character_scene_reaction_turtle_scene_meme_clip_3.mp4"
     ],
+    "qa_signals": {
+      "pushback_opener_weak": true
+    },
     "hook_type": "compliment_opener",
     "payoff_type": "number_drop",
     "template_id": "T-01",
@@ -203,12 +206,12 @@
     "verifier_passed": true
   },
   "beat_plan": {
-    "inciting_incident": "i drafted a foliage prevention letter for that vine",
-    "first_reaction": "i cleared one for your ivy rank",
-    "escalation_turn": "charles notairzd aquatics weekly near the path",
-    "disruption": "say less",
-    "chaos_drop": "jake over at finance issued a vehicle registration notice",
-    "shareable_moment": "i approved jake’s vine memoranda in april",
+    "inciting_incident": "security footage analyzed your reflection anomaly at section 9F",
+    "first_reaction": "i scheduled reflection viewings for mondays now",
+    "escalation_turn": "reaction metrics show compliance rthersholds attained inarguably",
+    "disruption": "what??",
+    "chaos_drop": "linda settled the lawn citation by thursday",
+    "shareable_moment": "linda swapped methods last november with me dauerhaft",
     "resolution_type": "recontextualization",
     "required_markers": [
       "disruption_cue",
@@ -219,63 +222,63 @@
   "hook": {
     "mode": "media",
     "asset": "Hooks/Happy Nba Finals GIF by NBA.mp4",
-    "headline": "Bro is absolutely unhinged 💀",
-    "subtitle": "*she had no chance*"
+    "headline": "Bro really don't care 😮‍💨",
+    "subtitle": "*we are all in*"
   },
   "stinger": {
     "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
   },
   "story": {
-    "username": "amara",
-    "age": 20,
-    "caption": "sun glow",
-    "asset": "baddies/de839f985ba05b710d8d0ce5ab01a424.jpg"
+    "username": "destiny",
+    "age": 21,
+    "caption": "gym mirror",
+    "asset": "baddies/54d1ea78b7e5b9df6cf2b53314c3c2a2.jpg"
   },
   "reply": {
     "from": "boy",
-    "text": "i drafted a foliage prevention letter for that vine"
+    "text": "security footage analyzed your reflection anomaly at section 9F"
   },
   "persona": {
     "boy": {
-      "name": "Marcus",
-      "age": 23,
-      "tone": "smooth"
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
     },
     "girl": {
-      "name": "Amara",
-      "age": 20,
-      "tone": "hostile"
+      "name": "Destiny",
+      "age": 21,
+      "tone": "playing_hard_to_get"
     }
   },
   "messages": [
     {
       "from": "girl",
-      "text": "i cleared one for your ivy rank",
+      "text": "i scheduled reflection viewings for mondays now",
       "type_at": 1.6,
       "response_type": "challenge"
     },
     {
       "from": "boy",
-      "text": "charles notairzd aquatics weekly near the path",
-      "type_at": 4.2,
+      "text": "reaction metrics show compliance rthersholds attained inarguably",
+      "type_at": 4.6,
       "response_type": "tease"
     },
     {
       "from": "girl",
-      "text": "say less",
-      "type_at": 6.7,
+      "text": "what??",
+      "type_at": 7.6,
       "response_type": "tease"
     },
     {
       "from": "boy",
-      "text": "jake over at finance issued a vehicle registration notice",
-      "type_at": 9.3,
+      "text": "linda settled the lawn citation by thursday",
+      "type_at": 10.6,
       "response_type": "tease"
     },
     {
       "from": "girl",
-      "text": "i approved jake’s vine memoranda in april",
-      "type_at": 11.9,
+      "text": "linda swapped methods last november with me dauerhaft",
+      "type_at": 13.6,
       "response_type": "close"
     }
   ],
