@@ -82,35 +82,36 @@ export const CLIP_OVERLAYS_MEDIUM = [
   "no way 💀", "she's intrigued now", "he's not playing around", "the rizz is real"
 ];
 export const CLIP_OVERLAYS_HIGH = [
-  "bro is UNHINGED 💀", "this is chaos", "no way he said that 😭",
-  "she just too innocent gng", "bro is wild for this", "she's done 😭",
-  "he snapped fr", "nah he's crazy", "this man is bold 💀",
+  "bro is UNHINGED", "this is chaos", "no way he said that",
+  "she just too innocent gng", "bro is wild for this", "she's done",
+  "he snapped fr", "nah he's crazy", "this man is bold",
   "she can't handle it", "absolutely unhinged", "he said WHAT"
 ];
 export const CLIP_OVERLAYS_BEAT_PUSHBACK = [
-  "watch him recover", "let him cook", "he went in 💀", "bold move gng",
-  "she pushed back hard", "he's not moving", "nah he held it down",
-  "she tested him fr", "he didn't flinch", "she thought she won",
-  "pressure test 💀", "wait... one more try"
+  "let him cook", "bold move gng", "she's not having it",
+  "he's not backing down", "she tested him fr", "he didn't flinch",
+  "she thought she won", "pressure test", "he held his ground",
+  "watch him work", "she's tough gng", "not giving up"
 ];
 export const CLIP_OVERLAYS_BEAT_ESCALATION = [
-  "get ready we spicing things up", "this got spicy real quick",
-  "nah that's crazy", "plot twist incoming", "she's warming up to him",
-  "he's not stopping", "things getting real now", "she felt that one 😭",
-  "he turned it up gng", "she can't ignore this", "bro is on one fr",
-  "things just shifted"
+  "things getting real now", "he turned it up gng",
+  "she can't ignore this", "bro is on one fr",
+  "nah that's crazy", "he's not stopping", "the energy shifted",
+  "she felt that one", "he cooked that", "getting closer",
+  "the tension is real", "he's locked in rn"
 ];
 export const CLIP_OVERLAYS_BEAT_SHIFT = [
-  "moment of truth", "wait for it...", "here we go gng", "game just changed",
-  "she's switching up now", "he got through to her", "she's different now 😭",
+  "wait for it", "she's cracking", "game just changed",
+  "she's switching up now", "he got through to her",
   "the turn", "she actually felt that", "he flipped it on her",
-  "something just changed", "pay attention now gng"
+  "something just changed", "she's fighting it but losing",
+  "moment of truth gng", "she can't hold it"
 ];
 export const CLIP_OVERLAYS_BEAT_CLOSE = [
-  "she's caving 😭", "here it comes gng", "lock in", "don't fumble this",
-  "he's almost there", "she's folding", "don't blow it now",
-  "finish strong gng", "so close 💀", "he sealed it",
-  "she gave in fr", "that's the bag 🏆"
+  "she's done", "don't fumble this", "he's almost there",
+  "she's folding", "finish strong gng", "so close",
+  "he sealed it", "she gave in fr", "that's the bag",
+  "mission complete gng", "he really did that", "locked in"
 ];
 export const STINGER_ONE_GIF = "Take That Ronaldo GIF by Lucas.gif";
 export const STINGER_ONE_DURATION_S = 2.0;

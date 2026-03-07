@@ -14,7 +14,9 @@ export const ClipWithOverlay: React.FC<{
   src: string;
   overlayText?: string;
   fit?: "cover" | "contain";
-}> = ({ src, overlayText, fit = "cover" }) => {
+  hasBakedText?: boolean;
+}> = ({ src, overlayText, fit = "cover", hasBakedText }) => {
+  const clipHasBakedText = hasBakedText || (src && (src.includes("quote_card") || src.includes("quote_reaction")));
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const isVideo = /\.(mp4|mov|m4v|webm)$/i.test(src);
@@ -59,6 +61,10 @@ export const ClipWithOverlay: React.FC<{
           }}
         />
       )}
+      {/* Black bar to cover baked-in text */}
+      {clipHasBakedText ? (
+        <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "22%", background: "linear-gradient(180deg, #0b0d12 0%, #0b0d12 70%, rgba(11,13,18,0) 100%)", zIndex: 1 }} />
+      ) : null}
       {overlayText ? (
         <>
           <div
@@ -80,7 +86,7 @@ export const ClipWithOverlay: React.FC<{
             <div
               style={{
                 color: "#f9fafb",
-                fontFamily: "SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif",
+                fontFamily: "SF Pro Display, -apple-system, BlinkMacSystemFont, 'Noto Color Emoji', sans-serif",
                 fontWeight: 800,
                 fontSize: 92,
                 letterSpacing: "-0.8px",
