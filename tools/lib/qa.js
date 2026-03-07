@@ -64,6 +64,8 @@ function parseHookLines(raw) {
         .split(/\n/)
         .map((line) => line.trim())
         .filter(Boolean)
+        // Skip markdown headers and comments (lines starting with #)
+        .filter((line) => !line.startsWith("#"))
     )
     .filter((lines) => lines.length > 0)
     .map((lines) => {

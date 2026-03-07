@@ -1,6 +1,6 @@
 {
   "pushback": {
-    "description": "Girl pushes back, tension rises \u2014 use sports action/intensity clips",
+    "description": "Girl pushes back, tension rises — use sports action/intensity clips",
     "clips": [
       "In between messages/person_reaction_hollup_let_ime_cook_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/person_reaction_who_let_bro_cook_red_tone_short_motion_meme_clip.mp4",
@@ -11,7 +11,7 @@
     ]
   },
   "escalation": {
-    "description": "Boy escalates, energy builds \u2014 use hype/reaction clips",
+    "description": "Boy escalates, energy builds — use hype/reaction clips",
     "clips": [
       "In between messages/person_basketball_quote_card_going_for_the_point_gng_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_going_for_three_point_meme_clip.mp4",
@@ -31,7 +31,7 @@
     ]
   },
   "shift": {
-    "description": "Girl starts to crack \u2014 use reaction/surprise clips",
+    "description": "Girl starts to crack — use reaction/surprise clips",
     "clips": [
       "In between messages/person_reaction_scene_clothing_suit_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_too_much_about_him_meme_clip.mp4",
@@ -69,7 +69,6 @@
       "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_4.mp4",
       "In between messages/person_reaction_one_can_stop_dark_tone_short_motion_meme_clip.mp4",
-      "In between messages/turtle_character_scene_reaction_she_gonna_peg_guys_meme_clip.mp4",
       "In between messages/person_reaction_start_off_strong_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/person_quote_reaction_illustrated_background_mixed_tone_short_motion_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_crowd_outdoor_dark_tone_short_motion_meme_clip.mp4",
@@ -115,7 +114,6 @@
       "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_3.mp4",
       "In between messages/person_reaction_scene_art_decoration_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/person_quote_card_reaction_nothing_complicated_here_gng_meme_clip.mp4",
-      "In between messages/person_quote_card_reaction_shit_im_human_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_crowd_basketball_arena_mixed_tone_short_motion_meme_clip.mp4",
       "In between messages/person_reaction_ref_said_isnt_foul_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_game_game_dont_ban_ref_meme_clip.mp4",
@@ -124,7 +122,6 @@
       "In between messages/basketball_player_basketball_reaction_shawty_got_some_skills_meme_clip.mp4",
       "In between messages/person_basketball_reaction_but_game_game_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_crowd_basketball_gear_dark_tone_short_motion_meme_clip.mp4",
-      "In between messages/turtle_character_scene_reaction_im_getting_pegged_tonight_meme_clip.mp4",
       "In between messages/lebron_james_basketball_reaction_not_gonna_succeed_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_clothing_jeans_mixed_tone_short_motion_meme_clip.mp4",
       "In between messages/lebron_james_basketball_reaction_crowd_hardwood_court_mixed_tone_short_motion_meme_clip.mp4",
@@ -153,13 +150,12 @@
     ]
   },
   "close": {
-    "description": "Boy closes the deal \u2014 use celebration/flirting clips",
+    "description": "Boy closes the deal — use celebration/flirting clips",
     "clips": [
       "In between messages/person_reaction_still_undisputed_champion_dark_tone_short_motion_meme_clip.mp4",
       "In between messages/basketball_player_basketball_reaction_cant_stop_winning_meme_clip.mp4",
       "After 1 message/lets do it flirting GIF.mp4",
       "After 1 message/So Excited Flirting GIF.mp4",
-      "After 1 message/Sexy Teddy Bear GIF.mp4",
       "After 1 message/Celebrate In Love GIF by HBO Max.mp4",
       "After 1 message/Shoot Your Shot Flirt GIF by Milk-Bone.mp4",
       "After 1 message/dm GIF.mp4",
@@ -170,7 +166,7 @@
     ]
   },
   "general": {
-    "description": "Any moment \u2014 versatile clips",
+    "description": "Any moment — versatile clips",
     "clips": [
       "In between messages/stephen_curry_basketball_quote_card_crowd_celebration_mixed_tone_short_motion_meme_clip.mp4",
       "In between messages/stephen_curry_basketball_quote_card_klay_thompson_finding_his_rhythm_meme_clip.mp4",
@@ -199,7 +195,6 @@
       "In between messages/basketball_player_basketball_quote_card_arena_scoreboard_mixed_tone_short_motion_meme_clip.mp4",
       "In between messages/anthony_edwards_basketball_quote_card_anthony_edwards_his_mentality_heading_into_game_meme_clip.mp4",
       "After 1 message/GIF by Chaz French.mp4",
-      "After 1 message/Fuck Yeah Yes GIF by BCZalgirisKaunas.mp4",
       "After 1 message/El Conejo Malo Popcorn GIF by Bad Bunny.mp4"
     ]
   }

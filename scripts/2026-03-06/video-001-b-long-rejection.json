@@ -1,8 +1,8 @@
 {
   "video_id": "2026-03-06-001",
   "meta": {
-    "theme": "mirror",
-    "duration_s": 36.5,
+    "theme": "food",
+    "duration_s": 44.1,
     "spice_tier": "high",
     "controversy_tier": "edge",
     "format": "B",
@@ -11,22 +11,22 @@
     "punchline_style": "numeric_reveal",
     "conversation_mode": "pair_isolated",
     "use_beat_conditioned_overlays": true,
-    "girl_archetype": "confused",
+    "girl_archetype": "warm",
     "app_insert_policy": "required",
-    "opener_intensity": "provocative",
+    "opener_intensity": "neutral",
     "first_reaction_type": "reaction",
-    "first_reaction_words": 1,
+    "first_reaction_words": 5,
     "beat_plan": {
-      "inciting_incident": "I already told my future kids this is why their mom is a menace",
-      "first_reaction": "wdym",
-      "hook": "I already told my future kids this is why their mom is a menace",
-      "test": "wdym",
-      "escalation_turn": "do you like water?",
-      "escalation": "do you like water?",
-      "shift": "yeah why 💀",
+      "inciting_incident": "You know this looks like the part where you accidentally fall for me",
+      "first_reaction": "you sound dangerously snack sized",
+      "hook": "You know this looks like the part where you accidentally fall for me",
+      "test": "you sound dangerously snack sized",
+      "escalation_turn": "interesting to flirt with your own craving",
+      "escalation": "interesting to flirt with your own craving",
+      "shift": "oh really?",
       "close": "not gonna happen 😭",
-      "shareable_moment": "do you like water?",
-      "pre_close_tension": "this weekend. i'll plan everything",
+      "shareable_moment": "interesting to flirt with your own craving",
+      "pre_close_tension": "60% of you is already in this and you haven't even agreed yet",
       "required_markers": [
         "hook",
         "test",
@@ -36,7 +36,7 @@
       ],
       "resolution_type": "rejection"
     },
-    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
     "in_between_assets": [
       "In between messages/anthony_edwards_basketball_quote_card_anthony_edwards_his_mentality_heading_into_game_meme_clip.mp4",
       "In between messages/basketball_player_basketball_quote_card_arena_scoreboard_mixed_tone_short_motion_meme_clip.mp4",
@@ -192,9 +192,10 @@
       "In between messages/turtle_character_scene_reaction_turtle_scene_meme_clip_3.mp4"
     ],
     "qa_signals": {
-      "pushback_opener_weak": true,
-      "reveal_not_punchy": true,
-      "win_time_out_of_window": true
+      "win_time_out_of_window": true,
+      "first_gap_absolute_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 5.8
     },
     "hook_type": "other",
     "payoff_type": "comedic_exit",
@@ -213,16 +214,16 @@
     "verifier_passed": true
   },
   "beat_plan": {
-    "inciting_incident": "I already told my future kids this is why their mom is a menace",
-    "first_reaction": "wdym",
-    "hook": "I already told my future kids this is why their mom is a menace",
-    "test": "wdym",
-    "escalation_turn": "do you like water?",
-    "escalation": "do you like water?",
-    "shift": "yeah why 💀",
+    "inciting_incident": "You know this looks like the part where you accidentally fall for me",
+    "first_reaction": "you sound dangerously snack sized",
+    "hook": "You know this looks like the part where you accidentally fall for me",
+    "test": "you sound dangerously snack sized",
+    "escalation_turn": "interesting to flirt with your own craving",
+    "escalation": "interesting to flirt with your own craving",
+    "shift": "oh really?",
     "close": "not gonna happen 😭",
-    "shareable_moment": "do you like water?",
-    "pre_close_tension": "this weekend. i'll plan everything",
+    "shareable_moment": "interesting to flirt with your own craving",
+    "pre_close_tension": "60% of you is already in this and you haven't even agreed yet",
     "required_markers": [
       "hook",
       "test",
@@ -235,96 +236,108 @@
   "beats": {
     "pushback_index": 0,
     "reveal_index": 3,
-    "win_index": 8,
+    "win_index": 10,
     "shareable_index": 3,
-    "reveal_line": "You huh but your chaos feeding my bloodline"
+    "reveal_line": "interesting to flirt with your own craving"
   },
   "hook": {
     "mode": "media",
-    "asset": "Hooks/los angeles lakers basketball GIF by NBA.mp4",
-    "headline": "He snapped on her fr 😭",
-    "subtitle": "*no coming back*"
+    "asset": "Hooks/Viral_video_31__clip_016.mp4",
+    "headline": "## TIER 1 — Proven viral patterns (use most often)",
+    "subtitle": ""
   },
   "stinger": {
     "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
   },
   "story": {
-    "username": "layla",
+    "username": "kai",
     "age": 19,
-    "caption": "casual day",
-    "asset": "baddies/33311c47ac26ee42bd1625eb5ed30eee.jpg"
+    "caption": "midnight snack",
+    "asset": "baddies/ed406621a33e89a483e3afedd4d7ee7e.jpg"
   },
   "reply": {
     "from": "boy",
-    "text": "I already told my future kids this is why their mom is a menace"
+    "text": "You know this looks like the part where you accidentally fall for me"
   },
   "persona": {
     "boy": {
-      "name": "Marcus",
-      "age": 23,
-      "tone": "smooth"
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
     },
     "girl": {
-      "name": "Layla",
+      "name": "Kai",
       "age": 19,
-      "tone": "confused"
+      "tone": "warm"
     }
   },
   "messages": [
     {
       "from": "girl",
-      "text": "wdym",
-      "type_at": 5.1,
+      "text": "you sound dangerously snack sized",
+      "type_at": 3.5,
       "response_type": "challenge"
     },
     {
       "from": "boy",
-      "text": "about that casual, cardigan and bikini is wild combo, my future kids",
-      "type_at": 7.6,
+      "text": "you want bold, ill show it",
+      "type_at": 9.3,
       "response_type": "test"
     },
     {
       "from": "girl",
-      "text": "nah",
-      "type_at": 10.7,
+      "text": "ur actually insane 😭",
+      "type_at": 12.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "interesting to flirt with your own craving",
+      "type_at": 15.9,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "oh really?",
+      "type_at": 18.4,
       "response_type": "dismissal"
     },
     {
       "from": "boy",
       "text": "do you like water?",
-      "type_at": 13.3,
-      "response_type": "tease"
+      "type_at": 20.9,
+      "response_type": "test"
     },
     {
       "from": "girl",
       "text": "yeah why 💀",
-      "type_at": 15.8,
+      "type_at": 24.8,
       "response_type": "dismissal"
     },
     {
       "from": "boy",
       "text": "so you already like 73% of me",
-      "type_at": 19.1,
-      "response_type": "test"
+      "type_at": 28.3,
+      "response_type": "condition"
     },
     {
       "from": "girl",
       "text": "lmao no😭",
-      "type_at": 23.8,
+      "type_at": 32.3,
       "response_type": "condition"
     },
     {
       "from": "boy",
-      "text": "this weekend. i'll plan everything",
-      "type_at": 28.6,
+      "text": "60% of you is already in this and you haven't even agreed yet",
+      "type_at": 36.4,
       "response_type": "condition"
     },
     {
       "from": "girl",
       "text": "not gonna happen 😭",
-      "type_at": 32.8,
+      "type_at": 40.8,
       "response_type": "dismissal"
     }
   ],
-  "tiktok_caption": "she pushed back and he didn't flinch 😮‍💨 #rizzgod #texts #dating #takenotes #texting"
+  "tiktok_caption": "nah this is crazy 😮‍💨 #rizzgod #texts #dating #takenotes #rizzler"
 }
