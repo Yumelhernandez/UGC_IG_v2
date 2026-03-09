@@ -78,10 +78,8 @@ function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAs
 
     for (const clip of availableClips) {
       if (used.has(clip.file)) continue;
-      // Skip baked-text clips in non-first positions (they're distracting mid-convo)
-      if (clip.has_baked_text && selected.length > 0 && selected.length < numClips - 1) {
-        // Allow some baked-text clips but penalize
-      }
+      // HARD SKIP baked-text clips — they clash with our overlay text
+      if (clip.has_baked_text) continue;
 
       let score = 0;
 
@@ -98,7 +96,7 @@ function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAs
 
       // TERTIARY: type preference (reactions > quote_cards for mid-convo)
       if (clip.type === 'reaction' || clip.type === 'gif_reaction') score += 1;
-      if (clip.type === 'quote_card' && clip.has_baked_text) score -= 1; // baked text can clash
+      // baked_text clips are hard-skipped above — no penalty needed
 
       // BONUS: enriched fields if they exist
       const emotion = (clip.emotion || '').toLowerCase();

@@ -344,9 +344,9 @@
     "sustained_metaphor": {
       "themes": [
         { "metaphor": "criminal", "escalations": ["stole my attention", "stole my focus", "now you owe time"] },
-        { "metaphor": "court_case", "escalations": ["exhibit A your story", "exhibit B that smile", "the jury already decided"] },
         { "metaphor": "food_order", "escalations": ["you look like a whole meal", "appetizer was your story", "main course is this conversation"] },
         { "metaphor": "sports", "escalations": ["you just crossed me up", "now you’re running the score", "game over i lost"] },
+        { "metaphor": "weather", "escalations": ["you brought the heat", "now its a whole storm", "and i’m not running from it"] },
         { "metaphor": "school", "escalations": ["you’re teaching a masterclass", "i’m taking notes rn", "when’s the final exam"] },
         { "metaphor": "music", "escalations": ["your story was the intro", "this conversation is the hook", "the bridge is friday night"] }
       ]

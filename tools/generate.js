@@ -40,6 +40,12 @@ const { pickBlueprint: pickEdgyBlueprint } = require("./lib/edgy-boy-blueprints"
 
 const VIRAL_UI_ARTIFACT_RE = /\b(?:left|right)\s+bubble\b|\bcolor:\b|\bstory image\b|\bthumbnail\b/i;
 
+// Strip emojis from hook headlines — competitors never use emojis in hook text
+const EMOJI_RE = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{200D}\u{20E3}\u{E0020}-\u{E007F}]/gu;
+function stripEmojis(text) {
+  return (text || "").replace(EMOJI_RE, "").replace(/\s{2,}/g, " ").trim();
+}
+
 function hasViralUiArtifact(text) {
   return VIRAL_UI_ARTIFACT_RE.test(String(text || ""));
 }
@@ -2171,7 +2177,7 @@ function evaluateScriptQuality({ replyText, messages, maxChars, girlName, format
       if (wordCount > girlWordLimit) reasons.push(`girl line too long ${index}`);
     }
     if (message.from === "boy") {
-      if (wordCount > 14) reasons.push(`boy line too long ${index}`);
+      if (wordCount > 10) reasons.push(`boy line too long ${index}`);
     }
     if (message.from === "boy" && girlName && containsName(cleaned, girlName)) {
       reasons.push(`boy line uses girl name ${index}`);
@@ -5085,7 +5091,7 @@ async function buildScript({
       const hook = {
         mode: "media",
         asset: hookAsset,
-        headline: hookLine.headline || "",
+        headline: stripEmojis(hookLine.headline || ""),
         subtitle: hookLine.subtitle || ""
       };
       const stingerAsset =
@@ -5937,7 +5943,14 @@ async function buildScript({
         beat_plan: beatPlan,
         ...(audioTrack ? { audio_track: audioTrack } : {}),
         ...(Array.isArray(inBetweenAssets) && inBetweenAssets.length > 0
-          ? { in_between_assets: inBetweenAssets }
+          ? { in_between_assets: selectClipsForConversation({
+              messages: timedMessages,
+              beats: resolvedBeats,
+              clipMetadata,
+              inBetweenAssets,
+              rng,
+              arcType
+            }) }
           : {})
       },
       beat_plan: beatPlan,
