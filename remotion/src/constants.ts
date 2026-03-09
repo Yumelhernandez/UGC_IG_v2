@@ -113,7 +113,7 @@ export const CLIP_OVERLAYS_BEAT_CLOSE = [
   "he sealed it", "she gave in fr", "that's the bag",
   "mission complete gng", "he really did that", "locked in"
 ];
-export const STINGER_ONE_GIF = "Take That Ronaldo GIF by Lucas.gif";
+export const STINGER_ONE_GIF = "After 1 message/GIF by Chaz French.mp4";
 export const STINGER_ONE_DURATION_S = 2.0;
 // Victory celebration stinger — mandatory at end of every video (confirmed in 42% of 104 viral breakdowns)
 export const WIN_CELEBRATION_ASSETS = [

@@ -187,8 +187,24 @@ const pickMandatoryOverlayForShot = ({
   return "WATCH THIS";
 };
 
-const isBannedStinger = (src: string) =>
-  src.endsWith("/Basketball Shooting GIF.gif") || src === "Basketball Shooting GIF.gif";
+// Ban low-resolution stinger clips that look terrible when upscaled to 1080x1920.
+// These GIF-to-MP4 conversions (250x200, 252x190, etc.) flicker and pixelate.
+const BANNED_STINGER_NAMES = [
+  "Basketball Shooting GIF",
+  "Barney Stinson Flirting GIF",
+  "jack nicholson smile GIF",
+  "Kobe Bryant Basketball GIF",
+  "mine the revenant GIF",
+  "So Excited Flirting GIF",
+  "lets do it flirting GIF",
+  "Im Ready Lets Go GIF",
+  "Lets Go Undress GIF by Paxeros",
+  "Come Here Lets Go GIF by The Late Late Show",
+];
+const isBannedStinger = (src: string) => {
+  const normalized = src.replace(/\\/g, "/").toLowerCase();
+  return BANNED_STINGER_NAMES.some(name => normalized.includes(name.toLowerCase()));
+};
 
 const shouldContainFit = (src: string) => {
   const normalized = src.replace(/\\/g, "/").toLowerCase();
