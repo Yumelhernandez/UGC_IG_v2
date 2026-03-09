@@ -1,6 +1,19 @@
 const path = require('path');
 
-function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAssets, rng, count }) {
+/**
+ * Select B-roll clips that match the conversation's emotional arc.
+ *
+ * Uses beat_category from clip_metadata.json (enriched from clip_categories.json):
+ *   pushback → girl pushes back, tension rises
+ *   escalation → boy escalates, energy builds
+ *   shift → girl starts to crack
+ *   close → boy closes the deal, celebration
+ *   general → versatile, any moment
+ *
+ * Also factors in: clip type (reaction vs quote_card), energy, has_baked_text.
+ */
+function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAssets, rng, count, arcType }) {
+  // Fallback: random shuffle if no metadata
   if (!clipMetadata || !clipMetadata.length || !messages || !messages.length) {
     const shuffled = [...inBetweenAssets];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -15,6 +28,7 @@ function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAs
   const winIdx = beats && Number.isFinite(beats.win_index) ? beats.win_index : messages.length - 1;
   const numClips = count || Math.min(6, Math.max(3, Math.floor(messages.length / 2)));
 
+  // Build clip slots based on conversation position
   const slots = [];
   for (let i = 0; i < numClips; i++) {
     const position = i / numClips;
@@ -22,30 +36,38 @@ function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAs
     const msg = messages[msgIdx];
     const text = (msg && msg.text || '').toLowerCase();
 
-    let emotionNeeds = [];
-    let stage = 'escalation';
+    let stage = 'general';
+    let preferEnergy = 'medium';
 
     if (msgIdx <= pushbackIdx + 1) {
       stage = 'pushback';
-      emotionNeeds = ['tense', 'confrontational', 'focused', 'pressure', 'intense', 'defensive'];
+      preferEnergy = 'high';
     } else if (msgIdx < revealIdx) {
       stage = 'escalation';
-      emotionNeeds = ['determined', 'building', 'strategic', 'aggressive', 'confident', 'competitive'];
+      preferEnergy = 'high';
     } else if (msgIdx < winIdx) {
       stage = 'shift';
-      emotionNeeds = ['impressed', 'surprised', 'cracking', 'turning', 'amused', 'knowing', 'satisfied'];
+      preferEnergy = 'medium';
     } else {
       stage = 'close';
-      emotionNeeds = ['victorious', 'celebrating', 'champion', 'triumphant', 'smooth'];
+      preferEnergy = 'high';
     }
 
-    if (text.includes('pray') || text.includes('please')) emotionNeeds.push('praying', 'hoping');
-    if (text.includes('\ud83d\udc80') || text.includes('what') || text.includes('excuse')) emotionNeeds.push('shocked', 'disbelief');
-    if (text.includes('\ud83d\ude2d') || text.includes('lmao') || text.includes('smooth')) emotionNeeds.push('laughing', 'amused', 'impressed');
-    if (text.includes('no') || text.includes('nah') || text.includes('pass')) emotionNeeds.push('defeated', 'rejected');
+    // Cliffhanger arcs: last clip should NOT be celebratory
+    if (arcType === 'cliffhanger' && i === numClips - 1) {
+      stage = 'general';
+      preferEnergy = 'medium';
+    }
 
-    slots.push({ stage, emotionNeeds, msgIdx });
+    slots.push({ stage, preferEnergy, msgIdx, text });
   }
+
+  // Filter clips to only those available on disk
+  const availableSet = new Set(inBetweenAssets.map(a => path.basename(a).replace(/\.mp4$/i, '')));
+  const availableClips = clipMetadata.filter(clip => {
+    const fname = (clip.file || '').replace(/\.mp4$/i, '');
+    return availableSet.has(fname) || inBetweenAssets.some(a => a.includes(clip.file));
+  });
 
   const used = new Set();
   const selected = [];
@@ -54,25 +76,38 @@ function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAs
     let bestClip = null;
     let bestScore = -1;
 
-    for (const clip of clipMetadata) {
-      if (!inBetweenAssets.some(a => a.includes(clip.file))) continue;
+    for (const clip of availableClips) {
       if (used.has(clip.file)) continue;
-      if ((clip.best_moment || '').includes('DO NOT USE')) continue;
-
-      let score = 0;
-      const emotion = (clip.emotion || '').toLowerCase();
-      const bestMoment = (clip.best_moment || '').toLowerCase();
-
-      if (bestMoment.includes(slot.stage)) score += 3;
-      if (clip.beat_category === slot.stage) score += 2;
-
-      for (const need of slot.emotionNeeds) {
-        if (emotion.includes(need)) score += 2;
-        if (bestMoment.includes(need)) score += 1;
+      // Skip baked-text clips in non-first positions (they're distracting mid-convo)
+      if (clip.has_baked_text && selected.length > 0 && selected.length < numClips - 1) {
+        // Allow some baked-text clips but penalize
       }
 
+      let score = 0;
+
+      // PRIMARY: beat_category match (strongest signal)
+      if (clip.beat_category === slot.stage) score += 5;
+      // Adjacent beat is OK (escalation clip for shift slot)
+      if (clip.beat_category === 'general') score += 1;
+      if (slot.stage === 'shift' && clip.beat_category === 'escalation') score += 2;
+      if (slot.stage === 'escalation' && clip.beat_category === 'shift') score += 2;
+
+      // SECONDARY: energy match
+      if (clip.energy === slot.preferEnergy) score += 2;
+      if (clip.energy === 'high' && slot.preferEnergy === 'high') score += 1; // bonus for high-high
+
+      // TERTIARY: type preference (reactions > quote_cards for mid-convo)
+      if (clip.type === 'reaction' || clip.type === 'gif_reaction') score += 1;
+      if (clip.type === 'quote_card' && clip.has_baked_text) score -= 1; // baked text can clash
+
+      // BONUS: enriched fields if they exist
+      const emotion = (clip.emotion || '').toLowerCase();
+      const bestMoment = (clip.best_moment || '').toLowerCase();
+      if (bestMoment.includes(slot.stage)) score += 3;
       if (clip.description && clip.description.length > 30) score += 1;
-      score += rng() * 0.5;
+
+      // Randomness to avoid always picking the same clips
+      score += rng() * 1.5;
 
       if (score > bestScore) {
         bestScore = score;
@@ -84,6 +119,7 @@ function selectClipsForConversation({ messages, beats, clipMetadata, inBetweenAs
       selected.push(bestClip.path || ('In between messages/' + bestClip.file));
       used.add(bestClip.file);
     } else {
+      // Fallback: pick any unused clip
       const unused = inBetweenAssets.filter(a => !used.has(path.basename(a)));
       if (unused.length) {
         const pick = unused[Math.floor(rng() * unused.length)];

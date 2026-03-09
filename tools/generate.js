@@ -33,6 +33,7 @@ const {
   startSlotContext,
   abortSlotContext
 } = require("./lib/llm");
+const { selectClipsForConversation } = require("./lib/clip-selector");
 const { validateScript } = require("./lib/qa");
 const { scoreScript: edgyScoreScript, batchSummary: edgyBatchSummary } = require("./lib/edgy-boy-harness");
 const { pickBlueprint: pickEdgyBlueprint } = require("./lib/edgy-boy-blueprints");
@@ -5138,7 +5139,14 @@ async function buildScript({
           beat_plan: brainrotBeatPlan,
           ...(audioTrack ? { audio_track: audioTrack } : {}),
           ...(Array.isArray(inBetweenAssets) && inBetweenAssets.length > 0
-            ? { in_between_assets: inBetweenAssets }
+            ? { in_between_assets: selectClipsForConversation({
+                messages: brainrotResult.messages || [],
+                beats: brainrotBeatPlan,
+                clipMetadata,
+                inBetweenAssets,
+                rng,
+                arcType
+              }) }
             : {})
         },
         beat_plan: brainrotBeatPlan,
@@ -6220,6 +6228,14 @@ async function run() {
   const shuffledHookAssets = hookAssets.length ? shuffleWithRng(hookAssets, hookRng) : hookAssets;
   const stingerAssets = resolveMediaAssets(rootDir, "After 1 message");
   const inBetweenAssets = resolveMediaAssets(rootDir, "In between messages");
+  // Load clip metadata for beat-matched clip selection
+  let clipMetadata = [];
+  try {
+    clipMetadata = JSON.parse(fs.readFileSync(path.join(rootDir, "clip_metadata.json"), "utf8"));
+    console.log(`[clips] Loaded ${clipMetadata.length} clip metadata entries (${clipMetadata.filter(c => c.beat_category).length} with beat_category)`);
+  } catch (_) {
+    console.warn("[clips] clip_metadata.json not found — using random clip selection");
+  }
   const discoveredAudioTracks = resolveAudioAssets(rootDir, "Songs");
   const configuredAudioTracks = Array.isArray(config.audio_tracks)
     ? config.audio_tracks
