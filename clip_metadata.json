@@ -254,7 +254,7 @@
     "file": "basketball_player_basketball_reaction_cant_stop_winning_meme_clip.mp4",
     "subject": "NBA player",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "high",
     "dir": "In between messages",
     "beat_category": "close"
@@ -514,7 +514,7 @@
     "file": "basketball_player_basketball_reaction_rudy_gobert_making_his_first_career_three_pointer_meme_clip.mp4",
     "subject": "NBA player",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "escalation"
@@ -524,7 +524,7 @@
     "file": "basketball_player_basketball_reaction_rudy_gobert_making_his_first_career_three_pointer_meme_clip_2.mp4",
     "subject": "NBA player",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "escalation"
@@ -1484,7 +1484,7 @@
     "file": "turtle_character_scene_reaction_im_getting_pegged_tonight_meme_clip.mp4",
     "subject": "turtle character",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "general"
