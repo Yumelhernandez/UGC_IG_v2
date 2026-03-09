@@ -3390,6 +3390,8 @@ function loadQaChecklist(rootDir) {
 function resolveMediaAssets(rootDir, folderName) {
   const publicDir = path.join(rootDir, "remotion", "public", folderName);
   const candidates = [
+    path.join(rootDir, folderName),
+    publicDir,
     path.join(os.homedir(), "Downloads", folderName)
   ];
   let sourceDir = null;
@@ -4832,7 +4834,8 @@ async function buildScript({
   imageCaptionsMap,
   traceDir,
   noveltyWindowDays,
-  edgyBlueprint   // EdgyBoyV2: optional blueprint to override banter generation
+  edgyBlueprint,   // EdgyBoyV2: optional blueprint to override banter generation
+  clipMetadata     // Beat-matched clip selection metadata
 }) {
   const spice = forcedSpiceTier || pickWeighted(rng, config.spice_distribution);
   const controversyTier =
@@ -6531,7 +6534,8 @@ async function run() {
           imageHooksMap,
           imageCaptionsMap,
           traceDir,
-          noveltyWindowDays
+          noveltyWindowDays,
+          clipMetadata
           }),
         `attempt ${slotAttempt}/${slotRetryLimit}`
       );
@@ -6750,7 +6754,8 @@ async function run() {
         imageCaptionsMap,
         traceDir,
         noveltyWindowDays,
-        edgyBlueprint: blueprint
+        edgyBlueprint: blueprint,
+        clipMetadata
       }),
       `edgy-blueprint-slot-${slotIndex}`
     );
