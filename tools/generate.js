@@ -2179,7 +2179,7 @@ function evaluateScriptQuality({ replyText, messages, maxChars, girlName, format
     if (message.from === "boy") {
       // Exempt forced punchline templates (list_reveal, presumptive_close) from word count
       const isPunchlineTemplate = /i got \d+ things|already told my mom|told my boys/i.test(cleaned);
-      if (wordCount > 10 && !isPunchlineTemplate) reasons.push(`boy line too long ${index}`);
+      if (wordCount > 12 && !isPunchlineTemplate) reasons.push(`boy line too long ${index}`);
     }
     if (message.from === "boy" && girlName && containsName(cleaned, girlName)) {
       reasons.push(`boy line uses girl name ${index}`);
