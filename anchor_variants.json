@@ -114,6 +114,66 @@
         {
           "setup": "i'm sending you a formal complaint",
           "reframe": "for being the main distraction in my day"
+        },
+        {
+          "setup": "i wanna put something inside you",
+          "reframe": "a smile",
+          "girl_reaction": "EXCUSE ME 😭😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "are your parents divorced?",
+          "reframe": "because i can't figure out which one gave you all the looks",
+          "girl_reaction": "wow really 💀",
+          "type": "question_misdirect"
+        },
+        {
+          "setup": "i wanna take you out",
+          "reframe": "on a date, what did you think i meant",
+          "girl_reaction": "bro WHAT 😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i need you on your knees",
+          "reframe": "to help me find my contact lens i dropped it",
+          "girl_reaction": "HELLO?? 💀💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "you're missing something",
+          "reframe": "me in your life",
+          "girl_reaction": "what am i missing 💀",
+          "type": "question_misdirect"
+        },
+        {
+          "setup": "i wanna finish what we started",
+          "reframe": "that conversation from your last story",
+          "girl_reaction": "finish WHAT 😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i think you dropped something",
+          "reframe": "your standards when you replied to me",
+          "girl_reaction": "what did i drop",
+          "type": "question_misdirect"
+        },
+        {
+          "setup": "you need to be locked up fr",
+          "reframe": "in my arms where you belong",
+          "girl_reaction": "locked up for WHAT 💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i can't stop thinking about last night",
+          "reframe": "when i saw your story at 2am and forgot to breathe",
+          "girl_reaction": "LAST NIGHT?? 😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i already told my friends about you",
+          "reframe": "that you exist and now they think im lying",
+          "girl_reaction": "told them WHAT 💀",
+          "type": "question_misdirect"
         }
       ]
     },
@@ -267,6 +327,28 @@
           "roast": "you’re kind of intimidating ngl",
           "reframe": "intimidating as in so fine i forget how to talk"
         }
+      ]
+    },
+    "recovery_play": {
+      "starters": [
+        { "awkward": "my dad abandoned me", "recovery": "well an abandoned treasure is still treasure" },
+        { "awkward": "i just got out of therapy", "recovery": "she said face my fears and here i am" },
+        { "awkward": "i can’t cook", "recovery": "but i can make reservations like nobody’s business" },
+        { "awkward": "i failed my drivers test", "recovery": "because you were in my head rent free" },
+        { "awkward": "my ex blocked me", "recovery": "she knew i was saving the good lines for someone better" },
+        { "awkward": "i just got fired", "recovery": "my boss said i was too distracted and showed him your story" },
+        { "awkward": "i have zero rizz", "recovery": "and yet here you are still reading" },
+        { "awkward": "i’m kinda broke rn", "recovery": "but rich in audacity and that’s what matters" }
+      ]
+    },
+    "sustained_metaphor": {
+      "themes": [
+        { "metaphor": "criminal", "escalations": ["stole my attention", "stole my focus", "now you owe time"] },
+        { "metaphor": "court_case", "escalations": ["exhibit A your story", "exhibit B that smile", "the jury already decided"] },
+        { "metaphor": "food_order", "escalations": ["you look like a whole meal", "appetizer was your story", "main course is this conversation"] },
+        { "metaphor": "sports", "escalations": ["you just crossed me up", "now you’re running the score", "game over i lost"] },
+        { "metaphor": "school", "escalations": ["you’re teaching a masterclass", "i’m taking notes rn", "when’s the final exam"] },
+        { "metaphor": "music", "escalations": ["your story was the intro", "this conversation is the hook", "the bridge is friday night"] }
       ]
     }
   }

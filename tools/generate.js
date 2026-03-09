@@ -1698,22 +1698,7 @@ function enforceArcEndingContracts({ messages, beats, arcType, rng, maxChars, us
   if (!Array.isArray(messages) || messages.length < 3) return messages;
   const updated = [...messages];
   const lastIdx = updated.length - 1;
-  const rejectionEndings = [
-    "nice try, still no",
-    "not gonna happen",
-    "nah not today",
-    "hard pass",
-    "no shot",
-    "good luck though",
-    "nah i'm good",
-    "yeah no",
-    "i'm good",
-    "not for me",
-    "that's a no",
-    "pass",
-    "i don't think so",
-    "keeping it moving"
-  ];
+  // rejectionEndings removed — rejection arc disabled in config
   const cliffhangerEndings = [
     "you'll see",
     "not answering that yet",
@@ -1733,25 +1718,7 @@ function enforceArcEndingContracts({ messages, beats, arcType, rng, maxChars, us
     "use your imagination",
     "check back later"
   ];
-  // Twist reveals: the girl says something that IS the twist — no label, no announcement
-  const twistReveals = [
-    "bold if u forgot we dated",
-    "i was testing you this whole time",
-    "i set this up actually",
-    "my friend showed me your page. not an accident",
-    "i already knew your name before you replied",
-    "i replied on purpose. just checking something",
-    "i've been watching your stuff for a while"
-  ];
-  // Twist endings: her reaction after the reveal — natural, not announcing
-  const plotTwistEndings = [
-    "so yeah. hi",
-    "anyway now you know",
-    "surprise",
-    "now what",
-    "so here we are",
-    "so. what are you gonna do with that"
-  ];
+  // twistReveals + plotTwistEndings removed — plot_twist arc disabled in config
   const phonePattern = /\b555\s?\d{3}\s?\d{4}\b/g;
   const stripPhone = (text) => {
     const cleaned = String(text || "")
@@ -1806,97 +1773,110 @@ function enforceArcEndingContracts({ messages, beats, arcType, rng, maxChars, us
   };
 
   if (arcType === "number_exchange") {
+    // NOVELTY FIX: Diversified close sequence — 3 styles instead of always "number ask → phone → tease"
+    const DATE_PLAN_CLOSES = [
+      "friday at 8. you pick the spot",
+      "saturday night. i'll handle the rest",
+      "tomorrow. coffee first then we'll see",
+      "this weekend. dress comfortable i got plans",
+      "thursday at 7. dont eat beforehand",
+      "sunday brunch. my treat this time"
+    ];
+    const GIRL_INITIATED_CLOSES = [
+      "ok fine just text me already",
+      "ugh here. dont blow it",
+      "you earned it honestly",
+      "fine you win. text me",
+      "alright i'll give you a chance"
+    ];
+
+    // Check if a date plan or girl-initiated close already exists (from a prior enforcement pass)
+    const _existingDatePlan = updated.some((m) => m && m.from === "boy" && /\b(friday|saturday|sunday|thursday|tomorrow|this weekend|tonight)\b/i.test(m.text || "") && /\bat \d|you pick|i'll handle|my treat|dont eat|dress|i got plans/i.test(m.text || ""));
+    const _existingGirlInit = updated.slice(-3).some((m) => m && m.from === "girl" && /\b(ok fine just text|fine you win|you earned it|ugh here)\b/i.test(m.text || ""));
+
+    let closeStyle;
+    if (_existingDatePlan) {
+      closeStyle = "date_plan";  // preserve prior enforcement's choice
+    } else if (_existingGirlInit) {
+      closeStyle = "girl_initiated";
+    } else {
+      const closeStyleRoll = rng();
+      closeStyle = closeStyleRoll < 0.50 ? "number_ask"
+        : closeStyleRoll < 0.75 ? "date_plan"
+        : "girl_initiated";
+    }
+
     let phoneIdx = findFirstPhoneDropIndex(updated);
-    if (phoneIdx < 0) {
-      phoneIdx = Math.max(1, lastIdx - 1);
-      updated[phoneIdx] = {
-        ...updated[phoneIdx],
-        from: "girl",
-        text: `text me 555 ${String(Math.floor(rng() * 900) + 100)} ${String(Math.floor(rng() * 9000) + 1000)}`
-      };
-      updated[lastIdx] = {
-        ...updated[lastIdx],
-        from: "girl",
-        text: pickUniqueEnding(bankPool("girl_close", FALLBACK_CLOSE_LINES), "text me later")
-      };
-    }
 
-    let askIdx = findLastStrongAskBeforeIndex(updated, phoneIdx);
-    if (askIdx < 0) {
-      const forcedAskIdx = Math.max(0, phoneIdx - 1);
-      updated[forcedAskIdx] = {
-        ...updated[forcedAskIdx],
-        from: "boy",
-        text: pick(rng, BOY_NUMBER_ASK_LINES)
-      };
-      askIdx = forcedAskIdx;
-    }
-
-    if (!hasGirlResistanceBetween(updated, askIdx, phoneIdx)) {
-      if (phoneIdx - askIdx <= 1 && phoneIdx >= 2) {
-        const shiftedAskIdx = phoneIdx - 2;
-        updated[shiftedAskIdx] = {
-          ...updated[shiftedAskIdx],
-          from: "boy",
-          text: pick(rng, BOY_NUMBER_ASK_LINES)
-        };
-        askIdx = shiftedAskIdx;
+    if (closeStyle === "date_plan") {
+      // Boy proposes plan → girl agrees with personality
+      if (phoneIdx >= 0) {
+        // LLM already has a phone — strip it and replace with date plan
+        const fallback = updated[phoneIdx].from === "girl" ? "sounds like a plan" : "say less";
+        updated[phoneIdx] = { ...updated[phoneIdx], text: stripPhoneOrFallback(updated[phoneIdx].text, fallback) };
       }
-      const resistanceIdx = Math.min(phoneIdx - 1, askIdx + 1);
-      if (resistanceIdx > askIdx) {
-        updated[resistanceIdx] = {
-          ...updated[resistanceIdx],
-          from: "girl",
-          text: pickUniqueFromPool(GIRL_RESIST_LINES, maxChars, usedGirlLines) || "why should i"
+      const closeBoyIdx = Math.max(0, lastIdx - 1);
+      updated[closeBoyIdx] = { ...updated[closeBoyIdx], from: "boy", text: pick(rng, DATE_PLAN_CLOSES) };
+      updated[lastIdx] = { ...updated[lastIdx], from: "girl", text: pickUniqueEnding(bankPool("girl_close", FALLBACK_CLOSE_LINES), "dont be late 😭") };
+    } else if (closeStyle === "girl_initiated") {
+      // Girl drops number without boy asking — she's won over
+      if (phoneIdx < 0) {
+        phoneIdx = Math.max(1, lastIdx - 1);
+        updated[phoneIdx] = { ...updated[phoneIdx], from: "girl",
+          text: `text me 555 ${String(Math.floor(rng() * 900) + 100)} ${String(Math.floor(rng() * 9000) + 1000)}`
         };
       }
+      // Replace boy's last line before phone with something that EARNS the number (not "what's your number")
+      const preBoyIdx = Math.max(0, phoneIdx - 1);
+      if (updated[preBoyIdx] && updated[preBoyIdx].from === "boy") {
+        // Keep LLM's line if it's not a generic ask — it's more novel
+        if (/number|digits|contact/i.test(updated[preBoyIdx].text)) {
+          const EARNED_CLOSES = ["i mean it tho", "just say the word", "your call", "so what do you think", "im serious btw"];
+          updated[preBoyIdx] = { ...updated[preBoyIdx], text: pick(rng, EARNED_CLOSES) };
+        }
+      }
+      updated[lastIdx] = { ...updated[lastIdx], from: "girl", text: pick(rng, GIRL_INITIATED_CLOSES) };
+    } else {
+      // Classic: boy asks → girl gives number → tease
+      if (phoneIdx < 0) {
+        phoneIdx = Math.max(1, lastIdx - 1);
+        updated[phoneIdx] = { ...updated[phoneIdx], from: "girl",
+          text: `text me 555 ${String(Math.floor(rng() * 900) + 100)} ${String(Math.floor(rng() * 9000) + 1000)}`
+        };
+        updated[lastIdx] = { ...updated[lastIdx], from: "girl",
+          text: pickUniqueEnding(bankPool("girl_close", FALLBACK_CLOSE_LINES), "text me later")
+        };
+      }
+      let askIdx = findLastStrongAskBeforeIndex(updated, phoneIdx);
+      if (askIdx < 0) {
+        const forcedAskIdx = Math.max(0, phoneIdx - 1);
+        updated[forcedAskIdx] = { ...updated[forcedAskIdx], from: "boy", text: pick(rng, BOY_NUMBER_ASK_LINES) };
+        askIdx = forcedAskIdx;
+      }
+      if (!hasGirlResistanceBetween(updated, askIdx, phoneIdx)) {
+        if (phoneIdx - askIdx <= 1 && phoneIdx >= 2) {
+          const shiftedAskIdx = phoneIdx - 2;
+          updated[shiftedAskIdx] = { ...updated[shiftedAskIdx], from: "boy", text: pick(rng, BOY_NUMBER_ASK_LINES) };
+          askIdx = shiftedAskIdx;
+        }
+        const resistanceIdx = Math.min(phoneIdx - 1, askIdx + 1);
+        if (resistanceIdx > askIdx) {
+          updated[resistanceIdx] = { ...updated[resistanceIdx], from: "girl",
+            text: pickUniqueFromPool(GIRL_RESIST_LINES, maxChars, usedGirlLines) || "why should i"
+          };
+        }
+      }
     }
-    // Prevent triple-girl at end: if last 3 messages are all girl, collapse the one before the phone
+    // Prevent triple-girl at end
     const nFinal = updated.length;
-    if (
-      nFinal >= 3 &&
-      updated[nFinal - 1].from === "girl" &&
-      updated[nFinal - 2].from === "girl" &&
-      updated[nFinal - 3].from === "girl"
-    ) {
+    if (nFinal >= 3 && updated[nFinal-1].from === "girl" && updated[nFinal-2].from === "girl" && updated[nFinal-3].from === "girl") {
       updated.splice(nFinal - 3, 1);
     }
     return updated;
   }
 
-  if (arcType === "rejection") {
-    for (let i = 0; i < updated.length; i += 1) {
-      const fallback = updated[i].from === "girl" ? "not giving that out" : "fair enough";
-      updated[i] = { ...updated[i], text: stripPhoneOrFallback(updated[i].text, fallback) };
-    }
-    updated[lastIdx] = {
-      ...updated[lastIdx],
-      from: "girl",
-      text: pickUniqueEnding(rejectionEndings, "nice try, still no")
-    };
-    collapseAnyGirlMessage(updated);
-    return updated;
-  }
-
-  if (arcType === "plot_twist") {
-    const twistIndex = Math.max(beats.reveal_index, Math.floor(updated.length * 0.65));
-    updated[twistIndex] = {
-      ...updated[twistIndex],
-      from: "girl",
-      text: pickFallbackLine(twistReveals, maxChars)
-    };
-    for (let i = 0; i < updated.length; i += 1) {
-      const fallback = updated[i].from === "girl" ? "yeah not an accident" : "ok i see";
-      updated[i] = { ...updated[i], text: stripPhoneOrFallback(updated[i].text, fallback) };
-    }
-    updated[lastIdx] = {
-      ...updated[lastIdx],
-      from: "girl",
-      text: pickUniqueEnding(plotTwistEndings, "so here we are")
-    };
-    collapseAnyGirlMessage(updated);
-    return updated;
-  }
+  // NOTE: rejection and plot_twist arc branches removed (2026-03-08 simplification).
+  // These arcs are disabled in config.arc_distribution. If re-enabled, add handlers here.
 
   if (arcType === "cliffhanger") {
     updated[lastIdx] = {
@@ -1911,127 +1891,8 @@ function enforceArcEndingContracts({ messages, beats, arcType, rng, maxChars, us
     collapseAnyGirlMessage(updated);
     return updated;
   }
-  if (arcType === "comedy") {
-    const comedyEndings = [
-      "ok that was actually funny",
-      "not bad i'll give you that",
-      "i hate that i laughed",
-      "you're weird, i respect it",
-      "ok fine you're funny",
-      "that got me ngl",
-      "ok i wasn't ready for that",
-      "ok that was good",
-      "i can't with you",
-      "you're actually unhinged",
-      "ok you win this round",
-      "i hate how funny that was",
-      "bro what",
-      "you're lowkey funny and that's annoying"
-    ];
-    const comedyCliffhangerEndings = [
-      "ok i'm not done with you",
-      "don't go anywhere",
-      "you're not off the hook",
-      "we're not done here",
-      "i have more questions",
-      "this isn't over",
-      "hold on i'm thinking",
-      "don't leave yet"
-    ];
-    // Twist reveals: the girl says something that IS the twist — no label, no announcement
-    const comedyTwistReveals = [
-      "wait i actually screenshotted this already",
-      "i showed my friends before i even replied",
-      "i was literally about to dm you first",
-      "i've been on your page for a minute tbh",
-      "my roommate dared me to keep this going"
-    ];
-    // Twist endings: her reaction after the reveal, still no explicit "plot twist" callout
-    const comedyTwistEndings = [
-      "so yeah. hi",
-      "anyway",
-      "ok now you know",
-      "so here we are",
-      "and now we're here"
-    ];
-    const comedyNumberEndings = [
-      "only because you're actually funny",
-      "ok fine, don't waste it",
-      "you earned it, don't blow it",
-      "just because that landed",
-      "fine. don't make it weird"
-    ];
-
-    // Pick a sub-ending style to add variety across comedy scripts
-    const subEndingRoll = rng();
-    const subEnding = subEndingRoll < 0.30 ? "pure"
-      : subEndingRoll < 0.55 ? "cliffhanger"
-      : subEndingRoll < 0.75 ? "number"
-      : "twist";
-
-    // Strip phones from all messages first (re-added below if number sub-ending)
-    for (let i = 0; i < updated.length; i += 1) {
-      const fallback = updated[i].from === "girl" ? "ok that's actually funny" : "told you";
-      updated[i] = { ...updated[i], text: stripPhoneOrFallback(updated[i].text, fallback) };
-    }
-
-    if (subEnding === "number") {
-      // Inject phone near end — no ask/resistance required for comedy, just drop it naturally
-      const phoneIdx = Math.max(1, lastIdx - 1);
-      if (updated[phoneIdx] && updated[phoneIdx].from === "girl") {
-        updated[phoneIdx] = {
-          ...updated[phoneIdx],
-          text: `text me 555 ${String(Math.floor(rng() * 900) + 100)} ${String(Math.floor(rng() * 9000) + 1000)}`
-        };
-      }
-      updated[lastIdx] = {
-        ...updated[lastIdx],
-        from: "girl",
-        text: pickUniqueEnding(comedyNumberEndings, "ok fine, don't waste it")
-      };
-    } else if (subEnding === "cliffhanger") {
-      updated[lastIdx] = {
-        ...updated[lastIdx],
-        from: "girl",
-        text: pickUniqueEnding(comedyCliffhangerEndings, "we're not done here")
-      };
-      collapseAnyGirlMessage(updated);
-    } else if (subEnding === "twist") {
-      const twistIndex = Math.max(beats && Number.isFinite(beats.reveal_index) ? beats.reveal_index : 0, Math.floor(updated.length * 0.65));
-      updated[twistIndex] = {
-        ...updated[twistIndex],
-        from: "girl",
-        text: pickFallbackLine(comedyTwistReveals, maxChars)
-      };
-      updated[lastIdx] = {
-        ...updated[lastIdx],
-        from: "girl",
-        text: pickUniqueEnding(comedyTwistEndings, "so here we are")
-      };
-      collapseAnyGirlMessage(updated);
-    } else {
-      // pure comedy closer — if LLM already wrote a real non-filler girl reaction,
-      // keep it as the sole close instead of stacking a pool line on top.
-      const prevIdx = lastIdx - 1;
-      const prevMsg = updated[prevIdx];
-      const prevText = ((prevMsg && prevMsg.text) || "").toLowerCase();
-      const prevIsFiller = FILLER_CLOSE_WORDS.has(prevText.replace(/[^a-z\s]/g, "").trim());
-      // LLM-first only valid for Format D: Format B is trimmed to first N messages,
-      // so prevIdx is mid-conversation banter, not a genuine arc close.
-      if (format === "D" && prevMsg && prevMsg.from === "girl" && !prevIsFiller) {
-        // LLM's ending is a genuine reaction — remove the extra last message, use LLM's close
-        updated.splice(lastIdx, 1);
-      } else {
-        updated[lastIdx] = {
-          ...updated[lastIdx],
-          from: "girl",
-          text: pickUniqueEnding(comedyEndings, "ok that was actually funny")
-        };
-        collapseAnyGirlMessage(updated);
-      }
-    }
-    return updated;
-  }
+  // NOTE: comedy arc branch removed (2026-03-08 simplification).
+  // Comedy is disabled in config.arc_distribution. If re-enabled, add handler here.
   return updated;
 }
 
@@ -2436,8 +2297,11 @@ function evaluateArcMechanicsContract({ messages, beats, arcType, format, format
   if (arcType === "number_exchange") {
     const hasAsk = (messages || []).some((m) => m && m.from === "boy" && isStrongAskLine(m.text || ""));
     const hasClose = Boolean(lastMessage && lastMessage.from === "girl" && isGirlCloseMessage(lastMessage.text || ""));
-    if (!hasAsk) reasons.push("number_exchange missing strong ask");
-    if (!hasClose && !phoneInThread) reasons.push("number_exchange missing conversion close");
+    // Date plan closes and girl-initiated closes are valid alternatives to phone number exchanges
+    const hasDatePlanBoy = (messages || []).some((m) => m && m.from === "boy" && /\b(friday|saturday|sunday|thursday|tomorrow|this weekend|tonight)\b/i.test(m.text || "") && /\bat \d|you pick|i'll handle|my treat|dont eat|dress|i got plans|first then|night\b/i.test(m.text || ""));
+    const hasGirlInitiated = (messages || []).slice(-3).some((m) => m && m.from === "girl" && /\b(ok fine|ugh fine|fine you win|you earned|just text me|i'll give you|dont blow it|sounds like a plan)\b/i.test(m.text || ""));
+    if (!hasAsk && !hasDatePlanBoy) reasons.push("number_exchange missing strong ask");
+    if (!hasClose && !phoneInThread && !hasDatePlanBoy && !hasGirlInitiated) reasons.push("number_exchange missing conversion close");
   } else if (arcType === "rejection") {
     const rejectionCue = lastMessage && /\b(no|nah|not|pass|no shot|not today|still no)\b/i.test(lastMessage.text || "");
     if (phoneInThread) reasons.push("rejection arc contains phone number");
@@ -3343,7 +3207,7 @@ function buildArcPlan({ count, config, seed }) {
   // Only require arcs that are explicitly enabled (weight > 0) in the distribution.
   // Arcs set to 0 in config are intentionally excluded — do not force them back in.
   const requiredArcs = supportedArcs.filter(
-    (arc) => !distribution.hasOwnProperty(arc) || Number(distribution[arc]) > 0
+    (arc) => distribution.hasOwnProperty(arc) && Number(distribution[arc]) > 0
   );
   if (count >= requiredArcs.length) {
     requiredArcs.forEach((arc) => {
@@ -3866,7 +3730,11 @@ function isGirlCloseMessage(text) {
   if (hasAnyPhrase(text, GIRL_NUMBER_ASK_PHRASES)) return false;
   if (hasAnyPhrase(text, disallowedSignals)) return false;
   const hasDateOrNumber = hasAnyPhrase(text, [...dateSignals, ...numberSignals]);
-  return hasDateOrNumber;
+  if (hasDateOrNumber) return true;
+  // Girl-initiated close patterns (novelty fix — she drops number or agrees without being asked)
+  const girlInitiated = ["ok fine just text me", "ugh here", "you earned it", "fine you win", "i'll give you a chance", "dont blow it", "you better be fun", "impress me", "dont be late"];
+  if (hasAnyPhrase(text, girlInitiated)) return true;
+  return false;
 }
 
 function isBoyAskLine(text) {
@@ -3894,6 +3762,11 @@ function isStrongAskLine(text) {
   if (/\bgive me your number\b/.test(cleaned)) return true;
   if (/\blet me get your number\b/.test(cleaned)) return true;
   if (/\bwhat'?s your number\b/.test(cleaned)) return true;
+  // Date plan closes (novelty fix — boy proposes date instead of asking for number)
+  if (/\b(friday|saturday|sunday|thursday|tomorrow|this weekend|tonight)\b/i.test(cleaned) && /\bat \d|you pick|i'll handle|my treat|dont eat|dress|i got plans|first then|night\b/i.test(cleaned)) return true;
+  // Earned close lines (boy doesn't ask for number — girl gives it voluntarily)
+  if (/\b(just say the word|your call|im serious|i mean it)\b/i.test(cleaned)) return true;
+  if (/\bjust say the word\b|\byour call\b|\bim serious\b|\bi mean it\b/i.test(cleaned)) return true;
   return false;
 }
 
@@ -5334,17 +5207,14 @@ async function buildScript({
       }
       return result;
     })();
-    // Sample 2-3 real viral conversations for few-shot banter style
+    // NOVELTY FIX: Rotate viral few-shot examples per script — shuffle the full pool,
+    // pick 3 random examples so each script gets different source material to pattern off.
     const viralSample = (() => {
       if (!_viralExamples.length) return [];
       const pool = _viralExamples.filter(e => e.conversation && e.conversation.length >= 3);
-      const picks = [];
-      const pivotEx = pool.filter(e => e.arc_type === 'pivot');
-      const numEx = pool.filter(e => e.arc_type === 'number_exchange');
-      if (pivotEx.length) picks.push(pivotEx[Math.floor(rng() * pivotEx.length)]);
-      const numSample = numEx.sort(() => rng() - 0.5).slice(0, 2);
-      picks.push(...numSample);
-      return picks.slice(0, 3);
+      // Full shuffle — every script gets a different random set of examples
+      const shuffled = [...pool].sort(() => rng() - 0.5);
+      return shuffled.slice(0, 3);
     })();
     const generatedMessages = await buildBanterMessages({
       config: banterConfig,
@@ -5575,70 +5445,53 @@ async function buildScript({
 
     // BRAINROT: Post-process punchline injection — if LLM didn't deliver the required
     // punchline structure, force it in now (runs after all QA/enforcement).
-    if (brainrotStyle && punchlineStyle) {
+    // SKIP for comedy — comedy arcs need organic humor, not forced punchlines
+    // NOVELTY FIX: Reduced punchline override aggression (2026-03-08).
+    // Only inject template punchline when LLM produced NOTHING resembling the required pattern.
+    // Previously: exact regex match → override everything including girl reactions.
+    // Now: broader detection → only inject the boy's punchline line, preserve girl's organic reaction.
+    if (brainrotStyle && punchlineStyle && arcType !== "comedy") {
       if (punchlineStyle === "list_reveal") {
-        // Require the full 3-item list to be present (not just the setup phrase — which may be
-        // there but truncated by clampMessageText after enforceImageGrounding added a prefix)
-        const _hasListReveal = resolvedMessages.some(
-          (m) => m.from === "boy" && /I got \d+ things/i.test(m.text) && /\b3\.\s+\w/.test(m.text)
+        // Broader check: any boy line with a numbered list OR "things" reference
+        const _hasListLike = resolvedMessages.some(
+          (m) => m.from === "boy" && (/\d+\.\s/.test(m.text) || /things? (for|i|im)/i.test(m.text) || /1\).*2\)/i.test(m.text))
         );
-        if (!_hasListReveal) {
-          // Replace boy's first banter message — text is ≤70 chars so clampMessageText won't cut it
+        if (!_hasListLike) {
           const _firstBoyIdx = resolvedMessages.findIndex((m, i) => i > 0 && m.from === "boy");
           if (_firstBoyIdx > 0) {
             resolvedMessages[_firstBoyIdx] = {
               ...resolvedMessages[_firstBoyIdx],
               text: "i got 3 things for you \u2014 1. my time, 2. my energy, 3. ur number"
             };
-            if (_firstBoyIdx + 1 < resolvedMessages.length && resolvedMessages[_firstBoyIdx + 1].from === "girl") {
-              resolvedMessages[_firstBoyIdx + 1] = {
-                ...resolvedMessages[_firstBoyIdx + 1],
-                text: "lmao ok that was smooth\uD83D\uDE2D"
-              };
-            }
+            // DON'T override girl reaction — let LLM's organic response through
           }
         }
       } else if (punchlineStyle === "numeric_reveal") {
-        const _hasNumericReveal = resolvedMessages.some(
-          (m) => m.from === "boy" && /\d+%\s*(of|like)\s*me/i.test(m.text)
+        // Broader check: any boy line with a percentage OR "% of" pattern
+        const _hasNumericLike = resolvedMessages.some(
+          (m) => m.from === "boy" && /\d+%/i.test(m.text)
         );
-        if (!_hasNumericReveal) {
+        if (!_hasNumericLike) {
+          // Only inject the punchline line, not the full 4-message exchange
           const _boyIdx = resolvedMessages.map((m, i) => (m.from === "boy" ? i : -1)).filter((i) => i >= 0);
-          if (_boyIdx.length >= 4) {
-            // Long format: full 4-message exchange at ~40% through the boy messages
-            const _midBoyIdx = _boyIdx[Math.floor(_boyIdx.length * 0.4)];
-            if (_midBoyIdx >= 0 && _midBoyIdx + 3 < resolvedMessages.length) {
-              const _b1 = resolvedMessages[_midBoyIdx];
-              const _g1 = resolvedMessages[_midBoyIdx + 1];
-              const _b2 = resolvedMessages[_midBoyIdx + 2];
-              const _g2 = resolvedMessages[_midBoyIdx + 3];
-              if (_b1.from === "boy" && _g1.from === "girl" && _b2.from === "boy" && _g2.from === "girl") {
-                resolvedMessages[_midBoyIdx] = { ..._b1, text: "do you like water?" };
-                resolvedMessages[_midBoyIdx + 1] = { ..._g1, text: "yeah why \uD83D\uDC80" };
-                resolvedMessages[_midBoyIdx + 2] = { ..._b2, text: "so you already like 73% of me" };
-                resolvedMessages[_midBoyIdx + 3] = { ..._g2, text: "LMAO NO\uD83D\uDE2D" };
-              }
-            }
-          } else if (_boyIdx.length >= 2) {
-            // Short format: compact 2-message reveal — drop math line right after her opening reaction
-            const _firstBoyIdx = _boyIdx[0];
-            if (_firstBoyIdx >= 0 && _firstBoyIdx + 1 < resolvedMessages.length) {
-              const _b1 = resolvedMessages[_firstBoyIdx];
-              const _g1 = resolvedMessages[_firstBoyIdx + 1];
-              if (_b1.from === "boy" && _g1.from === "girl" && !/555/.test(_g1.text)) {
-                resolvedMessages[_firstBoyIdx] = { ..._b1, text: "so you already like 73% of me" };
-                resolvedMessages[_firstBoyIdx + 1] = { ..._g1, text: "LMAO NO\uD83D\uDE2D" };
-              }
-            }
+          const _targetIdx = _boyIdx.length >= 3 ? _boyIdx[Math.floor(_boyIdx.length * 0.4)] : _boyIdx[0];
+          if (_targetIdx >= 0) {
+            resolvedMessages[_targetIdx] = {
+              ...resolvedMessages[_targetIdx],
+              text: `so you already like ${[57, 61, 67, 73, 78, 82, 87][Math.floor(Math.random() * 7)]}% of me`
+            };
+            // DON'T override surrounding messages — preserve LLM's context-specific lines
           }
         }
       } else if (punchlineStyle === "setup_reframe") {
+        // setup_reframe post-processing: pick a RANDOM pair from anchor_variants instead of hardcoding
+        const _avPairs = (function() { try { return JSON.parse(require("fs").readFileSync(require("path").join(process.cwd(), "anchor_variants.json"), "utf8")).variants.setup_reframe.pairs; } catch(_) { return []; } })();
+        const _srPair = _avPairs.length ? _avPairs[Math.floor(Math.random() * _avPairs.length)] : { setup: "i wanna put something inside you", reframe: "a smile", girl_reaction: "EXCUSE ME 😭😭😭" };
         const _hasSetupReframe = resolvedMessages.some(
-          (m) => m.from === "boy" && /ruin your (whole|entire) (week|life|night)/i.test(m.text)
+          (m) => m.from === "boy" && (m.text === _srPair.setup || /ruin your (whole|entire) (week|life|night)/i.test(m.text))
         );
         if (!_hasSetupReframe) {
           const _boyIdx = resolvedMessages.map((m, i) => (m.from === "boy" ? i : -1)).filter((i) => i >= 0);
-          // Try 4-message exchange at second boy slot (long format), then first slot (short format fallback)
           const _candidateStarts = _boyIdx.length >= 3 ? [_boyIdx[1], _boyIdx[0]] : _boyIdx.length >= 2 ? [_boyIdx[0]] : [];
           let _injected = false;
           for (const _startIdx of _candidateStarts) {
@@ -5647,19 +5500,18 @@ async function buildScript({
             const _b1 = resolvedMessages[_startIdx], _g1 = resolvedMessages[_startIdx + 1];
             const _b2 = resolvedMessages[_startIdx + 2], _g2 = resolvedMessages[_startIdx + 3];
             if (_b1.from === "boy" && _g1.from === "girl" && _b2.from === "boy" && _g2.from === "girl" && !/555/.test(_g2.text)) {
-              resolvedMessages[_startIdx] = { ..._b1, text: "i want to ruin your whole week" };
-              resolvedMessages[_startIdx + 1] = { ..._g1, text: "excuse me??" };
-              resolvedMessages[_startIdx + 2] = { ..._b2, text: "by being the person you cant stop thinking about" };
+              resolvedMessages[_startIdx] = { ..._b1, text: _srPair.setup };
+              resolvedMessages[_startIdx + 1] = { ..._g1, text: _srPair.girl_reaction || "excuse me?? 💀" };
+              resolvedMessages[_startIdx + 2] = { ..._b2, text: _srPair.reframe };
               resolvedMessages[_startIdx + 3] = { ..._g2, text: "ok that was smooth omg\uD83D\uDE2D" };
               _injected = true;
             }
           }
-          // Short-format fallback: 2-message setup at first boy-girl pair
           if (!_injected) {
             const _pairIdx = resolvedMessages.findIndex((m, i) => m.from === "boy" && i + 1 < resolvedMessages.length && resolvedMessages[i + 1].from === "girl" && !/555/.test(resolvedMessages[i + 1].text));
             if (_pairIdx >= 0) {
-              resolvedMessages[_pairIdx] = { ...resolvedMessages[_pairIdx], text: "i want to ruin your whole week" };
-              resolvedMessages[_pairIdx + 1] = { ...resolvedMessages[_pairIdx + 1], text: "omg STOP what does that mean\uD83D\uDE2D" };
+              resolvedMessages[_pairIdx] = { ...resolvedMessages[_pairIdx], text: _srPair.setup };
+              resolvedMessages[_pairIdx + 1] = { ...resolvedMessages[_pairIdx + 1], text: _srPair.girl_reaction || "omg STOP what does that mean\uD83D\uDE2D" };
             }
           }
         }
@@ -6432,7 +6284,7 @@ async function run() {
   }
   const _arcDist = config.arc_distribution || {};
   const requiredArcs = ["number_exchange", "rejection", "plot_twist", "cliffhanger", "comedy"].filter(
-    (arc) => !_arcDist.hasOwnProperty(arc) || Number(_arcDist[arc]) > 0
+    (arc) => _arcDist.hasOwnProperty(arc) && Number(_arcDist[arc]) > 0
   );
   const generatedArcs = {};
   const arcPlan = buildArcPlan({
@@ -6446,12 +6298,14 @@ async function run() {
     count,
     distribution: brainrotStyle
       ? {
-          numeric_reveal: 0.20,
-          list_reveal: 0.20,
+          numeric_reveal: 0.15,
+          list_reveal: 0.15,
           setup_reframe: 0.15,
-          persistence_flip: 0.15,
-          presumptive_close: 0.15,
-          roast_flip: 0.15
+          persistence_flip: 0.12,
+          presumptive_close: 0.12,
+          roast_flip: 0.12,
+          recovery_play: 0.10,
+          sustained_metaphor: 0.09
         }
       : {
           challenge: 1 / 6,

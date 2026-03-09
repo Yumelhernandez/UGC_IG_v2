@@ -600,6 +600,8 @@ function isStrongWinLine(text) {
   if (/555\s?\d{3}\s?\d{4}/.test(cleaned)) return true;
   // New ending system: tease line counts as win
   if (QA_TEASE_LINES.some((t) => t.toLowerCase() === cleaned)) return true;
+  // Girl-initiated close and date acceptance patterns (novelty fix)
+  if (/\b(ok fine|ugh fine|fine you win|you earned|i'll give you|dont blow it|dont be late|impress me|you better be)\b/i.test(cleaned)) return true;
   return false;
 }
 
@@ -664,7 +666,19 @@ function hasResistanceBetweenAskAndPhone(messages, askIndex, phoneIndex) {
 
 function passesNumberExchangeFlow(messages, openerText, scriptMeta) {
   const phoneIdx = findFirstPhoneDropIndex(messages);
-  if (phoneIdx < 0) return false;
+
+  // NOVELTY FIX: Date plan and girl-initiated closes are valid alternatives to phone drops
+  if (phoneIdx < 0) {
+    const hasDatePlan = messages.some(
+      (m) => m && m.from === "boy" && /\b(friday|saturday|sunday|thursday|tomorrow|this weekend|tonight|coffee|dinner|drinks)\b/i.test(m.text || "") && /\bat \d|you pick|i'll handle|my treat|dont eat|dress|i got plans|first then|night\b/i.test(m.text || "")
+    );
+    const hasGirlInit = messages.slice(-3).some(
+      (m) => m && m.from === "girl" && /\b(ok fine|ugh fine|fine you win|you earned|just text me|i'll give you|dont blow it|sounds like a plan)\b/i.test(m.text || "")
+    );
+    if (hasDatePlan || hasGirlInit) return true;
+    return false;
+  }
+
   const askIdx = findLastStrongAskBefore(messages, phoneIdx);
   if (askIdx < 0) return false;
   const intensity = classifyOpenerIntensity(openerText);
@@ -1038,7 +1052,14 @@ function validateScript({ script, config, rootDir }) {
         break;
       }
     }
-    if (arcType === "number_exchange" && !hasStrongAsk) {
+    // Date plan and girl-initiated closes don't need a traditional "ask" line
+    const _hasDatePlanInScript = script.messages.some(
+      (m) => m && m.from === "boy" && /\b(friday|saturday|sunday|thursday|tomorrow|this weekend|tonight)\b/i.test(m.text || "") && /\bat \d|you pick|i'll handle|my treat|dont eat|dress|i got plans|first then|night\b/i.test(m.text || "")
+    );
+    const _hasGirlInitClose = script.messages.slice(-3).some(
+      (m) => m && m.from === "girl" && /\b(ok fine|ugh fine|fine you win|you earned|just text me|i'll give you|dont blow it)\b/i.test(m.text || "")
+    );
+    if (arcType === "number_exchange" && !hasStrongAsk && !_hasDatePlanInScript && !_hasGirlInitClose) {
       script.meta = script.meta || {};
       script.meta.qa_signals = script.meta.qa_signals || {};
       script.meta.qa_signals.ask_line_weak = true;
@@ -1052,9 +1073,17 @@ function validateScript({ script, config, rootDir }) {
     const winText = winMessage && typeof winMessage.text === "string" ? winMessage.text.toLowerCase() : "";
     if (arcType === "number_exchange") {
       const phoneIndex = findFirstPhoneDropIndex(script.messages);
-      if (phoneIndex < 0) {
+      // Date plan closes are a valid alternative to phone drops (novelty fix)
+      const hasDatePlanClose = script.messages.some(
+        (m) => m && m.from === "boy" && /\b(friday|saturday|sunday|thursday|tomorrow|this weekend|tonight|coffee|dinner|drinks)\b/i.test(m.text || "") && /\bat \d|you pick|i'll handle|my treat|dont eat|dress|i got plans|first then|night\b/i.test(m.text || "")
+      );
+      // Also check if girl accepted a date plan (girl-initiated close)
+      const hasGirlInitiatedClose = script.messages.slice(-3).some(
+        (m) => m && m.from === "girl" && /\b(ok fine|ugh fine|fine you win|you earned|text me already|i'll give you|just text me|dont blow it)\b/i.test(m.text || "")
+      );
+      if (phoneIndex < 0 && !hasDatePlanClose && !hasGirlInitiatedClose) {
         reasons.push("number_exchange missing phone drop");
-      } else {
+      } else if (phoneIndex >= 0) {
         const askBeforePhoneIndex = findLastStrongAskBefore(script.messages, phoneIndex);
         const openerIntensity = classifyOpenerIntensity(script.reply && script.reply.text);
         if (askBeforePhoneIndex < 0) {
@@ -1066,7 +1095,7 @@ function validateScript({ script, config, rootDir }) {
           reasons.push("number_exchange missing resistance before number");
         }
       }
-      if (!winMessage || winMessage.from !== "girl" || (!isStrongWinLine(winMessage.text || "") && !hasPhoneInEnding)) {
+      if (!winMessage || winMessage.from !== "girl" || (!isStrongWinLine(winMessage.text || "") && !hasPhoneInEnding && !hasDatePlanClose && !hasGirlInitiatedClose)) {
         script.meta = script.meta || {};
         script.meta.qa_signals = script.meta.qa_signals || {};
         script.meta.qa_signals.win_line_weak = true;

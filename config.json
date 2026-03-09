@@ -23,25 +23,7 @@
     "min": 30,
     "max": 45
   },
-  "duration_s_C": {
-    "min": 7,
-    "max": 12
-  },
-  "duration_s_D": {
-    "min": 17,
-    "max": 24
-  },
   "timing_windows": {
-    "A": {
-      "reveal": [
-        4,
-        7
-      ],
-      "win": [
-        12,
-        21
-      ]
-    },
     "B": {
       "reveal": [
         4,
@@ -51,32 +33,11 @@
         12,
         21
       ]
-    },
-    "C": {
-      "reveal": [
-        2,
-        4.5
-      ],
-      "win": [
-        5,
-        11
-      ]
-    },
-    "D": {
-      "reveal": [
-        4,
-        12
-      ],
-      "win": [
-        10,
-        22
-      ]
     }
   },
   "fresh_seed_on_generate": true,
   "format_distribution": {
-    "B": 0.9,
-    "D": 0.1
+    "B": 1.0
   },
   "story_card_s": {
     "min": 0.8,
@@ -93,37 +54,9 @@
     "edge": 0.65
   },
   "arc_distribution": {
-    "number_exchange": 0.30,
-    "rejection": 0.10,
-    "plot_twist": 0.15,
-    "cliffhanger": 0.10,
-    "comedy": 0.20,
-    "brainrot": 0.15
+    "number_exchange": 0.90,
+    "cliffhanger": 0.10
   },
-  "brainrot": {
-    "variant_distribution": {
-      "random": 0.50,
-      "contextual": 0.50
-    },
-    "num_messages": 5,
-    "num_messages_min": 6,
-    "num_messages_max": 8,
-    "temperature": 1.2,
-    "max_output_tokens": 2000,
-    "num_candidates": 5,
-    "max_retries": 3,
-    "retry_temperature_bump": 0.05
-  },
-  "brainrot_banned_phrases": [
-    "okay i know this sounds crazy",
-    "i know this is weird",
-    "i realize this is unusual",
-    "spreadsheet",
-    "excuse me",
-    "EXCUSE ME",
-    "i know how this looks",
-    "sounds crazy but"
-  ],
   "line_max_chars": 70,
   "message_max_chars": 70,
   "banned_phrases": [
@@ -134,7 +67,9 @@
     "hookup",
     "sex",
     "naked",
-    "nsfw"
+    "nsfw",
+    "about that casual",
+    "about that tone"
   ],
   "story_assets": {
     "curated_dir": "baddies",
@@ -154,44 +89,38 @@
     "chill": ["old_school.mp3"]
   },
   "audio_arc_mapping": {
-    "brainrot": "high",
-    "comedy": "high",
     "number_exchange": "medium",
-    "plot_twist": "high",
-    "rejection": "chill",
     "cliffhanger": "medium"
   },
   "banter": {
-    "num_messages": 7,
-    "num_messages_min": 5,
-    "num_messages_max": 8,
+    "num_messages": 8,
+    "num_messages_min": 7,
+    "num_messages_max": 10,
     "num_messages_long": 11,
-    "num_messages_min_long": 8,
-    "num_messages_max_long": 14,
-    "num_messages_C": 5,
-    "num_messages_D": 17
+    "num_messages_min_long": 9,
+    "num_messages_max_long": 14
   },
   "format_b_duration_mix": {
     "short": {
-      "weight": 0.90,
+      "weight": 0.70,
       "duration_s": {
         "min": 20,
         "max": 28
       },
       "num_messages": {
-        "min": 5,
-        "max": 8
+        "min": 7,
+        "max": 10
       }
     },
     "long": {
-      "weight": 0.10,
+      "weight": 0.30,
       "duration_s": {
         "min": 30,
         "max": 45
       },
       "num_messages": {
-        "min": 8,
-        "max": 12
+        "min": 9,
+        "max": 14
       }
     }
   },
