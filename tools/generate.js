@@ -2184,6 +2184,10 @@ function evaluateScriptQuality({ replyText, messages, maxChars, girlName, format
     if (message.from === "boy" && girlName && containsName(cleaned, girlName)) {
       reasons.push(`boy line uses girl name ${index}`);
     }
+    // Flag AI-sounding mid-lines
+    if (message.from === "boy" && /interesting of you|noted.*ill remember|problem is you|you tease the.*then/i.test(cleaned)) {
+      reasons.push(`boy line sounds AI ${index}`);
+    }
   });
 
   // PRD V2: endings vary by arc; avoid hard-coding a single close shape in generation quality.
