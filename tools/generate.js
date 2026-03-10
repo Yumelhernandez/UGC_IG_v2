@@ -6438,15 +6438,30 @@ async function run() {
       "he went all in 💀",
       "plot twist incoming 😭🔥",
     ];
-    const CORE_TAGS = "#rizzgod #texts #dating";
-    const ROTATING_TAGS = ["#huzz", "#texting", "#takenotes", "#rizzler", "#rizz", "#shootyourshot"];
+    // Competitor-matched hashtags: always #texts #rizz #fyp + rotating extras
+    const CORE_TAGS = "#texts #rizz #fyp #foryou #texting";
+    const ROTATING_TAGS = ["#huzz", "#takenotes", "#rizzgod", "#dating", "#dm", "#dms", "#rizzler", "#shootyourshot", "#brainrot", "#sigmamale", "#textconversation"];
+    const COMMENT_BAITS = [
+      "would you reply? 👀",
+      "she folded too fast or nah? 💀",
+      "W or L? comment below",
+      "could you do better? 🤔",
+      "rate this rizz 1-10",
+      "who won? 💀",
+      "he cooked or he fumbled?",
+      "part 2? 👀",
+      "try this on your crush",
+      "tag someone who needs this",
+      "save this for later 📸",
+    ];
     const captionRng = createRng(`${script.video_id}-caption`);
     const captionHook = CAPTION_HOOKS[Math.floor(captionRng() * CAPTION_HOOKS.length)];
+    const commentBait = COMMENT_BAITS[Math.floor(captionRng() * COMMENT_BAITS.length)];
     const shuffledTags = [...ROTATING_TAGS].sort(() => captionRng() - 0.5);
-    const extraTags = shuffledTags.slice(0, 2 + Math.floor(captionRng() * 2)).join(" ");
-    // App mention placeholder — update when partnership is secured
+    const extraTags = shuffledTags.slice(0, 3 + Math.floor(captionRng() * 2)).join(" ");
     const appMention = script.meta.app_mention || "";
-    script.tiktok_caption = `${appMention}${appMention ? " " : ""}${captionHook} ${CORE_TAGS} ${extraTags}`;
+    // Caption format: [hook] | [comment bait] + hashtags
+    script.tiktok_caption = `${appMention}${appMention ? " " : ""}${captionHook} | ${commentBait} ${CORE_TAGS} ${extraTags}`;
 
     const arcSlug = (script.meta && script.meta.arc_type || "unknown").replace(/_/g, "-");
     const fmtSlug = (script.meta && script.meta.format || "b").toLowerCase();
