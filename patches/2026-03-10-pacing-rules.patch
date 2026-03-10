@@ -1,0 +1,31 @@
+diff --git a/tools/lib/llm.js b/tools/lib/llm.js
+index 776b43e..4f9e54f 100644
+--- a/tools/lib/llm.js
++++ b/tools/lib/llm.js
+@@ -313,6 +313,28 @@ const BANTER_SYSTEM_PROMPT = [
+   "boy: dedication",
+   "girl: I'm scared AND impressed 😭😭",
+   "",
++  "EXAMPLE 6 (786K views — name pun + absurdist opener):",
++  "boy reply: I'd fight a bear, eat ramen in a haunted house, and watch Kazuha just to hear your name",
++  "girl: my name is Kazuha 😭",
++  "boy: yeah that's why I mentioned it",
++  "girl: that's actually kinda smooth ngl",
++  "boy: I save the good ones for the right person",
++  "girl: ok I see you 😭",
++  "boy: friday?",
++  "girl: you better be this smooth in person 😭😭",
++  "",
++  "EXAMPLE 7 (175K views — sustained metaphor):",
++  "boy reply: you out here moving like a criminal",
++  "girl: a criminal?? 💀",
++  "boy: yeah you stole my attention",
++  "girl: that was so corny bro 😭",
++  "boy: corny but you're still reading",
++  "girl: nah what's the sentence for that",
++  "boy: life. with me",
++  "girl: I'm calling my lawyer 😭😭",
++  "boy: tell them to bring a plus one",
++  "girl: let me call you 😭 I wanna see what makes you so confident",
++  "",
+   "=== WHAT MAKES THESE WORK (match this energy) ===",
