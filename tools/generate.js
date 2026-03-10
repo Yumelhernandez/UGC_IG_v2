@@ -2251,6 +2251,29 @@ function extractOpenerPattern(text) {
   return tokens.slice(0, Math.min(3, tokens.length)).join(" ");
 }
 
+// Semantic concept clusters — openers that are "the same idea" even if worded differently
+const OPENER_CONCEPT_MAP = [
+  { concept: "why_single", patterns: [/why.*single/i, /why.*boyfriend/i, /why.*girlfriend/i, /why.*taken/i, /don't.*have.*boyfriend/i, /don't.*have.*girl/i] },
+  { concept: "complaint_legal", patterns: [/complaint/i, /filing/i, /noise complaint/i, /suing/i, /pressing charges/i, /lawsuit/i, /report.*profile/i] },
+  { concept: "quick_question", patterns: [/^quick question/i, /^serious question/i, /^honest question/i, /^real question/i] },
+  { concept: "already_told", patterns: [/already told.*mom/i, /already told.*friends/i, /already told.*kids/i, /already told.*future/i] },
+  { concept: "emotional_damage", patterns: [/emotional damage/i, /emotional distress/i, /ruined.*life/i, /destroyed.*peace/i] },
+  { concept: "screenshot_profile", patterns: [/screenshot.*profile/i, /screenshotted/i, /saved.*profile/i] },
+  { concept: "bet_dare", patterns: [/^i bet/i, /^i dare/i, /^bet you/i, /^dare you/i] },
+  { concept: "look_like_trouble", patterns: [/look like.*trouble/i, /trouble.*look/i, /manage.*look.*trouble/i] },
+];
+
+function classifyOpenerConcept(text) {
+  if (!text) return null;
+  const normalized = String(text).toLowerCase();
+  for (const { concept, patterns } of OPENER_CONCEPT_MAP) {
+    for (const re of patterns) {
+      if (re.test(normalized)) return concept;
+    }
+  }
+  return null;
+}
+
 function extractBoyOpener(messages) {
   const firstBoy = (messages || []).find((m) => m && m.from === "boy" && m.text);
   return firstBoy ? String(firstBoy.text) : "";
@@ -2394,6 +2417,15 @@ function evaluateDiversityGate({ messages, recentBanterBoyLines, recentReplies, 
     const reused = replyHistory.some((line) => canonicalHookKey(line) === openerKey);
     if (reused) {
       reasons.push("story reply reused within novelty window");
+    }
+    // CONCEPT-LEVEL duplicate check — catches semantic duplicates like
+    // "why are you single" vs "why don't you have a boyfriend"
+    const replyConcept = classifyOpenerConcept(replyText);
+    if (replyConcept) {
+      const conceptCount = replyHistory.filter((line) => classifyOpenerConcept(line) === replyConcept).length;
+      if (conceptCount >= 1) {
+        reasons.push(`opener concept reused: ${replyConcept} (${conceptCount + 1}x in ${replyHistory.length} recent)`);
+      }
     }
   }
 
