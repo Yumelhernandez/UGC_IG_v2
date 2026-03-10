@@ -682,10 +682,16 @@ function buildBanterPrompt({
 
   if (format !== "D" && storyCaption) lines.push(`Story caption: ${storyCaption}`);
   if (imageDetails) {
-    lines.push(`Visual details: ${imageDetails}`);
-    if (imageHook) lines.push(`Textable detail: ${imageHook}`);
-    lines.push("VISUAL FIRST: The boy's specific joke must be grounded in what's actually visible — the visual details and textable detail above. The caption is what she wrote, but the joke should reference what viewers can see. If the caption conflicts with the visual, ignore the caption in the joke and reference the visual instead.");
-    lines.push("Pick up on specific props from the visual: the drink, the accessory, the food, the setting. Make it feel like he noticed something real. Example: 'you posted the green matcha and headphones at a café like you weren't trying to ruin someone's afternoon' not 'you posted that like bait'.");
+    lines.push(`What she posted: ${imageDetails}`);
+    if (imageHook) lines.push(`Most noticeable detail: ${imageHook}`);
+    lines.push("");
+    lines.push("⚠️ CRITICAL — REFERENCE HER PHOTO DIRECTLY:");
+    lines.push("At least 2 of the boy's lines MUST reference something specific from her photo.");
+    lines.push("NOT generic: 'you look good' / 'that fit is crazy'");
+    lines.push("YES specific: 'that red crop top got more confidence than most people' / 'the gold chain doing more work than your caption'");
+    lines.push("The girl's reaction should ALSO reference the photo: 'not u clocking the chain 😭' / 'the crop top is literally from shein relax 💀'");
+    lines.push("If she's at a location (beach, gym, car), reference it: 'the ocean behind you looks jealous ngl'");
+    lines.push("If she has a specific item (drink, phone, bag), reference it: 'that matcha saying more about you than your bio'");
   }
   if (boyReplyText) lines.push(`Boy reply: ${boyReplyText}`);
 
