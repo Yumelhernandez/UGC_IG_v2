@@ -394,7 +394,7 @@
     "file": "basketball_player_basketball_reaction_going_for_the_point_meme_clip.mp4",
     "subject": "NBA player",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "escalation"
@@ -474,7 +474,7 @@
     "file": "basketball_player_basketball_reaction_im_drowning_while_meme_clip.mp4",
     "subject": "NBA player",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "low",
     "dir": "In between messages",
     "beat_category": "shift"
@@ -1014,7 +1014,7 @@
     "file": "person_reaction_hollup_let_ime_cook_dark_tone_short_motion_meme_clip.mp4",
     "subject": "person",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "pushback"
@@ -1284,7 +1284,7 @@
     "file": "person_reaction_still_undisputed_champion_dark_tone_short_motion_meme_clip.mp4",
     "subject": "person",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "high",
     "dir": "In between messages",
     "beat_category": "close"
@@ -1304,7 +1304,7 @@
     "file": "person_reaction_watch_and_learn_dark_tone_short_motion_meme_clip.mp4",
     "subject": "person",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "shift"
@@ -1334,7 +1334,7 @@
     "file": "person_reaction_who_let_bro_cook_red_tone_short_motion_meme_clip.mp4",
     "subject": "person",
     "type": "reaction",
-    "has_baked_text": false,
+    "has_baked_text": true,
     "energy": "medium",
     "dir": "In between messages",
     "beat_category": "pushback"
