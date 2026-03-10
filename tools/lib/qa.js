@@ -1122,6 +1122,49 @@ function validateScript({ script, config, rootDir }) {
       }
     }
 
+    // === PACING CHECKS (2026-03-10) ===
+    // Enforce minimum message count for tension building
+    const msgCount = script.messages.length;
+    const isLong = script.meta && script.meta.format_variant === "long";
+    const minMsgs = isLong ? 10 : 8;
+    if (msgCount < minMsgs) {
+      reasons.push(`pacing: too few messages (${msgCount}, min ${minMsgs} for ${isLong ? "long" : "short"})`);
+    }
+    // Count girl pushback rounds (dismissive/challenging responses before first acceptance)
+    let pushbackCount = 0;
+    let girlCracked = false;
+    const crackPatterns = /\b(smooth|cute|ok that was|ok wait|that was actually|GOOD|you earned|fine you win|i hate you|omg.*smooth)\b/i;
+    for (const msg of script.messages) {
+      if (!msg || msg.from !== "girl") continue;
+      if (!girlCracked && crackPatterns.test(msg.text || "")) {
+        girlCracked = true;
+      }
+      if (!girlCracked && /\b(tf|nah|bro|what|huh|excuse|stop|no|pass|💀|leave)\b/i.test(msg.text || "")) {
+        pushbackCount++;
+      }
+    }
+    if (pushbackCount < 3 && arcType !== "cliffhanger") {
+      reasons.push(`pacing: insufficient girl pushback (${pushbackCount} rounds, min 3)`);
+    }
+    // Check girl crack timing — should not be in first 40% of messages
+    let crackIndex = -1;
+    for (let ci = 0; ci < script.messages.length; ci++) {
+      const msg = script.messages[ci];
+      if (msg && msg.from === "girl" && crackPatterns.test(msg.text || "")) {
+        crackIndex = ci;
+        break;
+      }
+    }
+    if (crackIndex >= 0 && script.messages.length >= 6) {
+      const crackPct = crackIndex / (script.messages.length - 1);
+      if (crackPct < 0.40) {
+        script.meta = script.meta || {};
+        script.meta.qa_signals = script.meta.qa_signals || {};
+        script.meta.qa_signals.girl_cracks_too_early = true;
+        reasons.push(`pacing: girl cracks too early (${(crackPct * 100).toFixed(0)}%, target 60-70%)`);
+      }
+    }
+
     const revealTime =
       revealMessage && typeof revealMessage.type_at === "number" ? revealMessage.type_at : null;
     const winTime =

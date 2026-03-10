@@ -3,10 +3,10 @@
   Generated: 2026-03-10
 ═══════════════════════════════════════════════════════
 
-  Total videos: 105
+  Total videos: 107
   Matched to scripts: 3
-  Total views: 6,693
-  Average views: 64
+  Total views: 6,752
+  Average views: 63
 
   TOP PERFORMERS:
     1,800 views | unknown | 7599546143093050654
@@ -16,7 +16,7 @@
     97 views | unknown | 7610652831388831006
     94 views | unknown | 7610845815367568670
     93 views | unknown | 7598037432122084639
-    91 views | unknown | 7600662910896966942
+    92 views | unknown | 7600662910896966942
     90 views | unknown | 7610660509557345549
     90 views | unknown | 7597661501159230750
     88 views | unknown | 7603556925258697998
@@ -32,8 +32,6 @@
     67 views | unknown | 7602130669250153759
 
   LOWEST PERFORMERS:
-    31 views | unknown | 7608280622959824142
-    30 views | unknown | 7615084491186392350
     30 views | unknown | 7600101703630802206
     29 views | unknown | 7612048539392199966
     29 views | unknown | 7609907849078033695
@@ -44,8 +42,10 @@
     28 views | unknown | 7608771349300923662
     28 views | unknown | 7605825492654034207
     28 views | unknown | 7605400856594222366
+    28 views | unknown | 7615454690033093901
     27 views | unknown | 7605758264025861389
     25 views | unknown | 7608379128470867214
+    24 views | unknown | 7615445754634587405
     23 views | unknown | 7608803056607612191
     21 views | unknown | 7597560620057169182
     17 views | unknown | 7598799406422297869
@@ -55,7 +55,7 @@
     2 views | unknown | 7610942348108811550
 
   PERFORMANCE BY PUNCHLINE STYLE:
-    none                       61 avg  (1 videos) ██████████████
+    none                       61 avg  (1 videos) ███████████████
     callback                   37 avg  (1 videos) █████████
     numeric_reveal             13 avg  (1 videos) ███
 
