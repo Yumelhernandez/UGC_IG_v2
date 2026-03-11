@@ -1,0 +1,202 @@
+{
+  "video_id": "2026-03-10-004",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 44,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "list_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "matching_energy",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 1,
+    "beat_plan": {
+      "inciting_incident": "Quick question, why are you single",
+      "first_reaction": "nah",
+      "hook": "Quick question, why are you single",
+      "test": "nah",
+      "escalation_turn": "interesting talk when you double text exes",
+      "escalation": "interesting talk when you double text exes",
+      "shift": "says who?",
+      "close": "you better plan something good 😭",
+      "shareable_moment": "interesting talk when you double text exes",
+      "pre_close_tension": "Alright you're funny. 555 642 4621 😂",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/turtle_character_scene_reaction_she_gonna_peg_guys_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_going_for_three_point_meme_clip.mp4",
+      "In between messages/stephen_curry_basketball_reaction_ball_basketball_gear_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_defense_too_weak_meme_clip.mp4",
+      "In between messages/person_reaction_scene_adult_portrait_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_she_doesnt_want_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true
+    },
+    "hook_type": "situation_reveal",
+    "payoff_type": "soft_rejection_pivot",
+    "template_id": "T-02",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-situation_reveal",
+      "M-PAYOFF-soft_rejection_pivot"
+    ],
+    "slot_index": 4,
+    "run_seed": 874787263,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "Quick question, why are you single",
+    "first_reaction": "nah",
+    "hook": "Quick question, why are you single",
+    "test": "nah",
+    "escalation_turn": "interesting talk when you double text exes",
+    "escalation": "interesting talk when you double text exes",
+    "shift": "says who?",
+    "close": "you better plan something good 😭",
+    "shareable_moment": "interesting talk when you double text exes",
+    "pre_close_tension": "Alright you're funny. 555 642 4621 😂",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "interesting talk when you double text exes"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_23__clip_021.mp4",
+    "headline": "She wasn't expecting this one",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "quiet day",
+    "asset": "baddies/3f19cd6326b93930a4c265b3c584e504.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "Quick question, why are you single"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "matching_energy"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "nah",
+      "type_at": 3.4,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "i got 3 things for you — 1. my time, 2. my energy, 3. ur number",
+      "type_at": 6.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "pass",
+      "type_at": 9.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "interesting talk when you double text exes",
+      "type_at": 12.1,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "says who?",
+      "type_at": 14.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you got your feet out like applications are open",
+      "type_at": 17.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "shut yo bich ass up 😭😭",
+      "type_at": 20.7,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "if the hammock had a signup sheet i lost already",
+      "type_at": 25,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ur actually battling furniture rn💀",
+      "type_at": 28.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 32.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Alright you're funny. 555 642 4621 😂",
+      "type_at": 36.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you better plan something good 😭",
+      "type_at": 40.5,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "plot twist incoming 😭🔥 | she folded too fast or nah? 💀 #texts #rizz #fyp #foryou #texting #dating #shootyourshot #rizzgod #dm"
+}

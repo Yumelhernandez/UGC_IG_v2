@@ -1,0 +1,205 @@
+{
+  "video_id": "2026-03-11-final-002",
+  "meta": {
+    "theme": "fitness",
+    "duration_s": 45,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "confusion",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "I need you to stop playing and tell me if youre single for research",
+      "first_reaction": "what do u want 😭",
+      "hook": "I need you to stop playing and tell me if youre single for research",
+      "test": "what do u want 😭",
+      "escalation_turn": "you're missing something",
+      "escalation": "you're missing something",
+      "shift": "what am i missing 💀",
+      "close": "don't make me regret this 😭",
+      "shareable_moment": "you're missing something",
+      "pre_close_tension": "I can't believe i'm doing this. 555 265 1369",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Cali man.mp3",
+    "in_between_assets": [
+      "In between messages/person_reaction_you_just_gotta_ask_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_going_for_three_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_mutual_omaha_midair_shot_afour_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_god_love_crazy_women_meme_clip.mp4",
+      "In between messages/person_basketball_reaction_but_game_game_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_mixed_tone_short_motion_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "early_pacing_weak": true,
+      "first_gap_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 5.3
+    },
+    "hook_type": "challenge_opener",
+    "payoff_type": "hard_rejection",
+    "template_id": "T-04",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-challenge_opener",
+      "M-PAYOFF-hard_rejection"
+    ],
+    "slot_index": 2,
+    "run_seed": 1796612276,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I need you to stop playing and tell me if youre single for research",
+    "first_reaction": "what do u want 😭",
+    "hook": "I need you to stop playing and tell me if youre single for research",
+    "test": "what do u want 😭",
+    "escalation_turn": "you're missing something",
+    "escalation": "you're missing something",
+    "shift": "what am i missing 💀",
+    "close": "don't make me regret this 😭",
+    "shareable_moment": "you're missing something",
+    "pre_close_tension": "I can't believe i'm doing this. 555 265 1369",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "Do you prefer heat or cold,, at the sauna?"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_81__clip_011.mp4",
+    "headline": "Texting baddies until I find wifey",
+    "subtitle": "*no fear*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "eva",
+    "age": 19,
+    "caption": "gym flow",
+    "asset": "baddies/852a7a5dd440419ed1e9a13c5aa1c4be.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need you to stop playing and tell me if youre single for research"
+  },
+  "persona": {
+    "boy": {
+      "name": "Eli",
+      "age": 19,
+      "tone": "shy-funny"
+    },
+    "girl": {
+      "name": "Eva",
+      "age": 19,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "what do u want 😭",
+      "type_at": 6.7,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "that pink hoodie in gym flow got more rizz than half the dudes there",
+      "type_at": 12,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "relax it’s literally from target",
+      "type_at": 15.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you're missing something",
+      "type_at": 19.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "what am i missing 💀",
+      "type_at": 21.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "me in your life",
+      "type_at": 24.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok that was smooth omg😭",
+      "type_at": 27,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "bet, let me prove it",
+      "type_at": 30.4,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "hardly convincing",
+      "type_at": 33.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 37.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "I can't believe i'm doing this. 555 265 1369",
+      "type_at": 40.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "don't make me regret this 😭",
+      "type_at": 44,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "the smoothest recovery 🥀 | she folded too fast or nah? 💀 #texts #rizz #fyp #foryou #texting #rizzler #huzz #dm"
+}

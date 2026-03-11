@@ -1,0 +1,202 @@
+{
+  "video_id": "2026-03-10-010",
+  "meta": {
+    "theme": "mirror",
+    "duration_s": 42.5,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "numeric_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "playing_hard_to_get",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 1,
+    "beat_plan": {
+      "inciting_incident": "On a scale sloth to cheetah how much trouble are you today",
+      "first_reaction": "no",
+      "hook": "On a scale sloth to cheetah how much trouble are you today",
+      "test": "no",
+      "escalation_turn": "interesting of you assuming i scare easy",
+      "escalation": "interesting of you assuming i scare easy",
+      "shift": "and?",
+      "close": "dont let this be all talk 😭",
+      "shareable_moment": "interesting of you assuming i scare easy",
+      "pre_close_tension": "text me 555 601 7036",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/old_school.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_crowd_figurine_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_that_will_easy_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_crowd_outdoor_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_too_much_about_him_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_why_she_defensive_like_that_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "pushback_opener_weak": true,
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true
+    },
+    "hook_type": "legal_complaint",
+    "payoff_type": "soft_rejection_pivot",
+    "template_id": "T-04",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-legal_complaint",
+      "M-PAYOFF-soft_rejection_pivot"
+    ],
+    "slot_index": 10,
+    "run_seed": 348189562,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "On a scale sloth to cheetah how much trouble are you today",
+    "first_reaction": "no",
+    "hook": "On a scale sloth to cheetah how much trouble are you today",
+    "test": "no",
+    "escalation_turn": "interesting of you assuming i scare easy",
+    "escalation": "interesting of you assuming i scare easy",
+    "shift": "and?",
+    "close": "dont let this be all talk 😭",
+    "shareable_moment": "interesting of you assuming i scare easy",
+    "pre_close_tension": "text me 555 601 7036",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "interesting of you assuming I scare easy"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_13__clip_014.mp4",
+    "headline": "Left her with no choice",
+    "subtitle": "*rizz notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "quiet day",
+    "asset": "baddies/05aa6f5d746e7fdd5b0b7b1011161a23.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "On a scale sloth to cheetah how much trouble are you today"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "playing_hard_to_get"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "no",
+      "type_at": 3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "that pink set got more energy than your whole quiet day",
+      "type_at": 5.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "why r u clocking my outfit😭",
+      "type_at": 8.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "interesting of you assuming i scare easy",
+      "type_at": 11.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "and?",
+      "type_at": 14.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "cats or dogs",
+      "type_at": 16.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "yeah why 💀",
+      "type_at": 20.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "60% locked in, the other 40% is just paperwork",
+      "type_at": 24.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "lmao no😭",
+      "type_at": 28,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "let me get your number",
+      "type_at": 32.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 601 7036",
+      "type_at": 36.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "dont let this be all talk 😭",
+      "type_at": 39.7,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "the smoothest recovery 🥀 | could you do better? 🤔 #texts #rizz #fyp #foryou #texting #dm #rizzler #huzz #rizzgod"
+}

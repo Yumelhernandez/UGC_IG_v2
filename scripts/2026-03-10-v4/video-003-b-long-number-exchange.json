@@ -1,0 +1,203 @@
+{
+  "video_id": "2026-03-10-v4-003",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 45,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "hostile",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "curiosity",
+    "first_reaction_words": 2,
+    "beat_plan": {
+      "inciting_incident": "I hate how bad I wanna put my mouth where yours is on that cup",
+      "first_reaction": "huh? how?",
+      "hook": "I hate how bad I wanna put my mouth where yours is on that cup",
+      "test": "huh? how?",
+      "escalation_turn": "i wanna go down on you",
+      "escalation": "i wanna go down on you",
+      "shift": "wait what 💀💀",
+      "close": "you earned it honestly 😭",
+      "shareable_moment": "i wanna go down on you",
+      "pre_close_tension": "text me 555 293 8954",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_that_free_throw_gng_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_that_will_easy_point_meme_clip.mp4",
+      "In between messages/michael_jordan_basketball_reaction_defense_cant_keep_meme_clip.mp4",
+      "In between messages/person_reaction_scene_child_red_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_way_she_didnt_get_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_illustrated_background_dark_tone_short_motion_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "first_gap_hard_fail": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4.9
+    },
+    "hook_type": "cold_open_bold",
+    "payoff_type": "number_drop",
+    "template_id": "T-02",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-cold_open_bold",
+      "M-PAYOFF-number_drop"
+    ],
+    "slot_index": 3,
+    "run_seed": 1690405118,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I hate how bad I wanna put my mouth where yours is on that cup",
+    "first_reaction": "huh? how?",
+    "hook": "I hate how bad I wanna put my mouth where yours is on that cup",
+    "test": "huh? how?",
+    "escalation_turn": "i wanna go down on you",
+    "escalation": "i wanna go down on you",
+    "shift": "wait what 💀💀",
+    "close": "you earned it honestly 😭",
+    "shareable_moment": "i wanna go down on you",
+    "pre_close_tension": "text me 555 293 8954",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "you wanted me to say something"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "Coldest opener I ever sent",
+    "subtitle": "*study this*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "amara",
+    "age": 20,
+    "caption": "casual day",
+    "asset": "baddies/73cd64b26f14242b54edd32ba7de9c43.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I hate how bad I wanna put my mouth where yours is on that cup"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Amara",
+      "age": 20,
+      "tone": "hostile"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "huh? how?",
+      "type_at": 4.9,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "casual day but that orange drink fighting for main character",
+      "type_at": 9.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "nah",
+      "type_at": 13,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i wanna go down on you",
+      "type_at": 15.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "wait what 💀💀",
+      "type_at": 18,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "on the titanic. ill be your iceberg",
+      "type_at": 20.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok that was smooth omg😭",
+      "type_at": 24.7,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "also that grand building jealous ur sharing lips with a fanta",
+      "type_at": 28.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not u clocking the drink 😭",
+      "type_at": 32.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you said it not me",
+      "type_at": 36.4,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 293 8954",
+      "type_at": 40.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you earned it honestly 😭",
+      "type_at": 44.5,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "the smoothest recovery 🥀 | who won? 💀 #texts #rizz #fyp #foryou #texting #dm #dating #rizzgod"
+}

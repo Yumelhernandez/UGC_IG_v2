@@ -1,0 +1,175 @@
+{
+  "video_id": "2026-03-10-diversity-test-002",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 23.8,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "punchline_style": "numeric_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "hostile",
+    "app_insert_policy": "required",
+    "opener_intensity": "provocative",
+    "first_reaction_type": "confusion",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "I dare you to say youre this relaxed when I show up",
+      "first_reaction": "what are you waffling about💀",
+      "hook": "I dare you to say youre this relaxed when I show up",
+      "test": "what are you waffling about💀",
+      "escalation_turn": "so you already like 82% of me",
+      "escalation": "so you already like 82% of me",
+      "shift": "lmao no😭",
+      "close": "you better be fun 😭",
+      "shareable_moment": "tf is this😭",
+      "pre_close_tension": "text me 555 954 9792",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/what the helly.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_she_cant_catch_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4",
+      "In between messages/person_reaction_scene_hardwood_court_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_scene_art_decoration_dark_tone_short_motion_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true
+    },
+    "hook_type": "compliment_opener",
+    "payoff_type": "twist_reveal",
+    "template_id": "T-05",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-compliment_opener",
+      "M-PAYOFF-twist_reveal"
+    ],
+    "slot_index": 2,
+    "run_seed": 3493778855,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I dare you to say youre this relaxed when I show up",
+    "first_reaction": "what are you waffling about💀",
+    "hook": "I dare you to say youre this relaxed when I show up",
+    "test": "what are you waffling about💀",
+    "escalation_turn": "so you already like 82% of me",
+    "escalation": "so you already like 82% of me",
+    "shift": "lmao no😭",
+    "close": "you better be fun 😭",
+    "shareable_moment": "tf is this😭",
+    "pre_close_tension": "text me 555 954 9792",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 7,
+    "shareable_index": 2,
+    "reveal_line": "Bet you fold first touch of the door"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/slam dunk GIF.mp4",
+    "headline": "Shooting a risky shot",
+    "subtitle": "*bold moves only*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "iris",
+    "age": 22,
+    "caption": "lazy sunday",
+    "asset": "baddies/6e858ecd1d0c93db42583787ff4eb021.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I dare you to say youre this relaxed when I show up"
+  },
+  "persona": {
+    "boy": {
+      "name": "Noah",
+      "age": 21,
+      "tone": "awkward-charming"
+    },
+    "girl": {
+      "name": "Iris",
+      "age": 22,
+      "tone": "hostile"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "what are you waffling about💀",
+      "type_at": 3.8,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "about that lazy, whole bed white and innocent but your eyes saying",
+      "type_at": 6.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "tf is this😭",
+      "type_at": 9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you already like 82% of me",
+      "type_at": 11.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "lmao no😭",
+      "type_at": 13.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "give me your number",
+      "type_at": 16.1,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "text me 555 954 9792",
+      "type_at": 19.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you better be fun 😭",
+      "type_at": 22.2,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "boldest move ever 💀🔥 | he cooked or he fumbled? #texts #rizz #fyp #foryou #texting #huzz #rizzgod #dms"
+}

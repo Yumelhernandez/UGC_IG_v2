@@ -1,0 +1,195 @@
+{
+  "video_id": "2026-03-11-final-001",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 44.2,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "cliffhanger",
+    "punchline_style": "numeric_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "matching_energy",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "You look like you ruin self control let me test that with dessert",
+      "first_reaction": "you talking cravings or cheesecake",
+      "hook": "You look like you ruin self control let me test that with dessert",
+      "test": "you talking cravings or cheesecake",
+      "escalation_turn": "you call it dessert, i call it a challenge",
+      "escalation": "you call it dessert, i call it a challenge",
+      "shift": "lol k",
+      "close": "not yet 😭",
+      "shareable_moment": "you call it dessert, i call it a challenge",
+      "pre_close_tension": "you already know why",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "cliffhanger"
+    },
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/turtle_character_scene_reaction_she_gonna_peg_guys_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_bag_got_secured_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_launching_the_bait_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_but_thanks_for_the_assist_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 3.9
+    },
+    "hook_type": "legal_complaint",
+    "payoff_type": "number_drop",
+    "template_id": "T-03",
+    "mechanic_ids": [
+      "M-ARC-cliffhanger",
+      "M-HOOK-legal_complaint",
+      "M-PAYOFF-number_drop"
+    ],
+    "slot_index": 1,
+    "run_seed": 2591014865,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "You look like you ruin self control let me test that with dessert",
+    "first_reaction": "you talking cravings or cheesecake",
+    "hook": "You look like you ruin self control let me test that with dessert",
+    "test": "you talking cravings or cheesecake",
+    "escalation_turn": "you call it dessert, i call it a challenge",
+    "escalation": "you call it dessert, i call it a challenge",
+    "shift": "lol k",
+    "close": "not yet 😭",
+    "shareable_moment": "you call it dessert, i call it a challenge",
+    "pre_close_tension": "you already know why",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "cliffhanger"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 10,
+    "shareable_index": 3,
+    "reveal_line": "You call it dessert, I call it a challenge"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_28__clip_006.mp4",
+    "headline": "He went all in and she folded",
+    "subtitle": "*watch closely*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "chloe",
+    "age": 22,
+    "caption": "coffee run",
+    "asset": "baddies/e936696346aa6acd049722b33a1413fc.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like you ruin self control let me test that with dessert"
+  },
+  "persona": {
+    "boy": {
+      "name": "Ryan",
+      "age": 22,
+      "tone": "confident"
+    },
+    "girl": {
+      "name": "Chloe",
+      "age": 22,
+      "tone": "matching_energy"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "you talking cravings or cheesecake",
+      "type_at": 5.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "say that to my face",
+      "type_at": 9.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "bro what💀 😭😭",
+      "type_at": 13.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you call it dessert, i call it a challenge",
+      "type_at": 16.3,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "lol k",
+      "type_at": 18.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you already like 73% of me",
+      "type_at": 21.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "lmao no😭",
+      "type_at": 24.4,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you want proof, say less",
+      "type_at": 28.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "mhmm anyway",
+      "type_at": 32,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you already know why",
+      "type_at": 36.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "not yet 😭",
+      "type_at": 39.9,
+      "response_type": "test"
+    }
+  ],
+  "tiktok_caption": "never giving up on huzz 😤🔥 | would you reply? 👀 #texts #rizz #fyp #foryou #texting #rizzgod #rizzler #huzz #dm"
+}
