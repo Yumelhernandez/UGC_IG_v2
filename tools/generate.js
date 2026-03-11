@@ -6368,14 +6368,14 @@ async function run() {
     count,
     distribution: brainrotStyle
       ? {
-          numeric_reveal: 0.15,
-          list_reveal: 0.15,
-          setup_reframe: 0.15,
-          persistence_flip: 0.12,
-          presumptive_close: 0.12,
-          roast_flip: 0.12,
-          recovery_play: 0.10,
-          sustained_metaphor: 0.09
+          numeric_reveal: 0.10,
+          list_reveal: 0.10,
+          setup_reframe: 0.25,
+          persistence_flip: 0.10,
+          presumptive_close: 0.08,
+          roast_flip: 0.10,
+          recovery_play: 0.15,
+          sustained_metaphor: 0.12
         }
       : {
           challenge: 1 / 6,

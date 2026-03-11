@@ -413,6 +413,46 @@ const BANTER_SYSTEM_PROMPT = [
   "Girl's final line must be loud: 'ok that was smooth I hate you 😭' not 'ok fine'.",
   "Girl never says boy's name. Girl never plans the date.",
   "",
+  "=== ROLE REVERSAL ENDINGS (use 20-30% of the time) ===",
+  "",
+  "Sometimes the girl should END UP CHASING the boy. Instead of him asking for her number,",
+  "SHE actively pursues HIM. This is a power flip and gets massive replays.",
+  "",
+  "ROLE REVERSAL EXAMPLE 1 (242K views — girl becomes submissive):",
+  "girl: obey mommy first",
+  "boy: always listening, mommy ❤️",
+  "girl: good boy 😭",
+  "",
+  "ROLE REVERSAL EXAMPLE 2 (175K views — girl calls HIM):",
+  "girl: let me call you i wanna see what makes you so confident 😭",
+  "",
+  "ROLE REVERSAL EXAMPLE 3 (73K views — girl surrenders completely):",
+  "boy: come eat what my mom made",
+  "girl: what she made?",
+  "boy: she made me",
+  "girl: i'll bark 😭",
+  "",
+  "WHEN TO USE ROLE REVERSAL: When the boy has been SO smooth that the girl flips from",
+  "testing to actively chasing. She asks for HIS number, offers to call, uses pet names,",
+  "or completely surrenders ('i'll do anything', 'you win', 'take me').",
+  "",
+  "=== SHOCK VALUE — MAKE THEM STOP SCROLLING ===",
+  "",
+  "The boy's opening line must make someone say 'did he really just say that?'",
+  "The #1 viral mechanic is SUGGESTIVE-THEN-PIVOT: say something that sounds dirty,",
+  "then reveal an innocent meaning. This creates SHOCK → RELIEF → SHARE.",
+  "",
+  "GOOD openers (scroll-stopping):",
+  "  ✅ 'i just know its pinker than that dress' — sounds sexual, pivots to compliment",
+  "  ✅ 'do you swallow or spit' — maximum shock, pivots to gum",
+  "  ✅ 'i wanna put something inside you' — pivots to 'a smile'",
+  "  ✅ 'come eat what my mom made' — pivots to 'she made me'",
+  "",
+  "BAD openers (nobody stops scrolling):",
+  "  ❌ 'you look like trouble' — overused, predictable",
+  "  ❌ 'quick question why are you single' — boring, no shock",
+  "  ❌ 'i have a complaint about your profile' — corporate, played out",
+  "",
   "BANNED (sounds AI-written):",
   "- 'about that [noun]' transitions",
   "- Abstract combos: 'chaos couture', 'vibe portfolio', 'emotion insurance'",
@@ -515,10 +555,19 @@ const BRAINROT_BANTER_SYSTEM_PROMPT = [
   "- Lines are SHORT. 2-8 words. Never a full paragraph.",
   "- Vocabulary is dead simple. No pseudo-intellectual words.",
   "- Humor comes from LOGIC and TENSION, not fancy vocabulary.",
-  "- Double-entendre / misunderstanding is a proven formula.",
+  "- Double-entendre / misunderstanding is THE #1 VIRAL FORMULA. Use it often.",
+  "- SUGGESTIVE-THEN-PIVOT: Boy says something that sounds dirty → pivots to innocent meaning.",
+  "  This creates SHOCK → RELIEF → SHARE. Examples: 'do you swallow or spit' → 'the gum',",
+  "  'i wanna go down on you' → 'on the titanic', 'come eat what my mom made' → 'she made me'.",
   "- Girl emoji: 💀 for shock, 😭 for dying laughing.",
   "- Boy lines are CONFIDENT and SHORT. One sentence max.",
   "- Escalation is FAST. No filler messages.",
+  "- ROLE REVERSAL: 20-30% of the time, the girl should END UP CHASING the boy.",
+  "  She asks for HIS number, offers to call, uses pet names, or fully surrenders.",
+  "  Example: 'let me call you i wanna see what makes you so confident 😭'",
+  "  Example: 'i'll bark 😭' / 'obey mommy first' / 'you win take me'",
+  "- VULNERABILITY: Boy can show genuine vulnerability THEN recover smoothly.",
+  "  Example: 'my dad abandoned me' → 'well an abandoned treasure is still treasure' (561K views)",
   "- BANNED: pseudo-intellectual words, formal language, any word a 15yo wouldn't use.",
   "",
 
@@ -744,9 +793,10 @@ function buildBanterPrompt({
     if (punchlineStyle === "numeric_reveal") {
       const mathLine = pickVariant(av.numeric_reveal && av.numeric_reveal.math_punchlines) || "so you already like [NUMBER]% of me";
       lines.push(`  girl: [first reaction to his story reply — 1-5 words, dismissive/confused]`);
-      lines.push(`  boy: [story-grounded punchline — his first line, tied to what she posted]`);
-      lines.push(`  girl: [reaction — 1-5 words]`);
-      lines.push(`  [0-2 more exchanges of banter if thread is long]`);
+      lines.push(`  boy: [story-grounded line — tied to what she posted, NOT the punchline yet]`);
+      lines.push(`  girl: [pushback — dismissive with emoji, 2-5 words: "bro what💀" / "tf is this😭"]`);
+      lines.push(`  boy: [light tease or redirect — build tension, still NOT the punchline]`);
+      lines.push(`  girl: [second pushback — testing him: "you done?" / "is there a point😭"]`);
       lines.push(`  boy: [INNOCENT QUESTION — new topic: "do you like water?" / "do you like [X]?" / "cats or dogs?"]`);
       lines.push(`  girl: yeah why 💀  ← write this EXACT line (or: what 💀 / yes?? 💀)`);
       lines.push(`  boy: ${mathLine}  ← write this EXACT structure. Nothing else.`);
@@ -757,8 +807,10 @@ function buildBanterPrompt({
       const listOpener = pickVariant(av.list_reveal && av.list_reveal.list_openers) || "i got 3 things for you — 1. [innocent], 2. [innocent], 3. ur number";
       lines.push(`  girl: [first reaction to his story reply — 1-5 words, dismissive/confused]`);
       lines.push(`  boy: ${listOpener}  ← FIRST boy line (≤70 chars total)`);
-      lines.push(`  girl: [shocked/amused with emoji — "that was good😭" / "lmao what😭" / "ok that was smooth😭"]`);
-      lines.push(`  [banter continues — 2-8 more exchanges]`);
+      lines.push(`  girl: [pushback — skeptical/testing: "that's your best?💀" / "bro tried so hard😭"]`);
+      lines.push(`  boy: [confident redirect — NOT repeating the list, something new]`);
+      lines.push(`  girl: [second pushback — still unimpressed: "you done?" / "and?😭"]`);
+      lines.push(`  [banter continues — 2-4 more exchanges]`);
       lines.push(`  [close sequence: boy asks for number → girl: pre-close with emoji → girl: number + tease]`);
       lines.push(`  RULE: The list_reveal is the BOY'S VERY FIRST BANTER LINE — right after her opening reaction. Never delayed.`);
       lines.push(`  RULE: Keep it short (under 70 chars)`);
@@ -775,7 +827,9 @@ function buildBanterPrompt({
       const reframeLine = _fb.reframe;
       const girlReaction = _fb.girl_reaction || "excuse me?? 💀";
       const pairType = _fb.type || "negative_reframe";
-      lines.push(`  girl: [first reaction — 1-5 words]`);
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive]`);
+      lines.push(`  boy: [light banter — tease about her photo/story, NOT the setup yet]`);
+      lines.push(`  girl: [pushback — "bro what💀" / "tf😭" / skeptical 2-5 words]`);
       lines.push(`  boy: ${setupLine}  ← write this EXACT line`);
       lines.push(`  girl: ${girlReaction} ← write this EXACT reaction`);
       lines.push(`  boy: ${reframeLine}  ← write this EXACT reframe`);
@@ -790,17 +844,21 @@ function buildBanterPrompt({
       lines.push(`  [close sequence]`);
     } else if (punchlineStyle === "persistence_flip") {
       const pfLine = pickVariant(av.persistence_flip && av.persistence_flip.first_reframes) || "your replies say otherwise";
-      lines.push(`  girl: [dismissal — "i don't even know you" / "not interested"]`);
+      lines.push(`  girl: [first dismissal — "i don't even know you" / "not interested" / "who are you💀"]`);
+      lines.push(`  boy: [light banter — not the persistence flip yet, just confident/playful]`);
+      lines.push(`  girl: [second pushback — "bro leave me alone😭" / "you're weird"]`);
       lines.push(`  boy: ${pfLine}  ← write this EXACT line`);
-      lines.push(`  girl: [another pushback]`);
+      lines.push(`  girl: [third pushback — testing but curious now]`);
       lines.push(`  boy: [another reframe of her resistance — "if you weren't curious you'd have left already"]`);
-      lines.push(`  [this reframe pattern repeats AT LEAST 2 times]`);
+      lines.push(`  [this reframe pattern repeats AT LEAST 1 more time]`);
       lines.push(`  [close sequence]`);
     } else if (punchlineStyle === "presumptive_close") {
       const pcPair = pickVariant(av.presumptive_close && av.presumptive_close.pairs);
       const assumptionLine = (pcPair && pcPair.assumption) || "i already told my mom about us";
       const followthroughLine = (pcPair && pcPair.followthrough) || "she said monday at 7 works";
-      lines.push(`  girl: [first reaction — 1-5 words]`);
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive]`);
+      lines.push(`  boy: [light banter — photo/story tease, building rapport]`);
+      lines.push(`  girl: [pushback — "and?" / "so?💀" / skeptical 2-5 words]`);
       lines.push(`  boy: ${assumptionLine}  ← write this EXACT line`);
       lines.push(`  girl: [confused/amused with emoji — "what?? 😭" / "ur not serious 💀"]`);
       lines.push(`  boy: ${followthroughLine}  ← write this EXACT follow-through`);
@@ -810,7 +868,9 @@ function buildBanterPrompt({
       const rfPair = pickVariant(av.roast_flip && av.roast_flip.pairs);
       const roastLine = (rfPair && rfPair.roast) || "you're mid";
       const roastReframe = (rfPair && rfPair.reframe) || "mid as in exactly where i want to be";
-      lines.push(`  girl: [first reaction — 1-5 words]`);
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive]`);
+      lines.push(`  boy: [light tease — photo/story reference, building tension]`);
+      lines.push(`  girl: [pushback — skeptical/challenging, 2-5 words with emoji]`);
       lines.push(`  boy: ${roastLine}  ← write this EXACT line`);
       lines.push(`  girl: excuse me?? 💀  ← write this EXACT line`);
       lines.push(`  boy: ${roastReframe}  ← write this EXACT reframe`);
@@ -839,6 +899,13 @@ function buildBanterPrompt({
     }
     lines.push(`Fill in all [BLANKS]. Keep the lines marked "write this EXACT line" word-for-word (you may adapt numbers/names).`);
     lines.push(`This outline IS the script — follow it top to bottom without skipping any section.`);
+    lines.push(``);
+    lines.push(`CLOSE SEQUENCE OPTIONS (pick ONE):`);
+    lines.push(`  A) STANDARD (70%): boy asks for number → girl: pre-close with emoji → girl: number + tease`);
+    lines.push(`  B) ROLE REVERSAL (30%): girl is SO impressed she chases HIM → she offers her number unprompted,`);
+    lines.push(`     asks to call him, uses pet names ("good boy"), or fully surrenders ("i'll do anything 😭")`);
+    lines.push(`     Example B: girl: "let me call you i wanna see what makes you so confident 😭"`);
+    lines.push(`     Example B: girl: "ok you won. what's YOUR number" / boy: "nah you earned mine" → gives number`);
     lines.push("");
   }
 

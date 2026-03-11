@@ -50,8 +50,8 @@
   },
   "controversy_tier_distribution": {
     "safe": 0.0,
-    "spicy": 0.35,
-    "edge": 0.65
+    "spicy": 0.20,
+    "edge": 0.80
   },
   "arc_distribution": {
     "number_exchange": 0.90,

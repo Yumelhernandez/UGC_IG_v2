@@ -174,6 +174,66 @@
           "reframe": "that you exist and now they think im lying",
           "girl_reaction": "told them WHAT 💀",
           "type": "question_misdirect"
+        },
+        {
+          "setup": "i just know its pinker than that dress",
+          "reframe": "the pink dress is beautiful",
+          "girl_reaction": "oh... 😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "do you swallow or spit",
+          "reframe": "the gum. what flavor",
+          "girl_reaction": "HELLO?? 💀💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i wanna see you on all fours",
+          "reframe": "looking for my airpod under the couch",
+          "girl_reaction": "EXCUSE ME 😭😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "come eat what my mom made",
+          "reframe": "she made me",
+          "girl_reaction": "BRO 😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i wanna go down on you",
+          "reframe": "on the titanic. ill be your iceberg",
+          "girl_reaction": "wait what 💀💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i want you to sit on my",
+          "reframe": "couch. movie night?",
+          "girl_reaction": "BOY 😭😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "lets do it tonight",
+          "reframe": "the homework. you said you needed help",
+          "girl_reaction": "oh my GOD 💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i wanna make you scream",
+          "reframe": "at the haunted house. theyre open this weekend",
+          "girl_reaction": "LMAO STOP 😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "you should come over and ride",
+          "reframe": "the new mario kart track. its actually insane",
+          "girl_reaction": "you are SICK 💀💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "i want you in my bed",
+          "reframe": "room. my cat needs a sitter and shes picky",
+          "girl_reaction": "WHAT IS WRONG WITH YOU 😭",
+          "type": "double_entendre"
         }
       ]
     },
@@ -331,24 +391,166 @@
     },
     "recovery_play": {
       "starters": [
-        { "awkward": "my dad abandoned me", "recovery": "well an abandoned treasure is still treasure" },
-        { "awkward": "i just got out of therapy", "recovery": "she said face my fears and here i am" },
-        { "awkward": "i can’t cook", "recovery": "but i can make reservations like nobody’s business" },
-        { "awkward": "i failed my drivers test", "recovery": "because you were in my head rent free" },
-        { "awkward": "my ex blocked me", "recovery": "she knew i was saving the good lines for someone better" },
-        { "awkward": "i just got fired", "recovery": "my boss said i was too distracted and showed him your story" },
-        { "awkward": "i have zero rizz", "recovery": "and yet here you are still reading" },
-        { "awkward": "i’m kinda broke rn", "recovery": "but rich in audacity and that’s what matters" }
+        {
+          "awkward": "my dad abandoned me",
+          "recovery": "well an abandoned treasure is still treasure"
+        },
+        {
+          "awkward": "i just got out of therapy",
+          "recovery": "she said face my fears and here i am"
+        },
+        {
+          "awkward": "i can’t cook",
+          "recovery": "but i can make reservations like nobody’s business"
+        },
+        {
+          "awkward": "i failed my drivers test",
+          "recovery": "because you were in my head rent free"
+        },
+        {
+          "awkward": "my ex blocked me",
+          "recovery": "she knew i was saving the good lines for someone better"
+        },
+        {
+          "awkward": "i just got fired",
+          "recovery": "my boss said i was too distracted and showed him your story"
+        },
+        {
+          "awkward": "i have zero rizz",
+          "recovery": "and yet here you are still reading"
+        },
+        {
+          "awkward": "i’m kinda broke rn",
+          "recovery": "but rich in audacity and that’s what matters"
+        },
+        {
+          "awkward": "i cried at a movie last night",
+          "recovery": "the part where they got together reminded me i havent shot my shot yet"
+        },
+        {
+          "awkward": "im the least athletic person you know",
+          "recovery": "but i run through your mind daily so that counts"
+        },
+        {
+          "awkward": "i still sleep with a stuffed animal",
+          "recovery": "but i could upgrade if you want the position"
+        },
+        {
+          "awkward": "i talk to myself in the mirror",
+          "recovery": "practicing what to say when i finally meet someone like you"
+        },
+        {
+          "awkward": "my mom still packs my lunch",
+          "recovery": "she said the girl im about to text deserves a man whos fed"
+        },
+        {
+          "awkward": "i got rejected 3 times this week",
+          "recovery": "so statistically you should say yes to balance the universe"
+        },
+        {
+          "awkward": "i cant swim",
+          "recovery": "but i will drown in your dms till you rescue me"
+        }
       ]
     },
     "sustained_metaphor": {
       "themes": [
-        { "metaphor": "criminal", "escalations": ["stole my attention", "stole my focus", "now you owe time"] },
-        { "metaphor": "food_order", "escalations": ["you look like a whole meal", "appetizer was your story", "main course is this conversation"] },
-        { "metaphor": "sports", "escalations": ["you just crossed me up", "now you’re running the score", "game over i lost"] },
-        { "metaphor": "weather", "escalations": ["you brought the heat", "now its a whole storm", "and i’m not running from it"] },
-        { "metaphor": "school", "escalations": ["you’re teaching a masterclass", "i’m taking notes rn", "when’s the final exam"] },
-        { "metaphor": "music", "escalations": ["your story was the intro", "this conversation is the hook", "the bridge is friday night"] }
+        {
+          "metaphor": "criminal",
+          "escalations": [
+            "stole my attention",
+            "stole my focus",
+            "now you owe time"
+          ]
+        },
+        {
+          "metaphor": "food_order",
+          "escalations": [
+            "you look like a whole meal",
+            "appetizer was your story",
+            "main course is this conversation"
+          ]
+        },
+        {
+          "metaphor": "sports",
+          "escalations": [
+            "you just crossed me up",
+            "now you’re running the score",
+            "game over i lost"
+          ]
+        },
+        {
+          "metaphor": "weather",
+          "escalations": [
+            "you brought the heat",
+            "now its a whole storm",
+            "and i’m not running from it"
+          ]
+        },
+        {
+          "metaphor": "school",
+          "escalations": [
+            "you’re teaching a masterclass",
+            "i’m taking notes rn",
+            "when’s the final exam"
+          ]
+        },
+        {
+          "metaphor": "music",
+          "escalations": [
+            "your story was the intro",
+            "this conversation is the hook",
+            "the bridge is friday night"
+          ]
+        },
+        {
+          "metaphor": "courtroom",
+          "escalations": [
+            "youre under arrest for that face",
+            "the evidence is overwhelming",
+            "sentencing is dinner friday"
+          ]
+        },
+        {
+          "metaphor": "hospital",
+          "escalations": [
+            "you just gave me heart failure",
+            "nurse said its terminal",
+            "only cure is your number"
+          ]
+        },
+        {
+          "metaphor": "robbery",
+          "escalations": [
+            "you robbed me of my focus",
+            "now youre taking my peace",
+            "im pressing charges at dinner"
+          ]
+        },
+        {
+          "metaphor": "addiction",
+          "escalations": [
+            "one look and im hooked",
+            "already need a second dose",
+            "rehab starts when you text back"
+          ]
+        },
+        {
+          "metaphor": "magic",
+          "escalations": [
+            "you just pulled a disappearing act on my standards",
+            "now my type is just you",
+            "the trick is giving me your number"
+          ]
+        },
+        {
+          "metaphor": "war",
+          "escalations": [
+            "you just invaded my thoughts",
+            "no surrender in sight",
+            "peace treaty requires dinner"
+          ]
+        }
       ]
     }
   }
