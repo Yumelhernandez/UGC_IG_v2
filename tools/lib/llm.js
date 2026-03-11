@@ -160,6 +160,18 @@ function pickVariant(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
+// Weighted variant picker — prefers items matching a filter (e.g., double_entendre pairs)
+function pickVariantWeighted(arr, filterFn, preferWeight) {
+  if (!arr || !arr.length) return null;
+  const preferred = arr.filter(filterFn);
+  const rest = arr.filter((item) => !filterFn(item));
+  if (preferred.length && Math.random() < preferWeight) {
+    return preferred[Math.floor(Math.random() * preferred.length)];
+  }
+  if (rest.length) return rest[Math.floor(Math.random() * rest.length)];
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
 const STORY_REPLY_SYSTEM_PROMPT = [
   "You are RizzAI. You help a guy reply to a girl's Instagram story.",
   "You will see the story image and generate reply options.",
@@ -649,9 +661,11 @@ function buildControversyTierGuidance(controversyTier) {
   if (controversyTier === "edge") {
     return [
       "Controversy tier: edge",
-      "Use a high-arousal, polarizing opener.",
-      "Push taboo-adjacent tension, but keep it safe and non-explicit.",
-      "The line should feel risky, surprising, and scroll-stopping."
+      "Use a high-arousal, polarizing opener that makes someone say 'DID HE REALLY JUST SAY THAT?'",
+      "BEST FORMULA: Say something that sounds sexual or inappropriate → then pivot to something innocent.",
+      "Examples: 'i wanna put something inside you' → 'a smile', 'do you swallow or spit' → 'the gum'",
+      "Push taboo-adjacent tension, but keep it safe (the pivot always makes it innocent).",
+      "The viewer should GASP at the setup then LAUGH at the reframe. That's the viral loop."
     ];
   }
   if (controversyTier === "spicy") {
@@ -738,7 +752,8 @@ function buildBanterPrompt({
   pivotExamples,
   viralConversations,
   punchlineStyle,
-  brainrotStyle
+  brainrotStyle,
+  useRoleReversal
 }) {
   const lines = [];
   const count = Number.isFinite(numMessages) ? numMessages : 4;
@@ -815,7 +830,12 @@ function buildBanterPrompt({
       lines.push(`  RULE: The list_reveal is the BOY'S VERY FIRST BANTER LINE — right after her opening reaction. Never delayed.`);
       lines.push(`  RULE: Keep it short (under 70 chars)`);
     } else if (punchlineStyle === "setup_reframe") {
-      const srPair = pickVariant(av.setup_reframe && av.setup_reframe.pairs);
+      // 60% chance of picking a suggestive double_entendre pair (the #1 viral mechanic)
+      const srPair = pickVariantWeighted(
+        av.setup_reframe && av.setup_reframe.pairs,
+        (p) => p.type === "double_entendre",
+        0.60
+      );
       // Fallback pairs if pickVariant returns null — rotate through diverse options, never default to same one
       const _srFallbacks = [
         { setup: "i wanna put something inside you", reframe: "a smile", girl_reaction: "EXCUSE ME 😭😭😭", type: "double_entendre" },
@@ -1136,11 +1156,22 @@ function buildBanterPrompt({
     lines.push("BANNED: 'about that [noun]' pattern. Never write it.");
     lines.push("No phone number anywhere in the conversation.");
   } else if (arcType !== "comedy") {
-    lines.push("The boy leads the close. His last line proposes a plan or asks for her number.");
-    lines.push("The boy names the day, time, or activity. He drives the date, not the girl.");
-    lines.push("The girl NEVER says 'text me' with a day and time. She does NOT plan the date.");
-    lines.push("End with the girl reacting: a short flirty tease or condition, like a cliffhanger hard cut.");
-    lines.push("Good girl endings: 'don't be late', 'you better be fun', 'don't blow it', 'impress me'.");
+    if (useRoleReversal) {
+      lines.push("⚠️ ROLE REVERSAL ENDING — the girl ends up CHASING the boy.");
+      lines.push("The boy is SO smooth that the power flips. Instead of him asking for her number,");
+      lines.push("SHE actively pursues HIM. Pick ONE of these close patterns:");
+      lines.push("  A) She offers her number: 'ok fine give me your phone' / 'let me call you'");
+      lines.push("  B) She surrenders: 'you win. take me' / 'i'll do anything 😭' / 'i'll bark'");
+      lines.push("  C) She uses pet names: 'good boy 😭' / 'obey mommy first' / power dynamic flip");
+      lines.push("  D) She demands more: 'don't stop now' / 'i wanna see what else you got'");
+      lines.push("The girl's LAST line must show she's actively pursuing, not passively accepting.");
+    } else {
+      lines.push("The boy leads the close. His last line proposes a plan or asks for her number.");
+      lines.push("The boy names the day, time, or activity. He drives the date, not the girl.");
+      lines.push("The girl NEVER says 'text me' with a day and time. She does NOT plan the date.");
+      lines.push("End with the girl reacting: a short flirty tease or condition, like a cliffhanger hard cut.");
+      lines.push("Good girl endings: 'don't be late', 'you better be fun', 'don't blow it', 'impress me'.");
+    }
   } else {
     lines.push("End with both sides having traded jokes. The girl gets the last laugh.");
     lines.push("Good comedy girl endings: 'ok that was actually funny', 'i hate that i laughed', 'you're actually unhinged', 'ok you win this round'.");
@@ -1604,7 +1635,8 @@ async function generateBanterMessages({
   pivotExamples,
   viralConversations,
   punchlineStyle,
-  brainrotStyle
+  brainrotStyle,
+  useRoleReversal
 }) {
   const rawCount = Number.isFinite(numMessages) ? numMessages : 8;
   const count = Math.max(rawCount, 8); // PACING FIX: enforce minimum 8 messages for tension building
@@ -1628,7 +1660,8 @@ async function generateBanterMessages({
     pivotExamples,
     viralConversations,
     punchlineStyle,
-    brainrotStyle
+    brainrotStyle,
+    useRoleReversal
   });
 
   let imageData = null;

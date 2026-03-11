@@ -4741,7 +4741,8 @@ async function buildBanterMessages({
           pivotExamples,
           viralConversations,
           punchlineStyle,
-          brainrotStyle
+          brainrotStyle,
+          useRoleReversal
         });
         const filtered = filterBanterMessages({
           messages: rawMessages,
@@ -4922,6 +4923,9 @@ async function buildScript({
   };
   const arcType = forcedArcType || pickWeighted(rng, ARC_WEIGHTS);
   const punchlineStyle = forcedPunchlineStyle || null;
+
+  // Role reversal close — 30% of number_exchange scripts have the girl chase the boy
+  const useRoleReversal = arcType === "number_exchange" && Math.random() < 0.30;
 
   // Brainrot variant selection (random vs contextual)
   let brainrotVariant = null;
@@ -5541,7 +5545,12 @@ async function buildScript({
       } else if (punchlineStyle === "setup_reframe") {
         // setup_reframe post-processing: pick a RANDOM pair from anchor_variants instead of hardcoding
         const _avPairs = (function() { try { return JSON.parse(require("fs").readFileSync(require("path").join(process.cwd(), "anchor_variants.json"), "utf8")).variants.setup_reframe.pairs; } catch(_) { return []; } })();
-        const _srPair = _avPairs.length ? _avPairs[Math.floor(Math.random() * _avPairs.length)] : { setup: "i wanna put something inside you", reframe: "a smile", girl_reaction: "EXCUSE ME 😭😭😭" };
+        // 60% chance of picking a suggestive double_entendre pair (the #1 viral mechanic)
+        const _dePairs = _avPairs.filter((p) => p.type === "double_entendre");
+        const _otherPairs = _avPairs.filter((p) => p.type !== "double_entendre");
+        const _srPair = (_dePairs.length && Math.random() < 0.60)
+          ? _dePairs[Math.floor(Math.random() * _dePairs.length)]
+          : (_otherPairs.length ? _otherPairs[Math.floor(Math.random() * _otherPairs.length)] : { setup: "i wanna put something inside you", reframe: "a smile", girl_reaction: "EXCUSE ME 😭😭😭" });
         const _hasSetupReframe = resolvedMessages.some(
           (m) => m.from === "boy" && (m.text === _srPair.setup || /ruin your (whole|entire) (week|life|night)/i.test(m.text))
         );
