@@ -5982,6 +5982,7 @@ async function buildScript({
         format_variant: isFormatB && bVariantSettings ? bVariantSettings.variant : undefined,
         arc_type: arcType,
         punchline_style: punchlineStyle || undefined,
+        use_role_reversal: useRoleReversal || undefined,
         conversation_mode: conversationMode,
         use_beat_conditioned_overlays: Boolean(config.clips && config.clips.use_beat_conditioned_overlays),
         girl_archetype: girl.tone || "default",

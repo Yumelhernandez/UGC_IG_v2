@@ -1143,8 +1143,11 @@ function validateScript({ script, config, rootDir }) {
         pushbackCount++;
       }
     }
-    if (pushbackCount < 3 && arcType !== "cliffhanger") {
-      reasons.push(`pacing: insufficient girl pushback (${pushbackCount} rounds, min 3)`);
+    const _brainrotPunchlineTypes = ["numeric_reveal", "list_reveal", "setup_reframe", "persistence_flip", "presumptive_close", "roast_flip", "recovery_play", "sustained_metaphor"];
+    const _hasBrainrotPunchline = script.meta && script.meta.punchline_style && _brainrotPunchlineTypes.includes(script.meta.punchline_style);
+    const minPushback = _hasBrainrotPunchline ? 2 : 3;
+    if (pushbackCount < minPushback && arcType !== "cliffhanger") {
+      reasons.push(`pacing: insufficient girl pushback (${pushbackCount} rounds, min ${minPushback})`);
     }
     // Check girl crack timing — should not be in first 40% of messages
     let crackIndex = -1;
@@ -1162,6 +1165,46 @@ function validateScript({ script, config, rootDir }) {
         script.meta.qa_signals = script.meta.qa_signals || {};
         script.meta.qa_signals.girl_cracks_too_early = true;
         reasons.push(`pacing: girl cracks too early (${(crackPct * 100).toFixed(0)}%, target 60-70%)`);
+      }
+    }
+
+    // === VIRAL MECHANIC ENFORCEMENT (2026-03-11) ===
+    const punchStyle = script.meta && script.meta.punchline_style;
+
+    // CHECK 1: Suggestive-then-pivot — setup_reframe must use a double_entendre pattern
+    if (punchStyle === "setup_reframe") {
+      const suggestivePatterns = /\b(inside you|pinker than|swallow|spit|on all fours|on your knees|in my bed|make you scream|come over and ride|sit on my|go down on|do it tonight|eat what my mom made|finish what we started)\b/i;
+      const hasSuggestive = script.messages.some(
+        (m) => m && m.from === "boy" && suggestivePatterns.test(m.text || "")
+      );
+      if (!hasSuggestive) {
+        reasons.push("viral: setup_reframe missing suggestive-then-pivot (no double_entendre detected)");
+      }
+    }
+
+    // CHECK 2: Role reversal — if meta.use_role_reversal, girl must chase in last 3 messages
+    if (script.meta && script.meta.use_role_reversal && arcType === "number_exchange") {
+      const lastThree = script.messages.slice(-3);
+      const girlChasesPatterns = /\b(let me call|give me your|what's your number|take me|you win|i'll do anything|good boy|obey|i'll bark|don't stop|what else you got|ok fine give me)\b/i;
+      const girlChases = lastThree.some(
+        (m) => m && m.from === "girl" && girlChasesPatterns.test(m.text || "")
+      );
+      if (!girlChases) {
+        reasons.push("viral: role_reversal ending missing (girl should chase boy in final messages)");
+      }
+    }
+
+    // CHECK 3: Sustained metaphor — must use same theme word in 3+ boy messages
+    if (punchStyle === "sustained_metaphor") {
+      const boyTexts = script.messages.filter((m) => m && m.from === "boy").map((m) => (m.text || "").toLowerCase());
+      const metaphorWords = ["criminal", "stole", "steal", "robbery", "court", "arrest", "sentence", "hospital", "heart failure", "cure", "addic", "hooked", "dose", "rehab", "magic", "trick", "disappear", "war", "invad", "surrender", "treaty", "food", "meal", "appetizer", "course", "sport", "score", "game", "weather", "heat", "storm", "school", "class", "notes", "exam", "music", "intro", "hook", "bridge"];
+      let bestCount = 0;
+      for (const word of metaphorWords) {
+        const count = boyTexts.filter((t) => t.includes(word)).length;
+        if (count > bestCount) bestCount = count;
+      }
+      if (bestCount < 2) {
+        reasons.push(`viral: sustained_metaphor broken (best theme word appeared ${bestCount}x in boy lines, need 2+)`);
       }
     }
 
