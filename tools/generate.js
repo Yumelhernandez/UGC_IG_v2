@@ -4602,6 +4602,8 @@ async function buildBanterMessages({
   edgyBlueprint,  // EdgyBoyV2: when set, use blueprint-driven generation instead of standard
   brainrotStyle   // brainrotStyle: when true, use BRAINROT_BANTER_SYSTEM_PROMPT
 }) {
+  // Role reversal close — 30% of number_exchange scripts have the girl chase the boy
+  const useRoleReversal = arcType === "number_exchange" && Math.random() < 0.30;
   const banterConfig = config.banter || {};
   const primaryModel = banterConfig.model || "gpt-5.1";
   const fallbackModels = Array.isArray(banterConfig.fallback_models)
@@ -4923,9 +4925,6 @@ async function buildScript({
   };
   const arcType = forcedArcType || pickWeighted(rng, ARC_WEIGHTS);
   const punchlineStyle = forcedPunchlineStyle || null;
-
-  // Role reversal close — 30% of number_exchange scripts have the girl chase the boy
-  const useRoleReversal = arcType === "number_exchange" && Math.random() < 0.30;
 
   // Brainrot variant selection (random vs contextual)
   let brainrotVariant = null;
