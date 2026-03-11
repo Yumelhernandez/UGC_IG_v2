@@ -4600,10 +4600,9 @@ async function buildBanterMessages({
   viralConversations,
   punchlineStyle,
   edgyBlueprint,  // EdgyBoyV2: when set, use blueprint-driven generation instead of standard
-  brainrotStyle   // brainrotStyle: when true, use BRAINROT_BANTER_SYSTEM_PROMPT
+  brainrotStyle,  // brainrotStyle: when true, use BRAINROT_BANTER_SYSTEM_PROMPT
+  useRoleReversal // role reversal: when true, girl chases boy at close
 }) {
-  // Role reversal close — 30% of number_exchange scripts have the girl chase the boy
-  const useRoleReversal = arcType === "number_exchange" && Math.random() < 0.30;
   const banterConfig = config.banter || {};
   const primaryModel = banterConfig.model || "gpt-5.1";
   const fallbackModels = Array.isArray(banterConfig.fallback_models)
@@ -4925,6 +4924,8 @@ async function buildScript({
   };
   const arcType = forcedArcType || pickWeighted(rng, ARC_WEIGHTS);
   const punchlineStyle = forcedPunchlineStyle || null;
+  // Role reversal — decided at slot level so it flows into both banter generation AND script meta
+  const useRoleReversal = arcType === "number_exchange" && Math.random() < 0.30;
 
   // Brainrot variant selection (random vs contextual)
   let brainrotVariant = null;
@@ -5296,7 +5297,8 @@ async function buildScript({
       viralConversations: viralSample,
       punchlineStyle,
       edgyBlueprint: edgyBlueprint || null,  // EdgyBoyV2: null when flag is off
-      brainrotStyle   // brainrotStyle: false when flag is off (zero behavior change)
+      brainrotStyle,  // brainrotStyle: false when flag is off (zero behavior change)
+      useRoleReversal // role reversal: flows from slot-level decision
     });
     const firstGenerated = generatedMessages[0];
     const firstNormalized = firstGenerated ? normalizeMessageText(firstGenerated.text) : "";
