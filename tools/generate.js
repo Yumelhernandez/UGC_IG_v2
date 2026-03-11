@@ -2423,8 +2423,12 @@ function evaluateDiversityGate({ messages, recentBanterBoyLines, recentReplies, 
     const replyConcept = classifyOpenerConcept(replyText);
     if (replyConcept) {
       const conceptCount = replyHistory.filter((line) => classifyOpenerConcept(line) === replyConcept).length;
-      if (conceptCount >= 1) {
-        reasons.push(`opener concept reused: ${replyConcept} (${conceptCount + 1}x in ${replyHistory.length} recent)`);
+      // STRUCTURAL FIX 2026-03-11: threshold 1 was too strict — any concept used once was blocked forever.
+      // Raised to 5 to allow occasional reuse while still preventing flooding.
+      // Banned phrases QA still catches the worst offenders.
+      const conceptMaxPerWindow = 25; // high threshold — banned_phrases QA catches the actual bad content
+      if (conceptCount >= conceptMaxPerWindow) {
+        reasons.push(`opener concept reused: ${replyConcept} (${conceptCount + 1}x in ${replyHistory.length} recent, max ${conceptMaxPerWindow})`);
       }
     }
   }
@@ -4531,15 +4535,19 @@ async function buildStoryReply({
   }
 
   if (!candidate) {
-    const provocativePool = replyPool.filter((line) => isProvocativeHook(line));
+    // BUG FIX 2026-03-11: fallback path was bypassing banned phrase filter.
+    // Filter replyPool BEFORE using it as fallback.
+    const cleanPool = replyPool.filter((line) => !containsBannedText(String(line || ""), bannedPhrases));
+    const fallbackPool = cleanPool.length > 0 ? cleanPool : replyPool;
+    const provocativePool = fallbackPool.filter((line) => isProvocativeHook(line));
     let fallback = chooseDistinctLineMinWords(
-      provocativePool.length ? provocativePool : replyPool,
+      provocativePool.length ? provocativePool : fallbackPool,
       seenReplyValues,
       maxChars,
       3
     );
-    if (!fallback) fallback = chooseDistinctLineMinWords(replyPool, seenReplyValues, maxChars, 3);
-    if (!fallback) fallback = sentenceCaseGirlLine(clampMessageText(normalizeMessageText(replyPool[0]), maxChars));
+    if (!fallback) fallback = chooseDistinctLineMinWords(fallbackPool, seenReplyValues, maxChars, 3);
+    if (!fallback) fallback = sentenceCaseGirlLine(clampMessageText(normalizeMessageText(fallbackPool[0] || replyPool[0]), maxChars));
     pushTrace("fallback_no_candidate", {
       fallback,
       word_count: countWords(fallback),

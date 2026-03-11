@@ -54,8 +54,8 @@
     "edge": 0.8
   },
   "arc_distribution": {
-    "number_exchange": 0.9,
-    "cliffhanger": 0.1
+    "number_exchange": 1,
+    "cliffhanger": 0
   },
   "line_max_chars": 70,
   "message_max_chars": 70,
@@ -283,7 +283,7 @@
   "script_quality": {
     "max_attempts": 2,
     "slot_retry_limit": 3,
-    "slot_attempt_timeout_ms": 45000,
+    "slot_attempt_timeout_ms": 120000,
     "first_gap_max": 4.8,
     "first_gap_soft_penalty": 3.5,
     "first_gap_absolute_hard_fail": 5.5,

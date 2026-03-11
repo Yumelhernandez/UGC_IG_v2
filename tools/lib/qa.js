@@ -1126,7 +1126,7 @@ function validateScript({ script, config, rootDir }) {
     // Enforce minimum message count for tension building
     const msgCount = script.messages.length;
     const isLong = script.meta && script.meta.format_variant === "long";
-    const minMsgs = isLong ? 10 : 8;
+    const minMsgs = isLong ? 10 : 8; // restored original — March 10 best scripts were 8 msgs
     if (msgCount < minMsgs) {
       reasons.push(`pacing: too few messages (${msgCount}, min ${minMsgs} for ${isLong ? "long" : "short"})`);
     }
@@ -1134,18 +1134,24 @@ function validateScript({ script, config, rootDir }) {
     let pushbackCount = 0;
     let girlCracked = false;
     const crackPatterns = /\b(smooth|cute|ok that was|ok wait|that was actually|GOOD|you earned|fine you win|i hate you|omg.*smooth)\b/i;
+    // Fix 3+4 (2026-03-11): emoji 💀 can't use \b (word boundary doesn't work on emoji).
+    // Split into word-boundary keywords + separate emoji test.
+    // Fix 4: expanded keywords — "boy", "cap", "who", "bye", "ew", "hell" are common pushback the old regex missed.
+    const pushbackWords = /\b(tf|nah|bro|what|huh|excuse|stop|no|pass|leave|boy|cap|who|bye|ew|hell|cant|wym)\b/i;
+    const pushbackEmoji = /💀|😭|🙄/;
     for (const msg of script.messages) {
       if (!msg || msg.from !== "girl") continue;
-      if (!girlCracked && crackPatterns.test(msg.text || "")) {
+      const text = msg.text || "";
+      if (!girlCracked && crackPatterns.test(text)) {
         girlCracked = true;
       }
-      if (!girlCracked && /\b(tf|nah|bro|what|huh|excuse|stop|no|pass|💀|leave)\b/i.test(msg.text || "")) {
+      if (!girlCracked && (pushbackWords.test(text) || pushbackEmoji.test(text))) {
         pushbackCount++;
       }
     }
     const _brainrotPunchlineTypes = ["numeric_reveal", "list_reveal", "setup_reframe", "persistence_flip", "presumptive_close", "roast_flip", "recovery_play", "sustained_metaphor"];
     const _hasBrainrotPunchline = script.meta && script.meta.punchline_style && _brainrotPunchlineTypes.includes(script.meta.punchline_style);
-    const minPushback = _hasBrainrotPunchline ? 2 : 3;
+    const minPushback = _hasBrainrotPunchline ? 2 : 3; // original thresholds restored 2026-03-11
     if (pushbackCount < minPushback && arcType !== "cliffhanger") {
       reasons.push(`pacing: insufficient girl pushback (${pushbackCount} rounds, min ${minPushback})`);
     }
@@ -1160,7 +1166,7 @@ function validateScript({ script, config, rootDir }) {
     }
     if (crackIndex >= 0 && script.messages.length >= 6) {
       const crackPct = crackIndex / (script.messages.length - 1);
-      if (crackPct < 0.40) {
+      if (crackPct < 0.40) { // restored original threshold 2026-03-11
         script.meta = script.meta || {};
         script.meta.qa_signals = script.meta.qa_signals || {};
         script.meta.qa_signals.girl_cracks_too_early = true;

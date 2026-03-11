@@ -209,7 +209,7 @@ const STORY_REPLY_SYSTEM_PROMPT = [
   "- Rating: 'rate me 1-10' or '[number]/10 [body part]' → twist the response",
   "- Name pun: 'Is your name [X]?' → 'because [X]-[wordplay]' (e.g., Gillette → best a man can get)",
   "- Numbered list: 'I got [N] things I'm tryna put into you' → reveal innocent items one by one",
-  "- Fake complaint: 'I need to file a complaint/report about [something in her photo]'",
+  "- Chaotic what-if: 'what if I told you [absurd hypothetical about her photo]'",
   "- Math/stats: 'according to my calculations...' or use percentages/statistics romantically",
   "- Reverse psychology: say something slightly negative then flip it ('You're mid' → 'midway to stealing my heart')",
   "- Absurd confession: 'I ate my [object]' → 'so can I use yours?' (bed, fridge, chair, etc.)",
@@ -219,6 +219,7 @@ const STORY_REPLY_SYSTEM_PROMPT = [
   "CRITICAL: Never reuse the exact same opener. Create FRESH variations of these formulas each time.",
   "- The reply MUST stop the scroll. It must be controversial, polarizing, or pattern-breaking.",
   "- If it feels too safe or polite, make it sharper and more provocative.",
+  "⛔ BANNED THEME — LEGAL/COMPLAINT: NEVER use legal themes. No 'pressing charges', 'filing a complaint', 'noise complaint', 'suing', 'arrest warrant', or ANY legal-related opener. These are overused and banned. Use suggestive pivots, weird hypotheticals, or chaotic confessions instead.",
   "",
   "CRITICAL — Use one of these proven controversial opener formulas.",
   "NEVER repeat the same formula twice in the same batch. Each option must use a DIFFERENT formula.",
@@ -312,7 +313,7 @@ const BANTER_SYSTEM_PROMPT = [
   "boy: nah now I'm curious",
   "girl: bro move ON 😭",
   "boy: I would but you're in the way",
-  "girl: ok that was smooth I hate you 😭",
+  "girl: nah that actually hit different😭",
   "",
   "EXAMPLE 5 (hand-crafted — hostile girl):",
   "boy reply: I'm outside your window",
@@ -468,7 +469,7 @@ const BANTER_SYSTEM_PROMPT = [
   "Boy: funny 19yo, bold, slightly unhinged, NOT smooth or polished. Uses emojis sparingly: 😭🥀😮‍💨.",
   "Girl pushes back HARD early. She's genuinely unimpressed. When she cracks, it EXPLODES.",
   "Boy leads the close. He names the day/time/activity.",
-  "Girl's final line must be loud: 'ok that was smooth I hate you 😭' not 'ok fine'.",
+  "Girl's final lines must be loud and VARIED: 'nah the recovery was insane💀' / 'bro i wasn't ready for that😭' / 'omg i hate that it worked💀'. NEVER 'ok fine'. NEVER repeat the same crack line across scripts.",
   "Girl never says boy's name. Girl never plans the date.",
   "",
   "=== ROLE REVERSAL ENDINGS (use 20-30% of the time) ===",
@@ -566,7 +567,7 @@ const BRAINROT_BANTER_SYSTEM_PROMPT = [
   "Girl's pushback must be MEAN and FUNNY. Good: 'shut yo bich ass up', 'bro what💀', 'nah you're insane', 'tf is wrong with you😭'. BAD: 'what do you mean' or 'I don't get it'.",
   "Girl's final acceptance must EXPLODE — NOT reserved. Good: 'ok i wasn't ready for that😭' / 'LMAO STOP' / 'bro is actually smooth wtf' / 'nah that was cute😭😭'. BAD: 'ok fine' or 'that's nice'.",
   "When the boy's punchline lands, the girl MUST react with visible shock/amusement. She felt that line in her soul.",
-  "Boy's opener should be absurdist, chaotic, or provocatively creative. Think: fake legal complaints, weird hypotheticals, presumptive boyfriend energy, unhinged confessions.",
+  "Boy's opener should be absurdist, chaotic, or provocatively creative. Think: weird hypotheticals, presumptive boyfriend energy, unhinged confessions, absurd compliments, chaotic what-if scenarios.",
   "The conversation should feel like two people who are actually funny and unfiltered — not a scripted ad. Raw internet energy.",
   "",
   "CRITICAL — WHAT GOOD BRAINROT OUTPUT LOOKS LIKE:",
@@ -582,7 +583,7 @@ const BRAINROT_BANTER_SYSTEM_PROMPT = [
   "boy: nah now I'm curious",
   "girl: bro move ON 😭",
   "boy: I would but you're in the way",
-  "girl: ok that was smooth I hate you 😭",
+  "girl: omg i hate that it worked💀",
   "",
   "EXAMPLE 2 (comedy arc, hostile girl):",
   "boy reply: I'm outside your window",
@@ -893,85 +894,129 @@ function buildBanterPrompt({
       const reframeLine = _fb.reframe;
       const girlReaction = _fb.girl_reaction || "excuse me?? 💀";
       const pairType = _fb.type || "negative_reframe";
-      lines.push(`  girl: [first reaction — 1-5 words, dismissive]`);
-      lines.push(`  boy: [light banter — tease about her photo/story, NOT the setup yet]`);
-      lines.push(`  girl: [pushback — "bro what💀" / "tf😭" / skeptical 2-5 words]`);
-      lines.push(`  boy: ${setupLine}  ← write this EXACT line`);
+      // STRUCTURAL FIX (2026-03-11): Anchor pre-setup banter so LLM can't skip to punchline early
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive with emoji]`);
+      lines.push(`  boy: [MANDATORY BANTER 1 — tease about her photo/story. Reference something VISIBLE. ≤8 words] ← write this line, do NOT skip it`);
+      lines.push(`  girl: [pushback 1 — mean + emoji, 2-5 words] ← write this line, do NOT skip it`);
+      lines.push(`  boy: [MANDATORY BANTER 2 — escalate or redirect. Different angle from banter 1. ≤8 words] ← write this line, do NOT skip it`);
+      lines.push(`  girl: [pushback 2 — still unimpressed, 2-5 words with emoji] ← write this line, do NOT skip it`);
+      lines.push(`  boy: [MANDATORY BANTER 3 — one more tease or callback. Keep building. ≤8 words] ← write this line, do NOT skip it`);
+      lines.push(`  girl: [pushback 3 — "you done?😭" / "is there a point💀"] ← write this line, do NOT skip it`);
+      lines.push(`  boy: ${setupLine}  ← NOW write this EXACT line (the punchline comes HERE — after 3 rounds of banter)`);
       lines.push(`  girl: ${girlReaction} ← write this EXACT reaction`);
       lines.push(`  boy: ${reframeLine}  ← write this EXACT reframe`);
       if (pairType === "double_entendre") {
         lines.push(`  boy: what did you think i meant 👀  ← add this line to twist the knife`);
-        lines.push(`  girl: [flustered with emoji — "NOTHING forget it 💀" / "bro DON'T play with me 😭"]`);
+        lines.push(`  girl: [flustered — VARY this! Pick ONE: "NOTHING forget it 💀" / "bro DON'T 😭" / "im not answering that💀" / "STOP playing with me😭😭" / "nah ur actually insane💀"]`);
       } else if (pairType === "question_misdirect") {
-        lines.push(`  girl: [shocked impressed — "ok wait that was actually good 😭" / "i hate you for that 💀"]`);
+        lines.push(`  girl: [shocked — VARY this! Pick ONE: "ok wait that hit different 😭" / "i hate you for that 💀" / "bro the audacity💀" / "nah that was actually fire😭"]`);
       } else {
-        lines.push(`  girl: [impressed with emoji — "ok that was smooth omg" / "omg😭 i hate that"]`);
+        lines.push(`  girl: [impressed — VARY this! Pick ONE: "nah that was lowkey smooth😭" / "omg i hate that it worked💀" / "bro the RECOVERY😭😭" / "i cant even be mad at that💀"]`);
       }
       lines.push(`  [close sequence]`);
+      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — that exact phrase is BANNED. Vary the girl's impressed reaction every time.`);
     } else if (punchlineStyle === "persistence_flip") {
       const pfLine = pickVariant(av.persistence_flip && av.persistence_flip.first_reframes) || "your replies say otherwise";
+      // STRUCTURAL FIX: Anchor pre-setup banter
       lines.push(`  girl: [first dismissal — "i don't even know you" / "not interested" / "who are you💀"]`);
-      lines.push(`  boy: [light banter — not the persistence flip yet, just confident/playful]`);
-      lines.push(`  girl: [second pushback — "bro leave me alone😭" / "you're weird"]`);
-      lines.push(`  boy: ${pfLine}  ← write this EXACT line`);
-      lines.push(`  girl: [third pushback — testing but curious now]`);
-      lines.push(`  boy: [another reframe of her resistance — "if you weren't curious you'd have left already"]`);
-      lines.push(`  [this reframe pattern repeats AT LEAST 1 more time]`);
+      lines.push(`  boy: [MANDATORY BANTER 1 — confident/playful, NOT the flip yet. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 1 — "bro leave me alone😭" / "you're weird"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 2 — another tease, building tension. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 2 — "you done yet?💀" / "this is embarrassing😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 3 — one more confident line. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 3 — "omg stop💀" / "nah fr leave😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: ${pfLine}  ← NOW write this EXACT line (the FLIP — after 3 rounds)`);
+      lines.push(`  girl: [third pushback — testing but curious now: "and?💀" / "prove it😭"]`);
+      lines.push(`  boy: [another reframe — "if you weren't curious you'd have left already" / "you're still here tho"]`);
+      lines.push(`  girl: [cracking — VARY this! "nah ur actually persistent😭" / "ok i respect the hustle💀" / "bro won't quit omg😭"]`);
       lines.push(`  [close sequence]`);
+      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — vary the girl's reaction.`);
     } else if (punchlineStyle === "presumptive_close") {
       const pcPair = pickVariant(av.presumptive_close && av.presumptive_close.pairs);
       const assumptionLine = (pcPair && pcPair.assumption) || "i already told my mom about us";
       const followthroughLine = (pcPair && pcPair.followthrough) || "she said monday at 7 works";
-      lines.push(`  girl: [first reaction — 1-5 words, dismissive]`);
-      lines.push(`  boy: [light banter — photo/story tease, building rapport]`);
-      lines.push(`  girl: [pushback — "and?" / "so?💀" / skeptical 2-5 words]`);
-      lines.push(`  boy: ${assumptionLine}  ← write this EXACT line`);
-      lines.push(`  girl: [confused/amused with emoji — "what?? 😭" / "ur not serious 💀"]`);
+      // STRUCTURAL FIX: Anchor pre-setup banter
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive with emoji]`);
+      lines.push(`  boy: [MANDATORY BANTER 1 — photo/story tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 1 — "and?💀" / "so?😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 2 — escalate. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 2 — "bro what💀" / "is there a point😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 3 — one more tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 3 — dismissive 2-5 words with emoji] ← write this, do NOT skip`);
+      lines.push(`  boy: ${assumptionLine}  ← NOW write this EXACT line (the ASSUMPTION — after 3 rounds)`);
+      lines.push(`  girl: [confused/amused — "what?? 😭" / "ur not serious 💀" / "HELLO??💀"]`);
       lines.push(`  boy: ${followthroughLine}  ← write this EXACT follow-through`);
-      lines.push(`  girl: [loud capitulation — "LMAO fine" / "omg stop😭" / "ur actually insane 😭"]`);
+      lines.push(`  girl: [capitulation — VARY this! "LMAO ur actually insane 😭" / "bro the confidence💀💀" / "nah this is crazy😭" / "i cant with you omg💀"]`);
       lines.push(`  [close sequence]`);
+      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — vary the girl's reaction.`);
     } else if (punchlineStyle === "roast_flip") {
       const rfPair = pickVariant(av.roast_flip && av.roast_flip.pairs);
       const roastLine = (rfPair && rfPair.roast) || "you're mid";
       const roastReframe = (rfPair && rfPair.reframe) || "mid as in exactly where i want to be";
-      lines.push(`  girl: [first reaction — 1-5 words, dismissive]`);
-      lines.push(`  boy: [light tease — photo/story reference, building tension]`);
-      lines.push(`  girl: [pushback — skeptical/challenging, 2-5 words with emoji]`);
-      lines.push(`  boy: ${roastLine}  ← write this EXACT line`);
+      // STRUCTURAL FIX: Anchor pre-setup banter
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive with emoji]`);
+      lines.push(`  boy: [MANDATORY BANTER 1 — photo/story tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 1 — skeptical, 2-5 words with emoji] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 2 — another tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 2 — "you done?💀" / "is that all?😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 3 — one more tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 3 — dismissive with emoji] ← write this, do NOT skip`);
+      lines.push(`  boy: ${roastLine}  ← NOW write this EXACT line (the ROAST — after 3 rounds)`);
       lines.push(`  girl: excuse me?? 💀  ← write this EXACT line`);
       lines.push(`  boy: ${roastReframe}  ← write this EXACT reframe`);
-      lines.push(`  girl: [laughs/impressed — "omg😭 i hate that" / "LMAO stop"]`);
+      lines.push(`  girl: [cracking — VARY this! "omg😭 i actually hate that it worked" / "LMAO bro the flip💀" / "nah that was cold and smooth😭" / "i cant even be mad💀💀"]`);
       lines.push(`  [close sequence]`);
+      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — vary the girl's reaction.`);
     } else if (punchlineStyle === "recovery_play") {
       const rpStarter = pickVariant(av.recovery_play && av.recovery_play.starters);
       const awkwardLine = (rpStarter && rpStarter.awkward) || "i just got out of therapy";
       const recoveryLine = (rpStarter && rpStarter.recovery) || "she said face my fears and here i am";
-      lines.push(`  girl: [first reaction — 1-5 words, curious/confused]`);
-      lines.push(`  boy: ${awkwardLine}  ← write this EXACT line (it sounds bad on purpose)`);
-      lines.push(`  girl: [concerned or confused — "wait what 💀" / "um ok??" / "that's... something"]`);
-      lines.push(`  boy: ${recoveryLine}  ← write this EXACT recovery (the pivot that makes it smooth)`);
-      lines.push(`  girl: [stunned impressed — "ok THAT was smooth 😭" / "bro the recovery 💀💀" / "how did you save that"]`);
+      // STRUCTURAL FIX: Anchor pre-setup banter
+      lines.push(`  girl: [first reaction — 1-5 words, curious/confused with emoji]`);
+      lines.push(`  boy: [MANDATORY BANTER 1 — photo/story tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 1 — "and?💀" / "ok?😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 2 — another tease. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 2 — "bro what💀" / "you're weird😭"] ← write this, do NOT skip`);
+      lines.push(`  boy: [MANDATORY BANTER 3 — one more line. ≤8 words] ← write this, do NOT skip`);
+      lines.push(`  girl: [pushback 3 — dismissive with emoji] ← write this, do NOT skip`);
+      lines.push(`  boy: ${awkwardLine}  ← NOW write this EXACT line (sounds bad on purpose — after 3 rounds)`);
+      lines.push(`  girl: [concerned/confused — "wait what 💀" / "um ok??" / "bro…💀"]`);
+      lines.push(`  boy: ${recoveryLine}  ← write this EXACT recovery (the pivot)`);
+      lines.push(`  girl: [stunned — VARY this! "bro the RECOVERY💀💀" / "how did you save that😭" / "nah that pivot was insane💀" / "omg i wasn't ready for that😭😭"]`);
       lines.push(`  [close sequence — the recovery earned it]`);
+      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — vary the girl's reaction.`);
     } else if (punchlineStyle === "sustained_metaphor") {
       const smTheme = pickVariant(av.sustained_metaphor && av.sustained_metaphor.themes);
       const metaphor = (smTheme && smTheme.metaphor) || "criminal";
       const escalations = (smTheme && smTheme.escalations) || ["stole my attention", "stole my focus", "now you owe time"];
-      lines.push(`  girl: [first reaction — 1-5 words]`);
-      lines.push(`  The conversation must build on a SINGLE ${metaphor} metaphor across 3+ messages.`);
-      lines.push(`  Each boy line escalates the same metaphor: "${escalations[0]}" → "${escalations[1]}" → "${escalations[2]}"`);
-      lines.push(`  The girl reacts to each escalation — she can play along, resist, or be confused.`);
-      lines.push(`  The humor comes from how far the boy stretches ONE theme. He never breaks character.`);
+      // FIX 3 (2026-03-11): Give fill-in-the-blank structure like other styles so LLM follows it
+      // QA requires the theme word "${metaphor}" to appear in 2+ boy lines
+      lines.push(`  girl: [first reaction — 1-5 words, dismissive with emoji]`);
+      lines.push(`  boy: [light banter — photo/story tease, NOT the metaphor yet]`);
+      lines.push(`  girl: [pushback 1 — "and?💀" / "bro what😭"]`);
+      lines.push(`  boy: ${escalations[0]}  ← write this EXACT line (starts the "${metaphor}" metaphor)`);
+      lines.push(`  girl: [confused/amused — reacts to the metaphor: "bro what💀" / "${metaphor}?? 😭"]`);
+      lines.push(`  boy: ${escalations[1]}  ← write this EXACT line (SAME "${metaphor}" metaphor, escalated)`);
+      lines.push(`  girl: [playing along or resisting — "you're actually insane😭" / "the ${metaphor} theme again💀"]`);
+      lines.push(`  boy: ${escalations[2]}  ← write this EXACT line (SAME "${metaphor}" metaphor, final escalation)`);
+      lines.push(`  girl: [cracking — VARY this! "nah the commitment to ${metaphor} is crazy😭" / "bro won't break character💀💀" / "omg the ${metaphor} thing actually worked😭"]`);
       lines.push(`  [close sequence]`);
+      lines.push(`  ⚠️ CRITICAL: The boy MUST use the word "${metaphor}" (or a direct synonym) in AT LEAST 2 of his lines. The whole joke is ONE metaphor stretched across the conversation.`);
+      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — vary the girl's reaction.`);
     }
     lines.push(`Fill in all [BLANKS]. Keep the lines marked "write this EXACT line" word-for-word (you may adapt numbers/names).`);
     lines.push(`This outline IS the script — follow it top to bottom without skipping any section.`);
     lines.push(``);
-    lines.push(`CLOSE SEQUENCE OPTIONS (pick ONE):`);
-    lines.push(`  A) STANDARD (70%): boy asks for number → girl: pre-close with emoji → girl: number + tease`);
-    lines.push(`  B) ROLE REVERSAL (30%): girl is SO impressed she chases HIM → she offers her number unprompted,`);
-    lines.push(`     asks to call him, uses pet names ("good boy"), or fully surrenders ("i'll do anything 😭")`);
-    lines.push(`     Example B: girl: "let me call you i wanna see what makes you so confident 😭"`);
-    lines.push(`     Example B: girl: "ok you won. what's YOUR number" / boy: "nah you earned mine" → gives number`);
+    lines.push(`CLOSE SEQUENCE — MANDATORY (pick ONE):`);
+    lines.push(`  A) STANDARD (70%):`);
+    lines.push(`     boy: "let me get your number" / "give me your number" / "text me" ← boy MUST explicitly ask`);
+    lines.push(`     girl: [pre-close resistance with emoji — "why should i" / "you think you earned it?💀"]`);
+    lines.push(`     girl: [gives number] "555 XXX XXXX" [+ short tease] ← MUST include a 555 phone number`);
+    lines.push(`  B) ROLE REVERSAL (30%):`);
+    lines.push(`     girl is SO impressed she chases HIM → offers her 555 number unprompted`);
+    lines.push(`     Example: girl: "ok fine here 555 XXX XXXX don't make me regret this 😭"`);
+    lines.push(`     Example: girl: "let me call you i wanna see what makes you so confident 😭"`);
+    lines.push(`  ⚠️ EVERY number_exchange script MUST end with a 555-XXX-XXXX phone number. No exceptions.`);
     lines.push("");
   }
 
@@ -1186,7 +1231,7 @@ function buildBanterPrompt({
   if (_isBrainrotPunchline) {
     lines.push(`⚠️ BEFORE WRITING: Re-read the SCRIPT OUTLINE above. Your output must match it section by section.`);
   }
-  lines.push(`Write exactly ${count} messages total.`);
+  lines.push(`⚠️ MANDATORY: Write EXACTLY ${count} messages total. NOT 8, NOT 9 — EXACTLY ${count}. Scripts under ${count} messages will be REJECTED. Count your lines before submitting.`);
   lines.push("Start with the girl. Alternate girl/boy each line.");
   if (arcType === "rejection") {
     lines.push("The boy makes his best close attempt near the end.");
@@ -1685,7 +1730,7 @@ async function generateBanterMessages({
   useRoleReversal
 }) {
   const rawCount = Number.isFinite(numMessages) ? numMessages : 8;
-  const count = Math.max(rawCount, 8); // PACING FIX: enforce minimum 8 messages for tension building
+  const count = Math.max(rawCount, 12); // STRUCTURAL FIX 2026-03-11: min 12 msgs to force banter before punchline at 60%+
   const userPrompt = buildBanterPrompt({
     storyCaption,
     boyReplyText,
@@ -2012,7 +2057,7 @@ function buildEdgyBanterPrompt({
   if (boyName) lines.push(`Boy name: ${boyName}`);
   lines.push("");
 
-  lines.push(`Write exactly ${count} messages total.`);
+  lines.push(`⚠️ MANDATORY: Write EXACTLY ${count} messages total. NOT 8, NOT 9 — EXACTLY ${count}. Scripts under ${count} messages will be REJECTED. Count your lines before submitting.`);
   lines.push("Start with the girl. Alternate girl/boy each line.");
   lines.push("Each line must start with exactly \"girl:\" or \"boy:\".");
   lines.push("Output ONLY the lines, no numbering, no extra text.");
