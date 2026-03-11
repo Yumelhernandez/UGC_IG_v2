@@ -234,6 +234,30 @@
           "reframe": "room. my cat needs a sitter and shes picky",
           "girl_reaction": "WHAT IS WRONG WITH YOU 😭",
           "type": "double_entendre"
+        },
+        {
+          "setup": "can i use your thighs as earmuffs",
+          "reframe": "its cold and you look warm",
+          "girl_reaction": "WHAT IS WRONG WITH YOU 💀💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "can you choke me just a little",
+          "reframe": "not enough to kill me but enough to humble me",
+          "girl_reaction": "bro WHAT 😭😭😭",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "can i rate the vertical ones too",
+          "reframe": "the photos. what did you think i meant",
+          "girl_reaction": "BOY 💀💀",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "you know exactly where my face belongs",
+          "reframe": "on your phone screen as your wallpaper",
+          "girl_reaction": "i cant with you 😭😭",
+          "type": "double_entendre"
         }
       ]
     },
@@ -450,6 +474,14 @@
         {
           "awkward": "i cant swim",
           "recovery": "but i will drown in your dms till you rescue me"
+        },
+        {
+          "awkward": "id bark but my dignity hanging by a thread",
+          "recovery": "good thing you look worth losing it for"
+        },
+        {
+          "awkward": "ive never begged for anything with this much pride",
+          "recovery": "first time for everything and you look like a good first"
         }
       ]
     },
