@@ -112,3 +112,12 @@ Menace mode activated
 
 ## BANNED HASHTAGS (wrong niche bucket)
 # #hinge #storytime #fineshyt
+
+
+
+
+How to text huzz
+
+How to text baddies
+
+Shooting in ig dms
