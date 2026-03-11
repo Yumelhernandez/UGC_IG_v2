@@ -1,0 +1,47 @@
+{
+  "video_id": "Viral_video_83",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "girl",
+      "text": "no not really"
+    },
+    {
+      "from": "girl",
+      "text": "you?"
+    },
+    {
+      "from": "girl",
+      "text": "no not really"
+    },
+    {
+      "from": "girl",
+      "text": "you?"
+    },
+    {
+      "from": "girl",
+      "text": "text"
+    },
+    {
+      "from": "girl",
+      "text": "you?"
+    },
+    {
+      "from": "girl",
+      "text": "text"
+    },
+    {
+      "from": "girl",
+      "text": "well that was good 😏"
+    }
+  ],
+  "opener": null,
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

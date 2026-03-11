@@ -1,0 +1,27 @@
+{
+  "video_id": "Viral_video_18",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "TIMBERWOLVES.COM",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "PlugAI"
+    },
+    {
+      "from": "girl",
+      "text": "Ohh.."
+    },
+    {
+      "from": "girl",
+      "text": "eyes"
+    }
+  ],
+  "opener": "PlugAI",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

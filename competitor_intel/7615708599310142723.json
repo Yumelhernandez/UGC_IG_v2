@@ -1,0 +1,33 @@
+{
+  "video_id": "7615708599310142723",
+  "account": "@rizzingchats",
+  "views": 99500,
+  "date": "2026-03-11",
+  "hook": {
+    "headline": "How to text huzz",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "8/10 lips 👄"},
+    {"from": "girl", "text": "Thanks"},
+    {"from": "boy", "text": "Can I also rate the vertical ones?"},
+    {"from": "girl", "text": "What😳"},
+    {"from": "boy", "text": "Please mommy 😔🙏"},
+    {"from": "girl", "text": "Idk what to say..."},
+    {"from": "boy", "text": "I'm just a visual learner 😩"},
+    {"from": "girl", "text": "Hmmm"},
+    {"from": "girl", "text": "Hmmmmm"},
+    {"from": "boy", "text": "I would get on all fours 🥺"},
+    {"from": "girl", "text": "Okay.."},
+    {"from": "girl", "text": "Yup"}
+  ],
+  "opener": "8/10 lips 👄",
+  "punchline_pairs": [
+    {
+      "setup": "Can I also rate the vertical ones?",
+      "reframe": "I'm just a visual learner",
+      "type": "double_entendre"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

@@ -1,0 +1,31 @@
+{
+  "video_id": "Viral_video_16",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "PlugAI",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "girl",
+      "text": "Hmm"
+    },
+    {
+      "from": "girl",
+      "text": "Okay.."
+    },
+    {
+      "from": "girl",
+      "text": "Yup"
+    },
+    {
+      "from": "boy",
+      "text": "PlugAI"
+    }
+  ],
+  "opener": "PlugAI",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

@@ -1,0 +1,35 @@
+{
+  "video_id": "Viral_video_39",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "Do you like water? 😈💦"
+    },
+    {
+      "from": "boy",
+      "text": "i need water"
+    },
+    {
+      "from": "boy",
+      "text": "So you mean you already need 72% of me"
+    },
+    {
+      "from": "boy",
+      "text": "only 72% 🙄"
+    },
+    {
+      "from": "boy",
+      "text": "Let me get the digits"
+    }
+  ],
+  "opener": "Do you like water? 😈💦",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

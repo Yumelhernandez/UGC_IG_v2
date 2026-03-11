@@ -1,0 +1,47 @@
+{
+  "video_id": "Viral_video_50",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "i just know it’s pinker than the dress"
+    },
+    {
+      "from": "boy",
+      "text": "HELLO?!??"
+    },
+    {
+      "from": "boy",
+      "text": "couldn’t help myself, blame the dress"
+    },
+    {
+      "from": "boy",
+      "text": "nah i’m actually crying, who even says that"
+    },
+    {
+      "from": "boy",
+      "text": "somebody who appreciates details"
+    },
+    {
+      "from": "boy",
+      "text": "lmaooo i’m speechless"
+    },
+    {
+      "from": "boy",
+      "text": "only when the fit is worth it"
+    },
+    {
+      "from": "boy",
+      "text": "i literally just liked the dress😭"
+    }
+  ],
+  "opener": "i just know it’s pinker than the dress",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

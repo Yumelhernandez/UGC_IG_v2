@@ -1,0 +1,35 @@
+{
+  "video_id": "Viral_video_38",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "You tryna go to Paris with me?"
+    },
+    {
+      "from": "boy",
+      "text": "i don’t know you 😭"
+    },
+    {
+      "from": "boy",
+      "text": "I already have the Eiffel Tower in my pants when i look at you"
+    },
+    {
+      "from": "boy",
+      "text": "you’re crazy"
+    },
+    {
+      "from": "boy",
+      "text": "I’m still tryna take you on a date"
+    }
+  ],
+  "opener": "You tryna go to Paris with me?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

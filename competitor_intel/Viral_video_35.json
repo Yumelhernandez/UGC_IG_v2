@@ -1,0 +1,35 @@
+{
+  "video_id": "Viral_video_35",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "I need yall both"
+    },
+    {
+      "from": "boy",
+      "text": "What’s your return policy if I fall in love too fast"
+    },
+    {
+      "from": "boy",
+      "text": "I’d bark if you told me to"
+    },
+    {
+      "from": "boy",
+      "text": "If you say ‘hi’ I’ll cancel all my h [black bar obscures a word] rn"
+    },
+    {
+      "from": "boy",
+      "text": "Seen 51m ago"
+    }
+  ],
+  "opener": "I need yall both",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

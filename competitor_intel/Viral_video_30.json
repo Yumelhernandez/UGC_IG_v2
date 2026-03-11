@@ -1,0 +1,35 @@
+{
+  "video_id": "Viral_video_30",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "girl",
+      "text": "😭😭"
+    },
+    {
+      "from": "girl",
+      "text": "How can you say that"
+    },
+    {
+      "from": "boy",
+      "text": "you just look too beautiful"
+    },
+    {
+      "from": "girl",
+      "text": "thankssss"
+    },
+    {
+      "from": "boy",
+      "text": "Lemme get your number"
+    }
+  ],
+  "opener": "you just look too beautiful",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

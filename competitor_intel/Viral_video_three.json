@@ -1,0 +1,39 @@
+{
+  "video_id": "Viral_video_three",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "How to text huzz",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "do you like water?"
+    },
+    {
+      "from": "girl",
+      "text": "yeah why"
+    },
+    {
+      "from": "boy",
+      "text": "do you like water?"
+    },
+    {
+      "from": "girl",
+      "text": "yeah why"
+    },
+    {
+      "from": "girl",
+      "text": "everyone likes water"
+    },
+    {
+      "from": "boy",
+      "text": "so you already like 73% of me"
+    }
+  ],
+  "opener": "do you like water?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

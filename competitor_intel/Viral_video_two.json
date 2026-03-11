@@ -1,0 +1,51 @@
+{
+  "video_id": "Viral_video_two",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "How to text huzz",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "Burger or Pizza?"
+    },
+    {
+      "from": "girl",
+      "text": "Burger??"
+    },
+    {
+      "from": "girl",
+      "text": "steak I guess"
+    },
+    {
+      "from": "boy",
+      "text": "pasta or steak?"
+    },
+    {
+      "from": "girl",
+      "text": "steak I guess"
+    },
+    {
+      "from": "girl",
+      "text": "why are you asking me that?"
+    },
+    {
+      "from": "boy",
+      "text": "pasta or steak?"
+    },
+    {
+      "from": "girl",
+      "text": "why are you asking me that?"
+    },
+    {
+      "from": "girl",
+      "text": "oh 😭😭"
+    }
+  ],
+  "opener": "Burger or Pizza?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

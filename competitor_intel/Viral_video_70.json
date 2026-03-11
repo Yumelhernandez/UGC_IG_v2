@@ -1,0 +1,51 @@
+{
+  "video_id": "Viral_video_70",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "girl",
+      "text": "what is wrong with you"
+    },
+    {
+      "from": "girl",
+      "text": "text"
+    },
+    {
+      "from": "girl",
+      "text": "you are not well"
+    },
+    {
+      "from": "girl",
+      "text": "text"
+    },
+    {
+      "from": "girl",
+      "text": "you talk like you're in pain"
+    },
+    {
+      "from": "girl",
+      "text": "text"
+    },
+    {
+      "from": "girl",
+      "text": "be serious"
+    },
+    {
+      "from": "girl",
+      "text": "text"
+    },
+    {
+      "from": "girl",
+      "text": "and this is what you chose to say?"
+    }
+  ],
+  "opener": null,
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

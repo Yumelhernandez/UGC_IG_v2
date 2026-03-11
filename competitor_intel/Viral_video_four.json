@@ -1,0 +1,31 @@
+{
+  "video_id": "Viral_video_four",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "Shooting in ig dms",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "girl",
+      "text": "HUZZ AI"
+    },
+    {
+      "from": "boy",
+      "text": "matcha n missionary?"
+    },
+    {
+      "from": "girl",
+      "text": "???"
+    },
+    {
+      "from": "boy",
+      "text": "matcha n missionary?"
+    }
+  ],
+  "opener": "matcha n missionary?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

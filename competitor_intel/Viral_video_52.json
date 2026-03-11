@@ -1,0 +1,43 @@
+{
+  "video_id": "Viral_video_52",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "Mommy? Sorry. Mommy? Sorry. Mommy? Sorry… unless?"
+    },
+    {
+      "from": "boy",
+      "text": "unless what exactly? you lost or just looking for trouble?"
+    },
+    {
+      "from": "boy",
+      "text": "unless you wanna teach me how to behave"
+    },
+    {
+      "from": "boy",
+      "text": "behave? you don’t even look like you’d survive a lap around the corral"
+    },
+    {
+      "from": "boy",
+      "text": "i’ll take the risk if it means getting a private rodeo"
+    },
+    {
+      "from": "boy",
+      "text": "tight’s cute but i need a man who doesn’t fall off after five seconds"
+    },
+    {
+      "from": "boy",
+      "text": "give me eight and i’ll buy the boots"
+    }
+  ],
+  "opener": "Mommy? Sorry. Mommy? Sorry. Mommy? Sorry… unless?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

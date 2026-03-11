@@ -1,0 +1,43 @@
+{
+  "video_id": "Viral_video_17",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "G",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "PlugAI"
+    },
+    {
+      "from": "boy",
+      "text": "Wow"
+    },
+    {
+      "from": "girl",
+      "text": "Hmm"
+    },
+    {
+      "from": "girl",
+      "text": "Okay"
+    },
+    {
+      "from": "boy",
+      "text": "Really?"
+    },
+    {
+      "from": "girl",
+      "text": "Mhm.."
+    },
+    {
+      "from": "boy",
+      "text": "PlugAI"
+    }
+  ],
+  "opener": "PlugAI",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

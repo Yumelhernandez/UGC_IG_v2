@@ -1,0 +1,35 @@
+{
+  "video_id": "Viral_video_47",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "are you flirting with me rn??"
+    },
+    {
+      "from": "boy",
+      "text": "idk am i?"
+    },
+    {
+      "from": "boy",
+      "text": "what-"
+    },
+    {
+      "from": "boy",
+      "text": "i mean can't lie, you make science my favorite subject"
+    },
+    {
+      "from": "boy",
+      "text": "i suppose i never heard that one before, i'll give you points for creativity"
+    }
+  ],
+  "opener": "are you flirting with me rn??",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

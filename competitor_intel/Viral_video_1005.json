@@ -1,0 +1,43 @@
+{
+  "video_id": "Viral_video_1005",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "You the first 10/10 I’ve ever seen"
+    },
+    {
+      "from": "boy",
+      "text": "what you lying for?"
+    },
+    {
+      "from": "boy",
+      "text": "your more of a 9/10"
+    },
+    {
+      "from": "boy",
+      "text": "wasn’t talking about that part"
+    },
+    {
+      "from": "boy",
+      "text": "But why’d you go down"
+    },
+    {
+      "from": "boy",
+      "text": "Because I am the 1 you need"
+    },
+    {
+      "from": "boy",
+      "text": "oh ok!!"
+    }
+  ],
+  "opener": "You the first 10/10 I’ve ever seen",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

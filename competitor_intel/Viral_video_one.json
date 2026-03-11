@@ -1,0 +1,67 @@
+{
+  "video_id": "Viral_video_one",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "are u still mad?"
+    },
+    {
+      "from": "girl",
+      "text": "yes"
+    },
+    {
+      "from": "boy",
+      "text": "I know 70 ways to make you happy"
+    },
+    {
+      "from": "girl",
+      "text": "alright what’s the first"
+    },
+    {
+      "from": "girl",
+      "text": "and the rest?"
+    },
+    {
+      "from": "boy",
+      "text": "buy you flowers"
+    },
+    {
+      "from": "boy",
+      "text": "the rest is 69"
+    },
+    {
+      "from": "girl",
+      "text": "and the rest?"
+    },
+    {
+      "from": "boy",
+      "text": "buy you flowers"
+    },
+    {
+      "from": "boy",
+      "text": "69"
+    },
+    {
+      "from": "girl",
+      "text": "and the rest?"
+    },
+    {
+      "from": "girl",
+      "text": "😭😭"
+    },
+    {
+      "from": "boy",
+      "text": "69"
+    }
+  ],
+  "opener": "are u still mad?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

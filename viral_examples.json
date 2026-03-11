@@ -5452,5 +5452,112 @@
       }
     ],
     "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "Viral_video_26",
+    "opener": "Burger??",
+    "conversation": [
+      {
+        "from": "girl",
+        "text": "Burger??"
+      },
+      {
+        "from": "girl",
+        "text": "Steak I guess"
+      },
+      {
+        "from": "girl",
+        "text": "why are you asking me that?"
+      },
+      {
+        "from": "girl",
+        "text": "Steak I guess"
+      },
+      {
+        "from": "girl",
+        "text": "why are you asking me that?"
+      },
+      {
+        "from": "girl",
+        "text": "Steak I guess"
+      },
+      {
+        "from": "girl",
+        "text": "why are you asking me that?"
+      },
+      {
+        "from": "girl",
+        "text": "Oh😭😭"
+      },
+      {
+        "from": "girl",
+        "text": "Really?"
+      },
+      {
+        "from": "girl",
+        "text": "Oh😭😭"
+      },
+      {
+        "from": "girl",
+        "text": "Really?"
+      }
+    ],
+    "arc_type": "number_exchange"
+  },
+  {
+    "video_id": "7615708599310142723",
+    "opener": "8/10 lips 👄",
+    "conversation": [
+      {
+        "from": "boy",
+        "text": "8/10 lips 👄"
+      },
+      {
+        "from": "girl",
+        "text": "Thanks"
+      },
+      {
+        "from": "boy",
+        "text": "Can I also rate the vertical ones?"
+      },
+      {
+        "from": "girl",
+        "text": "What😳"
+      },
+      {
+        "from": "boy",
+        "text": "Please mommy 😔🙏"
+      },
+      {
+        "from": "girl",
+        "text": "Idk what to say..."
+      },
+      {
+        "from": "boy",
+        "text": "I'm just a visual learner 😩"
+      },
+      {
+        "from": "girl",
+        "text": "Hmmm"
+      },
+      {
+        "from": "girl",
+        "text": "Hmmmmm"
+      },
+      {
+        "from": "boy",
+        "text": "I would get on all fours 🥺"
+      },
+      {
+        "from": "girl",
+        "text": "Okay.."
+      },
+      {
+        "from": "girl",
+        "text": "Yup"
+      }
+    ],
+    "arc_type": "number_exchange",
+    "ai_card_punchline": "I'm just a visual learner"
   }
 ]

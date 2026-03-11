@@ -1,0 +1,27 @@
+{
+  "video_id": "Viral_video_48",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": null,
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "distracting you from what?"
+    },
+    {
+      "from": "boy",
+      "text": "not my fault..."
+    },
+    {
+      "from": "boy",
+      "text": "tried that, all i see is you anyway"
+    }
+  ],
+  "opener": "distracting you from what?",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}

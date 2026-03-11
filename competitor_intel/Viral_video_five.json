@@ -1,0 +1,35 @@
+{
+  "video_id": "Viral_video_five",
+  "account": null,
+  "views": null,
+  "date": null,
+  "hook": {
+    "headline": "How to text baddies",
+    "subtitle": null
+  },
+  "conversation": [
+    {
+      "from": "boy",
+      "text": "Your body is tea"
+    },
+    {
+      "from": "girl",
+      "text": "Ah okay thanks"
+    },
+    {
+      "from": "boy",
+      "text": "And I’m tryna take a sip 😎"
+    },
+    {
+      "from": "boy",
+      "text": "Your body is tea"
+    },
+    {
+      "from": "girl",
+      "text": "LMAO OMG"
+    }
+  ],
+  "opener": "Your body is tea",
+  "punchline_pairs": [],
+  "arc_type": "number_exchange"
+}
