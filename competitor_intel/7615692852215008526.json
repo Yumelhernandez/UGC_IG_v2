@@ -1,0 +1,33 @@
+{
+  "video_id": "7615692852215008526",
+  "account": "@rizzlicious4u",
+  "views": 280400,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting Goth Mommy",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "I feel like you're a solid 3"},
+    {"from": "girl", "text": "Do I look that bad?"},
+    {"from": "boy", "text": "No no... I meant based on my professional analysis"},
+    {"from": "boy", "text": "[sends image: numbered chart of pubic hair styles 1-16]"},
+    {"from": "girl", "text": "Nah actually I'm 9"},
+    {"from": "boy", "text": "Bold statement. The court requires evidence"},
+    {"from": "girl", "text": "[sends vanish-mode photo]"}
+  ],
+  "opener": "I feel like you're a solid 3",
+  "punchline_pairs": [
+    {
+      "setup": "I feel like you're a solid 3",
+      "reframe": "I meant based on my professional analysis [pubic hair chart]",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "Nah actually I'm 9",
+      "reframe": "Bold statement. The court requires evidence",
+      "type": "recovery_play"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

@@ -1,0 +1,38 @@
+{
+  "video_id": "7612351071695932703",
+  "account": "@rizzlicious4u",
+  "views": 1400000,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting Older Women",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "May I hit that from behind?"},
+    {"from": "girl", "text": "hit what exactly? me??"},
+    {"from": "boy", "text": "I'd never lay a finger ON you"},
+    {"from": "girl", "text": "aww"},
+    {"from": "boy", "text": "but IN you is a different story"},
+    {"from": "girl", "text": "you're actually insane 😭"},
+    {"from": "boy", "text": "So now can I hit?"},
+    {"from": "girl", "text": "go to bed boy it's late night"},
+    {"from": "boy", "text": "I ate my bed"},
+    {"from": "boy", "text": "so can I sleep in yours?"},
+    {"from": "girl", "text": "okay but you better behave"},
+    {"from": "boy", "text": "Whatever you say, mommy"}
+  ],
+  "opener": "May I hit that from behind?",
+  "punchline_pairs": [
+    {
+      "setup": "I'd never lay a finger ON you",
+      "reframe": "but IN you is a different story",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "go to bed boy it's late night",
+      "reframe": "I ate my bed / so can I sleep in yours?",
+      "type": "recovery_play"
+    }
+  ],
+  "arc_type": "number_exchange"
+}
