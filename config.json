@@ -16,12 +16,12 @@
   },
   "daily_count": 10,
   "duration_s": {
-    "min": 20,
-    "max": 28
+    "min": 25,
+    "max": 32
   },
   "duration_s_long": {
-    "min": 30,
-    "max": 45
+    "min": 32,
+    "max": 40
   },
   "timing_windows": {
     "B": {
@@ -30,8 +30,8 @@
         7
       ],
       "win": [
-        12,
-        21
+        15,
+        30
       ]
     }
   },
@@ -133,34 +133,34 @@
     "cliffhanger": "medium"
   },
   "banter": {
-    "num_messages": 8,
-    "num_messages_min": 7,
-    "num_messages_max": 10,
-    "num_messages_long": 11,
-    "num_messages_min_long": 9,
+    "num_messages": 10,
+    "num_messages_min": 9,
+    "num_messages_max": 12,
+    "num_messages_long": 12,
+    "num_messages_min_long": 10,
     "num_messages_max_long": 14,
     "max_attempts": 3
   },
   "format_b_duration_mix": {
     "short": {
-      "weight": 0.7,
+      "weight": 0.5,
       "duration_s": {
-        "min": 20,
-        "max": 28
-      },
-      "num_messages": {
-        "min": 7,
-        "max": 10
-      }
-    },
-    "long": {
-      "weight": 0.3,
-      "duration_s": {
-        "min": 30,
-        "max": 45
+        "min": 25,
+        "max": 32
       },
       "num_messages": {
         "min": 9,
+        "max": 12
+      }
+    },
+    "long": {
+      "weight": 0.5,
+      "duration_s": {
+        "min": 32,
+        "max": 40
+      },
+      "num_messages": {
+        "min": 10,
         "max": 14
       }
     }
