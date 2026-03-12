@@ -1,0 +1,27 @@
+{
+  "video_id": "7607899630528957709",
+  "account": "@rizzlicious4u",
+  "views": 1300000,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting My Ex",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "[initiates contact with ex]"},
+    {"from": "girl", "text": "ok?"},
+    {"from": "girl", "text": "WTF 😭... this is your first message after we broke up?"},
+    {"from": "boy", "text": "I tried moving on, but nobody feels like you"},
+    {"from": "boy", "text": "only if you give me a reason"},
+    {"from": "girl", "text": "maybe I already have one"}
+  ],
+  "opener": "I tried moving on, but nobody feels like you",
+  "punchline_pairs": [
+    {
+      "setup": "WTF 😭... this is your first message after we broke up?",
+      "reframe": "I tried moving on, but nobody feels like you",
+      "type": "persistence_flip"
+    }
+  ],
+  "arc_type": "number_exchange"
+}
