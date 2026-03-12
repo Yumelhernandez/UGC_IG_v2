@@ -1,0 +1,19 @@
+{
+  "video_id": "7607532017571335442",
+  "account": "@reverserizzler",
+  "views": 250200,
+  "date": "2026-03-12",
+  "hook": {"headline": "Texting my instagram Followers part 15", "subtitle": ""},
+  "conversation": [
+    {"from": "boy", "text": "[opener compliment on story]"},
+    {"from": "girl", "text": "That's a good one"},
+    {"from": "boy", "text": "I'd like to get your number"},
+    {"from": "girl", "text": "What's the point of this conversation 😂"},
+    {"from": "boy", "text": "There's no point we go where the wind takes us"},
+    {"from": "girl", "text": "Oh okay😂"},
+    {"from": "girl", "text": "[sends phone number]"}
+  ],
+  "opener": "[compliment on story]",
+  "punchline_pairs": [{"setup": "What's the point of this conversation 😂", "reframe": "There's no point we go where the wind takes us", "type": "recovery_play"}],
+  "arc_type": "number_exchange"
+}
