@@ -1,0 +1,27 @@
+{
+  "video_id": "7607995701364083986",
+  "account": "@reverserizzler",
+  "views": 94400,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting my instagram Followers part 16",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "You look like a Vague cover"},
+    {"from": "girl", "text": "I could say the same for you 😏"},
+    {"from": "boy", "text": "If we go back in time they would name you Mona Lisa"},
+    {"from": "girl", "text": "I believe you 😏"},
+    {"from": "girl", "text": "You built like my next boyfriend"},
+    {"from": "girl", "text": "Am I lying?"}
+  ],
+  "opener": "You look like a Vague cover",
+  "punchline_pairs": [
+    {
+      "setup": "You look like a Vague cover",
+      "reframe": "If we go back in time they would name you Mona Lisa",
+      "type": "sustained_metaphor"
+    }
+  ],
+  "arc_type": "number_exchange"
+}
