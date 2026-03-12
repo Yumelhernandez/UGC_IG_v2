@@ -1,0 +1,37 @@
+{
+  "video_id": "7609059655536446738",
+  "account": "@reverserizzler",
+  "views": 109300,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting my followers On Instagram Pt17",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "My name is ..."},
+    {"from": "girl", "text": "okay and why should I care? 😭"},
+    {"from": "boy", "text": "I should thank your parents"},
+    {"from": "girl", "text": "Why?"},
+    {"from": "boy", "text": "For creating life that's worth living for"},
+    {"from": "girl", "text": "You're sweet"},
+    {"from": "boy", "text": "We should be like them"},
+    {"from": "girl", "text": "What do you mean? 🤨"},
+    {"from": "boy", "text": "Your parents are a great example of love"},
+    {"from": "girl", "text": "Oh really?"},
+    {"from": "boy", "text": "Because it's here talking to me"}
+  ],
+  "opener": "My name is ...",
+  "punchline_pairs": [
+    {
+      "setup": "I should thank your parents / Why?",
+      "reframe": "For creating life that's worth living for",
+      "type": "sustained_metaphor"
+    },
+    {
+      "setup": "Your parents are a great example of love / Oh really?",
+      "reframe": "Because it's here talking to me",
+      "type": "sustained_metaphor"
+    }
+  ],
+  "arc_type": "number_exchange"
+}
