@@ -327,7 +327,11 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
   const beatGridFrames = Math.max(1, Math.round(BEAT_GRID_S * fps));
   const pairShotGridFrames = isFormatB ? Math.max(1, Math.round(0.1 * fps)) : beatGridFrames;
 
-  const preRollFrames = hasTypeAt ? 0 : isPairFormat ? 0 : Math.round(FIRST_SHOT_DURATION_S * fps);
+  const storyHoldS = (script.meta as Record<string, unknown>).story_hold_s;
+  const storyHoldFrames = typeof storyHoldS === "number" && storyHoldS > 0 ? Math.round(storyHoldS * fps) : 0;
+  const preRollFrames = storyHoldFrames > 0
+    ? storyHoldFrames
+    : hasTypeAt ? 0 : isPairFormat ? 0 : Math.round(FIRST_SHOT_DURATION_S * fps);
   let shotStartFrames: number[] = [];
   let shotDurationsInFrames: number[] = [];
 
@@ -335,7 +339,7 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
     if (isPairFormat) {
       const starts: number[] = [];
       const durations: number[] = [];
-      let cursor = 0;
+      let cursor = storyHoldFrames;
       const rng = createRng(`${baseSeed}-pairshots`);
       for (let pairIndex = 0; pairIndex < shotCount; pairIndex += 1) {
         starts.push(cursor);
@@ -439,22 +443,33 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
 
     let firstPauseAfterShotIndex = pushbackShotIndex;
     if (shouldInsertPlug) {
+      // Explicit plug positioning: texmi_after_message overrides auto-positioning.
+      // The plug fires after the shot containing this message index,
+      // and the first boy message after it becomes the suggestion.
+      const explicitAfterMsg = (script.meta as Record<string, unknown>).texmi_after_message;
+      const hasExplicitPlug = typeof explicitAfterMsg === "number" && explicitAfterMsg >= 0;
+
       const revealMessageIndex =
         script.beats && Number.isFinite(script.beats.reveal_index)
           ? (script.beats.reveal_index as number)
           : -1;
       const revealShotIndex =
         revealMessageIndex >= 0 ? Math.max(0, pairLayout.messageToShotIndex[revealMessageIndex] ?? -1) : -1;
-      // Place plug at 50-60% through the conversation — AFTER viewer is hooked, not at the start
-      // Competitors show app cards at the midpoint when tension is highest
-      const midConversationShot = Math.max(1, Math.floor(shotCount * 0.55));
-      let afterShotIndex = Math.max(
-        pushbackShotIndex + 1,
-        Math.min(shotCount - 2, midConversationShot)
-      );
-      // Plug should come AFTER the reveal (when tension is highest), never before it
-      if (revealShotIndex > afterShotIndex) {
-        afterShotIndex = Math.min(shotCount - 2, revealShotIndex + 1);
+      let afterShotIndex: number;
+      if (hasExplicitPlug) {
+        // Use explicit position: plug fires after the shot containing this message
+        afterShotIndex = Math.max(0, pairLayout.messageToShotIndex[explicitAfterMsg as number] ?? 0);
+      } else {
+        // Auto-position: place plug at 50-60% through the conversation
+        const midConversationShot = Math.max(1, Math.floor(shotCount * 0.55));
+        afterShotIndex = Math.max(
+          pushbackShotIndex + 1,
+          Math.min(shotCount - 2, midConversationShot)
+        );
+        // Plug should come AFTER the reveal (when tension is highest), never before it
+        if (revealShotIndex > afterShotIndex) {
+          afterShotIndex = Math.min(shotCount - 2, revealShotIndex + 1);
+        }
       }
       firstPauseAfterShotIndex = afterShotIndex;
       // Find last message visible at the new plug position.
@@ -745,7 +760,7 @@ export const getConversationPlan = (script: VideoScript, fps: number): Conversat
     shotDurationsInFrames,
     pauses,
     totalConversationFrames,
-    firstShotFrames: isPairFormat ? shotDurationsInFrames[0] : preRollFrames,
+    firstShotFrames: isPairFormat ? (storyHoldFrames > 0 ? storyHoldFrames : shotDurationsInFrames[0]) : preRollFrames,
     pushbackSoloMessageIndex,
     texmiSuggestedMessageIndex,
     texmiPreviewEndMessageIndex

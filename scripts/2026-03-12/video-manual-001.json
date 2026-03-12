@@ -1,0 +1,147 @@
+{
+  "video_id": "2026-03-12-manual-001",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 37,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "matching_energy",
+    "app_insert_policy": "required",
+    "story_hold_s": 2.5,
+    "texmi_after_message": 3,
+    "opener_intensity": "casual",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 1,
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_she_took_the_bait_meme_clip_2.mp4",
+      "In between messages/person_reaction_who_let_bro_cook_red_tone_short_motion_meme_clip.mp4",
+      "In between messages/stephen_curry_basketball_reaction_ball_basketball_gear_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4",
+      "In between messages/turtle_character_scene_reaction_turtle_scene_meme_clip_2.mp4"
+    ],
+    "qa_signals": {},
+    "hook_type": "situation_reveal",
+    "payoff_type": "suggestive_pivot",
+    "slot_index": 1,
+    "run_seed": 123456789,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beats": {
+    "pushback_index": 3,
+    "reveal_index": 4,
+    "win_index": 10,
+    "shareable_index": 4,
+    "reveal_line": "Good cuz I wanna waffle between your thighs 😏"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/kobe bryant nba GIF.mp4",
+    "headline": "Shooting my shot",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/El Conejo Malo Popcorn GIF by Bad Bunny.mp4"
+  },
+  "story": {
+    "username": "maya",
+    "age": 21,
+    "caption": "brunch vibes",
+    "asset": "baddies/e761a95094fa5a9c1f1c29af072623ee.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "quick question... pancakes or waffles?"
+  },
+  "persona": {
+    "boy": {
+      "name": "Tyler",
+      "age": 22,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Maya",
+      "age": 21,
+      "tone": "matching_energy"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Hmm",
+      "type_at": 6.0,
+      "response_type": "reaction"
+    },
+    {
+      "from": "girl",
+      "text": "Waffles for sure",
+      "type_at": 8.5,
+      "response_type": "engagement"
+    },
+    {
+      "from": "boy",
+      "text": "Good choice 👀",
+      "type_at": 11.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "Why lol",
+      "type_at": 14.0,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "Good cuz I wanna waffle between your thighs 😏",
+      "type_at": 19.5,
+      "response_type": "reveal"
+    },
+    {
+      "from": "girl",
+      "text": "😭😭",
+      "type_at": 22.0,
+      "response_type": "reaction"
+    },
+    {
+      "from": "girl",
+      "text": "You're so unhinged",
+      "type_at": 24.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "Common mommy please 🙏",
+      "type_at": 27.0,
+      "response_type": "persistence"
+    },
+    {
+      "from": "girl",
+      "text": "That was smooth ngl",
+      "type_at": 29.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "So dinner?",
+      "type_at": 32.0,
+      "response_type": "close"
+    },
+    {
+      "from": "girl",
+      "text": "Pick me up at 8 😏",
+      "type_at": 34.5,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "@Texmi risky shots are always worth it 😩🔥 #rizzgod #texts #huzz #texting #rizzler"
+}

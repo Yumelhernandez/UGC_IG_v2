@@ -1,0 +1,141 @@
+{
+  "video_id": "2026-03-12-manual-002",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 32,
+    "spice_tier": "medium",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "matching_energy",
+    "app_insert_policy": "required",
+    "story_hold_s": 2.5,
+    "texmi_after_message": 2,
+    "opener_intensity": "provocative",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 1,
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [
+      "In between messages/basketball_player_basketball_reaction_watch_master_work_meme_clip.mp4",
+      "In between messages/turtle_character_scene_reaction_turtle_scene_meme_clip_3.mp4",
+      "In between messages/basketball_player_basketball_reaction_cant_stop_winning_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_shawty_got_some_skills_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4"
+    ],
+    "qa_signals": {},
+    "hook_type": "situation_reveal",
+    "payoff_type": "sweet_pivot",
+    "slot_index": 2,
+    "run_seed": 234567890,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beats": {
+    "pushback_index": 1,
+    "reveal_index": 3,
+    "win_index": 9,
+    "shareable_index": 3,
+    "reveal_line": "you're one of a kind"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Viral_video_81__clip_019.mp4",
+    "headline": "Texting a baddie",
+    "subtitle": "*she wasn't ready*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/jack nicholson smile GIF.mp4"
+  },
+  "story": {
+    "username": "sophia",
+    "age": 20,
+    "caption": "mirror check 💅",
+    "asset": "baddies/ed3175a41f375d2993b3756f56337859.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I'd be the worst thief in the world 😔"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jaylen",
+      "age": 22,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Sophia",
+      "age": 20,
+      "tone": "matching_energy"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "Huh??",
+      "type_at": 5.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "girl",
+      "text": "Why lol",
+      "type_at": 7.5,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "Because I could never steal you from anyone...",
+      "type_at": 10.5,
+      "response_type": "tease"
+    },
+    {
+      "from": "boy",
+      "text": "you're one of a kind",
+      "type_at": 16.0,
+      "response_type": "reveal"
+    },
+    {
+      "from": "girl",
+      "text": "Stoppp 😭😭",
+      "type_at": 18.5,
+      "response_type": "reaction"
+    },
+    {
+      "from": "girl",
+      "text": "That's actually so sweet",
+      "type_at": 20.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "So can I take you out?",
+      "type_at": 23.0,
+      "response_type": "close"
+    },
+    {
+      "from": "girl",
+      "text": "Yesss 🥺",
+      "type_at": 25.0,
+      "response_type": "close"
+    },
+    {
+      "from": "boy",
+      "text": "Wear something pretty for me 😏",
+      "type_at": 27.5,
+      "response_type": "close"
+    },
+    {
+      "from": "girl",
+      "text": "Maybe 😏",
+      "type_at": 29.5,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "@Texmi don't believe me? Try it yourself 😏 #rizzgod #texts #huzz #takenotes #rizzler"
+}
