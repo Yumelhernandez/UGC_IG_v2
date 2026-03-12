@@ -6472,47 +6472,41 @@ async function run() {
       });
     }
     // Auto-generate TikTok caption with correct hashtags (competitor-matched)
+    // Data-driven caption hooks (2026-03-12): confident sentences, NO emojis, NO questions.
+    // Top performers: "Bagging a baddie" (1800 views), "Another day another baddie gents" (161 views)
+    // Analysis of 112 videos: sentence captions avg 68 views vs hashtag-only 46 (+47%)
+    // Engagement bait (questions, emojis) correlated with -26 to -31 views.
     const CAPTION_HOOKS = [
-      "she wasn't ready for this one 😮‍💨🔥",
-      "rarest shot of all time 😭🥀",
-      "he really said that 💀",
-      "nah this is crazy 😮‍💨",
-      "she had no chance 🔥",
-      "watch him cook 😭",
-      "boldest move ever 💀🔥",
-      "she pushed back and he didn't flinch 😮‍💨",
-      "the smoothest recovery 🥀",
-      "DM game different today 🔥",
-      "she can't believe it 😭",
-      "never giving up on huzz 😤🔥",
-      "this one hit different 🥀😮‍💨",
-      "he went all in 💀",
-      "plot twist incoming 😭🔥",
+      "bagging a baddie in the DMs",
+      "another day another baddie gents",
+      "she wasn't ready for this one",
+      "watch him cook",
+      "nah this is actually crazy",
+      "boldest move in her DMs",
+      "she pushed back and he didn't flinch",
+      "the smoothest recovery you'll see today",
+      "DM game different today",
+      "never giving up on huzz",
+      "this one hit different",
+      "he went all in on this one",
+      "she had no chance",
+      "cooking in her DMs rn",
+      "he really said that to her",
+      "sliding in her DMs like butter",
+      "rizzing her up before she even knew",
+      "he turned her no into a maybe real quick",
     ];
     // Competitor-matched hashtags: always #texts #rizz #fyp + rotating extras
     const CORE_TAGS = "#texts #rizz #fyp #foryou #texting";
     const ROTATING_TAGS = ["#huzz", "#takenotes", "#rizzgod", "#dating", "#dm", "#dms", "#rizzler", "#shootyourshot", "#brainrot", "#sigmamale", "#textconversation"];
-    const COMMENT_BAITS = [
-      "would you reply? 👀",
-      "she folded too fast or nah? 💀",
-      "W or L? comment below",
-      "could you do better? 🤔",
-      "rate this rizz 1-10",
-      "who won? 💀",
-      "he cooked or he fumbled?",
-      "part 2? 👀",
-      "try this on your crush",
-      "tag someone who needs this",
-      "save this for later 📸",
-    ];
     const captionRng = createRng(`${script.video_id}-caption`);
     const captionHook = CAPTION_HOOKS[Math.floor(captionRng() * CAPTION_HOOKS.length)];
-    const commentBait = COMMENT_BAITS[Math.floor(captionRng() * COMMENT_BAITS.length)];
     const shuffledTags = [...ROTATING_TAGS].sort(() => captionRng() - 0.5);
     const extraTags = shuffledTags.slice(0, 3 + Math.floor(captionRng() * 2)).join(" ");
     const appMention = script.meta.app_mention || "";
-    // Caption format: [hook] | [comment bait] + hashtags
-    script.tiktok_caption = `${appMention}${appMention ? " " : ""}${captionHook} | ${commentBait} ${CORE_TAGS} ${extraTags}`;
+    // Caption format: [confident sentence] + hashtags (no pipe, no comment bait)
+    // Data shows simple confident sentence + tags outperforms engagement bait by +47%
+    script.tiktok_caption = `${appMention}${appMention ? " " : ""}${captionHook} ${CORE_TAGS} ${extraTags}`;
 
     const arcSlug = (script.meta && script.meta.arc_type || "unknown").replace(/_/g, "-");
     const fmtSlug = (script.meta && script.meta.format || "b").toLowerCase();

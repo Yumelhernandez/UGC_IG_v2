@@ -57,9 +57,9 @@
     2 views | unknown | 7610942348108811550
 
   PERFORMANCE BY PUNCHLINE STYLE:
-    none                       61 avg  (1 videos)
-    callback                   37 avg  (1 videos)
-    numeric_reveal             13 avg  (1 videos)
+    none                       61 avg  (1 videos) ███████████████
+    callback                   37 avg  (1 videos) █████████
+    numeric_reveal             13 avg  (1 videos) ███
 
   PERFORMANCE BY DURATION:
     short          37 avg  (2 videos)
