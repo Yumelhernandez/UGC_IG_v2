@@ -1,0 +1,44 @@
+{
+  "video_id": "7610128939305929997",
+  "account": "@rizzlicious4u",
+  "views": 206600,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting Asian Huzz",
+    "subtitle": "*take premium notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "You look like my basement"},
+    {"from": "girl", "text": "What?"},
+    {"from": "boy", "text": "Can i put kids inside you?"},
+    {"from": "girl", "text": "Hell naww 💀"},
+    {"from": "boy", "text": "You forgot our sushi date"},
+    {"from": "girl", "text": "We never planned one 😭"},
+    {"from": "girl", "text": "But yea i like sushi"},
+    {"from": "boy", "text": "Good, but that won't be the only thing I'll eat raw"},
+    {"from": "girl", "text": "Okay I'm down 😭"},
+    {"from": "girl", "text": "But I'm vegan though"},
+    {"from": "boy", "text": "I don't care if you're vegan"},
+    {"from": "boy", "text": "I got the only meat you'll ever need"},
+    {"from": "girl", "text": "I'm free Saturday if you're serious"}
+  ],
+  "opener": "You look like my basement",
+  "punchline_pairs": [
+    {
+      "setup": "You look like my basement",
+      "reframe": "Can i put kids inside you?",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "You forgot our sushi date / But yea i like sushi",
+      "reframe": "that won't be the only thing I'll eat raw",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "But I'm vegan though",
+      "reframe": "I got the only meat you'll ever need",
+      "type": "recovery_play"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

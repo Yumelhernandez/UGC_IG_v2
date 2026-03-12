@@ -1,0 +1,44 @@
+{
+  "video_id": "7611239098178718989",
+  "account": "@rizzlicious4u",
+  "views": 52700,
+  "date": "2026-03-12",
+  "hook": {
+    "headline": "Texting Asian Huzz",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "You so damn short"},
+    {"from": "girl", "text": "Okay and?"},
+    {"from": "boy", "text": "Well I can put some inches in u"},
+    {"from": "girl", "text": "Fck you 🙄"},
+    {"from": "boy", "text": "Is that an insult or"},
+    {"from": "boy", "text": "a to do list"},
+    {"from": "girl", "text": "Damn ok"},
+    {"from": "boy", "text": "Btw ur outfit is nice"},
+    {"from": "girl", "text": "Thanks"},
+    {"from": "boy", "text": "But I'd rather see u in this"},
+    {"from": "boy", "text": "[sends empty link — nothing]"},
+    {"from": "girl", "text": "There's nothing there"},
+    {"from": "girl", "text": "OH WAIT"}
+  ],
+  "opener": "You so damn short",
+  "punchline_pairs": [
+    {
+      "setup": "You so damn short",
+      "reframe": "Well I can put some inches in u",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "Fck you 🙄",
+      "reframe": "Is that an insult or a to do list",
+      "type": "roast_flip"
+    },
+    {
+      "setup": "But I'd rather see u in this [empty link]",
+      "reframe": "There's nothing there / OH WAIT",
+      "type": "double_entendre"
+    }
+  ],
+  "arc_type": "number_exchange"
+}
