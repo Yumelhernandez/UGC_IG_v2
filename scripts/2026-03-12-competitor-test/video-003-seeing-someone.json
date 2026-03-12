@@ -1,0 +1,57 @@
+{
+  "video_id": "2026-03-12-comp-003",
+  "meta": {
+    "theme": "misdirect_compliment",
+    "duration_s": 35,
+    "spice_tier": "high",
+    "controversy_tier": "spicy",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "nervous",
+    "app_insert_policy": "required",
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [],
+    "hook_type": "tension_opener",
+    "payoff_type": "misdirect_compliment",
+    "slot_index": 3,
+    "run_seed": 1704204003,
+    "payoff_punch_score": 10,
+    "verifier_passed": true
+  },
+  "hook": {
+    "mode": "media",
+    "asset": null,
+    "headline": "She had no idea what was coming",
+    "subtitle": "*watch till the end*"
+  },
+  "stinger": { "after_first": null },
+  "story": {
+    "username": "bella",
+    "age": 20,
+    "caption": "golden hour",
+    "asset": "baddies/765dd5a959fb69c2b392227b4aebdcc5.jpg"
+  },
+  "reply": { "from": "boy", "text": "I gotta be honest with you about something" },
+  "persona": {
+    "boy": { "name": "Kai", "age": 23, "tone": "serious_then_smooth" },
+    "girl": { "name": "Bella", "age": 20, "tone": "nervous" }
+  },
+  "messages": [
+    { "from": "girl", "text": "What??", "type_at": 3.0, "response_type": "concern" },
+    { "from": "girl", "text": "You're scaring me", "type_at": 5.0, "response_type": "anxiety" },
+    { "from": "boy", "text": "I've been seeing someone", "type_at": 8.0, "response_type": "misdirect" },
+    { "from": "girl", "text": "Oh...", "type_at": 11.0, "response_type": "disappointment" },
+    { "from": "girl", "text": "Good for you I guess", "type_at": 13.5, "response_type": "guard" },
+    { "from": "boy", "text": "Yeah... I keep seeing you every time I close my eyes \ud83d\ude0f", "type_at": 16.5, "response_type": "reveal" },
+    { "from": "girl", "text": "LMAOO", "type_at": 20.0, "response_type": "relief" },
+    { "from": "girl", "text": "That was actually smooth \ud83d\ude2d", "type_at": 22.5, "response_type": "concession" },
+    { "from": "boy", "text": "And I don't wanna wake up", "type_at": 25.0, "response_type": "escalation" },
+    { "from": "boy", "text": "So can I get your number?", "type_at": 28.0, "response_type": "close" },
+    { "from": "girl", "text": "Fine \ud83d\ude44\ud83d\udc95", "type_at": 31.0, "response_type": "win" }
+  ],
+  "tiktok_caption": "@Texmi take notes y'all \ud83d\udcdd\ud83d\ude0f #rizzgod #texts #huzz #takenotes #texting"
+}

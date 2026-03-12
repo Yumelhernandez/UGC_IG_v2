@@ -1,0 +1,57 @@
+{
+  "video_id": "2026-03-12-comp-001",
+  "meta": {
+    "theme": "food_trap",
+    "duration_s": 32,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "shocked",
+    "app_insert_policy": "required",
+    "audio_track": "Songs/HEATHER MR TAKE THAT RISK.mp3",
+    "in_between_assets": [],
+    "hook_type": "curiosity_opener",
+    "payoff_type": "suggestive_pivot",
+    "slot_index": 1,
+    "run_seed": 1704204001,
+    "payoff_punch_score": 9,
+    "verifier_passed": true
+  },
+  "hook": {
+    "mode": "media",
+    "asset": null,
+    "headline": "Shooting my shot",
+    "subtitle": "*take notes*"
+  },
+  "stinger": { "after_first": null },
+  "story": {
+    "username": "maya",
+    "age": 20,
+    "caption": "Sunday brunch vibes",
+    "asset": "baddies/de10292c718d3397dfff583baae8a2be.jpg"
+  },
+  "reply": { "from": "boy", "text": "quick question... pancakes or waffles?" },
+  "persona": {
+    "boy": { "name": "Jay", "age": 22, "tone": "smooth" },
+    "girl": { "name": "Maya", "age": 20, "tone": "playful" }
+  },
+  "messages": [
+    { "from": "girl", "text": "Hmm", "type_at": 3.5, "response_type": "thinking" },
+    { "from": "girl", "text": "Waffles for sure", "type_at": 5.5, "response_type": "answer" },
+    { "from": "boy", "text": "Good choice \ud83d\udc40", "type_at": 8.0, "response_type": "setup" },
+    { "from": "girl", "text": "Why lol", "type_at": 10.5, "response_type": "curiosity" },
+    { "from": "boy", "text": "Good cuz I wanna waffle between your thighs \ud83d\ude0f", "type_at": 13.0, "response_type": "reveal" },
+    { "from": "girl", "text": "\ud83d\ude2d\ud83d\ude2d", "type_at": 16.0, "response_type": "shock" },
+    { "from": "girl", "text": "You're so unhinged", "type_at": 18.5, "response_type": "concession" },
+    { "from": "boy", "text": "Common mommy please \ud83d\ude4f", "type_at": 21.0, "response_type": "escalation" },
+    { "from": "girl", "text": "That was smooth ngl", "type_at": 24.0, "response_type": "shift" },
+    { "from": "boy", "text": "So dinner?", "type_at": 27.0, "response_type": "close" },
+    { "from": "girl", "text": "Pick me up at 8 \ud83d\ude0f", "type_at": 30.0, "response_type": "win" }
+  ],
+  "tiktok_caption": "@Texmi risky shots are always worth it \ud83d\ude29\ud83d\udd25 #rizzgod #texts #huzz #texting #rizzler"
+}
