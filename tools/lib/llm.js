@@ -1461,8 +1461,20 @@ async function callOpenAiResponses({ apiKey, payload, timeoutMs = 30000 }) {
     }
   }
   if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(`OpenAI request failed (${response.status}): ${errorText}`);
+    // Try to extract usage from error response — OpenAI may have billed tokens
+    // before the error (e.g., content filter triggered mid-generation)
+    let errorUsage = { input_tokens: 0, output_tokens: 0, total_tokens: 0 };
+    let errorText = "";
+    try {
+      const errorBody = await response.json();
+      errorUsage = extractOpenAiUsage(errorBody);
+      errorText = JSON.stringify(errorBody);
+    } catch (_) {
+      try { errorText = await response.text(); } catch (__) { errorText = `status ${response.status}`; }
+    }
+    const err = new Error(`OpenAI request failed (${response.status}): ${errorText}`);
+    err.usage = errorUsage;
+    throw err;
   }
   const data = await response.json();
   return { data, text: extractOutputText(data), usage: extractOpenAiUsage(data) };
@@ -1565,23 +1577,49 @@ async function callAnthropicMessages({ apiKey, payload, timeoutMs = 30000 }) {
 async function callLlm({ provider, apiKey, payload, endpoint }) {
   const normalizedProvider = normalizeProvider(provider, payload && payload.model);
   if (normalizedProvider === "anthropic") {
-    const result = await callAnthropicMessages({ apiKey, payload });
+    try {
+      const result = await callAnthropicMessages({ apiKey, payload });
+      recordLlmUsage({
+        provider: normalizedProvider,
+        model: payload.model,
+        endpoint,
+        usage: result.usage
+      });
+      return result;
+    } catch (err) {
+      // Record usage from failed calls if available (tokens may have been billed)
+      if (err.usage && (err.usage.input_tokens || err.usage.output_tokens)) {
+        recordLlmUsage({
+          provider: normalizedProvider,
+          model: payload.model,
+          endpoint: endpoint + "_error",
+          usage: err.usage
+        });
+      }
+      throw err;
+    }
+  }
+  try {
+    const result = await callOpenAiResponses({ apiKey, payload });
     recordLlmUsage({
-      provider: normalizedProvider,
+      provider: "openai",
       model: payload.model,
       endpoint,
       usage: result.usage
     });
     return result;
+  } catch (err) {
+    // Record usage from failed calls if available (tokens may have been billed)
+    if (err.usage && (err.usage.input_tokens || err.usage.output_tokens)) {
+      recordLlmUsage({
+        provider: "openai",
+        model: payload.model,
+        endpoint: endpoint + "_error",
+        usage: err.usage
+      });
+    }
+    throw err;
   }
-  const result = await callOpenAiResponses({ apiKey, payload });
-  recordLlmUsage({
-    provider: "openai",
-    model: payload.model,
-    endpoint,
-    usage: result.usage
-  });
-  return result;
 }
 
 function sanitizeReply(text) {
