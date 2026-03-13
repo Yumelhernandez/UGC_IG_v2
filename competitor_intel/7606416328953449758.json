@@ -1,0 +1,30 @@
+{
+  "video_id": "7606416328953449758",
+  "account": "@rizzlicious4u",
+  "views": 305300,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting Asian Huzz",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "Ni hao fineshyt"},
+    {"from": "girl", "text": "🥷 I'm Japanese"},
+    {"from": "boy", "text": "Mb btw you've nice eyes"},
+    {"from": "girl", "text": "Wyll"},
+    {"from": "boy", "text": "[Photo sent]"},
+    {"from": "girl", "text": "You actually have a nice face"},
+    {"from": "boy", "text": "You can sit on it"},
+    {"from": "girl", "text": "Someone's feeling confident"},
+    {"from": "girl", "text": "Fine but only if you let me stack donuts on it"}
+  ],
+  "opener": "Ni hao fineshyt",
+  "punchline_pairs": [
+    {
+      "setup": "You actually have a nice face",
+      "reframe": "You can sit on it",
+      "type": "double_entendre"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

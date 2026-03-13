@@ -1,0 +1,29 @@
+{
+  "video_id": "7605673371518455054",
+  "account": "@rizzlicious4u",
+  "views": 325800,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting Asian Huzz",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "Watch out"},
+    {"from": "boy", "text": "[picture: bear trap with Samyang Buldak ramen packet]"},
+    {"from": "girl", "text": "Shut yo bich ass up"},
+    {"from": "boy", "text": "Is your name Kazuha?"},
+    {"from": "girl", "text": "Tf?? No"},
+    {"from": "boy", "text": "KAZ-U-HAve my heart"},
+    {"from": "girl", "text": "You practiced that, didn't you?"},
+    {"from": "boy", "text": "I save the good ones for the right person"}
+  ],
+  "opener": "Watch out [bear trap ramen meme]",
+  "punchline_pairs": [
+    {
+      "setup": "Is your name Kazuha?",
+      "reframe": "KAZ-U-HAve my heart",
+      "type": "double_entendre"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

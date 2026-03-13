@@ -1,0 +1,29 @@
+{
+  "video_id": "7606134355760598279",
+  "account": "@reverserizzler",
+  "views": 61700,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting my instagram Followers Pt11",
+    "subtitle": "Someone's crush"
+  },
+  "conversation": [
+    {"from": "boy", "text": "Your AI slop bores me"},
+    {"from": "girl", "text": "Wdym???this is me😭"},
+    {"from": "boy", "text": "I mean you look too good to be true"},
+    {"from": "girl", "text": "Explain how you reached that conclusion"},
+    {"from": "boy", "text": "Because it's hard to find my type"},
+    {"from": "girl", "text": "Oh really"},
+    {"from": "girl", "text": "And how am I your type exactly?"},
+    {"from": "boy", "text": "Because I have good taste"}
+  ],
+  "opener": "Your AI slop bores me",
+  "punchline_pairs": [
+    {
+      "setup": "Your AI slop bores me",
+      "reframe": "I mean you look too good to be true",
+      "type": "recovery_play"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

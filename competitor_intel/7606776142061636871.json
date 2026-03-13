@@ -1,0 +1,36 @@
+{
+  "video_id": "7606776142061636871",
+  "account": "@reverserizzler",
+  "views": 165800,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting my Instagram followers part 13",
+    "subtitle": "Today's beauty"
+  },
+  "conversation": [
+    {"from": "boy", "text": "Can I state my peace?"},
+    {"from": "girl", "text": "Yeah"},
+    {"from": "boy", "text": "The only peace I want is a piece of you"},
+    {"from": "girl", "text": "That's creative 😂"},
+    {"from": "boy", "text": "That's one word to describe your looks"},
+    {"from": "girl", "text": "Thank you😭"},
+    {"from": "girl", "text": "Is this what you do all day?"},
+    {"from": "boy", "text": "No but I can quit my job to make us work"},
+    {"from": "girl", "text": "Damn😭"},
+    {"from": "girl", "text": "Prove it😂😭"}
+  ],
+  "opener": "Can I state my peace?",
+  "punchline_pairs": [
+    {
+      "setup": "Can I state my peace?",
+      "reframe": "The only peace I want is a piece of you",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "Is this what you do all day?",
+      "reframe": "No but I can quit my job to make us work",
+      "type": "recovery_play"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

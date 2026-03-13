@@ -1,0 +1,22 @@
+{
+  "video_id": "7606021176963403030",
+  "account": "@rizzingchats",
+  "views": 128000,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Shooting my shot",
+    "subtitle": "*take notes*"
+  },
+  "conversation": [
+    {"from": "boy", "text": "Lemme eat you 😻🐕"},
+    {"from": "girl", "text": "Is that how they send first message now?"},
+    {"from": "boy", "text": "Why waste time when we can get straight to the point😉"},
+    {"from": "girl", "text": "Who's stopping you"},
+    {"from": "boy", "text": "Are you being fr"},
+    {"from": "girl", "text": "Yes"},
+    {"from": "boy", "text": "Nah I'm scared"}
+  ],
+  "opener": "Lemme eat you 😻🐕",
+  "punchline_pairs": [],
+  "arc_type": "rejection"
+}
