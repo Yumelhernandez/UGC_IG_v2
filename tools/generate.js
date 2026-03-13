@@ -6944,22 +6944,50 @@ async function run() {
     keepDays: Math.max(60, reuseDays + 30)
   });
 
-  const llmUsagePath = path.join(logsDir, "llm-usage.json");
-  const llmUsage = getLlmUsageSummary();
-  fs.writeFileSync(llmUsagePath, `${JSON.stringify(llmUsage, null, 2)}\n`, "utf8");
-  console.log(
-    `[llm] calls=${llmUsage.calls.length} input_tokens=${llmUsage.totals.input_tokens} output_tokens=${llmUsage.totals.output_tokens} estimated_cost_usd=${llmUsage.totals.estimated_cost_usd.toFixed(4)}`
-  );
-  console.log(`[llm] usage report: ${llmUsagePath}`);
+  // Usage is now saved in the entry point (saveLlmUsage) — both on success and failure
 
   console.log(`Generated ${generatedCount}/${count} scripts in ${outDir}. Skipped ${skippedCount}.`);
 }
 
+function saveLlmUsage(logsDir) {
+  try {
+    const llmUsagePath = path.join(logsDir, "llm-usage.json");
+    const currentUsage = getLlmUsageSummary();
+    // Accumulate with any existing usage from prior runs in the same date dir
+    if (fs.existsSync(llmUsagePath)) {
+      try {
+        const existing = JSON.parse(fs.readFileSync(llmUsagePath, "utf8"));
+        if (existing && existing.totals) {
+          currentUsage.totals.input_tokens += existing.totals.input_tokens || 0;
+          currentUsage.totals.output_tokens += existing.totals.output_tokens || 0;
+          currentUsage.totals.total_tokens += existing.totals.total_tokens || 0;
+          currentUsage.totals.estimated_cost_usd = Number(
+            (currentUsage.totals.estimated_cost_usd + (existing.totals.estimated_cost_usd || 0)).toFixed(6)
+          );
+          currentUsage.calls = (existing.calls || []).concat(currentUsage.calls);
+        }
+      } catch (_) { /* ignore parse errors on existing file */ }
+    }
+    ensureDir(logsDir);
+    fs.writeFileSync(llmUsagePath, `${JSON.stringify(currentUsage, null, 2)}\n`, "utf8");
+    console.log(
+      `[llm] calls=${currentUsage.calls.length} input_tokens=${currentUsage.totals.input_tokens} output_tokens=${currentUsage.totals.output_tokens} estimated_cost_usd=${currentUsage.totals.estimated_cost_usd.toFixed(4)}`
+    );
+    console.log(`[llm] usage report: ${llmUsagePath}`);
+  } catch (e) {
+    console.error(`[llm] Failed to save usage: ${e.message}`);
+  }
+}
+
 if (require.main === module) {
-  run().catch((error) => {
-    console.error(error.message || error);
-    process.exit(1);
-  });
+  const logsDir = path.join(process.cwd(), "logs", dateStamp(parseArgs(process.argv.slice(2)).date));
+  run()
+    .then(() => saveLlmUsage(logsDir))
+    .catch((error) => {
+      saveLlmUsage(logsDir); // Save usage even on failure
+      console.error(error.message || error);
+      process.exit(1);
+    });
 }
 
 module.exports = { run, enforceArcEndingContracts, buildArcPlan };
