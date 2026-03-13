@@ -3027,6 +3027,47 @@ function containsBannedText(text, bannedList) {
   return Boolean(matchesList || matchesPattern);
 }
 
+/**
+ * FIRST-PRINCIPLES FIX (2026-03-13): Clean banned phrases from the ENTIRE
+ * assembled script before QA validation. Instead of fighting the LLM at every
+ * generation point (reply, banter, hook), clean at the single convergence point.
+ *
+ * For messages: replace the offending line with a bank alternative.
+ * For reply text: replace with a random proven hook from the line banks.
+ * This preserves conversation length and structure.
+ */
+function cleanBannedPhrasesFromScript(script, config) {
+  const bannedPhrases = config.banned_phrases || [];
+  if (!bannedPhrases.length) return script;
+  const maxChars = config.message_max_chars || 70;
+
+  // Clean reply text
+  if (script.reply && script.reply.text && containsBannedText(script.reply.text, bannedPhrases)) {
+    const boyPool = bankPool("boy_mid", CURATED_BOY_LINES);
+    if (boyPool.length > 0) {
+      script.reply.text = clampMessageText(boyPool[Math.floor(Math.random() * boyPool.length)], maxChars);
+    }
+  }
+
+  // Clean banter messages
+  if (Array.isArray(script.messages)) {
+    for (let i = 0; i < script.messages.length; i++) {
+      const msg = script.messages[i];
+      if (!msg || !msg.text) continue;
+      if (containsBannedText(msg.text, bannedPhrases)) {
+        const pool = msg.from === "girl"
+          ? bankPool("girl_pushback", GIRL_ALT_LINES)
+          : bankPool("boy_mid", CURATED_BOY_LINES);
+        if (pool.length > 0) {
+          msg.text = clampMessageText(pool[Math.floor(Math.random() * pool.length)], maxChars);
+        }
+      }
+    }
+  }
+
+  return script;
+}
+
 function listMediaFiles(dirPath) {
   if (!fs.existsSync(dirPath)) return [];
   const files = fs
@@ -5236,6 +5277,7 @@ async function buildScript({
         messages: brainrotTimedMessages
       };
 
+      cleanBannedPhrasesFromScript(lastScript, config);
       const brainrotSharedQa = validateScript({ script: lastScript, config, rootDir });
       lastSharedQa = brainrotSharedQa;
       lastQuality = { pass: true, reasons: [] };
@@ -6043,6 +6085,7 @@ async function buildScript({
       messages: typedMessages
     };
 
+    cleanBannedPhrasesFromScript(lastScript, config);
     const sharedQa = validateScript({ script: lastScript, config, rootDir });
     lastSharedQa = sharedQa;
     const latestTraceAttempt = storyReplyTraceAttempts[storyReplyTraceAttempts.length - 1];

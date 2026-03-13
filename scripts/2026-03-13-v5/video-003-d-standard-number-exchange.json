@@ -1,0 +1,242 @@
+{
+  "video_id": "2026-03-13-v5-003",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 26.6,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "D",
+    "arc_type": "number_exchange",
+    "punchline_style": "list_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "confused",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "confusion",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "I need you bent over like that again over a grocery list",
+      "first_reaction": "wait bent over where 😭",
+      "hook": "I need you bent over like that again over a grocery list",
+      "test": "wait bent over where 😭",
+      "escalation_turn": "ok then model for aisle 5 and prove me wrong",
+      "escalation": "ok then model for aisle 5 and prove me wrong",
+      "shift": "what does that even mean 😭",
+      "close": "you earned it honestly 😭",
+      "shareable_moment": "not you clocking the chips😭",
+      "pre_close_tension": "555 330 1101",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/stephen_curry_basketball_reaction_ball_basketball_gear_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_that_will_easy_point_meme_clip.mp4",
+      "In between messages/person_reaction_scene_hardwood_court_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_two_for_the_price_one_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/person_reaction_ref_said_isnt_foul_dark_tone_short_motion_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "timing_gap_large": true
+    },
+    "format_variant": "standard",
+    "hook_type": "cold_open_bold",
+    "payoff_type": "vulnerability_close",
+    "template_id": "T-09",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-cold_open_bold",
+      "M-PAYOFF-vulnerability_close"
+    ],
+    "slot_index": 3,
+    "run_seed": 582472373,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I need you bent over like that again over a grocery list",
+    "first_reaction": "wait bent over where 😭",
+    "hook": "I need you bent over like that again over a grocery list",
+    "test": "wait bent over where 😭",
+    "escalation_turn": "ok then model for aisle 5 and prove me wrong",
+    "escalation": "ok then model for aisle 5 and prove me wrong",
+    "shift": "what does that even mean 😭",
+    "close": "you earned it honestly 😭",
+    "shareable_moment": "not you clocking the chips😭",
+    "pre_close_tension": "555 330 1101",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 9,
+    "win_index": 18,
+    "shareable_index": 6,
+    "reveal_line": "ok then model for aisle 5 and prove me wrong"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Shoot Your Shot Arrow GIF by Milwaukee Bucks.mp4",
+    "headline": "DM game different today",
+    "subtitle": "*she wasn't ready*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "ava",
+    "age": 20,
+    "caption": "quick bite",
+    "asset": "baddies/b49378f5a0c887bfc101600cca1fd44d.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I need you bent over like that again over a grocery list"
+  },
+  "persona": {
+    "boy": {
+      "name": "Marcus",
+      "age": 23,
+      "tone": "smooth"
+    },
+    "girl": {
+      "name": "Ava",
+      "age": 20,
+      "tone": "confused"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "wait bent over where 😭",
+      "type_at": 1.6,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "i got 3 things for you — 1. my time, 2. my energy, 3. ur number",
+      "type_at": 2.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "that's your big line fr💀",
+      "type_at": 3.1,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "blame those jeans they knocked my brain off the shelf",
+      "type_at": 3.7,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "be so serious rn 😳",
+      "type_at": 4.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you got jalapeno chips and still not the hottest thing there",
+      "type_at": 4.9,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not you clocking the chips😭",
+      "type_at": 5.5,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "so you just said yes?",
+      "type_at": 6.2,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you are committed to this bit",
+      "type_at": 6.8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "ok then model for aisle 5 and prove me wrong",
+      "type_at": 7.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "what does that even mean 😭",
+      "type_at": 8,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "means next trip you bend over a list with me pushing the cart",
+      "type_at": 10.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "you just want free snacks huh",
+      "type_at": 11.9,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "nah i want the chaos that picked those snacks",
+      "type_at": 13.9,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "lmao not the \"chaos\"😭",
+      "type_at": 16.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "you said it not me",
+      "type_at": 18.6,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "your call",
+      "type_at": 21.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "555 330 1101",
+      "type_at": 23.5,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you earned it honestly 😭",
+      "type_at": 25.7,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "DM game different today #texts #rizz #fyp #foryou #texting #rizzler #huzz #dms"
+}
