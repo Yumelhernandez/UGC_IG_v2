@@ -6949,6 +6949,24 @@ async function run() {
   console.log(`Generated ${generatedCount}/${count} scripts in ${outDir}. Skipped ${skippedCount}.`);
 }
 
+function recomputeByModel(calls) {
+  const byModel = {};
+  calls.forEach((call) => {
+    const key = `${call.provider}:${call.model}`;
+    if (!byModel[key]) {
+      byModel[key] = { provider: call.provider, model: call.model, calls: 0,
+        input_tokens: 0, output_tokens: 0, total_tokens: 0, estimated_cost_usd: 0 };
+    }
+    byModel[key].calls += 1;
+    byModel[key].input_tokens += call.input_tokens || 0;
+    byModel[key].output_tokens += call.output_tokens || 0;
+    byModel[key].total_tokens += call.total_tokens || 0;
+    byModel[key].estimated_cost_usd = Number(
+      (byModel[key].estimated_cost_usd + (call.estimated_cost_usd || 0)).toFixed(6));
+  });
+  return Object.values(byModel);
+}
+
 function saveLlmUsage(logsDir) {
   try {
     const llmUsagePath = path.join(logsDir, "llm-usage.json");
@@ -6968,6 +6986,8 @@ function saveLlmUsage(logsDir) {
         }
       } catch (_) { /* ignore parse errors on existing file */ }
     }
+    // Recompute by_model from ALL accumulated calls (not just current run)
+    currentUsage.by_model = recomputeByModel(currentUsage.calls);
     ensureDir(logsDir);
     fs.writeFileSync(llmUsagePath, `${JSON.stringify(currentUsage, null, 2)}\n`, "utf8");
     console.log(
