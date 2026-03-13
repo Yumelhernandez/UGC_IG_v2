@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════
+  PERFORMANCE REPORT — @rizzpsych
+  Generated: 2026-03-13
+═══════════════════════════════════════════════════════
+
+  Total videos: 115
+  Matched to scripts: 3
+  Total views: 7,038
+  Average views: 61
+
+  TOP PERFORMERS:
+    1,800 views | unknown | 7599546143093050654
+    161 views | unknown | 7603424144566373662
+    100 views | unknown | 7609541293328452894
+    99 views | unknown | 7611030193251028255
+    97 views | unknown | 7610652831388831006
+    96 views | unknown | 7603556925258697998
+    94 views | unknown | 7610845815367568670
+    94 views | unknown | 7600662910896966942
+    93 views | unknown | 7598037432122084639
+    91 views | unknown | 7597661501159230750
+    90 views | unknown | 7610660509557345549
+    87 views | unknown | 7610965171779013902
+    83 views | unknown | 7610648116596935966
+    77 views | unknown | 7598267817288305950
+    75 views | unknown | 7614298175389584670
+    75 views | unknown | 7613609466986073374
+    73 views | unknown | 7608007807417322783
+    71 views | unknown | 7602474591776197918
+    70 views | unknown | 7600843320553655583
+    69 views | unknown | 7602130669250153759
+    68 views | unknown | 7597271958404828446
+    67 views | unknown | 7604349032189725965
+    65 views | unknown | 7601382804970130718
+
+  LOWEST PERFORMERS:
+    29 views | unknown | 7609907849078033695
+    29 views | unknown | 7607223258491964702
+    29 views | unknown | 7600901580854021407
+    28 views | unknown | 7613177587770182943
+    28 views | unknown | 7611395786022145294
+    28 views | unknown | 7608771349300923662
+    28 views | unknown | 7605825492654034207
+    28 views | unknown | 7605400856594222366
+    28 views | unknown | 7616162656017222926
+    28 views | unknown | 7615825299632082189
+    28 views | unknown | 7616567955937185037
+    27 views | unknown | 7605758264025861389
+    26 views | unknown | 7615846216147979534
+    25 views | unknown | 7608379128470867214
+    25 views | unknown | 7615445754634587405
+    23 views | unknown | 7608803056607612191
+    23 views | unknown | 7616495813488905485
+    21 views | unknown | 7597560620057169182
+    17 views | unknown | 7598799406422297869
+    13 views | numeric_reveal | 7603487192945577246
+    8 views | unknown | 7599725784386899231
+    6 views | unknown | 7601190021621665055
+    2 views | unknown | 7610942348108811550
+
+  PERFORMANCE BY PUNCHLINE STYLE:
+    none                       61 avg  (1 videos) ███████████████
+    callback                   37 avg  (1 videos) █████████
+    numeric_reveal             13 avg  (1 videos) ███
+
+  PERFORMANCE BY DURATION:
+    short          37 avg  (2 videos)
+    long           37 avg  (1 videos)
+
+  No recommendations yet. Need more data (20+ videos).

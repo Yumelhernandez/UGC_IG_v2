@@ -1,0 +1,193 @@
+{
+  "video_id": "2026-03-13-v2-002",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 28.2,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "short",
+    "arc_type": "number_exchange",
+    "punchline_style": "setup_reframe",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "warm",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "reaction",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "I wanna make you scream later at mario kart when I dust you",
+      "first_reaction": "from yawning while you lose",
+      "hook": "I wanna make you scream later at mario kart when I dust you",
+      "test": "from yawning while you lose",
+      "escalation_turn": "you should come over and ride",
+      "escalation": "you should come over and ride",
+      "shift": "you are sick 💀💀",
+      "close": "Omg fine😭 555 123 4567 dont blow it💀",
+      "shareable_moment": "you should come over and ride",
+      "pre_close_tension": "you think you deserve it?",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/Chris Brown - It Depends (Audio) ft. Bryson Tiller.mp3",
+    "in_between_assets": [
+      "In between messages/turtle_character_scene_reaction_she_gonna_peg_guys_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_smells_like_another_point_meme_clip.mp4",
+      "In between messages/lebron_james_basketball_reaction_art_statue_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_2.mp4",
+      "In between messages/basketball_player_basketball_reaction_wrestling_basketball_arena_dark_tone_short_motion_meme_clip.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true
+    },
+    "hook_type": "compliment_opener",
+    "payoff_type": "soft_rejection_pivot",
+    "template_id": "T-01",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-compliment_opener",
+      "M-PAYOFF-twist_reveal"
+    ],
+    "slot_index": 2,
+    "run_seed": 563045829,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "I wanna make you scream later at mario kart when I dust you",
+    "first_reaction": "from yawning while you lose",
+    "hook": "I wanna make you scream later at mario kart when I dust you",
+    "test": "from yawning while you lose",
+    "escalation_turn": "you should come over and ride",
+    "escalation": "you should come over and ride",
+    "shift": "you are sick 💀💀",
+    "close": "Omg fine😭 555 123 4567 dont blow it💀",
+    "shareable_moment": "you should come over and ride",
+    "pre_close_tension": "you think you deserve it?",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 10,
+    "shareable_index": 3,
+    "reveal_line": "interesting of you assuming you can last three laps"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Druski GIF.mp4",
+    "headline": "Never giving up on huzz",
+    "subtitle": "*take notes*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "leah",
+    "age": 21,
+    "caption": "quiet day",
+    "asset": "baddies/74efdcd4dc992dfbe12be72683a1abb5.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "I wanna make you scream later at mario kart when I dust you"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Leah",
+      "age": 21,
+      "tone": "warm"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "from yawning while you lose",
+      "type_at": 3.2,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "quiet day but them heels yelling loud",
+      "type_at": 5.5,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "not u clocking the shoes💀",
+      "type_at": 8.2,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "you should come over and ride",
+      "type_at": 10.4,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "you are sick 💀💀",
+      "type_at": 12.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "the new mario kart track. its actually insane",
+      "type_at": 14.1,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "ok that was smooth omg😭",
+      "type_at": 16.6,
+      "response_type": "concession"
+    },
+    {
+      "from": "boy",
+      "text": "room, my cat needs a sitter and shes picky",
+      "type_at": 19.2,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "give me your number",
+      "type_at": 21.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "you think you deserve it?",
+      "type_at": 24.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "Omg fine😭 555 123 4567 dont blow it💀",
+      "type_at": 26.5,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "he really said that to her #texts #rizz #fyp #foryou #texting #huzz #dating #rizzler #dms"
+}

@@ -219,7 +219,7 @@ const STORY_REPLY_SYSTEM_PROMPT = [
   "CRITICAL: Never reuse the exact same opener. Create FRESH variations of these formulas each time.",
   "- The reply MUST stop the scroll. It must be controversial, polarizing, or pattern-breaking.",
   "- If it feels too safe or polite, make it sharper and more provocative.",
-  "⛔ BANNED THEME — LEGAL/COMPLAINT: NEVER use legal themes. No 'pressing charges', 'filing a complaint', 'noise complaint', 'suing', 'arrest warrant', or ANY legal-related opener. These are overused and banned. Use suggestive pivots, weird hypotheticals, or chaotic confessions instead.",
+  "⛔ BANNED THEME: No legal, courtroom, law enforcement, or corporate language of ANY kind in openers or conversation. Zero tolerance. Use suggestive pivots, weird hypotheticals, or chaotic confessions instead.",
   "",
   "CRITICAL — Use one of these proven controversial opener formulas.",
   "NEVER repeat the same formula twice in the same batch. Each option must use a DIFFERENT formula.",
@@ -510,13 +510,13 @@ const BANTER_SYSTEM_PROMPT = [
   "BAD openers (nobody stops scrolling):",
   "  ❌ 'you look like trouble' — overused, predictable",
   "  ❌ 'quick question why are you single' — boring, no shock",
-  "  ❌ 'i have a complaint about your profile' — corporate, played out",
+  "  ❌ 'quick question are you single' — interview energy, no spark",
   "",
   "BANNED (sounds AI-written):",
   "- 'about that [noun]' transitions",
   "- Abstract combos: 'chaos couture', 'vibe portfolio', 'emotion insurance'",
   "- Fortune cookie lines: 'the best things come to those who wait'",
-  "- Corporate metaphors: 'filing a claim', 'quarterly report'",
+  "- Corporate metaphors: 'annual review', 'quarterly report'",
   "",
   "Format: one message per line, prefix \"girl: ...\" or \"boy: ...\". No hyphens.",
   "Keep it flirty but safe. No explicit sexual content."
@@ -914,7 +914,7 @@ function buildBanterPrompt({
         lines.push(`  girl: [impressed — VARY this! Pick ONE: "nah that was lowkey smooth😭" / "omg i hate that it worked💀" / "bro the RECOVERY😭😭" / "i cant even be mad at that💀"]`);
       }
       lines.push(`  [close sequence]`);
-      lines.push(`  ⚠️ NEVER write "ok that was smooth omg" — that exact phrase is BANNED. Vary the girl's impressed reaction every time.`);
+      lines.push(`  ⚠️ The girl's impressed reaction must be UNIQUE every time — never repeat a reaction you've used before. She should react to the SPECIFIC thing he said, not give a generic compliment.`);
     } else if (punchlineStyle === "persistence_flip") {
       const pfLine = pickVariant(av.persistence_flip && av.persistence_flip.first_reframes) || "your replies say otherwise";
       // STRUCTURAL FIX: Anchor pre-setup banter
@@ -1173,7 +1173,7 @@ function buildBanterPrompt({
     } else if (arcType === "cliffhanger") {
       lines.push("End the conversation mid-tension. Cut off before resolution. Last message should leave the viewer wanting to know what happens next.");
       lines.push("Hard rule: no clean resolution phrase like 'see you', 'locked in', 'youre on', 'deal'.");
-      lines.push("BANNED PATTERN: never write 'about that [noun]' or 'about that casual' or 'about that [anything]'. This is a crutch — find a better way to continue the conversation.");
+      lines.push("BANNED PATTERN: never use '[preposition] that [noun]' as a transition. It's a lazy crutch — use a direct pivot, callback, or escalation instead.");
       lines.push("Cliffhanger examples (study the TENSION that makes viewers need part 2):");
       lines.push("  boy: 'so when am i picking you up' → girl: 'i didn't say yes yet' → END");
       lines.push("  boy: 'you're blushing i can tell through the screen' → girl: 'i need to tell you something first' → END");
@@ -1183,7 +1183,7 @@ function buildBanterPrompt({
       lines.push("This is a comedy arc. Every single message must be funny — absurdist, witty, self-aware, or a callback.");
       lines.push("IMPORTANT: There is NO resistance beat or dismissal phase in comedy. The girl does NOT start cold. She is funny and reactive FROM MESSAGE 1.");
       lines.push("COMEDY FIRST MESSAGE RULE: She picks up a specific word or concept from his opener and escalates it. She builds on the joke — she does NOT just react with a short skeptical word.");
-      lines.push("BANNED line (never use anywhere): 'wait i actually screenshotted this already'.");
+      lines.push("BANNED: meta-commentary lines where characters reference screenshotting or saving the chat.");
       lines.push("");
       lines.push("CRITICAL — THE GIRL MUST BE FUNNIER THAN THE BOY at least twice. She doesn't just react — she one-ups him:");
       lines.push("Comedy examples where the girl CARRIES the humor:");
@@ -1244,7 +1244,7 @@ function buildBanterPrompt({
     lines.push("The girl's FINAL message leaves things unresolved — she does NOT agree, resolve, or say 'fine'.");
     lines.push("Her final line creates a QUESTION the viewer NEEDS answered. Not just 'maybe'.");
     lines.push("Good final girl lines: 'depends. what are you gonna do with it', 'i need to tell you something first', 'ask me that again in person', 'i didn't say yes yet 😭', 'that depends on something you don't know yet'.");
-    lines.push("BANNED: 'about that [noun]' pattern. Never write it.");
+    lines.push("BANNED: lazy '[preposition] that [noun]' transitions. Use direct pivots instead.");
     lines.push("No phone number anywhere in the conversation.");
   } else if (arcType !== "comedy") {
     if (useRoleReversal) {
