@@ -4081,14 +4081,25 @@ function evaluateViralityChecklist({ hook, hookLines, stinger, messages, beats, 
 function filterBanterMessages({ messages, config, bannedPhrases, boyName }) {
   const filtered = [];
   const seen = new Set();
+  const maxChars = config.message_max_chars || 70;
   messages.forEach((message) => {
     if (!message || typeof message !== "object") return;
     const from = typeof message.from === "string" ? message.from.toLowerCase() : "";
     if (from !== "girl" && from !== "boy") return;
-    const maxChars = config.message_max_chars || 70;
-    const cleaned = clampMessageText(normalizeMessageText(message.text || ""), maxChars);
+    let cleaned = clampMessageText(normalizeMessageText(message.text || ""), maxChars);
     if (!cleaned) return;
-    if (containsBannedText(cleaned, bannedPhrases)) return;
+    // FIX (2026-03-13): REPLACE banned-phrase messages with line bank alternatives
+    // instead of REMOVING them. Removing shortens the conversation, breaking pacing checks.
+    if (containsBannedText(cleaned, bannedPhrases)) {
+      const pool = from === "girl"
+        ? bankPool("girl_pushback", GIRL_ALT_LINES)
+        : bankPool("boy_mid", CURATED_BOY_LINES);
+      const replacement = pool.length > 0
+        ? pool[Math.floor(Math.random() * pool.length)]
+        : null;
+      if (!replacement) return; // fallback: still remove if no replacement available
+      cleaned = clampMessageText(replacement, maxChars);
+    }
     if (hasAnyPattern(cleaned, AWKWARD_PHRASE_PATTERNS)) return;
     if (looksNonEnglish(cleaned)) return;
     if (from === "girl" && containsName(cleaned, boyName)) return;

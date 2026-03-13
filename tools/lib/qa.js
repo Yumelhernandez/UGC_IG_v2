@@ -1133,7 +1133,10 @@ function validateScript({ script, config, rootDir }) {
     // Count girl pushback rounds (dismissive/challenging responses before first acceptance)
     let pushbackCount = 0;
     let girlCracked = false;
-    const crackPatterns = /\b(smooth|cute|ok that was|ok wait|that was actually|GOOD|you earned|fine you win|i hate you|omg.*smooth)\b/i;
+    // Tightened crack regex (2026-03-13): match PHRASES not single words to reduce false positives.
+    // "cute try💀" is pushback, not a crack. "that was actually terrible" is pushback.
+    // Only match clearly positive contexts.
+    const crackPatterns = /\b(that was (?:actually )?(?:smooth|good|cute|fire|clever)|lowkey smooth|ngl.*smooth|ok (?:that was|wait)|you earned|fine you win|i (?:hate|cant)(?: believe)? that it worked|that hit different|ur actually (?:smooth|good))\b/i;
     // Fix 3+4 (2026-03-11): emoji 💀 can't use \b (word boundary doesn't work on emoji).
     // Split into word-boundary keywords + separate emoji test.
     // Fix 4: expanded keywords — "boy", "cap", "who", "bye", "ew", "hell" are common pushback the old regex missed.
@@ -1155,7 +1158,7 @@ function validateScript({ script, config, rootDir }) {
     if (pushbackCount < minPushback && arcType !== "cliffhanger") {
       reasons.push(`pacing: insufficient girl pushback (${pushbackCount} rounds, min ${minPushback})`);
     }
-    // Check girl crack timing — should not be in first 40% of messages
+    // Check girl crack timing — should not be in first 40% of messages (regex tightened 2026-03-13)
     let crackIndex = -1;
     for (let ci = 0; ci < script.messages.length; ci++) {
       const msg = script.messages[ci];
@@ -1166,7 +1169,7 @@ function validateScript({ script, config, rootDir }) {
     }
     if (crackIndex >= 0 && script.messages.length >= 6) {
       const crackPct = crackIndex / (script.messages.length - 1);
-      if (crackPct < 0.40) { // restored original threshold 2026-03-11
+      if (crackPct < 0.40) { // kept at 0.40 (2026-03-13) — tighter regex handles false positives, threshold stays conservative
         script.meta = script.meta || {};
         script.meta.qa_signals = script.meta.qa_signals || {};
         script.meta.qa_signals.girl_cracks_too_early = true;

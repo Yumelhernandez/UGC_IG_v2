@@ -1,0 +1,204 @@
+{
+  "video_id": "2026-03-13-v4-003",
+  "meta": {
+    "theme": "casual",
+    "duration_s": 40,
+    "spice_tier": "high",
+    "controversy_tier": "edge",
+    "format": "B",
+    "format_variant": "long",
+    "arc_type": "number_exchange",
+    "punchline_style": "list_reveal",
+    "conversation_mode": "pair_isolated",
+    "use_beat_conditioned_overlays": true,
+    "girl_archetype": "playing_hard_to_get",
+    "app_insert_policy": "required",
+    "opener_intensity": "neutral",
+    "first_reaction_type": "confusion",
+    "first_reaction_words": 5,
+    "beat_plan": {
+      "inciting_incident": "You look like heartburn and bad decisions and I wanna be both tonight",
+      "first_reaction": "feeling wild—like pizza after midnight?",
+      "hook": "You look like heartburn and bad decisions and I wanna be both tonight",
+      "test": "feeling wild—like pizza after midnight?",
+      "escalation_turn": "i’m tryna make you moan… over that first crunchy bite",
+      "escalation": "i’m tryna make you moan… over that first crunchy bite",
+      "shift": "try again",
+      "close": "don't make me regret this 😭",
+      "shareable_moment": "i’m tryna make you moan… over that first crunchy bite",
+      "pre_close_tension": "I can't believe i'm doing this. 555 907 4829",
+      "required_markers": [
+        "hook",
+        "test",
+        "escalation",
+        "shift",
+        "close"
+      ],
+      "resolution_type": "number_exchange"
+    },
+    "audio_track": "Songs/ovo.mp3",
+    "in_between_assets": [
+      "In between messages/turtle_character_scene_reaction_she_gonna_peg_guys_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_that_will_easy_point_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_5.mp4",
+      "In between messages/person_reaction_scene_crowd_graphic_dark_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_golf_golf_club_mixed_tone_short_motion_meme_clip.mp4",
+      "In between messages/basketball_player_basketball_reaction_basketball_arena_basketball_dark_tone_short_motion_meme_clip_4.mp4"
+    ],
+    "qa_signals": {
+      "reveal_not_punchy": true,
+      "win_time_out_of_window": true,
+      "early_pacing_weak": true,
+      "first_gap_soft_penalty": true,
+      "first_gap_value": 4
+    },
+    "hook_type": "cold_open_bold",
+    "payoff_type": "vulnerability_close",
+    "template_id": "T-07",
+    "mechanic_ids": [
+      "M-ARC-number_exchange",
+      "M-HOOK-cold_open_bold",
+      "M-PAYOFF-vulnerability_close"
+    ],
+    "slot_index": 3,
+    "run_seed": 1699110473,
+    "payoff_punch_score": 9,
+    "repair_applied": false,
+    "repair_rounds": 0,
+    "repair_failed": false,
+    "verifier_passed": true
+  },
+  "beat_plan": {
+    "inciting_incident": "You look like heartburn and bad decisions and I wanna be both tonight",
+    "first_reaction": "feeling wild—like pizza after midnight?",
+    "hook": "You look like heartburn and bad decisions and I wanna be both tonight",
+    "test": "feeling wild—like pizza after midnight?",
+    "escalation_turn": "i’m tryna make you moan… over that first crunchy bite",
+    "escalation": "i’m tryna make you moan… over that first crunchy bite",
+    "shift": "try again",
+    "close": "don't make me regret this 😭",
+    "shareable_moment": "i’m tryna make you moan… over that first crunchy bite",
+    "pre_close_tension": "I can't believe i'm doing this. 555 907 4829",
+    "required_markers": [
+      "hook",
+      "test",
+      "escalation",
+      "shift",
+      "close"
+    ],
+    "resolution_type": "number_exchange"
+  },
+  "beats": {
+    "pushback_index": 0,
+    "reveal_index": 3,
+    "win_index": 11,
+    "shareable_index": 3,
+    "reveal_line": "I’m tryna make you moan… over that first crunchy bite"
+  },
+  "hook": {
+    "mode": "media",
+    "asset": "Hooks/Lebron James Basketball GIF by NBA copy 2.mp4",
+    "headline": "Menace mode activated",
+    "subtitle": "*she wasn't ready*"
+  },
+  "stinger": {
+    "after_first": "After 1 message/Barney Stinson Flirting GIF.mp4"
+  },
+  "story": {
+    "username": "zoe",
+    "age": 20,
+    "caption": "quick bite",
+    "asset": "baddies/06a8eef43e4e544b45f88c2b87df5c16.jpg"
+  },
+  "reply": {
+    "from": "boy",
+    "text": "You look like heartburn and bad decisions and I wanna be both tonight"
+  },
+  "persona": {
+    "boy": {
+      "name": "Jake",
+      "age": 20,
+      "tone": "playful"
+    },
+    "girl": {
+      "name": "Zoe",
+      "age": 20,
+      "tone": "playing_hard_to_get"
+    }
+  },
+  "messages": [
+    {
+      "from": "girl",
+      "text": "feeling wild—like pizza after midnight?",
+      "type_at": 7.3,
+      "response_type": "challenge"
+    },
+    {
+      "from": "boy",
+      "text": "i got 3 things for you — 1. my time, 2. my energy, 3. ur number",
+      "type_at": 11.3,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "that's your best, 💀?",
+      "type_at": 14.6,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "i’m tryna make you moan… over that first crunchy bite",
+      "type_at": 17.8,
+      "response_type": "tease"
+    },
+    {
+      "from": "girl",
+      "text": "try again",
+      "type_at": 20.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "lowkey no, that yellow top started this war",
+      "type_at": 22.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "it's literally just a top",
+      "type_at": 25.3,
+      "response_type": "dismissal"
+    },
+    {
+      "from": "boy",
+      "text": "that \"just a top\" got the chips blushing 😮‍💨",
+      "type_at": 27.8,
+      "response_type": "test"
+    },
+    {
+      "from": "girl",
+      "text": "be serious rn bro 💀",
+      "type_at": 30.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "boy",
+      "text": "what's your number",
+      "type_at": 32.8,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "I can't believe i'm doing this. 555 907 4829",
+      "type_at": 35.3,
+      "response_type": "condition"
+    },
+    {
+      "from": "girl",
+      "text": "don't make me regret this 😭",
+      "type_at": 37.8,
+      "response_type": "close"
+    }
+  ],
+  "tiktok_caption": "DM game different today #texts #rizz #fyp #foryou #texting #shootyourshot #dms #takenotes #dating"
+}
