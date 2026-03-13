@@ -126,7 +126,10 @@ function usesProvenHookFormat(hook) {
     "shooting", "sliding", "rizz", "dm", "dms", "shoot my shot", "baddie",
     "huzz", "wifey", "mommy", "ig dms", "story reply", "watch me",
     "step 1", "step 2", "tutorial", "pov", "she said", "he said",
-    "when she", "when he", "don't try this", "this is how", "works every time"
+    "when she", "when he", "don't try this", "this is how", "works every time",
+    "texting", "followers", "crazy", "bold", "blocked", "risky",
+    "cooked", "no way", "insane", "smooth", "cold", "never giving up",
+    "he's crazy", "nah", "she wasn't", "can't believe", "wasn't ready"
   ];
   return patterns.some((pattern) => text.includes(pattern));
 }

@@ -170,9 +170,9 @@
           "type": "double_entendre"
         },
         {
-          "setup": "i already told my friends about you",
-          "reframe": "that you exist and now they think im lying",
-          "girl_reaction": "told them WHAT 💀",
+          "setup": "i showed my groupchat your page",
+          "reframe": "they said im out of my league but i play anyway",
+          "girl_reaction": "showed them WHAT 💀",
           "type": "question_misdirect"
         },
         {
@@ -263,6 +263,86 @@
           "setup": "Can I also rate the vertical ones?",
           "reframe": "I'm just a visual learner",
           "type": "double_entendre"
+        },
+        {
+          "setup": "Well you have to compete with them to get me😬",
+          "reframe": "I believe you worth more than what other men think about you",
+          "type": "recovery_play"
+        },
+        {
+          "setup": "What's the point of this conversation 😂",
+          "reframe": "There's no point we go where the wind takes us",
+          "type": "recovery_play"
+        },
+        {
+          "setup": "WTF 😭... this is your first message after we broke up?",
+          "reframe": "I tried moving on, but nobody feels like you",
+          "type": "persistence_flip"
+        },
+        {
+          "setup": "You look like a Vague cover",
+          "reframe": "If we go back in time they would name you Mona Lisa",
+          "type": "sustained_metaphor"
+        },
+        {
+          "setup": "I should thank your parents / Why?",
+          "reframe": "For creating life that's worth living for",
+          "type": "sustained_metaphor"
+        },
+        {
+          "setup": "Your parents are a great example of love / Oh really?",
+          "reframe": "Because it's here talking to me",
+          "type": "sustained_metaphor"
+        },
+        {
+          "setup": "You look like my basement",
+          "reframe": "Can i put kids inside you?",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "You forgot our sushi date / But yea i like sushi",
+          "reframe": "that won't be the only thing I'll eat raw",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "But I'm vegan though",
+          "reframe": "I got the only meat you'll ever need",
+          "type": "recovery_play"
+        },
+        {
+          "setup": "You so damn short",
+          "reframe": "Well I can put some inches in u",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "Fck you 🙄",
+          "reframe": "Is that an insult or a to do list",
+          "type": "roast_flip"
+        },
+        {
+          "setup": "But I'd rather see u in this [empty link]",
+          "reframe": "There's nothing there / OH WAIT",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "I'd never lay a finger ON you",
+          "reframe": "but IN you is a different story",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "go to bed boy it's late night",
+          "reframe": "I ate my bed / so can I sleep in yours?",
+          "type": "recovery_play"
+        },
+        {
+          "setup": "I feel like you're a solid 3",
+          "reframe": "I meant based on my professional analysis [pubic hair chart]",
+          "type": "double_entendre"
+        },
+        {
+          "setup": "Nah actually I'm 9",
+          "reframe": "Bold statement. The court requires evidence",
+          "type": "recovery_play"
         }
       ]
     },
