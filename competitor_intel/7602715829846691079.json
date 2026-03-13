@@ -1,0 +1,44 @@
+{
+  "video_id": "7602715829846691079",
+  "account": "@reverserizzler",
+  "views": 224500,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting my instagram Followers Pt5",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "I already know who I'm going with on valentines 🌎🔥"},
+    {"from": "girl", "text": "From now on till end of time I'm grateful it's not me 😩"},
+    {"from": "boy", "text": "Well I didn't ask"},
+    {"from": "boy", "text": "But I'm about to"},
+    {"from": "girl", "text": "I want a date with someone else sorry"},
+    {"from": "boy", "text": "If you want a date I can be your calendar"},
+    {"from": "girl", "text": "Lmao😭😭😭"},
+    {"from": "girl", "text": "I actually have a friend for you👀"},
+    {"from": "boy", "text": "Naah ☝️😏"},
+    {"from": "boy", "text": "I don't pick fruits I didn't harvest"},
+    {"from": "girl", "text": "Do you do this to everyone or am I having a bad day😭"},
+    {"from": "boy", "text": "Calling me a bad day is preposterous"},
+    {"from": "girl", "text": "It was nice talking to you I have to work now😂🙌"}
+  ],
+  "opener": "I already know who I'm going with on valentines 🌎🔥",
+  "punchline_pairs": [
+    {
+      "setup": "I want a date with someone else sorry",
+      "reframe": "If you want a date I can be your calendar",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "I actually have a friend for you👀",
+      "reframe": "I don't pick fruits I didn't harvest",
+      "type": "sustained_metaphor"
+    },
+    {
+      "setup": "Do you do this to everyone or am I having a bad day😭",
+      "reframe": "Calling me a bad day is preposterous",
+      "type": "roast_flip"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

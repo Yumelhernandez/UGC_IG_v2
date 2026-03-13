@@ -1,0 +1,35 @@
+{
+  "video_id": "7604574822340775176",
+  "account": "@reverserizzler",
+  "views": 94100,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting instagram Followers Pt8",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "You look like a garden of thousand roses"},
+    {"from": "girl", "text": "Wym?"},
+    {"from": "boy", "text": "It means you're taking care of yourself"},
+    {"from": "boy", "text": "But I wanna be your sunshine"},
+    {"from": "girl", "text": "Thanks"},
+    {"from": "girl", "text": "But I already like someone else"},
+    {"from": "boy", "text": "And I like you so what's the point?"},
+    {"from": "girl", "text": "It means back off"},
+    {"from": "boy", "text": "Alright point taken"}
+  ],
+  "opener": "You look like a garden of thousand roses",
+  "punchline_pairs": [
+    {
+      "setup": "You look like a garden of thousand roses",
+      "reframe": "But I wanna be your sunshine",
+      "type": "sustained_metaphor"
+    },
+    {
+      "setup": "But I already like someone else",
+      "reframe": "And I like you so what's the point?",
+      "type": "persistence_flip"
+    }
+  ],
+  "arc_type": "rejection"
+}

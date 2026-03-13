@@ -1,0 +1,34 @@
+{
+  "video_id": "7603905627940736274",
+  "account": "@reverserizzler",
+  "views": 92400,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting my instagram Followers Pt7",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "I know a lot of girls that would take your place"},
+    {"from": "girl", "text": "Only if they knew"},
+    {"from": "boy", "text": "What do you mean?"},
+    {"from": "girl", "text": "I'm having the worst time of my life rn"},
+    {"from": "boy", "text": "Well I hope from now on your days look the same as you"},
+    {"from": "girl", "text": "I'm serious"},
+    {"from": "boy", "text": "So am I?"},
+    {"from": "girl", "text": "I just lost my 10 year relationship"},
+    {"from": "boy", "text": "Damn"},
+    {"from": "boy", "text": "Why?"},
+    {"from": "girl", "text": "He's dating my ex best friend now"},
+    {"from": "boy", "text": "Well let's change you life around"},
+    {"from": "girl", "text": "Respectfully no"}
+  ],
+  "opener": "I know a lot of girls that would take your place",
+  "punchline_pairs": [
+    {
+      "setup": "I'm having the worst time of my life rn",
+      "reframe": "Well I hope from now on your days look the same as you",
+      "type": "recovery_play"
+    }
+  ],
+  "arc_type": "rejection"
+}

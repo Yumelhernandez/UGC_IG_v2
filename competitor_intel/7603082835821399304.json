@@ -1,0 +1,37 @@
+{
+  "video_id": "7603082835821399304",
+  "account": "@reverserizzler",
+  "views": 133800,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting my instagram Followers Pt6",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "I hope my days from now on looks like you✨"},
+    {"from": "girl", "text": "Oh really?"},
+    {"from": "boy", "text": "Because then I'll have a better chance of winning lottery"},
+    {"from": "girl", "text": "Okay if you say so😂"},
+    {"from": "boy", "text": "I'm joking gorgeous because I already have💯"},
+    {"from": "girl", "text": "You won a lottery?🤔"},
+    {"from": "boy", "text": "And it's talking back to me"},
+    {"from": "boy", "text": "How about I take you out this weekend"},
+    {"from": "girl", "text": "Im wayyyy too far from you🥱"},
+    {"from": "boy", "text": "Which means you out of this world"},
+    {"from": "girl", "text": "Oh okay🤭"}
+  ],
+  "opener": "I hope my days from now on looks like you✨",
+  "punchline_pairs": [
+    {
+      "setup": "I'm joking gorgeous because I already have💯",
+      "reframe": "And it's talking back to me",
+      "type": "double_entendre"
+    },
+    {
+      "setup": "Im wayyyy too far from you🥱",
+      "reframe": "Which means you out of this world",
+      "type": "roast_flip"
+    }
+  ],
+  "arc_type": "number_exchange"
+}

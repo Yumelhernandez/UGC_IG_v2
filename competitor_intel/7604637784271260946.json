@@ -1,0 +1,34 @@
+{
+  "video_id": "7604637784271260946",
+  "account": "@reverserizzler",
+  "views": 219000,
+  "date": "2026-03-13",
+  "hook": {
+    "headline": "Texting my instagram Followers Pt9",
+    "subtitle": ""
+  },
+  "conversation": [
+    {"from": "boy", "text": "Konnichiwa"},
+    {"from": "girl", "text": "Konichiwa"},
+    {"from": "boy", "text": "You look like a Great Wall the way I can't get over you"},
+    {"from": "girl", "text": "That's crazy because I'm Japanese"},
+    {"from": "boy", "text": "Then I'll love to be inside your temple"},
+    {"from": "girl", "text": "You play too much😭😭😭"},
+    {"from": "boy", "text": "But I can never play with your heart"},
+    {"from": "girl", "text": "I believe you😂"}
+  ],
+  "opener": "Konnichiwa",
+  "punchline_pairs": [
+    {
+      "setup": "You look like a Great Wall the way I can't get over you",
+      "reframe": "Then I'll love to be inside your temple",
+      "type": "recovery_play"
+    },
+    {
+      "setup": "You play too much😭😭😭",
+      "reframe": "But I can never play with your heart",
+      "type": "roast_flip"
+    }
+  ],
+  "arc_type": "number_exchange"
+}
